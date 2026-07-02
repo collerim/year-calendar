@@ -1,57 +1,40 @@
 {
-  "generatedAt": "2026-07-01T18:03:42.494Z",
-  "baseDate": "2026-07-02",
-  "ensuredThrough": "2026-07-09",
+  "generatedAt": "2026-07-02T17:56:37.949Z",
+  "baseDate": "2026-07-03",
+  "ensuredThrough": "2026-07-10",
   "today": "output/today.png",
   "generated": [
-    {
-      "date": "2026-07-02",
-      "output": "output/2026/2026.07/2026.07.02.png",
-      "selectedTheme": "June 30 Revolution",
-      "selectedMotif": "cityParade",
-      "selectedScoreBreakdown": {
-        "basePriority": 61,
-        "popularity": 14,
-        "jitter": 2.022,
-        "motifPenalty": 0,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 0,
-        "finalScore": 35.022
-      },
-      "discardedCount": 1
-    },
     {
       "date": "2026-07-03",
       "output": "output/2026/2026.07/2026.07.03.png",
       "selectedTheme": "Independence Day",
-      "selectedMotif": "fireworks",
+      "selectedMotif": "sunRibbons",
       "selectedScoreBreakdown": {
         "basePriority": 86,
         "popularity": 30,
         "jitter": 5.767,
-        "motifPenalty": 30,
+        "motifPenalty": 14,
         "culturalPenalty": 42,
         "holidayFamilyPenalty": 18,
-        "colorPenalty": 34,
-        "finalScore": -2.233
+        "colorPenalty": 20,
+        "finalScore": 27.767
       },
-      "discardedCount": 4
+      "discardedCount": 6
     },
     {
       "date": "2026-07-04",
       "output": "output/2026/2026.07/2026.07.04.png",
       "selectedTheme": "Independence Day",
-      "selectedMotif": "carnivalMasks",
+      "selectedMotif": "fireworks",
       "selectedScoreBreakdown": {
         "basePriority": 78,
         "popularity": 30,
         "jitter": 2.861,
-        "motifPenalty": 0,
+        "motifPenalty": 14,
         "culturalPenalty": 42,
         "holidayFamilyPenalty": 48,
         "colorPenalty": 42,
-        "finalScore": -21.139
+        "finalScore": -35.139
       },
       "discardedCount": 1
     },
@@ -59,35 +42,35 @@
       "date": "2026-07-05",
       "output": "output/2026/2026.07/2026.07.05.png",
       "selectedTheme": "Constitution Day",
-      "selectedMotif": "wovenPattern",
+      "selectedMotif": "cityParade",
       "selectedScoreBreakdown": {
         "basePriority": 69,
         "popularity": 26,
-        "jitter": 1.946,
-        "motifPenalty": 14,
+        "jitter": 5.591,
+        "motifPenalty": 20,
         "culturalPenalty": 42,
         "holidayFamilyPenalty": 0,
         "colorPenalty": 42,
-        "finalScore": -1.054
+        "finalScore": -3.409
       },
-      "discardedCount": 4
+      "discardedCount": 5
     },
     {
       "date": "2026-07-06",
       "output": "output/2026/2026.07/2026.07.06.png",
       "selectedTheme": "National Day",
-      "selectedMotif": "fireworks",
+      "selectedMotif": "lanterns",
       "selectedScoreBreakdown": {
         "basePriority": 72,
         "popularity": 26,
-        "jitter": 2.039,
-        "motifPenalty": 30,
+        "jitter": 5.391,
+        "motifPenalty": 0,
         "culturalPenalty": 42,
         "holidayFamilyPenalty": 0,
         "colorPenalty": 42,
-        "finalScore": -13.961
+        "finalScore": 19.391
       },
-      "discardedCount": 4
+      "discardedCount": 7
     },
     {
       "date": "2026-07-07",
@@ -97,29 +80,29 @@
       "selectedScoreBreakdown": {
         "basePriority": 78,
         "popularity": 18,
-        "jitter": 0.118,
+        "jitter": 2.285,
         "motifPenalty": 0,
         "culturalPenalty": 42,
         "holidayFamilyPenalty": 0,
         "colorPenalty": 42,
-        "finalScore": 12.118
+        "finalScore": 14.285
       },
-      "discardedCount": 1
+      "discardedCount": 2
     },
     {
       "date": "2026-07-08",
       "output": "output/2026/2026.07/2026.07.08.png",
       "selectedTheme": "Municipal holiday",
-      "selectedMotif": "wovenPattern",
+      "selectedMotif": "lotusMandala",
       "selectedScoreBreakdown": {
         "basePriority": 58,
         "popularity": -22,
         "jitter": 4.959,
-        "motifPenalty": 30,
-        "culturalPenalty": 42,
+        "motifPenalty": 0,
+        "culturalPenalty": 30,
         "holidayFamilyPenalty": 0,
         "colorPenalty": 42,
-        "finalScore": -73.041
+        "finalScore": -31.041
       },
       "discardedCount": 0
     },
@@ -127,18 +110,35 @@
       "date": "2026-07-09",
       "output": "output/2026/2026.07/2026.07.09.png",
       "selectedTheme": "Constitutionalist Revolution of 1932",
-      "selectedMotif": "fireworks",
+      "selectedMotif": "cityParade",
       "selectedScoreBreakdown": {
         "basePriority": 69,
         "popularity": 14,
-        "jitter": 5.306,
-        "motifPenalty": 30,
+        "jitter": 5.076,
+        "motifPenalty": 24,
         "culturalPenalty": 42,
         "holidayFamilyPenalty": 0,
-        "colorPenalty": 20,
-        "finalScore": -3.694
+        "colorPenalty": 0,
+        "finalScore": 22.076
       },
-      "discardedCount": 1
+      "discardedCount": 2
+    },
+    {
+      "date": "2026-07-10",
+      "output": "output/2026/2026.07/2026.07.10.png",
+      "selectedTheme": "Independence Day",
+      "selectedMotif": "oceanCompass",
+      "selectedScoreBreakdown": {
+        "basePriority": 73,
+        "popularity": 26,
+        "jitter": 1.545,
+        "motifPenalty": 0,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 40,
+        "finalScore": 18.545
+      },
+      "discardedCount": 2
     }
   ],
   "skipped": []

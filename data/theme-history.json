@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-01T18:03:42.484Z",
+  "updatedAt": "2026-07-02T17:56:37.933Z",
   "days": {
     "2026-06-16": {
       "title": "Youth Day",
@@ -221,22 +221,23 @@
     },
     "2026-07-03": {
       "title": "Independence Day",
-      "motif": "fireworks",
+      "motif": "sunRibbons",
       "gradient": [
-        "#151a30",
-        "#4b2e40",
-        "#131516"
+        "#171c37",
+        "#4d2e45",
+        "#161518"
       ],
-      "accent": "#6599e7",
-      "secondary": "#d8565c",
+      "accent": "#679aee",
+      "secondary": "#dc565e",
       "holidayFamily": "independence-day",
       "popularityTier": "common",
       "scopeTier": "national",
       "tags": [
-        "sky",
+        "civic",
         "celebration",
-        "light",
-        "civic"
+        "procession",
+        "sky",
+        "sun"
       ],
       "source": {
         "provider": "Nager.Date",
@@ -251,14 +252,14 @@
     },
     "2026-07-04": {
       "title": "Independence Day",
-      "motif": "carnivalMasks",
+      "motif": "fireworks",
       "gradient": [
-        "#151a30",
-        "#4b2e40",
-        "#151617"
+        "#121b37",
+        "#492e44",
+        "#111518"
       ],
-      "accent": "#6599e7",
-      "secondary": "#db575d",
+      "accent": "#6299ed",
+      "secondary": "#d6565f",
       "holidayFamily": "independence-day",
       "popularityTier": "common",
       "scopeTier": "national",
@@ -266,10 +267,7 @@
         "sky",
         "celebration",
         "light",
-        "civic",
-        "procession",
-        "folk",
-        "market"
+        "civic"
       ],
       "source": {
         "provider": "Fixed Holidays",
@@ -284,23 +282,21 @@
     },
     "2026-07-05": {
       "title": "Constitution Day",
-      "motif": "wovenPattern",
+      "motif": "cityParade",
       "gradient": [
-        "#171e32",
-        "#4d3342",
-        "#121516"
+        "#112036",
+        "#493142",
+        "#111518"
       ],
-      "accent": "#679ce9",
-      "secondary": "#d7575d",
+      "accent": "#6ea2d8",
+      "secondary": "#d6575e",
       "holidayFamily": "constitution-day",
       "popularityTier": "common",
       "scopeTier": "national",
       "tags": [
-        "sky",
-        "celebration",
-        "light",
         "civic",
-        "culture"
+        "celebration",
+        "procession"
       ],
       "source": {
         "provider": "Nager.Date",
@@ -314,22 +310,23 @@
     },
     "2026-07-06": {
       "title": "National Day",
-      "motif": "fireworks",
+      "motif": "lanterns",
       "gradient": [
-        "#151b30",
-        "#4b3041",
-        "#131419"
+        "#121f38",
+        "#4a3043",
+        "#151417"
       ],
-      "accent": "#659ae7",
-      "secondary": "#d85561",
+      "accent": "#6fa1d9",
+      "secondary": "#db555e",
       "holidayFamily": "national-day",
       "popularityTier": "common",
       "scopeTier": "national",
       "tags": [
-        "sky",
+        "civic",
         "celebration",
+        "procession",
         "light",
-        "civic"
+        "culture"
       ],
       "source": {
         "provider": "OpenHolidays",
@@ -347,11 +344,11 @@
       "title": "Tanabata",
       "motif": "tanabata",
       "gradient": [
-        "#17191c",
-        "#54333b",
+        "#1f161b",
+        "#593139",
         "#131419"
       ],
-      "accent": "#dcddd5",
+      "accent": "#e3dbd4",
       "secondary": "#ca484f",
       "holidayFamily": "national-civic-day",
       "popularityTier": "niche",
@@ -376,20 +373,22 @@
     },
     "2026-07-08": {
       "title": "Municipal holiday",
-      "motif": "wovenPattern",
+      "motif": "lotusMandala",
       "gradient": [
-        "#161a26",
-        "#534537",
-        "#121518"
+        "#1e1628",
+        "#573e5b",
+        "#161416"
       ],
-      "accent": "#c4ab59",
-      "secondary": "#71b1db",
+      "accent": "#c9a7d6",
+      "secondary": "#83bcab",
       "holidayFamily": "municipal-local",
       "popularityTier": "local",
       "scopeTier": "local",
       "tags": [
+        "religious",
+        "botanical",
         "culture",
-        "civic",
+        "heritage",
         "celebration",
         "maritime"
       ],
@@ -410,28 +409,58 @@
     },
     "2026-07-09": {
       "title": "Constitutionalist Revolution of 1932",
-      "motif": "fireworks",
+      "motif": "cityParade",
       "gradient": [
-        "#142421",
-        "#485e33",
-        "#131616"
+        "#122527",
+        "#465f38",
+        "#101718"
       ],
-      "accent": "#70b783",
-      "secondary": "#cbb369",
+      "accent": "#6eb887",
+      "secondary": "#c8b46a",
       "holidayFamily": "revolution-day",
       "popularityTier": "niche",
       "scopeTier": "national",
       "tags": [
-        "sky",
-        "celebration",
-        "light",
         "civic",
+        "celebration",
+        "procession",
         "sun"
       ],
       "source": {
         "provider": "Nager.Date",
         "countryCode": "BR",
         "countryName": "Brazil",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-07-10": {
+      "title": "Independence Day",
+      "motif": "oceanCompass",
+      "gradient": [
+        "#112033",
+        "#493141",
+        "#15141a"
+      ],
+      "accent": "#6ea2d5",
+      "secondary": "#db5661",
+      "holidayFamily": "independence-day",
+      "popularityTier": "common",
+      "scopeTier": "national",
+      "tags": [
+        "civic",
+        "celebration",
+        "procession",
+        "maritime",
+        "water",
+        "travel"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "BS",
+        "countryName": "Bahamas",
         "typeLabels": [
           "公众节日"
         ],

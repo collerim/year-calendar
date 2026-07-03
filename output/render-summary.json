@@ -1,26 +1,9 @@
 {
-  "generatedAt": "2026-07-02T17:56:37.949Z",
-  "baseDate": "2026-07-03",
-  "ensuredThrough": "2026-07-10",
+  "generatedAt": "2026-07-03T17:39:50.515Z",
+  "baseDate": "2026-07-04",
+  "ensuredThrough": "2026-07-11",
   "today": "output/today.png",
   "generated": [
-    {
-      "date": "2026-07-03",
-      "output": "output/2026/2026.07/2026.07.03.png",
-      "selectedTheme": "Independence Day",
-      "selectedMotif": "sunRibbons",
-      "selectedScoreBreakdown": {
-        "basePriority": 86,
-        "popularity": 30,
-        "jitter": 5.767,
-        "motifPenalty": 14,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 18,
-        "colorPenalty": 20,
-        "finalScore": 27.767
-      },
-      "discardedCount": 6
-    },
     {
       "date": "2026-07-04",
       "output": "output/2026/2026.07/2026.07.04.png",
@@ -137,6 +120,23 @@
         "holidayFamilyPenalty": 0,
         "colorPenalty": 40,
         "finalScore": 18.545
+      },
+      "discardedCount": 2
+    },
+    {
+      "date": "2026-07-11",
+      "output": "output/2026/2026.07/2026.07.11.png",
+      "selectedTheme": "World Population Day",
+      "selectedMotif": "wovenPattern",
+      "selectedScoreBreakdown": {
+        "basePriority": 64,
+        "popularity": 14,
+        "jitter": 0.607,
+        "motifPenalty": 0,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 42,
+        "finalScore": -5.393
       },
       "discardedCount": 2
     }

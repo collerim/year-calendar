@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-03T17:39:50.513Z",
+  "updatedAt": "2026-07-04T17:13:41.283Z",
   "days": {
     "2026-06-16": {
       "title": "Youth Day",
@@ -492,6 +492,36 @@
         "countryName": "International",
         "typeLabels": [
           "文化日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-07-12": {
+      "title": "Orangemen's Day",
+      "motif": "musicWaves",
+      "gradient": [
+        "#1d1822",
+        "#662a37",
+        "#121415"
+      ],
+      "accent": "#d85561",
+      "secondary": "#e1e3e3",
+      "holidayFamily": "national-civic-day",
+      "popularityTier": "niche",
+      "scopeTier": "national",
+      "tags": [
+        "culture",
+        "civic",
+        "celebration",
+        "botanical",
+        "music"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "CA",
+        "countryName": "Canada",
+        "typeLabels": [
+          "公众节日"
         ],
         "subdivisions": []
       }

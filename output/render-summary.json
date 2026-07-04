@@ -1,26 +1,9 @@
 {
-  "generatedAt": "2026-07-03T17:39:50.515Z",
-  "baseDate": "2026-07-04",
-  "ensuredThrough": "2026-07-11",
+  "generatedAt": "2026-07-04T17:13:41.286Z",
+  "baseDate": "2026-07-05",
+  "ensuredThrough": "2026-07-12",
   "today": "output/today.png",
   "generated": [
-    {
-      "date": "2026-07-04",
-      "output": "output/2026/2026.07/2026.07.04.png",
-      "selectedTheme": "Independence Day",
-      "selectedMotif": "fireworks",
-      "selectedScoreBreakdown": {
-        "basePriority": 78,
-        "popularity": 30,
-        "jitter": 2.861,
-        "motifPenalty": 14,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 48,
-        "colorPenalty": 42,
-        "finalScore": -35.139
-      },
-      "discardedCount": 1
-    },
     {
       "date": "2026-07-05",
       "output": "output/2026/2026.07/2026.07.05.png",
@@ -139,6 +122,23 @@
         "finalScore": -5.393
       },
       "discardedCount": 2
+    },
+    {
+      "date": "2026-07-12",
+      "output": "output/2026/2026.07/2026.07.12.png",
+      "selectedTheme": "Orangemen's Day",
+      "selectedMotif": "musicWaves",
+      "selectedScoreBreakdown": {
+        "basePriority": 67,
+        "popularity": 18,
+        "jitter": 2.539,
+        "motifPenalty": 0,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 5,
+        "colorPenalty": 42,
+        "finalScore": -1.461
+      },
+      "discardedCount": 1
     }
   ],
   "skipped": []

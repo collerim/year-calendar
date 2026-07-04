@@ -92,12 +92,27 @@ function drawThemeCaption(ctx, theme, x, y) {
 
 function themeMetaLine(theme) {
   if (theme.source?.countryName) {
-    return `${countryNameZh(theme.source)} · ${holidayTypeLabelFromSource(theme.source)}`;
+    const countryName = countryNameWithFlag(theme.source);
+    return `${countryName} · ${holidayTypeLabelFromSource(theme.source)}`;
   }
   if (hasTag(theme, "seasonal")) return "季节气质";
   if (hasTag(theme, "civic")) return "公共节日";
   if (hasTag(theme, "celebration")) return "节庆日";
   return "";
+}
+
+function countryNameWithFlag(source = {}) {
+  const flag = countryFlagEmoji(source.countryCode);
+  const country = countryNameZh(source);
+  return flag ? `${flag} ${country}` : country;
+}
+
+function countryFlagEmoji(countryCode = "") {
+  const code = String(countryCode).toUpperCase();
+  if (!/^[A-Z]{2}$/.test(code) || code === "UN") return "";
+  return [...code]
+    .map((letter) => String.fromCodePoint(0x1f1e6 + letter.charCodeAt(0) - 65))
+    .join("");
 }
 
 function themeDisplayTitle(theme) {

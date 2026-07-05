@@ -1,26 +1,9 @@
 {
-  "generatedAt": "2026-07-04T17:13:41.286Z",
-  "baseDate": "2026-07-05",
-  "ensuredThrough": "2026-07-12",
+  "generatedAt": "2026-07-05T17:19:12.424Z",
+  "baseDate": "2026-07-06",
+  "ensuredThrough": "2026-07-13",
   "today": "output/today.png",
   "generated": [
-    {
-      "date": "2026-07-05",
-      "output": "output/2026/2026.07/2026.07.05.png",
-      "selectedTheme": "Constitution Day",
-      "selectedMotif": "cityParade",
-      "selectedScoreBreakdown": {
-        "basePriority": 69,
-        "popularity": 26,
-        "jitter": 5.591,
-        "motifPenalty": 20,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 42,
-        "finalScore": -3.409
-      },
-      "discardedCount": 5
-    },
     {
       "date": "2026-07-06",
       "output": "output/2026/2026.07/2026.07.06.png",
@@ -139,6 +122,23 @@
         "finalScore": -1.461
       },
       "discardedCount": 1
+    },
+    {
+      "date": "2026-07-13",
+      "output": "output/2026/2026.07/2026.07.13.png",
+      "selectedTheme": "Naadam Holiday",
+      "selectedMotif": "lotusMandala",
+      "selectedScoreBreakdown": {
+        "basePriority": 61,
+        "popularity": 14,
+        "jitter": 1.655,
+        "motifPenalty": 10,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 42,
+        "finalScore": -17.345
+      },
+      "discardedCount": 4
     }
   ],
   "skipped": []

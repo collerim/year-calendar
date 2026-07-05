@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-04T17:13:41.283Z",
+  "updatedAt": "2026-07-05T17:19:12.415Z",
   "days": {
     "2026-06-16": {
       "title": "Youth Day",
@@ -520,6 +520,36 @@
         "provider": "Nager.Date",
         "countryCode": "CA",
         "countryName": "Canada",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-07-13": {
+      "title": "Naadam Holiday",
+      "motif": "lotusMandala",
+      "gradient": [
+        "#171828",
+        "#52405a",
+        "#151414"
+      ],
+      "accent": "#c3a9d5",
+      "secondary": "#82bca9",
+      "holidayFamily": "religious-observance",
+      "popularityTier": "niche",
+      "scopeTier": "national",
+      "tags": [
+        "religious",
+        "botanical",
+        "culture",
+        "heritage",
+        "celebration"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "MN",
+        "countryName": "Mongolia",
         "typeLabels": [
           "公众节日"
         ],

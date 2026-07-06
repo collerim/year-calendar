@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-05T17:19:12.415Z",
+  "updatedAt": "2026-07-06T18:15:57.974Z",
   "days": {
     "2026-06-16": {
       "title": "Youth Day",
@@ -550,6 +550,36 @@
         "provider": "Nager.Date",
         "countryCode": "MN",
         "countryName": "Mongolia",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-07-14": {
+      "title": "National Day",
+      "motif": "stainedGlass",
+      "gradient": [
+        "#141c30",
+        "#4e3441",
+        "#151417"
+      ],
+      "accent": "#94b8e7",
+      "secondary": "#db728b",
+      "holidayFamily": "national-day",
+      "popularityTier": "common",
+      "scopeTier": "national",
+      "tags": [
+        "religious",
+        "heritage",
+        "light",
+        "civic",
+        "celebration"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "PM",
+        "countryName": "Saint Pierre and Miquelon",
         "typeLabels": [
           "公众节日"
         ],

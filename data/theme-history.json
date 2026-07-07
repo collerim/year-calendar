@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-06T18:15:57.974Z",
+  "updatedAt": "2026-07-07T18:06:21.467Z",
   "days": {
     "2026-06-16": {
       "title": "Youth Day",
@@ -580,6 +580,34 @@
         "provider": "Nager.Date",
         "countryCode": "PM",
         "countryName": "Saint Pierre and Miquelon",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-07-15": {
+      "title": "Democracy and National Unity Day",
+      "motif": "cityParade",
+      "gradient": [
+        "#181e32",
+        "#4f2f3f",
+        "#141418"
+      ],
+      "accent": "#75a0d4",
+      "secondary": "#da555f",
+      "holidayFamily": "unity-day",
+      "popularityTier": "common",
+      "scopeTier": "national",
+      "tags": [
+        "civic",
+        "celebration",
+        "procession"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "TR",
+        "countryName": "Türkiye",
         "typeLabels": [
           "公众节日"
         ],

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-07T18:06:21.467Z",
+  "updatedAt": "2026-07-08T17:44:21.674Z",
   "days": {
     "2026-06-16": {
       "title": "Youth Day",
@@ -608,6 +608,33 @@
         "provider": "Nager.Date",
         "countryCode": "TR",
         "countryName": "Türkiye",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-07-16": {
+      "title": "Our Lady of Mount Carmel",
+      "motif": "wovenPattern",
+      "gradient": [
+        "#171e28",
+        "#544838",
+        "#121518"
+      ],
+      "accent": "#c5ae5a",
+      "secondary": "#71b1db",
+      "holidayFamily": "national-civic-day",
+      "popularityTier": "niche",
+      "scopeTier": "national",
+      "tags": [
+        "culture",
+        "civic"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "CL",
+        "countryName": "Chile",
         "typeLabels": [
           "公众节日"
         ],

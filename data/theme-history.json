@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-08T17:44:21.674Z",
+  "updatedAt": "2026-07-09T18:02:47.985Z",
   "days": {
     "2026-06-16": {
       "title": "Youth Day",
@@ -635,6 +635,36 @@
         "provider": "Nager.Date",
         "countryCode": "CL",
         "countryName": "Chile",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-07-17": {
+      "title": "Constitution Day",
+      "motif": "sportsMedals",
+      "gradient": [
+        "#111b30",
+        "#483f58",
+        "#13151b"
+      ],
+      "accent": "#dcdfe3",
+      "secondary": "#c9525b",
+      "holidayFamily": "constitution-day",
+      "popularityTier": "common",
+      "scopeTier": "national",
+      "tags": [
+        "civic",
+        "celebration",
+        "procession",
+        "sky",
+        "sports"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "KR",
+        "countryName": "South Korea",
         "typeLabels": [
           "公众节日"
         ],

@@ -1,26 +1,9 @@
 {
-  "generatedAt": "2026-07-08T17:44:21.674Z",
-  "baseDate": "2026-07-09",
-  "ensuredThrough": "2026-07-16",
+  "generatedAt": "2026-07-09T18:02:47.985Z",
+  "baseDate": "2026-07-10",
+  "ensuredThrough": "2026-07-17",
   "today": "output/today.png",
   "generated": [
-    {
-      "date": "2026-07-09",
-      "output": "output/2026/2026.07/2026.07.09.png",
-      "selectedTheme": "Constitutionalist Revolution of 1932",
-      "selectedMotif": "cityParade",
-      "selectedScoreBreakdown": {
-        "basePriority": 69,
-        "popularity": 14,
-        "jitter": 5.076,
-        "motifPenalty": 24,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 0,
-        "finalScore": 22.076
-      },
-      "discardedCount": 2
-    },
     {
       "date": "2026-07-10",
       "output": "output/2026/2026.07/2026.07.10.png",
@@ -139,6 +122,23 @@
         "finalScore": -25.603
       },
       "discardedCount": 0
+    },
+    {
+      "date": "2026-07-17",
+      "output": "output/2026/2026.07/2026.07.17.png",
+      "selectedTheme": "Constitution Day",
+      "selectedMotif": "sportsMedals",
+      "selectedScoreBreakdown": {
+        "basePriority": 73,
+        "popularity": 30,
+        "jitter": 2.682,
+        "motifPenalty": 0,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 42,
+        "finalScore": 21.682
+      },
+      "discardedCount": 3
     }
   ],
   "skipped": []

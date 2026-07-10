@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-09T18:02:47.985Z",
+  "updatedAt": "2026-07-10T17:52:19.629Z",
   "days": {
     "2026-06-16": {
       "title": "Youth Day",
@@ -669,6 +669,41 @@
           "公众节日"
         ],
         "subdivisions": []
+      }
+    },
+    "2026-07-18": {
+      "title": "Municipal holiday",
+      "motif": "lotusMandala",
+      "gradient": [
+        "#1b1624",
+        "#553e58",
+        "#111617"
+      ],
+      "accent": "#c6a7d2",
+      "secondary": "#7ebeac",
+      "holidayFamily": "municipal-local",
+      "popularityTier": "local",
+      "scopeTier": "local",
+      "tags": [
+        "religious",
+        "botanical",
+        "culture",
+        "heritage",
+        "celebration",
+        "maritime"
+      ],
+      "source": {
+        "provider": "OpenHolidays",
+        "countryCode": "PT",
+        "countryName": "Portugal",
+        "typeLabels": [
+          "可选假日",
+          "地方性"
+        ],
+        "nationwide": false,
+        "subdivisions": [
+          "AC-NO"
+        ]
       }
     }
   }

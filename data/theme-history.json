@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-10T17:52:19.629Z",
+  "updatedAt": "2026-07-11T17:04:20.296Z",
   "days": {
     "2026-06-16": {
       "title": "Youth Day",
@@ -704,6 +704,35 @@
         "subdivisions": [
           "AC-NO"
         ]
+      }
+    },
+    "2026-07-19": {
+      "title": "Liberation Day",
+      "motif": "laurelTorch",
+      "gradient": [
+        "#151b19",
+        "#5a3d32",
+        "#151311"
+      ],
+      "accent": "#c5ae58",
+      "secondary": "#ca5041",
+      "holidayFamily": "remembrance",
+      "popularityTier": "niche",
+      "scopeTier": "national",
+      "tags": [
+        "civic",
+        "remembrance",
+        "light",
+        "celebration"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "NI",
+        "countryName": "Nicaragua",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
       }
     }
   }

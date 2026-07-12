@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-11T17:04:20.296Z",
+  "updatedAt": "2026-07-12T17:06:23.118Z",
   "days": {
     "2026-06-16": {
       "title": "Youth Day",
@@ -729,6 +729,37 @@
         "provider": "Nager.Date",
         "countryCode": "NI",
         "countryName": "Nicaragua",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-07-20": {
+      "title": "Marine Day",
+      "motif": "maritimeFlags",
+      "gradient": [
+        "#181821",
+        "#55323e",
+        "#141318"
+      ],
+      "accent": "#dddcd9",
+      "secondary": "#cc474d",
+      "holidayFamily": "national-civic-day",
+      "popularityTier": "niche",
+      "scopeTier": "national",
+      "tags": [
+        "maritime",
+        "water",
+        "civic",
+        "island",
+        "celebration",
+        "sun"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "JP",
+        "countryName": "Japan",
         "typeLabels": [
           "公众节日"
         ],

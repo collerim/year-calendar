@@ -1,26 +1,9 @@
 {
-  "generatedAt": "2026-07-11T17:04:20.298Z",
-  "baseDate": "2026-07-12",
-  "ensuredThrough": "2026-07-19",
+  "generatedAt": "2026-07-12T17:06:23.128Z",
+  "baseDate": "2026-07-13",
+  "ensuredThrough": "2026-07-20",
   "today": "output/today.png",
   "generated": [
-    {
-      "date": "2026-07-12",
-      "output": "output/2026/2026.07/2026.07.12.png",
-      "selectedTheme": "Orangemen's Day",
-      "selectedMotif": "musicWaves",
-      "selectedScoreBreakdown": {
-        "basePriority": 67,
-        "popularity": 18,
-        "jitter": 2.539,
-        "motifPenalty": 0,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 5,
-        "colorPenalty": 42,
-        "finalScore": -1.461
-      },
-      "discardedCount": 1
-    },
     {
       "date": "2026-07-13",
       "output": "output/2026/2026.07/2026.07.13.png",
@@ -139,6 +122,23 @@
         "finalScore": 0.492
       },
       "discardedCount": 1
+    },
+    {
+      "date": "2026-07-20",
+      "output": "output/2026/2026.07/2026.07.20.png",
+      "selectedTheme": "Marine Day",
+      "selectedMotif": "maritimeFlags",
+      "selectedScoreBreakdown": {
+        "basePriority": 71,
+        "popularity": 18,
+        "jitter": 0.208,
+        "motifPenalty": 0,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 8,
+        "colorPenalty": 42,
+        "finalScore": -2.792
+      },
+      "discardedCount": 5
     }
   ],
   "skipped": []

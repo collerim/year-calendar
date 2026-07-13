@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-12T17:06:23.118Z",
+  "updatedAt": "2026-07-13T18:00:15.964Z",
   "days": {
     "2026-06-16": {
       "title": "Youth Day",
@@ -763,6 +763,36 @@
         "typeLabels": [
           "公众节日"
         ],
+        "subdivisions": []
+      }
+    },
+    "2026-07-21": {
+      "title": "National Day",
+      "motif": "cityParade",
+      "gradient": [
+        "#101f34",
+        "#483041",
+        "#111519"
+      ],
+      "accent": "#6ea1d6",
+      "secondary": "#d65660",
+      "holidayFamily": "national-day",
+      "popularityTier": "common",
+      "scopeTier": "national",
+      "tags": [
+        "civic",
+        "celebration",
+        "procession"
+      ],
+      "source": {
+        "provider": "OpenHolidays",
+        "countryCode": "BE",
+        "countryName": "Belgium",
+        "typeLabels": [
+          "公众节日",
+          "全国性"
+        ],
+        "nationwide": true,
         "subdivisions": []
       }
     }

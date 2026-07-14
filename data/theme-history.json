@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-13T18:00:15.964Z",
+  "updatedAt": "2026-07-14T17:21:26.824Z",
   "days": {
     "2026-06-16": {
       "title": "Youth Day",
@@ -793,6 +793,34 @@
           "全国性"
         ],
         "nationwide": true,
+        "subdivisions": []
+      }
+    },
+    "2026-07-22": {
+      "title": "Revolution Day",
+      "motif": "wovenPattern",
+      "gradient": [
+        "#1d1c22",
+        "#584733",
+        "#141314"
+      ],
+      "accent": "#caac55",
+      "secondary": "#73afd6",
+      "holidayFamily": "revolution-day",
+      "popularityTier": "niche",
+      "scopeTier": "national",
+      "tags": [
+        "culture",
+        "civic",
+        "celebration"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "GM",
+        "countryName": "Gambia",
+        "typeLabels": [
+          "公众节日"
+        ],
         "subdivisions": []
       }
     }

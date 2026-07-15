@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-14T17:21:26.824Z",
+  "updatedAt": "2026-07-15T17:23:30.610Z",
   "days": {
     "2026-06-16": {
       "title": "Youth Day",
@@ -818,6 +818,36 @@
         "provider": "Nager.Date",
         "countryCode": "GM",
         "countryName": "Gambia",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-07-23": {
+      "title": "Remembrance Day",
+      "motif": "doveGarland",
+      "gradient": [
+        "#171927",
+        "#404958",
+        "#11151a"
+      ],
+      "accent": "#e1dbc5",
+      "secondary": "#c8b46d",
+      "holidayFamily": "remembrance",
+      "popularityTier": "niche",
+      "scopeTier": "national",
+      "tags": [
+        "remembrance",
+        "light",
+        "civic",
+        "memorial",
+        "celebration"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "PG",
+        "countryName": "Papua New Guinea",
         "typeLabels": [
           "公众节日"
         ],

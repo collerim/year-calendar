@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-15T17:23:30.610Z",
+  "updatedAt": "2026-07-16T17:25:55.741Z",
   "days": {
     "2026-06-16": {
       "title": "Youth Day",
@@ -848,6 +848,34 @@
         "provider": "Nager.Date",
         "countryCode": "PG",
         "countryName": "Papua New Guinea",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-07-24": {
+      "title": "Simón Bolívar's Birthday",
+      "motif": "paperCut",
+      "gradient": [
+        "#191b22",
+        "#544633",
+        "#151416"
+      ],
+      "accent": "#c6ac55",
+      "secondary": "#75b0d9",
+      "holidayFamily": "national-civic-day",
+      "popularityTier": "niche",
+      "scopeTier": "national",
+      "tags": [
+        "culture",
+        "civic",
+        "celebration"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "VE",
+        "countryName": "Venezuela",
         "typeLabels": [
           "公众节日"
         ],

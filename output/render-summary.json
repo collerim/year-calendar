@@ -1,26 +1,9 @@
 {
-  "generatedAt": "2026-07-15T17:23:30.615Z",
-  "baseDate": "2026-07-16",
-  "ensuredThrough": "2026-07-23",
+  "generatedAt": "2026-07-16T17:25:55.742Z",
+  "baseDate": "2026-07-17",
+  "ensuredThrough": "2026-07-24",
   "today": "output/today.png",
   "generated": [
-    {
-      "date": "2026-07-16",
-      "output": "output/2026/2026.07/2026.07.16.png",
-      "selectedTheme": "Our Lady of Mount Carmel",
-      "selectedMotif": "wovenPattern",
-      "selectedScoreBreakdown": {
-        "basePriority": 61,
-        "popularity": 14,
-        "jitter": 1.397,
-        "motifPenalty": 10,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 8,
-        "colorPenalty": 42,
-        "finalScore": -25.603
-      },
-      "discardedCount": 0
-    },
     {
       "date": "2026-07-17",
       "output": "output/2026/2026.07/2026.07.17.png",
@@ -139,6 +122,23 @@
         "finalScore": -8.513
       },
       "discardedCount": 1
+    },
+    {
+      "date": "2026-07-24",
+      "output": "output/2026/2026.07/2026.07.24.png",
+      "selectedTheme": "Simón Bolívar's Birthday",
+      "selectedMotif": "paperCut",
+      "selectedScoreBreakdown": {
+        "basePriority": 61,
+        "popularity": 14,
+        "jitter": 1.02,
+        "motifPenalty": 0,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 8,
+        "colorPenalty": 42,
+        "finalScore": -15.98
+      },
+      "discardedCount": 2
     }
   ],
   "skipped": []

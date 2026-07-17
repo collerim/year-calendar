@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-16T17:25:55.741Z",
+  "updatedAt": "2026-07-17T17:18:27.088Z",
   "days": {
     "2026-06-16": {
       "title": "Youth Day",
@@ -876,6 +876,34 @@
         "provider": "Nager.Date",
         "countryCode": "VE",
         "countryName": "Venezuela",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-07-25": {
+      "title": "Puerto Rico Constitution Day",
+      "motif": "cityParade",
+      "gradient": [
+        "#121d37",
+        "#4a2f42",
+        "#141419"
+      ],
+      "accent": "#6fa0d8",
+      "secondary": "#d95560",
+      "holidayFamily": "constitution-day",
+      "popularityTier": "common",
+      "scopeTier": "national",
+      "tags": [
+        "civic",
+        "celebration",
+        "procession"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "PR",
+        "countryName": "Puerto Rico",
         "typeLabels": [
           "公众节日"
         ],

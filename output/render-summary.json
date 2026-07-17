@@ -1,26 +1,9 @@
 {
-  "generatedAt": "2026-07-16T17:25:55.742Z",
-  "baseDate": "2026-07-17",
-  "ensuredThrough": "2026-07-24",
+  "generatedAt": "2026-07-17T17:18:27.091Z",
+  "baseDate": "2026-07-18",
+  "ensuredThrough": "2026-07-25",
   "today": "output/today.png",
   "generated": [
-    {
-      "date": "2026-07-17",
-      "output": "output/2026/2026.07/2026.07.17.png",
-      "selectedTheme": "Constitution Day",
-      "selectedMotif": "sportsMedals",
-      "selectedScoreBreakdown": {
-        "basePriority": 73,
-        "popularity": 30,
-        "jitter": 2.682,
-        "motifPenalty": 0,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 42,
-        "finalScore": 21.682
-      },
-      "discardedCount": 3
-    },
     {
       "date": "2026-07-18",
       "output": "output/2026/2026.07/2026.07.18.png",
@@ -139,6 +122,23 @@
         "finalScore": -15.98
       },
       "discardedCount": 2
+    },
+    {
+      "date": "2026-07-25",
+      "output": "output/2026/2026.07/2026.07.25.png",
+      "selectedTheme": "Puerto Rico Constitution Day",
+      "selectedMotif": "cityParade",
+      "selectedScoreBreakdown": {
+        "basePriority": 69,
+        "popularity": 26,
+        "jitter": 1.551,
+        "motifPenalty": 14,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 42,
+        "finalScore": -1.449
+      },
+      "discardedCount": 7
     }
   ],
   "skipped": []

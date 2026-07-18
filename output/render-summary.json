@@ -1,26 +1,9 @@
 {
-  "generatedAt": "2026-07-17T17:18:27.091Z",
-  "baseDate": "2026-07-18",
-  "ensuredThrough": "2026-07-25",
+  "generatedAt": "2026-07-18T17:03:30.022Z",
+  "baseDate": "2026-07-19",
+  "ensuredThrough": "2026-07-26",
   "today": "output/today.png",
   "generated": [
-    {
-      "date": "2026-07-18",
-      "output": "output/2026/2026.07/2026.07.18.png",
-      "selectedTheme": "Municipal holiday",
-      "selectedMotif": "lotusMandala",
-      "selectedScoreBreakdown": {
-        "basePriority": 58,
-        "popularity": -22,
-        "jitter": 1.97,
-        "motifPenalty": 10,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 42,
-        "finalScore": -56.03
-      },
-      "discardedCount": 1
-    },
     {
       "date": "2026-07-19",
       "output": "output/2026/2026.07/2026.07.19.png",
@@ -139,6 +122,23 @@
         "finalScore": -1.449
       },
       "discardedCount": 7
+    },
+    {
+      "date": "2026-07-26",
+      "output": "output/2026/2026.07/2026.07.26.png",
+      "selectedTheme": "Maldives Independence Day",
+      "selectedMotif": "waterFlowers",
+      "selectedScoreBreakdown": {
+        "basePriority": 74,
+        "popularity": 26,
+        "jitter": 1.533,
+        "motifPenalty": 0,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 23,
+        "finalScore": 36.533
+      },
+      "discardedCount": 2
     }
   ],
   "skipped": []

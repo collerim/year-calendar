@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-18T17:03:30.014Z",
+  "updatedAt": "2026-07-19T17:04:56.668Z",
   "days": {
     "2026-06-16": {
       "title": "Youth Day",
@@ -938,6 +938,34 @@
           "公众节日"
         ],
         "nationwide": true,
+        "subdivisions": []
+      }
+    },
+    "2026-07-27": {
+      "title": "Day after the Commemoration of the Assault of the Moncada garrison",
+      "motif": "wovenPattern",
+      "gradient": [
+        "#191927",
+        "#554437",
+        "#151415"
+      ],
+      "accent": "#c7a959",
+      "secondary": "#75b0d7",
+      "holidayFamily": "national-civic-day",
+      "popularityTier": "niche",
+      "scopeTier": "national",
+      "tags": [
+        "culture",
+        "civic",
+        "celebration"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "CU",
+        "countryName": "Cuba",
+        "typeLabels": [
+          "公众节日"
+        ],
         "subdivisions": []
       }
     }

@@ -1,26 +1,9 @@
 {
-  "generatedAt": "2026-07-18T17:03:30.022Z",
-  "baseDate": "2026-07-19",
-  "ensuredThrough": "2026-07-26",
+  "generatedAt": "2026-07-19T17:04:56.671Z",
+  "baseDate": "2026-07-20",
+  "ensuredThrough": "2026-07-27",
   "today": "output/today.png",
   "generated": [
-    {
-      "date": "2026-07-19",
-      "output": "output/2026/2026.07/2026.07.19.png",
-      "selectedTheme": "Liberation Day",
-      "selectedMotif": "laurelTorch",
-      "selectedScoreBreakdown": {
-        "basePriority": 65,
-        "popularity": 14,
-        "jitter": 5.492,
-        "motifPenalty": 0,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 42,
-        "finalScore": 0.492
-      },
-      "discardedCount": 1
-    },
     {
       "date": "2026-07-20",
       "output": "output/2026/2026.07/2026.07.20.png",
@@ -137,6 +120,23 @@
         "holidayFamilyPenalty": 0,
         "colorPenalty": 23,
         "finalScore": 36.533
+      },
+      "discardedCount": 2
+    },
+    {
+      "date": "2026-07-27",
+      "output": "output/2026/2026.07/2026.07.27.png",
+      "selectedTheme": "Day after the Commemoration of the Assault of the Moncada garrison",
+      "selectedMotif": "wovenPattern",
+      "selectedScoreBreakdown": {
+        "basePriority": 61,
+        "popularity": 14,
+        "jitter": 4.379,
+        "motifPenalty": 10,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 14,
+        "colorPenalty": 42,
+        "finalScore": -28.621
       },
       "discardedCount": 2
     }

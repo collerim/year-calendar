@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-19T17:04:56.668Z",
+  "updatedAt": "2026-07-20T18:11:13.587Z",
   "days": {
     "2026-06-16": {
       "title": "Youth Day",
@@ -963,6 +963,35 @@
         "provider": "Nager.Date",
         "countryCode": "CU",
         "countryName": "Cuba",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-07-28": {
+      "title": "Saint Olav's Eve",
+      "motif": "stainedGlass",
+      "gradient": [
+        "#121d31",
+        "#4d3541",
+        "#11161a"
+      ],
+      "accent": "#92b9e8",
+      "secondary": "#d6768f",
+      "holidayFamily": "saint-day",
+      "popularityTier": "niche",
+      "scopeTier": "national",
+      "tags": [
+        "religious",
+        "heritage",
+        "light",
+        "sky"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "FO",
+        "countryName": "Faroe Islands",
         "typeLabels": [
           "公众节日"
         ],

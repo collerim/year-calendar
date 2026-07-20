@@ -1,26 +1,9 @@
 {
-  "generatedAt": "2026-07-19T17:04:56.671Z",
-  "baseDate": "2026-07-20",
-  "ensuredThrough": "2026-07-27",
+  "generatedAt": "2026-07-20T18:11:13.595Z",
+  "baseDate": "2026-07-21",
+  "ensuredThrough": "2026-07-28",
   "today": "output/today.png",
   "generated": [
-    {
-      "date": "2026-07-20",
-      "output": "output/2026/2026.07/2026.07.20.png",
-      "selectedTheme": "Marine Day",
-      "selectedMotif": "maritimeFlags",
-      "selectedScoreBreakdown": {
-        "basePriority": 71,
-        "popularity": 18,
-        "jitter": 0.208,
-        "motifPenalty": 0,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 8,
-        "colorPenalty": 42,
-        "finalScore": -2.792
-      },
-      "discardedCount": 5
-    },
     {
       "date": "2026-07-21",
       "output": "output/2026/2026.07/2026.07.21.png",
@@ -139,6 +122,23 @@
         "finalScore": -28.621
       },
       "discardedCount": 2
+    },
+    {
+      "date": "2026-07-28",
+      "output": "output/2026/2026.07/2026.07.28.png",
+      "selectedTheme": "Saint Olav's Eve",
+      "selectedMotif": "stainedGlass",
+      "selectedScoreBreakdown": {
+        "basePriority": 61,
+        "popularity": 8,
+        "jitter": 2.248,
+        "motifPenalty": 0,
+        "culturalPenalty": 24,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 42,
+        "finalScore": 5.248
+      },
+      "discardedCount": 6
     }
   ],
   "skipped": []

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-20T18:11:13.587Z",
+  "updatedAt": "2026-07-21T17:28:10.275Z",
   "days": {
     "2026-06-16": {
       "title": "Youth Day",
@@ -992,6 +992,34 @@
         "provider": "Nager.Date",
         "countryCode": "FO",
         "countryName": "Faroe Islands",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-07-29": {
+      "title": "Independence Day",
+      "motif": "cityParade",
+      "gradient": [
+        "#172132",
+        "#4e313f",
+        "#121517"
+      ],
+      "accent": "#74a3d4",
+      "secondary": "#d7575d",
+      "holidayFamily": "independence-day",
+      "popularityTier": "common",
+      "scopeTier": "national",
+      "tags": [
+        "civic",
+        "celebration",
+        "procession"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "PE",
+        "countryName": "Peru",
         "typeLabels": [
           "公众节日"
         ],

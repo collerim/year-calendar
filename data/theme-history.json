@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-21T17:28:10.275Z",
+  "updatedAt": "2026-07-22T17:26:44.088Z",
   "days": {
     "2026-06-16": {
       "title": "Youth Day",
@@ -1020,6 +1020,35 @@
         "provider": "Nager.Date",
         "countryCode": "PE",
         "countryName": "Peru",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-07-30": {
+      "title": "Enthronement",
+      "motif": "crescentLantern",
+      "gradient": [
+        "#15182c",
+        "#373d5e",
+        "#111518"
+      ],
+      "accent": "#c8b06b",
+      "secondary": "#70b2d8",
+      "holidayFamily": "religious-observance",
+      "popularityTier": "major",
+      "scopeTier": "national",
+      "tags": [
+        "islamic",
+        "religious",
+        "light",
+        "sky"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "MA",
+        "countryName": "Morocco",
         "typeLabels": [
           "公众节日"
         ],

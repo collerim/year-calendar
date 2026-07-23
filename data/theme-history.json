@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-22T17:26:44.088Z",
+  "updatedAt": "2026-07-23T17:44:59.212Z",
   "days": {
     "2026-06-16": {
       "title": "Youth Day",
@@ -1049,6 +1049,34 @@
         "provider": "Nager.Date",
         "countryCode": "MA",
         "countryName": "Morocco",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-07-31": {
+      "title": "Mary Prince Day",
+      "motif": "wovenPattern",
+      "gradient": [
+        "#161b25",
+        "#534636",
+        "#111617"
+      ],
+      "accent": "#c4ab58",
+      "secondary": "#70b3d9",
+      "holidayFamily": "national-civic-day",
+      "popularityTier": "niche",
+      "scopeTier": "national",
+      "tags": [
+        "culture",
+        "civic",
+        "celebration"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "BM",
+        "countryName": "Bermuda",
         "typeLabels": [
           "公众节日"
         ],

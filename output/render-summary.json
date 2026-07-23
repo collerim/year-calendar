@@ -1,26 +1,9 @@
 {
-  "generatedAt": "2026-07-22T17:26:44.091Z",
-  "baseDate": "2026-07-23",
-  "ensuredThrough": "2026-07-30",
+  "generatedAt": "2026-07-23T17:44:59.221Z",
+  "baseDate": "2026-07-24",
+  "ensuredThrough": "2026-07-31",
   "today": "output/today.png",
   "generated": [
-    {
-      "date": "2026-07-23",
-      "output": "output/2026/2026.07/2026.07.23.png",
-      "selectedTheme": "Remembrance Day",
-      "selectedMotif": "doveGarland",
-      "selectedScoreBreakdown": {
-        "basePriority": 67,
-        "popularity": 14,
-        "jitter": 2.487,
-        "motifPenalty": 0,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 8,
-        "colorPenalty": 42,
-        "finalScore": -8.513
-      },
-      "discardedCount": 1
-    },
     {
       "date": "2026-07-24",
       "output": "output/2026/2026.07/2026.07.24.png",
@@ -139,6 +122,23 @@
         "finalScore": 44.421
       },
       "discardedCount": 3
+    },
+    {
+      "date": "2026-07-31",
+      "output": "output/2026/2026.07/2026.07.31.png",
+      "selectedTheme": "Mary Prince Day",
+      "selectedMotif": "wovenPattern",
+      "selectedScoreBreakdown": {
+        "basePriority": 65,
+        "popularity": 14,
+        "jitter": 5.294,
+        "motifPenalty": 14,
+        "culturalPenalty": 34,
+        "holidayFamilyPenalty": 8,
+        "colorPenalty": 42,
+        "finalScore": -13.706
+      },
+      "discardedCount": 0
     }
   ],
   "skipped": []

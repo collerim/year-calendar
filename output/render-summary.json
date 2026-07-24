@@ -1,26 +1,9 @@
 {
-  "generatedAt": "2026-07-23T17:44:59.221Z",
-  "baseDate": "2026-07-24",
-  "ensuredThrough": "2026-07-31",
+  "generatedAt": "2026-07-24T17:44:44.368Z",
+  "baseDate": "2026-07-25",
+  "ensuredThrough": "2026-08-01",
   "today": "output/today.png",
   "generated": [
-    {
-      "date": "2026-07-24",
-      "output": "output/2026/2026.07/2026.07.24.png",
-      "selectedTheme": "Simón Bolívar's Birthday",
-      "selectedMotif": "paperCut",
-      "selectedScoreBreakdown": {
-        "basePriority": 61,
-        "popularity": 14,
-        "jitter": 1.02,
-        "motifPenalty": 0,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 8,
-        "colorPenalty": 42,
-        "finalScore": -15.98
-      },
-      "discardedCount": 2
-    },
     {
       "date": "2026-07-25",
       "output": "output/2026/2026.07/2026.07.25.png",
@@ -139,6 +122,23 @@
         "finalScore": -13.706
       },
       "discardedCount": 0
+    },
+    {
+      "date": "2026-08-01",
+      "output": "output/2026/2026.08/2026.08.01.png",
+      "selectedTheme": "Swiss National Day",
+      "selectedMotif": "mountainFlags",
+      "selectedScoreBreakdown": {
+        "basePriority": 76,
+        "popularity": 26,
+        "jitter": 1.215,
+        "motifPenalty": 0,
+        "culturalPenalty": 31,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 42,
+        "finalScore": 30.215
+      },
+      "discardedCount": 8
     }
   ],
   "skipped": []

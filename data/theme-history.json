@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-24T17:44:44.360Z",
+  "updatedAt": "2026-07-25T17:06:52.311Z",
   "days": {
     "2026-06-16": {
       "title": "Youth Day",
@@ -1109,6 +1109,35 @@
           "公众节日"
         ],
         "nationwide": true,
+        "subdivisions": []
+      }
+    },
+    "2026-08-02": {
+      "title": "August Festivals",
+      "motif": "carnivalMasks",
+      "gradient": [
+        "#1c1730",
+        "#633553",
+        "#151616"
+      ],
+      "accent": "#d7728e",
+      "secondary": "#74b2d7",
+      "holidayFamily": "culture-observance",
+      "popularityTier": "niche",
+      "scopeTier": "national",
+      "tags": [
+        "celebration",
+        "procession",
+        "folk",
+        "market"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "SV",
+        "countryName": "El Salvador",
+        "typeLabels": [
+          "公众节日"
+        ],
         "subdivisions": []
       }
     }

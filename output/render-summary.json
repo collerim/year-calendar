@@ -1,26 +1,9 @@
 {
-  "generatedAt": "2026-07-24T17:44:44.368Z",
-  "baseDate": "2026-07-25",
-  "ensuredThrough": "2026-08-01",
+  "generatedAt": "2026-07-25T17:06:52.319Z",
+  "baseDate": "2026-07-26",
+  "ensuredThrough": "2026-08-02",
   "today": "output/today.png",
   "generated": [
-    {
-      "date": "2026-07-25",
-      "output": "output/2026/2026.07/2026.07.25.png",
-      "selectedTheme": "Puerto Rico Constitution Day",
-      "selectedMotif": "cityParade",
-      "selectedScoreBreakdown": {
-        "basePriority": 69,
-        "popularity": 26,
-        "jitter": 1.551,
-        "motifPenalty": 14,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 42,
-        "finalScore": -1.449
-      },
-      "discardedCount": 7
-    },
     {
       "date": "2026-07-26",
       "output": "output/2026/2026.07/2026.07.26.png",
@@ -139,6 +122,23 @@
         "finalScore": 30.215
       },
       "discardedCount": 8
+    },
+    {
+      "date": "2026-08-02",
+      "output": "output/2026/2026.08/2026.08.02.png",
+      "selectedTheme": "August Festivals",
+      "selectedMotif": "carnivalMasks",
+      "selectedScoreBreakdown": {
+        "basePriority": 65,
+        "popularity": 14,
+        "jitter": 4.106,
+        "motifPenalty": 0,
+        "culturalPenalty": 39,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 42,
+        "finalScore": 2.106
+      },
+      "discardedCount": 4
     }
   ],
   "skipped": []

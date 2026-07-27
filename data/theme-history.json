@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-26T17:09:47.356Z",
+  "updatedAt": "2026-07-27T17:49:00.097Z",
   "days": {
     "2026-06-16": {
       "title": "Youth Day",
@@ -1163,6 +1163,36 @@
         "provider": "Nager.Date",
         "countryCode": "NE",
         "countryName": "Niger",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-08-04": {
+      "title": "Emancipation Tuesday",
+      "motif": "maritimeFlags",
+      "gradient": [
+        "#0c2737",
+        "#2a6176",
+        "#11171c"
+      ],
+      "accent": "#6cbcd8",
+      "secondary": "#debd5c",
+      "holidayFamily": "national-civic-day",
+      "popularityTier": "niche",
+      "scopeTier": "national",
+      "tags": [
+        "maritime",
+        "water",
+        "civic",
+        "island",
+        "celebration"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "VG",
+        "countryName": "British Virgin Islands",
         "typeLabels": [
           "公众节日"
         ],

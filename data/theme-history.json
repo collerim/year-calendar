@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-27T17:49:00.097Z",
+  "updatedAt": "2026-07-28T17:41:13.113Z",
   "days": {
     "2026-06-16": {
       "title": "Youth Day",
@@ -1193,6 +1193,37 @@
         "provider": "Nager.Date",
         "countryCode": "VG",
         "countryName": "British Virgin Islands",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-08-05": {
+      "title": "Victory and Homeland Thanksgiving Day and the Day of Croatian defenders",
+      "motif": "laurelTorch",
+      "gradient": [
+        "#281b1b",
+        "#69462c",
+        "#111617"
+      ],
+      "accent": "#cb945c",
+      "secondary": "#90a769",
+      "holidayFamily": "remembrance",
+      "popularityTier": "major",
+      "scopeTier": "national",
+      "tags": [
+        "civic",
+        "remembrance",
+        "light",
+        "celebration",
+        "harvest",
+        "botanical"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "HR",
+        "countryName": "Croatia",
         "typeLabels": [
           "公众节日"
         ],

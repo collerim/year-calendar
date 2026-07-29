@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-28T17:41:13.113Z",
+  "updatedAt": "2026-07-29T17:22:47.301Z",
   "days": {
     "2026-06-16": {
       "title": "Youth Day",
@@ -1224,6 +1224,34 @@
         "provider": "Nager.Date",
         "countryCode": "HR",
         "countryName": "Croatia",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-08-06": {
+      "title": "Independence Day",
+      "motif": "cityParade",
+      "gradient": [
+        "#101f34",
+        "#483041",
+        "#141416"
+      ],
+      "accent": "#6ea1d6",
+      "secondary": "#d9555c",
+      "holidayFamily": "independence-day",
+      "popularityTier": "common",
+      "scopeTier": "national",
+      "tags": [
+        "civic",
+        "celebration",
+        "procession"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "JM",
+        "countryName": "Jamaica",
         "typeLabels": [
           "公众节日"
         ],

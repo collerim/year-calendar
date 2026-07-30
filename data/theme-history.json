@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-29T17:22:47.301Z",
+  "updatedAt": "2026-07-30T17:42:47.005Z",
   "days": {
     "2026-06-16": {
       "title": "Youth Day",
@@ -1252,6 +1252,35 @@
         "provider": "Nager.Date",
         "countryCode": "JM",
         "countryName": "Jamaica",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-08-07": {
+      "title": "Constitution Day",
+      "motif": "wovenPattern",
+      "gradient": [
+        "#151f39",
+        "#4c3044",
+        "#12161b"
+      ],
+      "accent": "#72a1da",
+      "secondary": "#d75763",
+      "holidayFamily": "constitution-day",
+      "popularityTier": "common",
+      "scopeTier": "national",
+      "tags": [
+        "civic",
+        "celebration",
+        "procession",
+        "culture"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "AI",
+        "countryName": "Anguilla",
         "typeLabels": [
           "公众节日"
         ],

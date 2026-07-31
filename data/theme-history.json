@@ -1,17 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-30T17:42:47.005Z",
+  "updatedAt": "2026-07-31T17:49:29.130Z",
   "days": {
-    "2026-06-16": {
-      "title": "Youth Day",
-      "motif": "wovenPattern",
-      "tags": [
-        "culture",
-        "civic",
-        "celebration",
-        "sports"
-      ]
-    },
     "2026-06-17": {
       "title": "Icelandic National Day",
       "motif": "fireworks",
@@ -1285,6 +1275,41 @@
           "公众节日"
         ],
         "subdivisions": []
+      }
+    },
+    "2026-08-08": {
+      "title": "High Festival of Peace",
+      "motif": "carnivalMasks",
+      "gradient": [
+        "#1d1717",
+        "#5f3a30",
+        "#151212"
+      ],
+      "accent": "#cbaa55",
+      "secondary": "#cb4f42",
+      "holidayFamily": "municipal-local",
+      "popularityTier": "niche",
+      "scopeTier": "national",
+      "tags": [
+        "celebration",
+        "procession",
+        "folk",
+        "market",
+        "civic",
+        "remembrance"
+      ],
+      "source": {
+        "provider": "OpenHolidays",
+        "countryCode": "DE",
+        "countryName": "Germany",
+        "typeLabels": [
+          "公众节日",
+          "地方性"
+        ],
+        "nationwide": false,
+        "subdivisions": [
+          "BY-AU"
+        ]
       }
     }
   }

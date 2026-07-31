@@ -1,26 +1,9 @@
 {
-  "generatedAt": "2026-07-30T17:42:47.007Z",
-  "baseDate": "2026-07-31",
-  "ensuredThrough": "2026-08-07",
+  "generatedAt": "2026-07-31T17:49:29.143Z",
+  "baseDate": "2026-08-01",
+  "ensuredThrough": "2026-08-08",
   "today": "output/today.png",
   "generated": [
-    {
-      "date": "2026-07-31",
-      "output": "output/2026/2026.07/2026.07.31.png",
-      "selectedTheme": "Mary Prince Day",
-      "selectedMotif": "wovenPattern",
-      "selectedScoreBreakdown": {
-        "basePriority": 65,
-        "popularity": 14,
-        "jitter": 5.294,
-        "motifPenalty": 14,
-        "culturalPenalty": 34,
-        "holidayFamilyPenalty": 8,
-        "colorPenalty": 42,
-        "finalScore": -13.706
-      },
-      "discardedCount": 0
-    },
     {
       "date": "2026-08-01",
       "output": "output/2026/2026.08/2026.08.01.png",
@@ -139,6 +122,23 @@
         "finalScore": 14.083
       },
       "discardedCount": 3
+    },
+    {
+      "date": "2026-08-08",
+      "output": "output/2026/2026.08/2026.08.08.png",
+      "selectedTheme": "High Festival of Peace",
+      "selectedMotif": "carnivalMasks",
+      "selectedScoreBreakdown": {
+        "basePriority": 66,
+        "popularity": 8,
+        "jitter": 3.7,
+        "motifPenalty": 7,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 42,
+        "finalScore": -13.3
+      },
+      "discardedCount": 1
     }
   ],
   "skipped": []

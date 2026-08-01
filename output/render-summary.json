@@ -1,26 +1,9 @@
 {
-  "generatedAt": "2026-07-31T17:49:29.143Z",
-  "baseDate": "2026-08-01",
-  "ensuredThrough": "2026-08-08",
+  "generatedAt": "2026-08-01T17:07:17.949Z",
+  "baseDate": "2026-08-02",
+  "ensuredThrough": "2026-08-09",
   "today": "output/today.png",
   "generated": [
-    {
-      "date": "2026-08-01",
-      "output": "output/2026/2026.08/2026.08.01.png",
-      "selectedTheme": "Swiss National Day",
-      "selectedMotif": "mountainFlags",
-      "selectedScoreBreakdown": {
-        "basePriority": 76,
-        "popularity": 26,
-        "jitter": 1.215,
-        "motifPenalty": 0,
-        "culturalPenalty": 31,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 42,
-        "finalScore": 30.215
-      },
-      "discardedCount": 8
-    },
     {
       "date": "2026-08-02",
       "output": "output/2026/2026.08/2026.08.02.png",
@@ -139,6 +122,23 @@
         "finalScore": -13.3
       },
       "discardedCount": 1
+    },
+    {
+      "date": "2026-08-09",
+      "output": "output/2026/2026.08/2026.08.09.png",
+      "selectedTheme": "Singapore National Day",
+      "selectedMotif": "fireworks",
+      "selectedScoreBreakdown": {
+        "basePriority": 76,
+        "popularity": 30,
+        "jitter": 4.735,
+        "motifPenalty": 0,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 42,
+        "finalScore": 26.735
+      },
+      "discardedCount": 3
     }
   ],
   "skipped": []

@@ -1,17 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-01T17:07:17.946Z",
+  "updatedAt": "2026-08-02T17:08:07.843Z",
   "days": {
-    "2026-06-18": {
-      "title": "Constitution Day",
-      "motif": "fireworks",
-      "tags": [
-        "sky",
-        "celebration",
-        "light",
-        "civic"
-      ]
-    },
     "2026-06-19": {
       "title": "Dragon Boat Festival",
       "motif": "waterFlowers",
@@ -1328,6 +1318,36 @@
           "公众节日"
         ],
         "nationwide": true,
+        "subdivisions": []
+      }
+    },
+    "2026-08-10": {
+      "title": "Father's Day",
+      "motif": "maritimeFlags",
+      "gradient": [
+        "#0d2733",
+        "#2a6273",
+        "#111617"
+      ],
+      "accent": "#6cbcd5",
+      "secondary": "#debc56",
+      "holidayFamily": "national-civic-day",
+      "popularityTier": "common",
+      "scopeTier": "national",
+      "tags": [
+        "maritime",
+        "water",
+        "civic",
+        "island",
+        "celebration"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "WS",
+        "countryName": "Samoa",
+        "typeLabels": [
+          "公众节日"
+        ],
         "subdivisions": []
       }
     }

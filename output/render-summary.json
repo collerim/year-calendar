@@ -1,26 +1,9 @@
 {
-  "generatedAt": "2026-08-02T17:08:07.853Z",
-  "baseDate": "2026-08-03",
-  "ensuredThrough": "2026-08-10",
+  "generatedAt": "2026-08-03T17:58:18.428Z",
+  "baseDate": "2026-08-04",
+  "ensuredThrough": "2026-08-11",
   "today": "output/today.png",
   "generated": [
-    {
-      "date": "2026-08-03",
-      "output": "output/2026/2026.08/2026.08.03.png",
-      "selectedTheme": "Nigerien Independence Day",
-      "selectedMotif": "cityParade",
-      "selectedScoreBreakdown": {
-        "basePriority": 73,
-        "popularity": 26,
-        "jitter": 1.636,
-        "motifPenalty": 10,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 5,
-        "colorPenalty": 42,
-        "finalScore": 1.636
-      },
-      "discardedCount": 7
-    },
     {
       "date": "2026-08-04",
       "output": "output/2026/2026.08/2026.08.04.png",
@@ -139,6 +122,23 @@
         "finalScore": 36.329
       },
       "discardedCount": 7
+    },
+    {
+      "date": "2026-08-11",
+      "output": "output/2026/2026.08/2026.08.11.png",
+      "selectedTheme": "Carnival",
+      "selectedMotif": "carnivalMasks",
+      "selectedScoreBreakdown": {
+        "basePriority": 61,
+        "popularity": 14,
+        "jitter": 4.337,
+        "motifPenalty": 20,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 35,
+        "finalScore": -17.663
+      },
+      "discardedCount": 3
     }
   ],
   "skipped": []

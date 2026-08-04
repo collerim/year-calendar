@@ -1,18 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-03T17:58:18.402Z",
+  "updatedAt": "2026-08-04T17:57:24.375Z",
   "days": {
-    "2026-06-20": {
-      "title": "World Refugee Day",
-      "motif": "mountainFlags",
-      "tags": [
-        "mountain",
-        "civic",
-        "celebration",
-        "culture",
-        "international"
-      ]
-    },
     "2026-06-21": {
       "title": "World Music Day",
       "motif": "sunRibbons",
@@ -1363,6 +1352,36 @@
         "countryName": "Grenada",
         "typeLabels": [
           "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-08-12": {
+      "title": "International Youth Day",
+      "motif": "streamers",
+      "gradient": [
+        "#152139",
+        "#3b5c76",
+        "#11161c"
+      ],
+      "accent": "#72add6",
+      "secondary": "#d56657",
+      "holidayFamily": "culture-observance",
+      "popularityTier": "observance",
+      "scopeTier": "international",
+      "tags": [
+        "civic",
+        "celebration",
+        "sports",
+        "culture",
+        "international"
+      ],
+      "source": {
+        "provider": "Curated Cultural Observances",
+        "countryCode": "INTL",
+        "countryName": "International",
+        "typeLabels": [
+          "文化日"
         ],
         "subdivisions": []
       }

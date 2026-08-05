@@ -1,17 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-04T17:57:24.375Z",
+  "updatedAt": "2026-08-05T18:23:35.484Z",
   "days": {
-    "2026-06-21": {
-      "title": "World Music Day",
-      "motif": "sunRibbons",
-      "tags": [
-        "sun",
-        "celebration",
-        "culture",
-        "international"
-      ]
-    },
     "2026-06-22": {
       "title": "Anti-Fascist Struggle Day",
       "motif": "wovenPattern",
@@ -1382,6 +1372,34 @@
         "countryName": "International",
         "typeLabels": [
           "文化日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-08-13": {
+      "title": "Women's Day",
+      "motif": "wovenPattern",
+      "gradient": [
+        "#1b1920",
+        "#564433",
+        "#141416"
+      ],
+      "accent": "#c8aa53",
+      "secondary": "#73afd9",
+      "holidayFamily": "national-civic-day",
+      "popularityTier": "niche",
+      "scopeTier": "national",
+      "tags": [
+        "culture",
+        "civic",
+        "celebration"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "TN",
+        "countryName": "Tunisia",
+        "typeLabels": [
+          "公众节日"
         ],
         "subdivisions": []
       }

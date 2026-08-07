@@ -1,43 +1,9 @@
 {
-  "generatedAt": "2026-08-05T18:23:35.492Z",
-  "baseDate": "2026-08-06",
-  "ensuredThrough": "2026-08-13",
+  "generatedAt": "2026-08-07T16:59:42.454Z",
+  "baseDate": "2026-08-08",
+  "ensuredThrough": "2026-08-15",
   "today": "output/today.png",
   "generated": [
-    {
-      "date": "2026-08-06",
-      "output": "output/2026/2026.08/2026.08.06.png",
-      "selectedTheme": "Independence Day",
-      "selectedMotif": "cityParade",
-      "selectedScoreBreakdown": {
-        "basePriority": 73,
-        "popularity": 26,
-        "jitter": 1.751,
-        "motifPenalty": 20,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 14,
-        "colorPenalty": 42,
-        "finalScore": -17.249
-      },
-      "discardedCount": 4
-    },
-    {
-      "date": "2026-08-07",
-      "output": "output/2026/2026.08/2026.08.07.png",
-      "selectedTheme": "Constitution Day",
-      "selectedMotif": "wovenPattern",
-      "selectedScoreBreakdown": {
-        "basePriority": 73,
-        "popularity": 26,
-        "jitter": 4.083,
-        "motifPenalty": 5,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 42,
-        "finalScore": 14.083
-      },
-      "discardedCount": 3
-    },
     {
       "date": "2026-08-08",
       "output": "output/2026/2026.08/2026.08.08.png",
@@ -139,6 +105,40 @@
         "finalScore": -24.246
       },
       "discardedCount": 1
+    },
+    {
+      "date": "2026-08-14",
+      "output": "output/2026/2026.08/2026.08.14.png",
+      "selectedTheme": "Vigil of the Assumption",
+      "selectedMotif": "stainedGlass",
+      "selectedScoreBreakdown": {
+        "basePriority": 61,
+        "popularity": 14,
+        "jitter": 4.061,
+        "motifPenalty": 0,
+        "culturalPenalty": 40,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 42,
+        "finalScore": -2.939
+      },
+      "discardedCount": 3
+    },
+    {
+      "date": "2026-08-15",
+      "output": "output/2026/2026.08/2026.08.15.png",
+      "selectedTheme": "National Day",
+      "selectedMotif": "cityParade",
+      "selectedScoreBreakdown": {
+        "basePriority": 69,
+        "popularity": 26,
+        "jitter": 1.314,
+        "motifPenalty": 0,
+        "culturalPenalty": 32,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 42,
+        "finalScore": 22.314
+      },
+      "discardedCount": 7
     }
   ],
   "skipped": []

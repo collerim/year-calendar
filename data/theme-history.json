@@ -1,27 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-05T18:23:35.484Z",
+  "updatedAt": "2026-08-07T16:59:42.451Z",
   "days": {
-    "2026-06-22": {
-      "title": "Anti-Fascist Struggle Day",
-      "motif": "wovenPattern",
-      "tags": [
-        "culture",
-        "civic",
-        "celebration"
-      ]
-    },
-    "2026-06-23": {
-      "title": "Grand Duke's Birthday",
-      "motif": "dragonDance",
-      "tags": [
-        "culture",
-        "civic",
-        "celebration",
-        "procession",
-        "folk"
-      ]
-    },
     "2026-06-24": {
       "title": "Discovery Day",
       "motif": "folkEmbroidery",
@@ -1398,6 +1378,64 @@
         "provider": "Nager.Date",
         "countryCode": "TN",
         "countryName": "Tunisia",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-08-14": {
+      "title": "Vigil of the Assumption",
+      "motif": "stainedGlass",
+      "gradient": [
+        "#121b37",
+        "#4d3346",
+        "#111519"
+      ],
+      "accent": "#92b7ed",
+      "secondary": "#d6738d",
+      "holidayFamily": "religious-observance",
+      "popularityTier": "niche",
+      "scopeTier": "national",
+      "tags": [
+        "religious",
+        "heritage",
+        "light"
+      ],
+      "source": {
+        "provider": "OpenHolidays",
+        "countryCode": "VA",
+        "countryName": "Vatican City",
+        "typeLabels": [
+          "公众节日",
+          "全国性"
+        ],
+        "nationwide": true,
+        "subdivisions": []
+      }
+    },
+    "2026-08-15": {
+      "title": "National Day",
+      "motif": "cityParade",
+      "gradient": [
+        "#151c30",
+        "#4c2e3e",
+        "#111419"
+      ],
+      "accent": "#729fd2",
+      "secondary": "#d65561",
+      "holidayFamily": "national-day",
+      "popularityTier": "common",
+      "scopeTier": "national",
+      "tags": [
+        "civic",
+        "celebration",
+        "procession"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "CG",
+        "countryName": "Congo",
         "typeLabels": [
           "公众节日"
         ],

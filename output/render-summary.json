@@ -1,26 +1,9 @@
 {
-  "generatedAt": "2026-08-07T16:59:42.454Z",
-  "baseDate": "2026-08-08",
-  "ensuredThrough": "2026-08-15",
+  "generatedAt": "2026-08-08T16:41:22.282Z",
+  "baseDate": "2026-08-09",
+  "ensuredThrough": "2026-08-16",
   "today": "output/today.png",
   "generated": [
-    {
-      "date": "2026-08-08",
-      "output": "output/2026/2026.08/2026.08.08.png",
-      "selectedTheme": "High Festival of Peace",
-      "selectedMotif": "carnivalMasks",
-      "selectedScoreBreakdown": {
-        "basePriority": 66,
-        "popularity": 8,
-        "jitter": 3.7,
-        "motifPenalty": 7,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 42,
-        "finalScore": -13.3
-      },
-      "discardedCount": 1
-    },
     {
       "date": "2026-08-09",
       "output": "output/2026/2026.08/2026.08.09.png",
@@ -139,6 +122,23 @@
         "finalScore": 22.314
       },
       "discardedCount": 7
+    },
+    {
+      "date": "2026-08-16",
+      "output": "output/2026/2026.08/2026.08.16.png",
+      "selectedTheme": "Saint Stephen of Hungary",
+      "selectedMotif": "stainedGlass",
+      "selectedScoreBreakdown": {
+        "basePriority": 61,
+        "popularity": 8,
+        "jitter": 0.095,
+        "motifPenalty": 28,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 42,
+        "finalScore": -42.905
+      },
+      "discardedCount": 4
     }
   ],
   "skipped": []

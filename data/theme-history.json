@@ -1,19 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-07T16:59:42.451Z",
+  "updatedAt": "2026-08-08T16:41:22.279Z",
   "days": {
-    "2026-06-24": {
-      "title": "Discovery Day",
-      "motif": "folkEmbroidery",
-      "tags": [
-        "culture",
-        "civic",
-        "celebration",
-        "botanical",
-        "folk",
-        "heritage"
-      ]
-    },
     "2026-06-25": {
       "title": "Statehood Day",
       "motif": "paperCut",
@@ -1439,6 +1427,36 @@
         "typeLabels": [
           "公众节日"
         ],
+        "subdivisions": []
+      }
+    },
+    "2026-08-16": {
+      "title": "Saint Stephen of Hungary",
+      "motif": "stainedGlass",
+      "gradient": [
+        "#111e33",
+        "#4c3643",
+        "#141419"
+      ],
+      "accent": "#91baea",
+      "secondary": "#d9728d",
+      "holidayFamily": "saint-day",
+      "popularityTier": "niche",
+      "scopeTier": "national",
+      "tags": [
+        "religious",
+        "heritage",
+        "light"
+      ],
+      "source": {
+        "provider": "OpenHolidays",
+        "countryCode": "VA",
+        "countryName": "Vatican City",
+        "typeLabels": [
+          "公众节日",
+          "全国性"
+        ],
+        "nationwide": true,
         "subdivisions": []
       }
     }

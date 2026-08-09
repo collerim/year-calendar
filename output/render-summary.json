@@ -1,26 +1,9 @@
 {
-  "generatedAt": "2026-08-08T16:41:22.282Z",
-  "baseDate": "2026-08-09",
-  "ensuredThrough": "2026-08-16",
+  "generatedAt": "2026-08-09T16:43:26.024Z",
+  "baseDate": "2026-08-10",
+  "ensuredThrough": "2026-08-17",
   "today": "output/today.png",
   "generated": [
-    {
-      "date": "2026-08-09",
-      "output": "output/2026/2026.08/2026.08.09.png",
-      "selectedTheme": "Singapore National Day",
-      "selectedMotif": "fireworks",
-      "selectedScoreBreakdown": {
-        "basePriority": 76,
-        "popularity": 30,
-        "jitter": 4.735,
-        "motifPenalty": 0,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 42,
-        "finalScore": 26.735
-      },
-      "discardedCount": 3
-    },
     {
       "date": "2026-08-10",
       "output": "output/2026/2026.08/2026.08.10.png",
@@ -139,6 +122,23 @@
         "finalScore": -42.905
       },
       "discardedCount": 4
+    },
+    {
+      "date": "2026-08-17",
+      "output": "output/2026/2026.08/2026.08.17.png",
+      "selectedTheme": "Independence Day",
+      "selectedMotif": "oceanCompass",
+      "selectedScoreBreakdown": {
+        "basePriority": 73,
+        "popularity": 26,
+        "jitter": 5.073,
+        "motifPenalty": 0,
+        "culturalPenalty": 23,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 42,
+        "finalScore": 39.073
+      },
+      "discardedCount": 7
     }
   ],
   "skipped": []

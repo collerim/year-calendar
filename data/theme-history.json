@@ -1,16 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-08T16:41:22.279Z",
+  "updatedAt": "2026-08-09T16:43:26.021Z",
   "days": {
-    "2026-06-25": {
-      "title": "Statehood Day",
-      "motif": "paperCut",
-      "tags": [
-        "civic",
-        "celebration",
-        "culture"
-      ]
-    },
     "2026-06-26": {
       "title": "Independence Day",
       "motif": "fireworks",
@@ -1457,6 +1448,37 @@
           "全国性"
         ],
         "nationwide": true,
+        "subdivisions": []
+      }
+    },
+    "2026-08-17": {
+      "title": "Independence Day",
+      "motif": "oceanCompass",
+      "gradient": [
+        "#112036",
+        "#493142",
+        "#151617"
+      ],
+      "accent": "#6ea2d8",
+      "secondary": "#db575d",
+      "holidayFamily": "independence-day",
+      "popularityTier": "common",
+      "scopeTier": "national",
+      "tags": [
+        "civic",
+        "celebration",
+        "procession",
+        "maritime",
+        "water",
+        "travel"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "GA",
+        "countryName": "Gabon",
+        "typeLabels": [
+          "公众节日"
+        ],
         "subdivisions": []
       }
     }

@@ -1,26 +1,9 @@
 {
-  "generatedAt": "2026-08-09T16:43:26.024Z",
-  "baseDate": "2026-08-10",
-  "ensuredThrough": "2026-08-17",
+  "generatedAt": "2026-08-10T17:02:05.619Z",
+  "baseDate": "2026-08-11",
+  "ensuredThrough": "2026-08-18",
   "today": "output/today.png",
   "generated": [
-    {
-      "date": "2026-08-10",
-      "output": "output/2026/2026.08/2026.08.10.png",
-      "selectedTheme": "Father's Day",
-      "selectedMotif": "maritimeFlags",
-      "selectedScoreBreakdown": {
-        "basePriority": 65,
-        "popularity": 26,
-        "jitter": 5.329,
-        "motifPenalty": 7,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 11,
-        "finalScore": 36.329
-      },
-      "discardedCount": 7
-    },
     {
       "date": "2026-08-11",
       "output": "output/2026/2026.08/2026.08.11.png",
@@ -139,6 +122,23 @@
         "finalScore": 39.073
       },
       "discardedCount": 7
+    },
+    {
+      "date": "2026-08-18",
+      "output": "output/2026/2026.08/2026.08.18.png",
+      "selectedTheme": "八月星沙",
+      "selectedMotif": "desertGeometry",
+      "selectedScoreBreakdown": {
+        "basePriority": 29,
+        "popularity": 0,
+        "jitter": 2.791,
+        "motifPenalty": 0,
+        "culturalPenalty": 0,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 12,
+        "finalScore": 19.791
+      },
+      "discardedCount": 10
     }
   ],
   "skipped": []

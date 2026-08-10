@@ -1,17 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-09T16:43:26.021Z",
+  "updatedAt": "2026-08-10T17:02:05.618Z",
   "days": {
-    "2026-06-26": {
-      "title": "Independence Day",
-      "motif": "fireworks",
-      "tags": [
-        "sky",
-        "celebration",
-        "light",
-        "civic"
-      ]
-    },
     "2026-06-27": {
       "title": "Journalists' Day",
       "motif": "wovenPattern",
@@ -1481,6 +1471,33 @@
         ],
         "subdivisions": []
       }
+    },
+    "2026-08-18": {
+      "title": "八月星沙",
+      "motif": "desertGeometry",
+      "gradient": [
+        "#1f291c",
+        "#605736",
+        "#13171b"
+      ],
+      "accent": "#b69753",
+      "secondary": "#778f66",
+      "holidayFamily": "seasonal-fallback",
+      "popularityTier": "niche",
+      "scopeTier": "unknown",
+      "tags": [
+        "islamic",
+        "heritage",
+        "sun",
+        "botanical",
+        "sky",
+        "light",
+        "seasonal",
+        "harvest",
+        "autumn",
+        "month-mood"
+      ],
+      "source": null
     }
   }
 }

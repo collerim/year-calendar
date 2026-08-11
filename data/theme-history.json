@@ -1,16 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-10T17:02:05.618Z",
+  "updatedAt": "2026-08-11T17:03:56.072Z",
   "days": {
-    "2026-06-27": {
-      "title": "Journalists' Day",
-      "motif": "wovenPattern",
-      "tags": [
-        "culture",
-        "civic",
-        "celebration"
-      ]
-    },
     "2026-06-28": {
       "title": "Constitution Day",
       "motif": "dragonDance",
@@ -1498,6 +1489,36 @@
         "month-mood"
       ],
       "source": null
+    },
+    "2026-08-19": {
+      "title": "World Photography Day",
+      "motif": "starfield",
+      "gradient": [
+        "#171829",
+        "#3d4551",
+        "#151518"
+      ],
+      "accent": "#c9b06a",
+      "secondary": "#75b1d8",
+      "holidayFamily": "culture-observance",
+      "popularityTier": "observance",
+      "scopeTier": "international",
+      "tags": [
+        "sky",
+        "light",
+        "celebration",
+        "culture",
+        "international"
+      ],
+      "source": {
+        "provider": "Curated Cultural Observances",
+        "countryCode": "INTL",
+        "countryName": "International",
+        "typeLabels": [
+          "文化日"
+        ],
+        "subdivisions": []
+      }
     }
   }
 }

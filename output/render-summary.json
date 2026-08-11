@@ -1,26 +1,9 @@
 {
-  "generatedAt": "2026-08-10T17:02:05.619Z",
-  "baseDate": "2026-08-11",
-  "ensuredThrough": "2026-08-18",
+  "generatedAt": "2026-08-11T17:03:56.075Z",
+  "baseDate": "2026-08-12",
+  "ensuredThrough": "2026-08-19",
   "today": "output/today.png",
   "generated": [
-    {
-      "date": "2026-08-11",
-      "output": "output/2026/2026.08/2026.08.11.png",
-      "selectedTheme": "Carnival",
-      "selectedMotif": "carnivalMasks",
-      "selectedScoreBreakdown": {
-        "basePriority": 61,
-        "popularity": 14,
-        "jitter": 4.337,
-        "motifPenalty": 20,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 35,
-        "finalScore": -17.663
-      },
-      "discardedCount": 3
-    },
     {
       "date": "2026-08-12",
       "output": "output/2026/2026.08/2026.08.12.png",
@@ -139,6 +122,23 @@
         "finalScore": 19.791
       },
       "discardedCount": 10
+    },
+    {
+      "date": "2026-08-19",
+      "output": "output/2026/2026.08/2026.08.19.png",
+      "selectedTheme": "World Photography Day",
+      "selectedMotif": "starfield",
+      "selectedScoreBreakdown": {
+        "basePriority": 68,
+        "popularity": 14,
+        "jitter": 0.673,
+        "motifPenalty": 0,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 42,
+        "finalScore": -1.327
+      },
+      "discardedCount": 1
     }
   ],
   "skipped": []

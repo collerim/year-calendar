@@ -1,18 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-12T17:02:55.063Z",
+  "updatedAt": "2026-08-13T17:02:44.468Z",
   "days": {
-    "2026-06-29": {
-      "title": "Saint Peter and Saint Paul",
-      "motif": "sunRibbons",
-      "tags": [
-        "culture",
-        "civic",
-        "religious",
-        "sun",
-        "celebration"
-      ]
-    },
     "2026-06-30": {
       "title": "Independence Day",
       "motif": "fireworks",
@@ -1534,6 +1523,37 @@
           "全国性"
         ],
         "nationwide": true,
+        "subdivisions": []
+      }
+    },
+    "2026-08-21": {
+      "title": "Youth Day",
+      "motif": "crescentLantern",
+      "gradient": [
+        "#111d2b",
+        "#34415d",
+        "#111518"
+      ],
+      "accent": "#c5b46b",
+      "secondary": "#70b2d8",
+      "holidayFamily": "religious-observance",
+      "popularityTier": "major",
+      "scopeTier": "national",
+      "tags": [
+        "islamic",
+        "religious",
+        "light",
+        "sky",
+        "celebration",
+        "sports"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "MA",
+        "countryName": "Morocco",
+        "typeLabels": [
+          "公众节日"
+        ],
         "subdivisions": []
       }
     }

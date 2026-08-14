@@ -1,26 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-13T17:02:44.468Z",
+  "updatedAt": "2026-08-14T17:01:12.292Z",
   "days": {
-    "2026-06-30": {
-      "title": "Independence Day",
-      "motif": "fireworks",
-      "tags": [
-        "sky",
-        "celebration",
-        "light",
-        "civic"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "CD",
-        "countryName": "DR Congo",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-07-01": {
       "title": "Republic Day",
       "motif": "wovenPattern",
@@ -1555,6 +1536,41 @@
           "公众节日"
         ],
         "subdivisions": []
+      }
+    },
+    "2026-08-22": {
+      "title": "Municipal holiday",
+      "motif": "lotusMandala",
+      "gradient": [
+        "#19182e",
+        "#54405f",
+        "#141318"
+      ],
+      "accent": "#c5a9da",
+      "secondary": "#81bbae",
+      "holidayFamily": "municipal-local",
+      "popularityTier": "local",
+      "scopeTier": "local",
+      "tags": [
+        "religious",
+        "botanical",
+        "culture",
+        "heritage",
+        "celebration",
+        "maritime"
+      ],
+      "source": {
+        "provider": "OpenHolidays",
+        "countryCode": "PT",
+        "countryName": "Portugal",
+        "typeLabels": [
+          "可选假日",
+          "地方性"
+        ],
+        "nationwide": false,
+        "subdivisions": [
+          "BA-BR"
+        ]
       }
     }
   }

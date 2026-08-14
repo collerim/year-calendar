@@ -1,26 +1,9 @@
 {
-  "generatedAt": "2026-08-13T17:02:44.469Z",
-  "baseDate": "2026-08-14",
-  "ensuredThrough": "2026-08-21",
+  "generatedAt": "2026-08-14T17:01:12.293Z",
+  "baseDate": "2026-08-15",
+  "ensuredThrough": "2026-08-22",
   "today": "output/today.png",
   "generated": [
-    {
-      "date": "2026-08-14",
-      "output": "output/2026/2026.08/2026.08.14.png",
-      "selectedTheme": "Vigil of the Assumption",
-      "selectedMotif": "stainedGlass",
-      "selectedScoreBreakdown": {
-        "basePriority": 61,
-        "popularity": 14,
-        "jitter": 4.061,
-        "motifPenalty": 0,
-        "culturalPenalty": 40,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 42,
-        "finalScore": -2.939
-      },
-      "discardedCount": 3
-    },
     {
       "date": "2026-08-15",
       "output": "output/2026/2026.08/2026.08.15.png",
@@ -139,6 +122,23 @@
         "finalScore": 14.14
       },
       "discardedCount": 2
+    },
+    {
+      "date": "2026-08-22",
+      "output": "output/2026/2026.08/2026.08.22.png",
+      "selectedTheme": "Municipal holiday",
+      "selectedMotif": "lotusMandala",
+      "selectedScoreBreakdown": {
+        "basePriority": 58,
+        "popularity": -22,
+        "jitter": 5.35,
+        "motifPenalty": 0,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 42,
+        "finalScore": -42.65
+      },
+      "discardedCount": 0
     }
   ],
   "skipped": []

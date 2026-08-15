@@ -1,27 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-14T17:01:12.292Z",
+  "updatedAt": "2026-08-15T16:32:44.027Z",
   "days": {
-    "2026-07-01": {
-      "title": "Republic Day",
-      "motif": "wovenPattern",
-      "tags": [
-        "sky",
-        "celebration",
-        "light",
-        "civic",
-        "culture"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "GH",
-        "countryName": "Ghana",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-07-02": {
       "title": "June 30 Revolution",
       "motif": "cityParade",
@@ -1572,6 +1552,30 @@
           "BA-BR"
         ]
       }
+    },
+    "2026-08-23": {
+      "title": "八月麦束",
+      "motif": "harvestSheaves",
+      "gradient": [
+        "#23281a",
+        "#645636",
+        "#17151a"
+      ],
+      "accent": "#ba9651",
+      "secondary": "#7c8c64",
+      "holidayFamily": "seasonal-fallback",
+      "popularityTier": "niche",
+      "scopeTier": "unknown",
+      "tags": [
+        "botanical",
+        "harvest",
+        "seasonal",
+        "sky",
+        "light",
+        "autumn",
+        "month-mood"
+      ],
+      "source": null
     }
   }
 }

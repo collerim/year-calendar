@@ -1,26 +1,9 @@
 {
-  "generatedAt": "2026-08-14T17:01:12.293Z",
-  "baseDate": "2026-08-15",
-  "ensuredThrough": "2026-08-22",
+  "generatedAt": "2026-08-15T16:32:44.028Z",
+  "baseDate": "2026-08-16",
+  "ensuredThrough": "2026-08-23",
   "today": "output/today.png",
   "generated": [
-    {
-      "date": "2026-08-15",
-      "output": "output/2026/2026.08/2026.08.15.png",
-      "selectedTheme": "National Day",
-      "selectedMotif": "cityParade",
-      "selectedScoreBreakdown": {
-        "basePriority": 69,
-        "popularity": 26,
-        "jitter": 1.314,
-        "motifPenalty": 0,
-        "culturalPenalty": 32,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 42,
-        "finalScore": 22.314
-      },
-      "discardedCount": 7
-    },
     {
       "date": "2026-08-16",
       "output": "output/2026/2026.08/2026.08.16.png",
@@ -139,6 +122,23 @@
         "finalScore": -42.65
       },
       "discardedCount": 0
+    },
+    {
+      "date": "2026-08-23",
+      "output": "output/2026/2026.08/2026.08.23.png",
+      "selectedTheme": "八月麦束",
+      "selectedMotif": "harvestSheaves",
+      "selectedScoreBreakdown": {
+        "basePriority": 29.75,
+        "popularity": 0,
+        "jitter": 2.243,
+        "motifPenalty": 0,
+        "culturalPenalty": 0,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 4,
+        "finalScore": 27.993
+      },
+      "discardedCount": 10
     }
   ],
   "skipped": []

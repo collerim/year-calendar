@@ -1,36 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-15T16:32:44.027Z",
+  "updatedAt": "2026-08-16T16:33:17.042Z",
   "days": {
-    "2026-07-02": {
-      "title": "June 30 Revolution",
-      "motif": "cityParade",
-      "gradient": [
-        "#181927",
-        "#544437",
-        "#121418"
-      ],
-      "accent": "#c5aa59",
-      "secondary": "#70b0db",
-      "holidayFamily": "revolution-day",
-      "popularityTier": "niche",
-      "scopeTier": "national",
-      "tags": [
-        "culture",
-        "civic",
-        "celebration",
-        "procession"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "EG",
-        "countryName": "Egypt",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-07-03": {
       "title": "Independence Day",
       "motif": "sunRibbons",
@@ -1576,6 +1547,34 @@
         "month-mood"
       ],
       "source": null
+    },
+    "2026-08-24": {
+      "title": "Independence Day",
+      "motif": "cityParade",
+      "gradient": [
+        "#172030",
+        "#4e303e",
+        "#12151a"
+      ],
+      "accent": "#73a2d3",
+      "secondary": "#d75662",
+      "holidayFamily": "independence-day",
+      "popularityTier": "common",
+      "scopeTier": "national",
+      "tags": [
+        "civic",
+        "celebration",
+        "procession"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "UA",
+        "countryName": "Ukraine",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
     }
   }
 }

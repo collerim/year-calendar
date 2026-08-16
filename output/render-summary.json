@@ -1,26 +1,9 @@
 {
-  "generatedAt": "2026-08-15T16:32:44.028Z",
-  "baseDate": "2026-08-16",
-  "ensuredThrough": "2026-08-23",
+  "generatedAt": "2026-08-16T16:33:17.042Z",
+  "baseDate": "2026-08-17",
+  "ensuredThrough": "2026-08-24",
   "today": "output/today.png",
   "generated": [
-    {
-      "date": "2026-08-16",
-      "output": "output/2026/2026.08/2026.08.16.png",
-      "selectedTheme": "Saint Stephen of Hungary",
-      "selectedMotif": "stainedGlass",
-      "selectedScoreBreakdown": {
-        "basePriority": 61,
-        "popularity": 8,
-        "jitter": 0.095,
-        "motifPenalty": 28,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 42,
-        "finalScore": -42.905
-      },
-      "discardedCount": 4
-    },
     {
       "date": "2026-08-17",
       "output": "output/2026/2026.08/2026.08.17.png",
@@ -139,6 +122,23 @@
         "finalScore": 27.993
       },
       "discardedCount": 10
+    },
+    {
+      "date": "2026-08-24",
+      "output": "output/2026/2026.08/2026.08.24.png",
+      "selectedTheme": "Independence Day",
+      "selectedMotif": "cityParade",
+      "selectedScoreBreakdown": {
+        "basePriority": 69,
+        "popularity": 26,
+        "jitter": 4.187,
+        "motifPenalty": 14,
+        "culturalPenalty": 30,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 42,
+        "finalScore": 13.187
+      },
+      "discardedCount": 2
     }
   ],
   "skipped": []

@@ -1,38 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-16T16:33:17.042Z",
+  "updatedAt": "2026-08-17T16:36:57.947Z",
   "days": {
-    "2026-07-03": {
-      "title": "Independence Day",
-      "motif": "sunRibbons",
-      "gradient": [
-        "#171c37",
-        "#4d2e45",
-        "#161518"
-      ],
-      "accent": "#679aee",
-      "secondary": "#dc565e",
-      "holidayFamily": "independence-day",
-      "popularityTier": "common",
-      "scopeTier": "national",
-      "tags": [
-        "civic",
-        "celebration",
-        "procession",
-        "sky",
-        "sun"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "US",
-        "countryName": "United States",
-        "typeLabels": [
-          "公众节日",
-          "银行假日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-07-04": {
       "title": "Independence Day",
       "motif": "fireworks",
@@ -1570,6 +1539,37 @@
         "provider": "Nager.Date",
         "countryCode": "UA",
         "countryName": "Ukraine",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-08-25": {
+      "title": "Independence Day",
+      "motif": "oceanCompass",
+      "gradient": [
+        "#152131",
+        "#4c323f",
+        "#151418"
+      ],
+      "accent": "#72a3d3",
+      "secondary": "#db555f",
+      "holidayFamily": "independence-day",
+      "popularityTier": "common",
+      "scopeTier": "national",
+      "tags": [
+        "civic",
+        "celebration",
+        "procession",
+        "maritime",
+        "water",
+        "travel"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "UY",
+        "countryName": "Uruguay",
         "typeLabels": [
           "公众节日"
         ],

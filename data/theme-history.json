@@ -1,37 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-17T16:36:57.947Z",
+  "updatedAt": "2026-08-18T16:55:28.623Z",
   "days": {
-    "2026-07-04": {
-      "title": "Independence Day",
-      "motif": "fireworks",
-      "gradient": [
-        "#121b37",
-        "#492e44",
-        "#111518"
-      ],
-      "accent": "#6299ed",
-      "secondary": "#d6565f",
-      "holidayFamily": "independence-day",
-      "popularityTier": "common",
-      "scopeTier": "national",
-      "tags": [
-        "sky",
-        "celebration",
-        "light",
-        "civic"
-      ],
-      "source": {
-        "provider": "Fixed Holidays",
-        "countryCode": "US",
-        "countryName": "United States",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "nationwide": true,
-        "subdivisions": []
-      }
-    },
     "2026-07-05": {
       "title": "Constitution Day",
       "motif": "cityParade",
@@ -1570,6 +1540,34 @@
         "provider": "Nager.Date",
         "countryCode": "UY",
         "countryName": "Uruguay",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-08-26": {
+      "title": "Heroes' Day",
+      "motif": "wovenPattern",
+      "gradient": [
+        "#1c1824",
+        "#574435",
+        "#141417"
+      ],
+      "accent": "#c9a957",
+      "secondary": "#73afda",
+      "holidayFamily": "heroes-day",
+      "popularityTier": "niche",
+      "scopeTier": "national",
+      "tags": [
+        "culture",
+        "civic",
+        "celebration"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "NA",
+        "countryName": "Namibia",
         "typeLabels": [
           "公众节日"
         ],

@@ -1,43 +1,9 @@
 {
-  "generatedAt": "2026-08-18T16:55:28.623Z",
-  "baseDate": "2026-08-19",
-  "ensuredThrough": "2026-08-26",
+  "generatedAt": "2026-08-20T16:44:33.310Z",
+  "baseDate": "2026-08-21",
+  "ensuredThrough": "2026-08-28",
   "today": "output/today.png",
   "generated": [
-    {
-      "date": "2026-08-19",
-      "output": "output/2026/2026.08/2026.08.19.png",
-      "selectedTheme": "World Photography Day",
-      "selectedMotif": "starfield",
-      "selectedScoreBreakdown": {
-        "basePriority": 68,
-        "popularity": 14,
-        "jitter": 0.673,
-        "motifPenalty": 0,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 42,
-        "finalScore": -1.327
-      },
-      "discardedCount": 1
-    },
-    {
-      "date": "2026-08-20",
-      "output": "output/2026/2026.08/2026.08.20.png",
-      "selectedTheme": "State Foundation Day",
-      "selectedMotif": "cityParade",
-      "selectedScoreBreakdown": {
-        "basePriority": 64,
-        "popularity": 26,
-        "jitter": 4.278,
-        "motifPenalty": 10,
-        "culturalPenalty": 29,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 42,
-        "finalScore": 13.278
-      },
-      "discardedCount": 4
-    },
     {
       "date": "2026-08-21",
       "output": "output/2026/2026.08/2026.08.21.png",
@@ -137,6 +103,40 @@
         "holidayFamilyPenalty": 0,
         "colorPenalty": 42,
         "finalScore": -3.318
+      },
+      "discardedCount": 1
+    },
+    {
+      "date": "2026-08-27",
+      "output": "output/2026/2026.08/2026.08.27.png",
+      "selectedTheme": "Independence Day (Moldova)",
+      "selectedMotif": "cityParade",
+      "selectedScoreBreakdown": {
+        "basePriority": 73,
+        "popularity": 26,
+        "jitter": 1.706,
+        "motifPenalty": 30,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 38,
+        "colorPenalty": 42,
+        "finalScore": -51.294
+      },
+      "discardedCount": 1
+    },
+    {
+      "date": "2026-08-28",
+      "output": "output/2026/2026.08/2026.08.28.png",
+      "selectedTheme": "Saint Mary's Day",
+      "selectedMotif": "stainedGlass",
+      "selectedScoreBreakdown": {
+        "basePriority": 61,
+        "popularity": 8,
+        "jitter": 0.963,
+        "motifPenalty": 0,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 42,
+        "finalScore": -14.037
       },
       "discardedCount": 1
     }

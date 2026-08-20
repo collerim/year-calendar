@@ -1,67 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-18T16:55:28.623Z",
+  "updatedAt": "2026-08-20T16:44:33.309Z",
   "days": {
-    "2026-07-05": {
-      "title": "Constitution Day",
-      "motif": "cityParade",
-      "gradient": [
-        "#112036",
-        "#493142",
-        "#111518"
-      ],
-      "accent": "#6ea2d8",
-      "secondary": "#d6575e",
-      "holidayFamily": "constitution-day",
-      "popularityTier": "common",
-      "scopeTier": "national",
-      "tags": [
-        "civic",
-        "celebration",
-        "procession"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "AM",
-        "countryName": "Armenia",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
-    "2026-07-06": {
-      "title": "National Day",
-      "motif": "lanterns",
-      "gradient": [
-        "#121f38",
-        "#4a3043",
-        "#151417"
-      ],
-      "accent": "#6fa1d9",
-      "secondary": "#db555e",
-      "holidayFamily": "national-day",
-      "popularityTier": "common",
-      "scopeTier": "national",
-      "tags": [
-        "civic",
-        "celebration",
-        "procession",
-        "light",
-        "culture"
-      ],
-      "source": {
-        "provider": "OpenHolidays",
-        "countryCode": "LT",
-        "countryName": "Lithuania",
-        "typeLabels": [
-          "公众节日",
-          "全国性"
-        ],
-        "nationwide": true,
-        "subdivisions": []
-      }
-    },
     "2026-07-07": {
       "title": "Tanabata",
       "motif": "tanabata",
@@ -1568,6 +1508,63 @@
         "provider": "Nager.Date",
         "countryCode": "NA",
         "countryName": "Namibia",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-08-27": {
+      "title": "Independence Day (Moldova)",
+      "motif": "cityParade",
+      "gradient": [
+        "#151f39",
+        "#4c3044",
+        "#15141a"
+      ],
+      "accent": "#72a1da",
+      "secondary": "#db5661",
+      "holidayFamily": "independence-day",
+      "popularityTier": "common",
+      "scopeTier": "national",
+      "tags": [
+        "civic",
+        "celebration",
+        "procession"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "MD",
+        "countryName": "Moldova",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-08-28": {
+      "title": "Saint Mary's Day",
+      "motif": "stainedGlass",
+      "gradient": [
+        "#112035",
+        "#4c3745",
+        "#13151b"
+      ],
+      "accent": "#92bbeb",
+      "secondary": "#d8748f",
+      "holidayFamily": "saint-day",
+      "popularityTier": "niche",
+      "scopeTier": "national",
+      "tags": [
+        "religious",
+        "heritage",
+        "light",
+        "celebration"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "GE",
+        "countryName": "Georgia",
         "typeLabels": [
           "公众节日"
         ],

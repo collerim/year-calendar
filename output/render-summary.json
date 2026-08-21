@@ -1,26 +1,9 @@
 {
-  "generatedAt": "2026-08-20T16:44:33.310Z",
-  "baseDate": "2026-08-21",
-  "ensuredThrough": "2026-08-28",
+  "generatedAt": "2026-08-21T16:44:21.223Z",
+  "baseDate": "2026-08-22",
+  "ensuredThrough": "2026-08-29",
   "today": "output/today.png",
   "generated": [
-    {
-      "date": "2026-08-21",
-      "output": "output/2026/2026.08/2026.08.21.png",
-      "selectedTheme": "Youth Day",
-      "selectedMotif": "crescentLantern",
-      "selectedScoreBreakdown": {
-        "basePriority": 61,
-        "popularity": 34,
-        "jitter": 3.14,
-        "motifPenalty": 0,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 42,
-        "finalScore": 14.14
-      },
-      "discardedCount": 2
-    },
     {
       "date": "2026-08-22",
       "output": "output/2026/2026.08/2026.08.22.png",
@@ -139,6 +122,23 @@
         "finalScore": -14.037
       },
       "discardedCount": 1
+    },
+    {
+      "date": "2026-08-29",
+      "output": "output/2026/2026.08/2026.08.29.png",
+      "selectedTheme": "World Video Game Day",
+      "selectedMotif": "starfield",
+      "selectedScoreBreakdown": {
+        "basePriority": 62,
+        "popularity": 14,
+        "jitter": 1.024,
+        "motifPenalty": 0,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 42,
+        "finalScore": -6.976
+      },
+      "discardedCount": 2
     }
   ],
   "skipped": []

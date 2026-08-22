@@ -1,43 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-21T16:44:21.223Z",
+  "updatedAt": "2026-08-22T16:31:49.785Z",
   "days": {
-    "2026-07-08": {
-      "title": "Municipal holiday",
-      "motif": "lotusMandala",
-      "gradient": [
-        "#1e1628",
-        "#573e5b",
-        "#161416"
-      ],
-      "accent": "#c9a7d6",
-      "secondary": "#83bcab",
-      "holidayFamily": "municipal-local",
-      "popularityTier": "local",
-      "scopeTier": "local",
-      "tags": [
-        "religious",
-        "botanical",
-        "culture",
-        "heritage",
-        "celebration",
-        "maritime"
-      ],
-      "source": {
-        "provider": "OpenHolidays",
-        "countryCode": "PT",
-        "countryName": "Portugal",
-        "typeLabels": [
-          "可选假日",
-          "地方性"
-        ],
-        "nationwide": false,
-        "subdivisions": [
-          "PO-AM",
-          "VR-CH"
-        ]
-      }
-    },
     "2026-07-09": {
       "title": "Constitutionalist Revolution of 1932",
       "motif": "cityParade",
@@ -1566,6 +1530,35 @@
         "countryName": "International",
         "typeLabels": [
           "文化日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-08-30": {
+      "title": "Victory Day",
+      "motif": "laurelTorch",
+      "gradient": [
+        "#171916",
+        "#5b3b30",
+        "#111215"
+      ],
+      "accent": "#c6ac55",
+      "secondary": "#c64f46",
+      "holidayFamily": "remembrance",
+      "popularityTier": "niche",
+      "scopeTier": "national",
+      "tags": [
+        "civic",
+        "remembrance",
+        "light",
+        "celebration"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "TR",
+        "countryName": "Türkiye",
+        "typeLabels": [
+          "公众节日"
         ],
         "subdivisions": []
       }

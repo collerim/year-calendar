@@ -1,36 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-22T16:31:49.785Z",
+  "updatedAt": "2026-08-23T16:33:11.296Z",
   "days": {
-    "2026-07-09": {
-      "title": "Constitutionalist Revolution of 1932",
-      "motif": "cityParade",
-      "gradient": [
-        "#122527",
-        "#465f38",
-        "#101718"
-      ],
-      "accent": "#6eb887",
-      "secondary": "#c8b46a",
-      "holidayFamily": "revolution-day",
-      "popularityTier": "niche",
-      "scopeTier": "national",
-      "tags": [
-        "civic",
-        "celebration",
-        "procession",
-        "sun"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "BR",
-        "countryName": "Brazil",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-07-10": {
       "title": "Independence Day",
       "motif": "oceanCompass",
@@ -1557,6 +1528,36 @@
         "provider": "Nager.Date",
         "countryCode": "TR",
         "countryName": "Türkiye",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-08-31": {
+      "title": "Constitution Day",
+      "motif": "maritimeFlags",
+      "gradient": [
+        "#102631",
+        "#2c6171",
+        "#101618"
+      ],
+      "accent": "#6fbcd3",
+      "secondary": "#ddbc57",
+      "holidayFamily": "constitution-day",
+      "popularityTier": "common",
+      "scopeTier": "national",
+      "tags": [
+        "maritime",
+        "water",
+        "civic",
+        "island",
+        "celebration"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "TC",
+        "countryName": "Turks and Caicos Islands",
         "typeLabels": [
           "公众节日"
         ],

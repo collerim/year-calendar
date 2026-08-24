@@ -1,38 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-23T16:33:11.296Z",
+  "updatedAt": "2026-08-24T16:45:22.752Z",
   "days": {
-    "2026-07-10": {
-      "title": "Independence Day",
-      "motif": "oceanCompass",
-      "gradient": [
-        "#112033",
-        "#493141",
-        "#15141a"
-      ],
-      "accent": "#6ea2d5",
-      "secondary": "#db5661",
-      "holidayFamily": "independence-day",
-      "popularityTier": "common",
-      "scopeTier": "national",
-      "tags": [
-        "civic",
-        "celebration",
-        "procession",
-        "maritime",
-        "water",
-        "travel"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "BS",
-        "countryName": "Bahamas",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-07-11": {
       "title": "World Population Day",
       "motif": "wovenPattern",
@@ -1560,6 +1529,34 @@
         "countryName": "Turks and Caicos Islands",
         "typeLabels": [
           "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-09-01": {
+      "title": "Day of the Constitution of the Slovak Republic",
+      "motif": "cityParade",
+      "gradient": [
+        "#112238",
+        "#493243",
+        "#141416"
+      ],
+      "accent": "#6ea4d9",
+      "secondary": "#d9555c",
+      "holidayFamily": "republic-day",
+      "popularityTier": "common",
+      "scopeTier": "unknown",
+      "tags": [
+        "civic",
+        "celebration",
+        "procession"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "SK",
+        "countryName": "Slovakia",
+        "typeLabels": [
+          "纪念日"
         ],
         "subdivisions": []
       }

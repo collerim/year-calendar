@@ -1,26 +1,9 @@
 {
-  "generatedAt": "2026-08-23T16:33:11.297Z",
-  "baseDate": "2026-08-24",
-  "ensuredThrough": "2026-08-31",
+  "generatedAt": "2026-08-24T16:45:22.752Z",
+  "baseDate": "2026-08-25",
+  "ensuredThrough": "2026-09-01",
   "today": "output/today.png",
   "generated": [
-    {
-      "date": "2026-08-24",
-      "output": "output/2026/2026.08/2026.08.24.png",
-      "selectedTheme": "Independence Day",
-      "selectedMotif": "cityParade",
-      "selectedScoreBreakdown": {
-        "basePriority": 69,
-        "popularity": 26,
-        "jitter": 4.187,
-        "motifPenalty": 14,
-        "culturalPenalty": 30,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 42,
-        "finalScore": 13.187
-      },
-      "discardedCount": 2
-    },
     {
       "date": "2026-08-25",
       "output": "output/2026/2026.08/2026.08.25.png",
@@ -139,6 +122,23 @@
         "finalScore": 37.656
       },
       "discardedCount": 7
+    },
+    {
+      "date": "2026-09-01",
+      "output": "output/2026/2026.09/2026.09.01.png",
+      "selectedTheme": "Day of the Constitution of the Slovak Republic",
+      "selectedMotif": "cityParade",
+      "selectedScoreBreakdown": {
+        "basePriority": 64,
+        "popularity": 12,
+        "jitter": 0.453,
+        "motifPenalty": 10,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 42,
+        "finalScore": -17.547
+      },
+      "discardedCount": 0
     }
   ],
   "skipped": []

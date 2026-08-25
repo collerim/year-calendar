@@ -1,26 +1,9 @@
 {
-  "generatedAt": "2026-08-24T16:45:22.752Z",
-  "baseDate": "2026-08-25",
-  "ensuredThrough": "2026-09-01",
+  "generatedAt": "2026-08-25T17:04:05.787Z",
+  "baseDate": "2026-08-26",
+  "ensuredThrough": "2026-09-02",
   "today": "output/today.png",
   "generated": [
-    {
-      "date": "2026-08-25",
-      "output": "output/2026/2026.08/2026.08.25.png",
-      "selectedTheme": "Independence Day",
-      "selectedMotif": "oceanCompass",
-      "selectedScoreBreakdown": {
-        "basePriority": 69,
-        "popularity": 26,
-        "jitter": 5.726,
-        "motifPenalty": 0,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 48,
-        "colorPenalty": 42,
-        "finalScore": -31.274
-      },
-      "discardedCount": 1
-    },
     {
       "date": "2026-08-26",
       "output": "output/2026/2026.08/2026.08.26.png",
@@ -139,6 +122,23 @@
         "finalScore": -17.547
       },
       "discardedCount": 0
+    },
+    {
+      "date": "2026-09-02",
+      "output": "output/2026/2026.09/2026.09.02.png",
+      "selectedTheme": "National Day",
+      "selectedMotif": "sportsMedals",
+      "selectedScoreBreakdown": {
+        "basePriority": 69,
+        "popularity": 26,
+        "jitter": 1.336,
+        "motifPenalty": 0,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 42,
+        "finalScore": 12.336
+      },
+      "discardedCount": 1
     }
   ],
   "skipped": []

@@ -1,36 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-24T16:45:22.752Z",
+  "updatedAt": "2026-08-25T17:04:05.786Z",
   "days": {
-    "2026-07-11": {
-      "title": "World Population Day",
-      "motif": "wovenPattern",
-      "gradient": [
-        "#191722",
-        "#554334",
-        "#111517"
-      ],
-      "accent": "#c7a856",
-      "secondary": "#70b2da",
-      "holidayFamily": "culture-observance",
-      "popularityTier": "observance",
-      "scopeTier": "international",
-      "tags": [
-        "culture",
-        "civic",
-        "celebration",
-        "international"
-      ],
-      "source": {
-        "provider": "Curated Cultural Observances",
-        "countryCode": "INTL",
-        "countryName": "International",
-        "typeLabels": [
-          "文化日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-07-12": {
       "title": "Orangemen's Day",
       "motif": "musicWaves",
@@ -1557,6 +1528,35 @@
         "countryName": "Slovakia",
         "typeLabels": [
           "纪念日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-09-02": {
+      "title": "National Day",
+      "motif": "sportsMedals",
+      "gradient": [
+        "#151d30",
+        "#4c2f3e",
+        "#121517"
+      ],
+      "accent": "#72a0d2",
+      "secondary": "#d7575d",
+      "holidayFamily": "national-day",
+      "popularityTier": "common",
+      "scopeTier": "national",
+      "tags": [
+        "civic",
+        "celebration",
+        "procession",
+        "sports"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "VN",
+        "countryName": "Vietnam",
+        "typeLabels": [
+          "公众节日"
         ],
         "subdivisions": []
       }

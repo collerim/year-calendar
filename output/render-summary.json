@@ -1,26 +1,9 @@
 {
-  "generatedAt": "2026-08-25T17:04:05.787Z",
-  "baseDate": "2026-08-26",
-  "ensuredThrough": "2026-09-02",
+  "generatedAt": "2026-08-26T16:53:51.630Z",
+  "baseDate": "2026-08-27",
+  "ensuredThrough": "2026-09-03",
   "today": "output/today.png",
   "generated": [
-    {
-      "date": "2026-08-26",
-      "output": "output/2026/2026.08/2026.08.26.png",
-      "selectedTheme": "Heroes' Day",
-      "selectedMotif": "wovenPattern",
-      "selectedScoreBreakdown": {
-        "basePriority": 65,
-        "popularity": 14,
-        "jitter": 1.682,
-        "motifPenalty": 0,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 42,
-        "finalScore": -3.318
-      },
-      "discardedCount": 1
-    },
     {
       "date": "2026-08-27",
       "output": "output/2026/2026.08/2026.08.27.png",
@@ -139,6 +122,23 @@
         "finalScore": 12.336
       },
       "discardedCount": 1
+    },
+    {
+      "date": "2026-09-03",
+      "output": "output/2026/2026.09/2026.09.03.png",
+      "selectedTheme": "San Marino Foundation Day",
+      "selectedMotif": "mountainFlags",
+      "selectedScoreBreakdown": {
+        "basePriority": 80,
+        "popularity": 26,
+        "jitter": 4.388,
+        "motifPenalty": 0,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 42,
+        "finalScore": 26.388
+      },
+      "discardedCount": 4
     }
   ],
   "skipped": []

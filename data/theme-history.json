@@ -1,37 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-25T17:04:05.786Z",
+  "updatedAt": "2026-08-26T16:53:51.629Z",
   "days": {
-    "2026-07-12": {
-      "title": "Orangemen's Day",
-      "motif": "musicWaves",
-      "gradient": [
-        "#1d1822",
-        "#662a37",
-        "#121415"
-      ],
-      "accent": "#d85561",
-      "secondary": "#e1e3e3",
-      "holidayFamily": "national-civic-day",
-      "popularityTier": "niche",
-      "scopeTier": "national",
-      "tags": [
-        "culture",
-        "civic",
-        "celebration",
-        "botanical",
-        "music"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "CA",
-        "countryName": "Canada",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-07-13": {
       "title": "Naadam Holiday",
       "motif": "lotusMandala",
@@ -1558,6 +1528,35 @@
         "typeLabels": [
           "公众节日"
         ],
+        "subdivisions": []
+      }
+    },
+    "2026-09-03": {
+      "title": "San Marino Foundation Day",
+      "motif": "mountainFlags",
+      "gradient": [
+        "#11213a",
+        "#364f6b",
+        "#14151b"
+      ],
+      "accent": "#74acd8",
+      "secondary": "#e2dfe4",
+      "holidayFamily": "foundation-day",
+      "popularityTier": "common",
+      "scopeTier": "national",
+      "tags": [
+        "mountain",
+        "civic",
+        "celebration"
+      ],
+      "source": {
+        "provider": "Fixed Holidays",
+        "countryCode": "SM",
+        "countryName": "San Marino",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "nationwide": true,
         "subdivisions": []
       }
     }

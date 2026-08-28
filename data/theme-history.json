@@ -1,37 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-26T16:53:51.629Z",
+  "updatedAt": "2026-08-28T00:50:35.111Z",
   "days": {
-    "2026-07-13": {
-      "title": "Naadam Holiday",
-      "motif": "lotusMandala",
-      "gradient": [
-        "#171828",
-        "#52405a",
-        "#151414"
-      ],
-      "accent": "#c3a9d5",
-      "secondary": "#82bca9",
-      "holidayFamily": "religious-observance",
-      "popularityTier": "niche",
-      "scopeTier": "national",
-      "tags": [
-        "religious",
-        "botanical",
-        "culture",
-        "heritage",
-        "celebration"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "MN",
-        "countryName": "Mongolia",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-07-14": {
       "title": "National Day",
       "motif": "stainedGlass",
@@ -1559,6 +1529,32 @@
         "nationwide": true,
         "subdivisions": []
       }
+    },
+    "2026-09-04": {
+      "title": "九月暖雾",
+      "motif": "teaSteam",
+      "gradient": [
+        "#21261c",
+        "#625636",
+        "#121718"
+      ],
+      "accent": "#b89753",
+      "secondary": "#7c9163",
+      "holidayFamily": "seasonal-fallback",
+      "popularityTier": "niche",
+      "scopeTier": "unknown",
+      "tags": [
+        "culture",
+        "light",
+        "winter",
+        "botanical",
+        "sky",
+        "seasonal",
+        "harvest",
+        "autumn",
+        "month-mood"
+      ],
+      "source": null
     }
   }
 }

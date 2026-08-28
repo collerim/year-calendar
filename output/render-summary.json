@@ -1,26 +1,9 @@
 {
-  "generatedAt": "2026-08-26T16:53:51.630Z",
-  "baseDate": "2026-08-27",
-  "ensuredThrough": "2026-09-03",
+  "generatedAt": "2026-08-28T00:50:35.112Z",
+  "baseDate": "2026-08-28",
+  "ensuredThrough": "2026-09-04",
   "today": "output/today.png",
   "generated": [
-    {
-      "date": "2026-08-27",
-      "output": "output/2026/2026.08/2026.08.27.png",
-      "selectedTheme": "Independence Day (Moldova)",
-      "selectedMotif": "cityParade",
-      "selectedScoreBreakdown": {
-        "basePriority": 73,
-        "popularity": 26,
-        "jitter": 1.706,
-        "motifPenalty": 30,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 38,
-        "colorPenalty": 42,
-        "finalScore": -51.294
-      },
-      "discardedCount": 1
-    },
     {
       "date": "2026-08-28",
       "output": "output/2026/2026.08/2026.08.28.png",
@@ -139,6 +122,23 @@
         "finalScore": 26.388
       },
       "discardedCount": 4
+    },
+    {
+      "date": "2026-09-04",
+      "output": "output/2026/2026.09/2026.09.04.png",
+      "selectedTheme": "九月暖雾",
+      "selectedMotif": "teaSteam",
+      "selectedScoreBreakdown": {
+        "basePriority": 30,
+        "popularity": 0,
+        "jitter": 3.713,
+        "motifPenalty": 0,
+        "culturalPenalty": 0,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 12,
+        "finalScore": 21.713
+      },
+      "discardedCount": 10
     }
   ],
   "skipped": []

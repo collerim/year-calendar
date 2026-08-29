@@ -1,37 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-28T00:50:35.111Z",
+  "updatedAt": "2026-08-29T00:31:26.307Z",
   "days": {
-    "2026-07-14": {
-      "title": "National Day",
-      "motif": "stainedGlass",
-      "gradient": [
-        "#141c30",
-        "#4e3441",
-        "#151417"
-      ],
-      "accent": "#94b8e7",
-      "secondary": "#db728b",
-      "holidayFamily": "national-day",
-      "popularityTier": "common",
-      "scopeTier": "national",
-      "tags": [
-        "religious",
-        "heritage",
-        "light",
-        "civic",
-        "celebration"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "PM",
-        "countryName": "Saint Pierre and Miquelon",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-07-15": {
       "title": "Democracy and National Unity Day",
       "motif": "cityParade",
@@ -1549,6 +1519,32 @@
         "winter",
         "botanical",
         "sky",
+        "seasonal",
+        "harvest",
+        "autumn",
+        "month-mood"
+      ],
+      "source": null
+    },
+    "2026-09-05": {
+      "title": "九月晴风",
+      "motif": "paperKites",
+      "gradient": [
+        "#281d21",
+        "#674f39",
+        "#15151a"
+      ],
+      "accent": "#bd8f56",
+      "secondary": "#808e66",
+      "holidayFamily": "seasonal-fallback",
+      "popularityTier": "niche",
+      "scopeTier": "unknown",
+      "tags": [
+        "sky",
+        "celebration",
+        "wind",
+        "botanical",
+        "light",
         "seasonal",
         "harvest",
         "autumn",

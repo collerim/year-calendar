@@ -1,26 +1,9 @@
 {
-  "generatedAt": "2026-08-29T19:21:39.540Z",
-  "baseDate": "2026-08-30",
-  "ensuredThrough": "2026-09-06",
+  "generatedAt": "2026-08-30T19:15:09.850Z",
+  "baseDate": "2026-08-31",
+  "ensuredThrough": "2026-09-07",
   "today": "output/today.png",
   "generated": [
-    {
-      "date": "2026-08-30",
-      "output": "output/2026/2026.08/2026.08.30.png",
-      "selectedTheme": "Victory Day",
-      "selectedMotif": "laurelTorch",
-      "selectedScoreBreakdown": {
-        "basePriority": 61,
-        "popularity": 14,
-        "jitter": 5.079,
-        "motifPenalty": 0,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 27,
-        "finalScore": 11.079
-      },
-      "discardedCount": 2
-    },
     {
       "date": "2026-08-31",
       "output": "output/2026/2026.08/2026.08.31.png",
@@ -139,6 +122,23 @@
         "finalScore": 9.591
       },
       "discardedCount": 1
+    },
+    {
+      "date": "2026-09-07",
+      "output": "output/2026/2026.09/2026.09.07.png",
+      "selectedTheme": "Labour Day",
+      "selectedMotif": "sunRibbons",
+      "selectedScoreBreakdown": {
+        "basePriority": 78,
+        "popularity": 30,
+        "jitter": 2.966,
+        "motifPenalty": 0,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 20,
+        "finalScore": 48.966
+      },
+      "discardedCount": 7
     }
   ],
   "skipped": []

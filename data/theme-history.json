@@ -1,34 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-29T19:21:39.539Z",
+  "updatedAt": "2026-08-30T19:15:09.849Z",
   "days": {
-    "2026-07-16": {
-      "title": "Our Lady of Mount Carmel",
-      "motif": "wovenPattern",
-      "gradient": [
-        "#171e28",
-        "#544838",
-        "#121518"
-      ],
-      "accent": "#c5ae5a",
-      "secondary": "#71b1db",
-      "holidayFamily": "national-civic-day",
-      "popularityTier": "niche",
-      "scopeTier": "national",
-      "tags": [
-        "culture",
-        "civic"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "CL",
-        "countryName": "Chile",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-07-17": {
       "title": "Constitution Day",
       "motif": "sportsMedals",
@@ -1548,6 +1521,37 @@
         "countryName": "Caribbean Netherlands",
         "typeLabels": [
           "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-09-07": {
+      "title": "Labour Day",
+      "motif": "sunRibbons",
+      "gradient": [
+        "#121e39",
+        "#493046",
+        "#121517"
+      ],
+      "accent": "#629cef",
+      "secondary": "#d7575d",
+      "holidayFamily": "labour-day",
+      "popularityTier": "common",
+      "scopeTier": "national",
+      "tags": [
+        "civic",
+        "celebration",
+        "culture",
+        "sky",
+        "sun"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "US",
+        "countryName": "United States",
+        "typeLabels": [
+          "公众节日",
+          "银行假日"
         ],
         "subdivisions": []
       }

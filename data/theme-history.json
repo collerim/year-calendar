@@ -1,37 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-30T19:15:09.849Z",
+  "updatedAt": "2026-08-31T21:26:02.502Z",
   "days": {
-    "2026-07-17": {
-      "title": "Constitution Day",
-      "motif": "sportsMedals",
-      "gradient": [
-        "#111b30",
-        "#483f58",
-        "#13151b"
-      ],
-      "accent": "#dcdfe3",
-      "secondary": "#c9525b",
-      "holidayFamily": "constitution-day",
-      "popularityTier": "common",
-      "scopeTier": "national",
-      "tags": [
-        "civic",
-        "celebration",
-        "procession",
-        "sky",
-        "sports"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "KR",
-        "countryName": "South Korea",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-07-18": {
       "title": "Municipal holiday",
       "motif": "lotusMandala",
@@ -1553,6 +1523,35 @@
           "公众节日",
           "银行假日"
         ],
+        "subdivisions": []
+      }
+    },
+    "2026-09-08": {
+      "title": "Andorra National Day",
+      "motif": "mountainFlags",
+      "gradient": [
+        "#191d37",
+        "#604027",
+        "#141314"
+      ],
+      "accent": "#e0a84d",
+      "secondary": "#6996bf",
+      "holidayFamily": "national-day",
+      "popularityTier": "common",
+      "scopeTier": "national",
+      "tags": [
+        "mountain",
+        "civic",
+        "celebration"
+      ],
+      "source": {
+        "provider": "Fixed Holidays",
+        "countryCode": "AD",
+        "countryName": "Andorra",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "nationwide": true,
         "subdivisions": []
       }
     }

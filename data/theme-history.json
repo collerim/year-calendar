@@ -1,42 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-31T21:26:02.502Z",
+  "updatedAt": "2026-09-01T19:23:29.235Z",
   "days": {
-    "2026-07-18": {
-      "title": "Municipal holiday",
-      "motif": "lotusMandala",
-      "gradient": [
-        "#1b1624",
-        "#553e58",
-        "#111617"
-      ],
-      "accent": "#c6a7d2",
-      "secondary": "#7ebeac",
-      "holidayFamily": "municipal-local",
-      "popularityTier": "local",
-      "scopeTier": "local",
-      "tags": [
-        "religious",
-        "botanical",
-        "culture",
-        "heritage",
-        "celebration",
-        "maritime"
-      ],
-      "source": {
-        "provider": "OpenHolidays",
-        "countryCode": "PT",
-        "countryName": "Portugal",
-        "typeLabels": [
-          "可选假日",
-          "地方性"
-        ],
-        "nationwide": false,
-        "subdivisions": [
-          "AC-NO"
-        ]
-      }
-    },
     "2026-07-19": {
       "title": "Liberation Day",
       "motif": "laurelTorch",
@@ -1554,6 +1519,33 @@
         "nationwide": true,
         "subdivisions": []
       }
+    },
+    "2026-09-09": {
+      "title": "九月菱绣",
+      "motif": "folkEmbroidery",
+      "gradient": [
+        "#29241d",
+        "#695436",
+        "#13171b"
+      ],
+      "accent": "#bf9553",
+      "secondary": "#7d9167",
+      "holidayFamily": "seasonal-fallback",
+      "popularityTier": "niche",
+      "scopeTier": "unknown",
+      "tags": [
+        "folk",
+        "heritage",
+        "culture",
+        "botanical",
+        "sky",
+        "light",
+        "seasonal",
+        "harvest",
+        "autumn",
+        "month-mood"
+      ],
+      "source": null
     }
   }
 }

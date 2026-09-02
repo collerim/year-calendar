@@ -1,26 +1,9 @@
 {
-  "generatedAt": "2026-09-01T19:23:29.236Z",
-  "baseDate": "2026-09-02",
-  "ensuredThrough": "2026-09-09",
+  "generatedAt": "2026-09-02T19:21:00.837Z",
+  "baseDate": "2026-09-03",
+  "ensuredThrough": "2026-09-10",
   "today": "output/today.png",
   "generated": [
-    {
-      "date": "2026-09-02",
-      "output": "output/2026/2026.09/2026.09.02.png",
-      "selectedTheme": "National Day",
-      "selectedMotif": "sportsMedals",
-      "selectedScoreBreakdown": {
-        "basePriority": 69,
-        "popularity": 26,
-        "jitter": 1.336,
-        "motifPenalty": 0,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 42,
-        "finalScore": 12.336
-      },
-      "discardedCount": 1
-    },
     {
       "date": "2026-09-03",
       "output": "output/2026/2026.09/2026.09.03.png",
@@ -139,6 +122,23 @@
         "finalScore": -7.806
       },
       "discardedCount": 10
+    },
+    {
+      "date": "2026-09-10",
+      "output": "output/2026/2026.09/2026.09.10.png",
+      "selectedTheme": "Gibraltar National Day",
+      "selectedMotif": "cityParade",
+      "selectedScoreBreakdown": {
+        "basePriority": 73,
+        "popularity": 26,
+        "jitter": 0.336,
+        "motifPenalty": 0,
+        "culturalPenalty": 34,
+        "holidayFamilyPenalty": 24,
+        "colorPenalty": 42,
+        "finalScore": -0.664
+      },
+      "discardedCount": 4
     }
   ],
   "skipped": []

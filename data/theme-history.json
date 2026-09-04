@@ -1,37 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-03T19:17:14.216Z",
+  "updatedAt": "2026-09-04T18:57:21.419Z",
   "days": {
-    "2026-07-21": {
-      "title": "National Day",
-      "motif": "cityParade",
-      "gradient": [
-        "#101f34",
-        "#483041",
-        "#111519"
-      ],
-      "accent": "#6ea1d6",
-      "secondary": "#d65660",
-      "holidayFamily": "national-day",
-      "popularityTier": "common",
-      "scopeTier": "national",
-      "tags": [
-        "civic",
-        "celebration",
-        "procession"
-      ],
-      "source": {
-        "provider": "OpenHolidays",
-        "countryCode": "BE",
-        "countryName": "Belgium",
-        "typeLabels": [
-          "公众节日",
-          "全国性"
-        ],
-        "nationwide": true,
-        "subdivisions": []
-      }
-    },
     "2026-07-22": {
       "title": "Revolution Day",
       "motif": "wovenPattern",
@@ -1543,6 +1513,30 @@
         ],
         "subdivisions": []
       }
+    },
+    "2026-09-12": {
+      "title": "九月微月",
+      "motif": "moonOrbit",
+      "gradient": [
+        "#22222a",
+        "#635340",
+        "#181518"
+      ],
+      "accent": "#b9945e",
+      "secondary": "#838e63",
+      "holidayFamily": "seasonal-fallback",
+      "popularityTier": "niche",
+      "scopeTier": "unknown",
+      "tags": [
+        "sky",
+        "light",
+        "seasonal",
+        "botanical",
+        "harvest",
+        "autumn",
+        "month-mood"
+      ],
+      "source": null
     }
   }
 }

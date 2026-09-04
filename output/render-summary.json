@@ -1,26 +1,9 @@
 {
-  "generatedAt": "2026-09-03T19:17:14.216Z",
-  "baseDate": "2026-09-04",
-  "ensuredThrough": "2026-09-11",
+  "generatedAt": "2026-09-04T18:57:21.420Z",
+  "baseDate": "2026-09-05",
+  "ensuredThrough": "2026-09-12",
   "today": "output/today.png",
   "generated": [
-    {
-      "date": "2026-09-04",
-      "output": "output/2026/2026.09/2026.09.04.png",
-      "selectedTheme": "九月暖雾",
-      "selectedMotif": "teaSteam",
-      "selectedScoreBreakdown": {
-        "basePriority": 30,
-        "popularity": 0,
-        "jitter": 3.713,
-        "motifPenalty": 0,
-        "culturalPenalty": 0,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 12,
-        "finalScore": 21.713
-      },
-      "discardedCount": 10
-    },
     {
       "date": "2026-09-05",
       "output": "output/2026/2026.09/2026.09.05.png",
@@ -139,6 +122,23 @@
         "finalScore": -26.118
       },
       "discardedCount": 1
+    },
+    {
+      "date": "2026-09-12",
+      "output": "output/2026/2026.09/2026.09.12.png",
+      "selectedTheme": "九月微月",
+      "selectedMotif": "moonOrbit",
+      "selectedScoreBreakdown": {
+        "basePriority": 29.5,
+        "popularity": 0,
+        "jitter": 5.099,
+        "motifPenalty": 0,
+        "culturalPenalty": 0,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 42,
+        "finalScore": -7.401
+      },
+      "discardedCount": 10
     }
   ],
   "skipped": []

@@ -1,35 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-04T18:57:21.419Z",
+  "updatedAt": "2026-09-05T18:03:44.186Z",
   "days": {
-    "2026-07-22": {
-      "title": "Revolution Day",
-      "motif": "wovenPattern",
-      "gradient": [
-        "#1d1c22",
-        "#584733",
-        "#141314"
-      ],
-      "accent": "#caac55",
-      "secondary": "#73afd6",
-      "holidayFamily": "revolution-day",
-      "popularityTier": "niche",
-      "scopeTier": "national",
-      "tags": [
-        "culture",
-        "civic",
-        "celebration"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "GM",
-        "countryName": "Gambia",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-07-23": {
       "title": "Remembrance Day",
       "motif": "doveGarland",
@@ -1532,6 +1504,32 @@
         "light",
         "seasonal",
         "botanical",
+        "harvest",
+        "autumn",
+        "month-mood"
+      ],
+      "source": null
+    },
+    "2026-09-13": {
+      "title": "九月光串",
+      "motif": "lanterns",
+      "gradient": [
+        "#1f242a",
+        "#615440",
+        "#141815"
+      ],
+      "accent": "#b6955e",
+      "secondary": "#7f925f",
+      "holidayFamily": "seasonal-fallback",
+      "popularityTier": "niche",
+      "scopeTier": "unknown",
+      "tags": [
+        "light",
+        "celebration",
+        "culture",
+        "botanical",
+        "sky",
+        "seasonal",
         "harvest",
         "autumn",
         "month-mood"

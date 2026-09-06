@@ -1,26 +1,9 @@
 {
-  "generatedAt": "2026-09-05T18:03:44.187Z",
-  "baseDate": "2026-09-06",
-  "ensuredThrough": "2026-09-13",
+  "generatedAt": "2026-09-06T18:11:34.478Z",
+  "baseDate": "2026-09-07",
+  "ensuredThrough": "2026-09-14",
   "today": "output/today.png",
   "generated": [
-    {
-      "date": "2026-09-06",
-      "output": "output/2026/2026.09/2026.09.06.png",
-      "selectedTheme": "Bonaire Flag Day",
-      "selectedMotif": "paperCut",
-      "selectedScoreBreakdown": {
-        "basePriority": 59,
-        "popularity": 14,
-        "jitter": 2.591,
-        "motifPenalty": 0,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 24,
-        "finalScore": 9.591
-      },
-      "discardedCount": 1
-    },
     {
       "date": "2026-09-07",
       "output": "output/2026/2026.09/2026.09.07.png",
@@ -139,6 +122,23 @@
         "finalScore": -8.698
       },
       "discardedCount": 10
+    },
+    {
+      "date": "2026-09-14",
+      "output": "output/2026/2026.09/2026.09.14.png",
+      "selectedTheme": "Battle of San Jacinto",
+      "selectedMotif": "wovenPattern",
+      "selectedScoreBreakdown": {
+        "basePriority": 61,
+        "popularity": 8,
+        "jitter": 1.242,
+        "motifPenalty": 0,
+        "culturalPenalty": 33,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 42,
+        "finalScore": -4.758
+      },
+      "discardedCount": 2
     }
   ],
   "skipped": []

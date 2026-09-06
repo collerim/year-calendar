@@ -1,37 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-05T18:03:44.186Z",
+  "updatedAt": "2026-09-06T18:11:34.478Z",
   "days": {
-    "2026-07-23": {
-      "title": "Remembrance Day",
-      "motif": "doveGarland",
-      "gradient": [
-        "#171927",
-        "#404958",
-        "#11151a"
-      ],
-      "accent": "#e1dbc5",
-      "secondary": "#c8b46d",
-      "holidayFamily": "remembrance",
-      "popularityTier": "niche",
-      "scopeTier": "national",
-      "tags": [
-        "remembrance",
-        "light",
-        "civic",
-        "memorial",
-        "celebration"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "PG",
-        "countryName": "Papua New Guinea",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-07-24": {
       "title": "Simón Bolívar's Birthday",
       "motif": "paperCut",
@@ -1535,6 +1505,33 @@
         "month-mood"
       ],
       "source": null
+    },
+    "2026-09-14": {
+      "title": "Battle of San Jacinto",
+      "motif": "wovenPattern",
+      "gradient": [
+        "#161b25",
+        "#534636",
+        "#131315"
+      ],
+      "accent": "#c4ab58",
+      "secondary": "#71aed7",
+      "holidayFamily": "saint-day",
+      "popularityTier": "niche",
+      "scopeTier": "national",
+      "tags": [
+        "culture",
+        "civic"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "NI",
+        "countryName": "Nicaragua",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
     }
   }
 }

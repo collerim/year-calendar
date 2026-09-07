@@ -1,35 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-06T18:11:34.478Z",
+  "updatedAt": "2026-09-07T19:47:35.850Z",
   "days": {
-    "2026-07-24": {
-      "title": "Simón Bolívar's Birthday",
-      "motif": "paperCut",
-      "gradient": [
-        "#191b22",
-        "#544633",
-        "#151416"
-      ],
-      "accent": "#c6ac55",
-      "secondary": "#75b0d9",
-      "holidayFamily": "national-civic-day",
-      "popularityTier": "niche",
-      "scopeTier": "national",
-      "tags": [
-        "culture",
-        "civic",
-        "celebration"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "VE",
-        "countryName": "Venezuela",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-07-25": {
       "title": "Puerto Rico Constitution Day",
       "motif": "cityParade",
@@ -1530,6 +1502,37 @@
         "typeLabels": [
           "公众节日"
         ],
+        "subdivisions": []
+      }
+    },
+    "2026-09-15": {
+      "title": "Day of Our Lady of the Seven Sorrows",
+      "motif": "tanabata",
+      "gradient": [
+        "#181a33",
+        "#333467",
+        "#14131c"
+      ],
+      "accent": "#98b9ea",
+      "secondary": "#d7b967",
+      "holidayFamily": "public-holiday",
+      "popularityTier": "niche",
+      "scopeTier": "national",
+      "tags": [
+        "sky",
+        "wish",
+        "light",
+        "celebration"
+      ],
+      "source": {
+        "provider": "OpenHolidays",
+        "countryCode": "SK",
+        "countryName": "Slovakia",
+        "typeLabels": [
+          "公众节日",
+          "全国性"
+        ],
+        "nationwide": true,
         "subdivisions": []
       }
     }

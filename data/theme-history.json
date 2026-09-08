@@ -1,35 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-07T19:47:35.850Z",
+  "updatedAt": "2026-09-08T19:23:23.427Z",
   "days": {
-    "2026-07-25": {
-      "title": "Puerto Rico Constitution Day",
-      "motif": "cityParade",
-      "gradient": [
-        "#121d37",
-        "#4a2f42",
-        "#141419"
-      ],
-      "accent": "#6fa0d8",
-      "secondary": "#d95560",
-      "holidayFamily": "constitution-day",
-      "popularityTier": "common",
-      "scopeTier": "national",
-      "tags": [
-        "civic",
-        "celebration",
-        "procession"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "PR",
-        "countryName": "Puerto Rico",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-07-26": {
       "title": "Maldives Independence Day",
       "motif": "waterFlowers",
@@ -1531,6 +1503,34 @@
         "typeLabels": [
           "公众节日",
           "全国性"
+        ],
+        "nationwide": true,
+        "subdivisions": []
+      }
+    },
+    "2026-09-16": {
+      "title": "Mexico Independence Day",
+      "motif": "tricolor",
+      "gradient": [
+        "#102623",
+        "#4c3838",
+        "#131619"
+      ],
+      "accent": "#66b070",
+      "secondary": "#d85661",
+      "holidayFamily": "independence-day",
+      "popularityTier": "common",
+      "scopeTier": "national",
+      "tags": [
+        "civic",
+        "celebration"
+      ],
+      "source": {
+        "provider": "Fixed Holidays",
+        "countryCode": "MX",
+        "countryName": "Mexico",
+        "typeLabels": [
+          "公众节日"
         ],
         "nationwide": true,
         "subdivisions": []

@@ -1,26 +1,9 @@
 {
-  "generatedAt": "2026-09-07T19:47:35.850Z",
-  "baseDate": "2026-09-08",
-  "ensuredThrough": "2026-09-15",
+  "generatedAt": "2026-09-08T19:23:23.428Z",
+  "baseDate": "2026-09-09",
+  "ensuredThrough": "2026-09-16",
   "today": "output/today.png",
   "generated": [
-    {
-      "date": "2026-09-08",
-      "output": "output/2026/2026.09/2026.09.08.png",
-      "selectedTheme": "Andorra National Day",
-      "selectedMotif": "mountainFlags",
-      "selectedScoreBreakdown": {
-        "basePriority": 80,
-        "popularity": 26,
-        "jitter": 0.938,
-        "motifPenalty": 10,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 42,
-        "finalScore": 12.938
-      },
-      "discardedCount": 8
-    },
     {
       "date": "2026-09-09",
       "output": "output/2026/2026.09/2026.09.09.png",
@@ -139,6 +122,23 @@
         "finalScore": 58.76
       },
       "discardedCount": 7
+    },
+    {
+      "date": "2026-09-16",
+      "output": "output/2026/2026.09/2026.09.16.png",
+      "selectedTheme": "Mexico Independence Day",
+      "selectedMotif": "tricolor",
+      "selectedScoreBreakdown": {
+        "basePriority": 76,
+        "popularity": 26,
+        "jitter": 0.107,
+        "motifPenalty": 0,
+        "culturalPenalty": 40,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 40,
+        "finalScore": 22.107
+      },
+      "discardedCount": 4
     }
   ],
   "skipped": []

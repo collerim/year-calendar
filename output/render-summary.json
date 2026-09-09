@@ -1,26 +1,9 @@
 {
-  "generatedAt": "2026-09-08T19:23:23.428Z",
-  "baseDate": "2026-09-09",
-  "ensuredThrough": "2026-09-16",
+  "generatedAt": "2026-09-09T19:12:59.583Z",
+  "baseDate": "2026-09-10",
+  "ensuredThrough": "2026-09-17",
   "today": "output/today.png",
   "generated": [
-    {
-      "date": "2026-09-09",
-      "output": "output/2026/2026.09/2026.09.09.png",
-      "selectedTheme": "九月菱绣",
-      "selectedMotif": "folkEmbroidery",
-      "selectedScoreBreakdown": {
-        "basePriority": 29.75,
-        "popularity": 0,
-        "jitter": 4.444,
-        "motifPenalty": 0,
-        "culturalPenalty": 0,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 42,
-        "finalScore": -7.806
-      },
-      "discardedCount": 10
-    },
     {
       "date": "2026-09-10",
       "output": "output/2026/2026.09/2026.09.10.png",
@@ -139,6 +122,23 @@
         "finalScore": 22.107
       },
       "discardedCount": 4
+    },
+    {
+      "date": "2026-09-17",
+      "output": "output/2026/2026.09/2026.09.17.png",
+      "selectedTheme": "National Heroes' Day",
+      "selectedMotif": "cityParade",
+      "selectedScoreBreakdown": {
+        "basePriority": 69,
+        "popularity": 14,
+        "jitter": 2.205,
+        "motifPenalty": 5,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 42,
+        "finalScore": -3.795
+      },
+      "discardedCount": 2
     }
   ],
   "skipped": []

@@ -1,38 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-08T19:23:23.427Z",
+  "updatedAt": "2026-09-09T19:12:59.582Z",
   "days": {
-    "2026-07-26": {
-      "title": "Maldives Independence Day",
-      "motif": "waterFlowers",
-      "gradient": [
-        "#0e2c2f",
-        "#246159",
-        "#131516"
-      ],
-      "accent": "#67c0bf",
-      "secondary": "#cb5055",
-      "holidayFamily": "independence-day",
-      "popularityTier": "common",
-      "scopeTier": "national",
-      "tags": [
-        "water",
-        "botanical",
-        "island",
-        "civic",
-        "celebration"
-      ],
-      "source": {
-        "provider": "Fixed Holidays",
-        "countryCode": "MV",
-        "countryName": "Maldives",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "nationwide": true,
-        "subdivisions": []
-      }
-    },
     "2026-07-27": {
       "title": "Day after the Commemoration of the Assault of the Moncada garrison",
       "motif": "wovenPattern",
@@ -1533,6 +1502,34 @@
           "公众节日"
         ],
         "nationwide": true,
+        "subdivisions": []
+      }
+    },
+    "2026-09-17": {
+      "title": "National Heroes' Day",
+      "motif": "cityParade",
+      "gradient": [
+        "#151f31",
+        "#4d303f",
+        "#13141a"
+      ],
+      "accent": "#72a1d3",
+      "secondary": "#d85661",
+      "holidayFamily": "heroes-day",
+      "popularityTier": "niche",
+      "scopeTier": "national",
+      "tags": [
+        "civic",
+        "celebration",
+        "procession"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "AO",
+        "countryName": "Angola",
+        "typeLabels": [
+          "公众节日"
+        ],
         "subdivisions": []
       }
     }

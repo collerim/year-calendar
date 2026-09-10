@@ -1,35 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-09T19:12:59.582Z",
+  "updatedAt": "2026-09-10T19:04:26.811Z",
   "days": {
-    "2026-07-27": {
-      "title": "Day after the Commemoration of the Assault of the Moncada garrison",
-      "motif": "wovenPattern",
-      "gradient": [
-        "#191927",
-        "#554437",
-        "#151415"
-      ],
-      "accent": "#c7a959",
-      "secondary": "#75b0d7",
-      "holidayFamily": "national-civic-day",
-      "popularityTier": "niche",
-      "scopeTier": "national",
-      "tags": [
-        "culture",
-        "civic",
-        "celebration"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "CU",
-        "countryName": "Cuba",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-07-28": {
       "title": "Saint Olav's Eve",
       "motif": "stainedGlass",
@@ -1527,6 +1499,38 @@
         "provider": "Nager.Date",
         "countryCode": "AO",
         "countryName": "Angola",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-09-18": {
+      "title": "National holiday",
+      "motif": "lotusMandala",
+      "gradient": [
+        "#161729",
+        "#523f5c",
+        "#141414"
+      ],
+      "accent": "#c2a9d6",
+      "secondary": "#81bba9",
+      "holidayFamily": "religious-observance",
+      "popularityTier": "niche",
+      "scopeTier": "national",
+      "tags": [
+        "religious",
+        "botanical",
+        "culture",
+        "heritage",
+        "civic",
+        "celebration",
+        "procession"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "CL",
+        "countryName": "Chile",
         "typeLabels": [
           "公众节日"
         ],

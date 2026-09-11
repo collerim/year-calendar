@@ -1,36 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-10T19:04:26.811Z",
+  "updatedAt": "2026-09-11T19:06:06.201Z",
   "days": {
-    "2026-07-28": {
-      "title": "Saint Olav's Eve",
-      "motif": "stainedGlass",
-      "gradient": [
-        "#121d31",
-        "#4d3541",
-        "#11161a"
-      ],
-      "accent": "#92b9e8",
-      "secondary": "#d6768f",
-      "holidayFamily": "saint-day",
-      "popularityTier": "niche",
-      "scopeTier": "national",
-      "tags": [
-        "religious",
-        "heritage",
-        "light",
-        "sky"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "FO",
-        "countryName": "Faroe Islands",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-07-29": {
       "title": "Independence Day",
       "motif": "cityParade",
@@ -1531,6 +1502,36 @@
         "provider": "Nager.Date",
         "countryCode": "CL",
         "countryName": "Chile",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-09-19": {
+      "title": "Independence Day",
+      "motif": "stainedGlass",
+      "gradient": [
+        "#171c37",
+        "#513447",
+        "#111517"
+      ],
+      "accent": "#97b8ee",
+      "secondary": "#d6748b",
+      "holidayFamily": "independence-day",
+      "popularityTier": "common",
+      "scopeTier": "national",
+      "tags": [
+        "religious",
+        "heritage",
+        "light",
+        "civic",
+        "celebration"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "KN",
+        "countryName": "Saint Kitts and Nevis",
         "typeLabels": [
           "公众节日"
         ],

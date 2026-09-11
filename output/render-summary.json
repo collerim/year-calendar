@@ -1,26 +1,9 @@
 {
-  "generatedAt": "2026-09-10T19:04:26.811Z",
-  "baseDate": "2026-09-11",
-  "ensuredThrough": "2026-09-18",
+  "generatedAt": "2026-09-11T19:06:06.202Z",
+  "baseDate": "2026-09-12",
+  "ensuredThrough": "2026-09-19",
   "today": "output/today.png",
   "generated": [
-    {
-      "date": "2026-09-11",
-      "output": "output/2026/2026.09/2026.09.11.png",
-      "selectedTheme": "National Day of Catalonia",
-      "selectedMotif": "streamers",
-      "selectedScoreBreakdown": {
-        "basePriority": 70,
-        "popularity": 30,
-        "jitter": 2.882,
-        "motifPenalty": 0,
-        "culturalPenalty": 39,
-        "holidayFamilyPenalty": 48,
-        "colorPenalty": 42,
-        "finalScore": -26.118
-      },
-      "discardedCount": 1
-    },
     {
       "date": "2026-09-12",
       "output": "output/2026/2026.09/2026.09.12.png",
@@ -139,6 +122,23 @@
         "finalScore": 4.61
       },
       "discardedCount": 2
+    },
+    {
+      "date": "2026-09-19",
+      "output": "output/2026/2026.09/2026.09.19.png",
+      "selectedTheme": "Independence Day",
+      "selectedMotif": "stainedGlass",
+      "selectedScoreBreakdown": {
+        "basePriority": 73,
+        "popularity": 26,
+        "jitter": 2.671,
+        "motifPenalty": 0,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 14,
+        "colorPenalty": 42,
+        "finalScore": 3.671
+      },
+      "discardedCount": 3
     }
   ],
   "skipped": []

@@ -1,35 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-11T19:06:06.201Z",
+  "updatedAt": "2026-09-12T18:16:55.909Z",
   "days": {
-    "2026-07-29": {
-      "title": "Independence Day",
-      "motif": "cityParade",
-      "gradient": [
-        "#172132",
-        "#4e313f",
-        "#121517"
-      ],
-      "accent": "#74a3d4",
-      "secondary": "#d7575d",
-      "holidayFamily": "independence-day",
-      "popularityTier": "common",
-      "scopeTier": "national",
-      "tags": [
-        "civic",
-        "celebration",
-        "procession"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "PE",
-        "countryName": "Peru",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-07-30": {
       "title": "Enthronement",
       "motif": "crescentLantern",
@@ -1536,6 +1508,46 @@
           "公众节日"
         ],
         "subdivisions": []
+      }
+    },
+    "2026-09-20": {
+      "title": "Federal Day of Thanksgiving, Repentance and Prayer",
+      "motif": "harvestSheaves",
+      "gradient": [
+        "#201c1d",
+        "#63462e",
+        "#131519"
+      ],
+      "accent": "#c5955d",
+      "secondary": "#91a56c",
+      "holidayFamily": "municipal-local",
+      "popularityTier": "major",
+      "scopeTier": "national",
+      "tags": [
+        "botanical",
+        "harvest",
+        "seasonal",
+        "celebration"
+      ],
+      "source": {
+        "provider": "OpenHolidays",
+        "countryCode": "CH",
+        "countryName": "Switzerland",
+        "typeLabels": [
+          "公众节日",
+          "地方性"
+        ],
+        "nationwide": false,
+        "subdivisions": [
+          "LU",
+          "BL",
+          "VS",
+          "GR",
+          "SZ",
+          "NW",
+          "GL",
+          "ZG"
+        ]
       }
     }
   }

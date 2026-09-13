@@ -1,26 +1,9 @@
 {
-  "generatedAt": "2026-09-12T18:16:55.910Z",
-  "baseDate": "2026-09-13",
-  "ensuredThrough": "2026-09-20",
+  "generatedAt": "2026-09-13T18:42:32.726Z",
+  "baseDate": "2026-09-14",
+  "ensuredThrough": "2026-09-21",
   "today": "output/today.png",
   "generated": [
-    {
-      "date": "2026-09-13",
-      "output": "output/2026/2026.09/2026.09.13.png",
-      "selectedTheme": "九月光串",
-      "selectedMotif": "lanterns",
-      "selectedScoreBreakdown": {
-        "basePriority": 28.25,
-        "popularity": 0,
-        "jitter": 5.052,
-        "motifPenalty": 0,
-        "culturalPenalty": 0,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 42,
-        "finalScore": -8.698
-      },
-      "discardedCount": 10
-    },
     {
       "date": "2026-09-14",
       "output": "output/2026/2026.09/2026.09.14.png",
@@ -139,6 +122,23 @@
         "finalScore": 11.633
       },
       "discardedCount": 4
+    },
+    {
+      "date": "2026-09-21",
+      "output": "output/2026/2026.09/2026.09.21.png",
+      "selectedTheme": "International Day of Peace",
+      "selectedMotif": "candle",
+      "selectedScoreBreakdown": {
+        "basePriority": 76,
+        "popularity": 18,
+        "jitter": 5.312,
+        "motifPenalty": 0,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 42,
+        "finalScore": 15.312
+      },
+      "discardedCount": 7
     }
   ],
   "skipped": []

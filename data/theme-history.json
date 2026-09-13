@@ -1,36 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-12T18:16:55.909Z",
+  "updatedAt": "2026-09-13T18:42:32.725Z",
   "days": {
-    "2026-07-30": {
-      "title": "Enthronement",
-      "motif": "crescentLantern",
-      "gradient": [
-        "#15182c",
-        "#373d5e",
-        "#111518"
-      ],
-      "accent": "#c8b06b",
-      "secondary": "#70b2d8",
-      "holidayFamily": "religious-observance",
-      "popularityTier": "major",
-      "scopeTier": "national",
-      "tags": [
-        "islamic",
-        "religious",
-        "light",
-        "sky"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "MA",
-        "countryName": "Morocco",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-07-31": {
       "title": "Mary Prince Day",
       "motif": "wovenPattern",
@@ -1548,6 +1519,39 @@
           "GL",
           "ZG"
         ]
+      }
+    },
+    "2026-09-21": {
+      "title": "International Day of Peace",
+      "motif": "candle",
+      "gradient": [
+        "#171927",
+        "#483a4b",
+        "#111617"
+      ],
+      "accent": "#dfb857",
+      "secondary": "#dfe2c9",
+      "holidayFamily": "peace-observance",
+      "popularityTier": "common",
+      "scopeTier": "international",
+      "tags": [
+        "memorial",
+        "light",
+        "winter",
+        "civic",
+        "celebration",
+        "remembrance",
+        "culture",
+        "international"
+      ],
+      "source": {
+        "provider": "Curated Cultural Observances",
+        "countryCode": "INTL",
+        "countryName": "International",
+        "typeLabels": [
+          "文化日"
+        ],
+        "subdivisions": []
       }
     }
   }

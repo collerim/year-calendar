@@ -1,35 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-13T18:42:32.725Z",
+  "updatedAt": "2026-09-14T20:15:47.894Z",
   "days": {
-    "2026-07-31": {
-      "title": "Mary Prince Day",
-      "motif": "wovenPattern",
-      "gradient": [
-        "#161b25",
-        "#534636",
-        "#111617"
-      ],
-      "accent": "#c4ab58",
-      "secondary": "#70b3d9",
-      "holidayFamily": "national-civic-day",
-      "popularityTier": "niche",
-      "scopeTier": "national",
-      "tags": [
-        "culture",
-        "civic",
-        "celebration"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "BM",
-        "countryName": "Bermuda",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-08-01": {
       "title": "Swiss National Day",
       "motif": "mountainFlags",
@@ -1551,6 +1523,36 @@
         "typeLabels": [
           "文化日"
         ],
+        "subdivisions": []
+      }
+    },
+    "2026-09-22": {
+      "title": "Independence Day",
+      "motif": "cityParade",
+      "gradient": [
+        "#112033",
+        "#493141",
+        "#15141a"
+      ],
+      "accent": "#6ea2d5",
+      "secondary": "#db5661",
+      "holidayFamily": "independence-day",
+      "popularityTier": "common",
+      "scopeTier": "national",
+      "tags": [
+        "civic",
+        "celebration",
+        "procession"
+      ],
+      "source": {
+        "provider": "OpenHolidays",
+        "countryCode": "BG",
+        "countryName": "Bulgaria",
+        "typeLabels": [
+          "公众节日",
+          "全国性"
+        ],
+        "nationwide": true,
         "subdivisions": []
       }
     }

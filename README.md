@@ -61,7 +61,10 @@ npm run content:gaps
 npm run content:gaps:check
 ```
 
-The daily workflow also reports full-cache gaps. Provider-data failures remain
+The daily, test, and cache-refresh workflows all use strict render-window checks
+and report full-cache gaps. The test workflow refreshes the cache when needed;
+the refresh workflow pins the same date for fetching and checking content.
+Provider-data failures remain
 fatal; a holiday-free render window is valid when the complete cache has provider
 data. Requested ranges outside the cache fail instead of checking partial data.
 Invalid dates, reversed ranges, and combining `--render-window` with explicit

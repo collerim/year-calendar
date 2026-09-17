@@ -32,7 +32,16 @@ jobs:
       - name: Run tests
         run: npm test
 
+      - name: Pin coverage date
+        run: node --input-type=module -e 'import { renderWindow } from "./render-window.js"; console.log(`RENDER_DATE=${renderWindow().start}`);' >> "$GITHUB_ENV"
+
+      - name: Ensure holiday cache
+        run: npm run refresh-holidays:if-needed -- --date "$RENDER_DATE"
+
       - name: Validate holiday content
         run: |
           npm run content:validate
-          npm run content:gaps:check
+          npm run content:gaps:render -- --date "$RENDER_DATE"
+
+      - name: Audit full holiday cache
+        run: npm run content:gaps -- --require-provider-data

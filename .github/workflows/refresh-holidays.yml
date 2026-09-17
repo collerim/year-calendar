@@ -35,14 +35,20 @@ jobs:
           node-version: 24
           cache: npm
 
+      - name: Pin coverage date
+        run: node --input-type=module -e 'import { renderWindow } from "./render-window.js"; console.log(`RENDER_DATE=${renderWindow().start}`);' >> "$GITHUB_ENV"
+
       - name: Refresh holiday cache
-        run: npm run refresh-holidays -- --days 90 --strict-providers
+        run: npm run refresh-holidays -- --date "$RENDER_DATE" --days 90 --strict-providers
 
       - name: Validate holiday content
         run: |
           npm test
           npm run content:validate
-          npm run content:gaps:check
+          npm run content:gaps:render -- --date "$RENDER_DATE"
+
+      - name: Audit full holiday cache
+        run: npm run content:gaps -- --require-provider-data
 
       - name: Collect failure diagnostics
         if: failure()

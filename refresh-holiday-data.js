@@ -3,6 +3,7 @@ process.env.TZ = "Asia/Shanghai";
 import fs from "fs";
 import path from "path";
 import { createHolidayCacheBuilder } from "./holiday-cache-builder.js";
+import { RENDER_LOOKAHEAD_DAYS } from "./render-window.js";
 
 const OUTPUT_FILE = path.join("data", "holiday-cache.js");
 const API_ROOT = "https://date.nager.at/api/v3";
@@ -342,7 +343,7 @@ function cacheCoversRenderWindow(cache, startDate, minDays) {
   const cacheEnd = dateFromKey(cache?.window?.end);
   if (!cacheStart || !cacheEnd) return false;
 
-  const requiredEnd = addDays(startDate, minDays);
+  const requiredEnd = addDays(startDate, Math.max(minDays, RENDER_LOOKAHEAD_DAYS));
   return cacheStart <= startDate && cacheEnd >= requiredEnd;
 }
 

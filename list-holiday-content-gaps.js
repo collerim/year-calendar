@@ -2,6 +2,7 @@ globalThis.window = globalThis;
 
 import path from "node:path";
 import { pathToFileURL } from "node:url";
+import { parseDateKey, renderWindow } from "./render-window.js";
 
 const options = parseArgs(process.argv.slice(2));
 
@@ -12,6 +13,18 @@ await import("./data/holiday-intros.js");
 const cache = globalThis.YearCalendarHolidayCache || {};
 const content = globalThis.YearCalendarHolidayContent || {};
 const intros = globalThis.YearCalendarHolidayIntros || {};
+const range = options.renderWindow ? renderWindow(options.date) : {
+  start: options.startDate || cache.window?.start,
+  end: options.endDate || cache.window?.end
+};
+parseDateKey(range.start);
+parseDateKey(range.end);
+if (range.start > range.end) throw new Error("Start date must not be after end date.");
+if (range.start < cache.window?.start || range.end > cache.window?.end || !cache.window?.start || !cache.window?.end) {
+  throw new Error("Requested date range is not covered by the holiday cache.");
+}
+const isProvider = (theme) => ["Nager.Date", "OpenHolidays"].includes(theme.source?.provider);
+const hasProviderData = Object.values(cache.days || {}).some((themes) => themes.some(isProvider));
 
 const entries = Array.isArray(content.entries) ? content.entries : [];
 const introKeys = new Set(Object.keys(intros).map(normalizeKey));
@@ -22,6 +35,7 @@ let coveredByContent = 0;
 let coveredByLegacyIntro = 0;
 
 for (const [date, themes] of Object.entries(cache.days || {}).sort(([a], [b]) => a.localeCompare(b))) {
+  if (date < range.start || date > range.end) continue;
   for (const theme of themes) {
     if (!["Nager.Date", "OpenHolidays"].includes(theme.source?.provider)) continue;
     providerHolidayCount += 1;
@@ -42,7 +56,7 @@ for (const [date, themes] of Object.entries(cache.days || {}).sort(([a], [b]) =>
 }
 
 const list = [...(options.legacyOnly ? legacyOnly : gaps).values()];
-console.log(`Holiday content coverage for ${cache.window?.start || "?"} -> ${cache.window?.end || "?"}`);
+console.log(`Holiday content coverage for ${range.start} -> ${range.end} (inclusive)`);
 console.log(`Provider candidates: ${providerHolidayCount}`);
 console.log(`Covered by structured content: ${coveredByContent}`);
 console.log(`Covered by legacy intros: ${coveredByLegacyIntro}`);
@@ -63,8 +77,13 @@ for (const [index, gap] of list.slice(0, options.limit).entries()) {
   console.log(`   types: ${joinSet(gap.typeLabels, 4)}`);
 }
 
-if (options.requireProviderData && providerHolidayCount === 0) {
-  console.error("No Nager.Date/OpenHolidays provider candidates found in the selected cache.");
+const failedProviders = ["nager", "openHolidays"].filter((name) =>
+  cache.sourceStats?.[`${name}SuccessfulRequests`] === 0
+);
+if (options.requireProviderData && (!hasProviderData || failedProviders.length)) {
+  console.error(failedProviders.length
+    ? `Provider data unavailable: ${failedProviders.join(", ")} had no successful requests.`
+    : "No Nager.Date/OpenHolidays provider candidates found in the selected cache.");
   process.exit(1);
 }
 
@@ -74,10 +93,24 @@ if (options.failOnGaps && (gaps.size || legacyOnly.size)) {
 }
 
 function parseArgs(args) {
+  function dateArg(flag) {
+    const index = args.indexOf(flag);
+    if (index < 0) return undefined;
+    const value = args[index + 1];
+    parseDateKey(value);
+    return value;
+  }
+  const startDate = dateArg("--start-date");
+  const endDate = dateArg("--end-date");
+  const date = dateArg("--date");
+  const useRenderWindow = args.includes("--render-window");
+  if (useRenderWindow && (startDate || endDate)) throw new Error("--render-window cannot be combined with explicit date bounds.");
+  if (date && !useRenderWindow) throw new Error("--date requires --render-window.");
   const limitIndex = args.indexOf("--limit");
   const limit = limitIndex >= 0 ? Number(args[limitIndex + 1]) : 50;
   const cacheIndex = args.indexOf("--cache");
   return {
+    startDate, endDate, date, renderWindow: useRenderWindow,
     limit: Number.isFinite(limit) && limit > 0 ? limit : 50,
     legacyOnly: args.includes("--legacy-only"),
     cache: cacheIndex >= 0 ? args[cacheIndex + 1] : "./data/holiday-cache.js",

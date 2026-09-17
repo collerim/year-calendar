@@ -5,6 +5,7 @@ import fs from "fs";
 import os from "os";
 import path from "path";
 import { pathToFileURL } from "url";
+import { RENDER_LOOKAHEAD_DAYS as LOOKAHEAD_DAYS } from "./render-window.js";
 
 const OUTPUT_ROOT = "output";
 const DRAFT_ROOT = "drafts";
@@ -15,7 +16,6 @@ const RENDER_SUMMARY_FILE = path.join(OUTPUT_ROOT, "render-summary.json");
 const HTML_ENTRY = path.resolve("index.html");
 const HTML_URL = pathToFileURL(HTML_ENTRY).href;
 const PUPPETEER_PROFILE = path.join(os.tmpdir(), "year-calendar-puppeteer-profile");
-const LOOKAHEAD_DAYS = 7;
 const DIVERSITY_LOOKBACK_DAYS = 10;
 const HISTORY_KEEP_DAYS = 45;
 const VIEWPORT = {

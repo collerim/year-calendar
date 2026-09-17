@@ -67,17 +67,23 @@ jobs:
       - name: Ensure holiday cache
         run: npm run refresh-holidays:if-needed
 
+      - name: Pin render date
+        run: node --input-type=module -e 'import { renderWindow } from "./render-window.js"; console.log(`RENDER_DATE=${renderWindow().start}`);' >> "$GITHUB_ENV"
+
       - name: Validate holiday content
         run: |
           npm test
           npm run content:validate
-          npm run content:gaps:check
+          npm run content:gaps:render -- --date "$RENDER_DATE"
+
+      - name: Audit full holiday cache
+        run: npm run content:gaps -- --require-provider-data
 
       - name: Restore theme history
         run: npm run publish:restore-history
 
       - name: Render wallpaper
-        run: npm run render
+        run: npm run render -- --date "$RENDER_DATE"
 
       - name: Collect failure diagnostics
         if: failure()

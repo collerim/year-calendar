@@ -43,6 +43,31 @@ npm run content:scan -- --start YYYY-MM-DD --windows 4 --report-json holiday-con
 
 For the maintainer-oriented checklist, see [docs/maintenance.md](docs/maintenance.md).
 
+### Content Coverage Windows
+
+Daily generation strictly checks today through today + 7 days, inclusive (8 dates).
+`render-window.js` defines the lookahead shared by rendering and coverage checking.
+The workflow pins one Shanghai calendar date for both steps. Cache refresh retains
+its 90-day horizon and 14-day refresh threshold, with the render lookahead as a minimum.
+
+```bash
+# Strict check for the render window; omit --date to use today in Shanghai.
+npm run content:gaps:render -- --date 2026-09-17
+# General inclusive date-range check.
+npm run content:gaps:check -- --start-date 2026-09-17 --end-date 2026-09-24
+# Report gaps across the complete cache without failing on content gaps.
+npm run content:gaps
+# Strict full-cache check remains available for content maintenance.
+npm run content:gaps:check
+```
+
+The daily workflow also reports full-cache gaps. Provider-data failures remain
+fatal; a holiday-free render window is valid when the complete cache has provider
+data. Requested ranges outside the cache fail instead of checking partial data.
+Invalid dates, reversed ranges, and combining `--render-window` with explicit
+date bounds are rejected. A single explicit bound defaults the other to the
+cache boundary. `--date` is only accepted with `--render-window`.
+
 ## Notes
 
 Chinese solar terms are intentionally not used as wallpaper themes. The project focuses on holidays, cultural observances, and fallback seasonal moods.

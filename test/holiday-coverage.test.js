@@ -40,3 +40,9 @@ test("cache window bounds remain strict while absent holiday dates are valid", (
   const malformed = analyzeHolidayCoverage({ ...cache, days: { "2026-09-17": null } }, {}, {});
   assert.equal(malformed.providers.status, "failed");
 });
+
+test("normalized identities and report details are stable when API ordering changes", () => {
+  const aliases = [theme, { ...theme, title: "Unseen Day", source: { ...theme.source, provider: "OpenHolidays" } }];
+  const analyze = themes => analyzeHolidayCoverage({ ...cache, days: { "2026-09-17": themes } }, {}, {});
+  assert.deepEqual(analyze(aliases), analyze([...aliases].reverse()));
+});

@@ -86,6 +86,7 @@ function addHolidaySummary(target, theme, date) {
     });
   }
   const summary = target.get(id);
+  summary.title = [summary.title, theme.title].sort()[0];
   summary.providers.add(theme.source.provider);
   if (theme.source.countryCode) summary.countries.add(theme.source.countryCode);
   if (theme.source.localName && theme.source.localName !== theme.title) summary.localNames.add(theme.source.localName);

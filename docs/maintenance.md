@@ -119,3 +119,42 @@ Use `content:gaps:render -- --fail-on-gaps` for a strict render-window audit.
 - Refresh behavior remains conservative: a sufficiently covering existing cache is
   reused without fetching; attempted strict refresh failures still fail operationally.
   No new outage-to-stale-cache policy or unbounded cache age exception is introduced.
+
+## Persistent content backlog
+
+The versioned `data/holiday-content-backlog.json` is the durable maintenance list;
+artifacts are convenient snapshots, not its only storage. No Issues automation is used.
+
+```bash
+npm run content:backlog
+# Fold all successfully fetched future scan caches into the same backlog.
+npm run content:backlog -- --cache-dir tmp/holiday-content-scan
+# Isolated inspection of a particular cache; observation date defaults to Shanghai today.
+npm run content:backlog -- --cache ./tmp-cache.js --backlog tmp/backlog.json --date 2026-09-20
+```
+
+- Identity is normalized country code plus provider title, matching coverage tooling.
+  Multiple providers and occurrences merge into sorted arrays. New titles or country
+  changes are new identities; no fuzzy matching guesses that holidays are equivalent.
+- `firstSeen` and `lastSeen` are dates on which an entry was observed by maintenance,
+  including covered observations. `dates` retains known occurrence dates. Repeating
+  the same observation is byte-stable; changing API order does not change output.
+- Status is `missing`, `legacy-only`, or `resolved`. Only an observed structured match
+  resolves a tracked entry; absent holidays remain unchanged as windows roll forward.
+  Resolved entries keep `resolvedOn`, and missing content on a later observation reopens
+  them. If aliases disagree, missing/legacy status takes precedence over resolution.
+- Every input cache must have complete provider statistics and valid coverage before
+  any write. Partial/failed providers leave the previous file untouched and fail the
+  maintenance task; this is not interpreted as a new content gap or a resolution.
+  Writes use a temporary file followed by rename. Old observation dates are rejected.
+- `Maintain Holiday Content Backlog` runs independently each day, refreshes the cache
+  when needed, and commits only the backlog. Scan runs update it after a successful
+  audit. Their shared concurrency group serializes backlog writers. Their failures
+  are visible in Actions and do not gate wallpaper rendering.
+- Clear stale files from a manually reused scan directory before using `--cache-dir`;
+  every matching `holiday-cache-*.js` is assessed, including previously scanned windows.
+  A holiday newly covered outside all retained windows remains open until observed
+  again; use an older scan cache to verify and resolve it sooner.
+- Coverage reflects the provider candidates retained by the existing cache builder,
+  not a new claim that every raw provider response is retained. Strict maintenance
+  audits and content validation remain separate from rendering availability.

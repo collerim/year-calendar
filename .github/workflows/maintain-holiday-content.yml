@@ -1,0 +1,64 @@
+name: Maintain Holiday Content Backlog
+
+on:
+  schedule:
+    # Independent of daily wallpaper generation, China time 01:11.
+    - cron: "11 17 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+concurrency:
+  group: holiday-content-backlog
+  cancel-in-progress: false
+
+jobs:
+  maintain:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Sync current branch
+        run: git pull --rebase origin "${GITHUB_REF_NAME}"
+
+      - name: Setup Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: 24
+
+      - name: Ensure trustworthy cache
+        run: npm run refresh-holidays:if-needed
+
+      - name: Update content backlog
+        run: |
+          npm run content:validate
+          npm run content:backlog
+
+      - name: Persist content backlog
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add data/holiday-content-backlog.json
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: update holiday content backlog"
+            git restore data/holiday-cache.js
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+            git push origin HEAD:${GITHUB_REF_NAME}
+          fi
+
+      - name: Upload maintenance report
+        if: always()
+        uses: actions/upload-artifact@v5
+        with:
+          name: holiday-content-backlog
+          path: |
+            data/holiday-content-backlog.json
+            debug-action
+          if-no-files-found: ignore

@@ -86,3 +86,13 @@ Chinese solar terms are intentionally not used as wallpaper themes. The project 
 include `contentSource`: `structured`, `legacy`, `generic`, `curated`, or `seasonal`.
 Daily Actions uploads a `wallpaper-health` artifact; failures also retain diagnostics.
 Use `content:gaps:render -- --report-json tmp/render-coverage.json` for coverage details.
+
+### Content Maintenance Backlog
+
+`npm run content:backlog` updates `data/holiday-content-backlog.json` from the complete
+cache. The independent daily maintenance workflow and future scan workflow persist
+this file and upload it as an artifact. Entries track country/title identity, providers,
+occurrence dates, first/last observation, and `missing`, `legacy-only`, or `resolved`
+status. Provider degradation stops backlog updates, without blocking daily wallpaper
+rendering. Strict checks remain available with `content:gaps:check` and
+`content:audit -- --fail-on-gaps`.

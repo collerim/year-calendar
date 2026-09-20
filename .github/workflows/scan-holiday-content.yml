@@ -17,13 +17,13 @@ on:
         type: string
 
 permissions:
-  contents: read
+  contents: write
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 concurrency:
-  group: scan-holiday-content-coverage
+  group: holiday-content-backlog
   cancel-in-progress: false
 
 jobs:
@@ -33,6 +33,11 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Sync current branch
+        run: git pull --rebase origin "${GITHUB_REF_NAME}"
 
       - name: Setup Node
         uses: actions/setup-node@v6
@@ -62,6 +67,20 @@ jobs:
         run: |
           npm run content:audit -- --require-openholidays-complete
 
+      - name: Update content backlog
+        run: npm run content:backlog -- --cache-dir tmp/holiday-content-scan
+
+      - name: Persist content backlog
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add data/holiday-content-backlog.json
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: update holiday content backlog"
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+            git push origin HEAD:${GITHUB_REF_NAME}
+          fi
+
       - name: Collect failure diagnostics
         if: failure()
         run: npm run diagnostics
@@ -72,6 +91,7 @@ jobs:
         with:
           name: holiday-content-coverage
           path: |
+            data/holiday-content-backlog.json
             holiday-content-coverage.txt
             holiday-content-coverage.json
             holiday-content-stubs.js

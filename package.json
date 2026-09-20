@@ -12,6 +12,7 @@
     "content:gaps:check": "node list-holiday-content-gaps.js --fail-on-gaps --require-provider-data",
     "content:gaps:render": "node list-holiday-content-gaps.js --render-window --require-provider-data",
     "content:scan": "node scan-holiday-content-coverage.js",
+    "content:backlog": "node update-holiday-content-backlog.js",
     "content:audit": "node audit-holiday-content-coverage.js",
     "content:validate": "node validate-holiday-content.js",
     "publish:restore-history": "node publish-generated-assets.js restore-history",

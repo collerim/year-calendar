@@ -5,7 +5,8 @@ import fs from "fs";
 import os from "os";
 import path from "path";
 import { pathToFileURL } from "url";
-import { RENDER_LOOKAHEAD_DAYS as LOOKAHEAD_DAYS } from "./render-window.js";
+import { analyzeHolidayCoverage } from "./holiday-coverage.js";
+import { RENDER_LOOKAHEAD_DAYS as LOOKAHEAD_DAYS, renderWindow } from "./render-window.js";
 
 const OUTPUT_ROOT = "output";
 const DRAFT_ROOT = "drafts";
@@ -328,79 +329,105 @@ const dates = datesToEnsure(baseDate);
 fs.mkdirSync(OUTPUT_ROOT, { recursive: true });
 fs.mkdirSync(PUPPETEER_PROFILE, { recursive: true });
 
-const executablePath = browserExecutablePath();
-const browser = await puppeteer.launch({
-  ...(executablePath ? { executablePath } : {}),
-  args: [
-    "--no-sandbox",
-    "--disable-setuid-sandbox",
-    "--disable-dev-shm-usage",
-    "--disable-crash-reporter",
-    "--disable-crashpad",
-    `--user-data-dir=${PUPPETEER_PROFILE}`
-  ]
-});
-
-const generated = [];
-const skipped = [];
-const themeHistory = readThemeHistory();
-
+let browser;
+let coverage;
 try {
-  const page = await browser.newPage();
-  await page.setDefaultTimeout(15000);
-  await page.setViewport(VIEWPORT);
+  globalThis.window = globalThis;
+  await import("./data/holiday-cache.js");
+  await import("./data/holiday-content.js");
+  await import("./data/holiday-intros.js");
+  coverage = analyzeHolidayCoverage(globalThis.YearCalendarHolidayCache || {}, globalThis.YearCalendarHolidayContent || {}, globalThis.YearCalendarHolidayIntros || {}, renderWindow(dateKey(baseDate)));
+  if (coverage.providers.status === "failed") throw new Error(coverage.providers.issues.join("; "));
+  const executablePath = browserExecutablePath();
+  browser = await puppeteer.launch({
+    ...(executablePath ? { executablePath } : {}),
+    args: [
+      "--no-sandbox",
+      "--disable-setuid-sandbox",
+      "--disable-dev-shm-usage",
+      "--disable-crash-reporter",
+      "--disable-crashpad",
+      `--user-data-dir=${PUPPETEER_PROFILE}`
+    ]
+  });
 
-  for (const date of dates) {
-    const archivePath = archivePathForDate(date);
-    const shouldRender = options.force || isSameDate(date, baseDate) || !fs.existsSync(archivePath);
+  const generated = [];
+  const skipped = [];
+  const themeHistory = readThemeHistory();
 
-    if (!shouldRender) {
-      skipped.push(dateKey(date));
-      continue;
+  try {
+    const page = await browser.newPage();
+    await page.setDefaultTimeout(15000);
+    await page.setViewport(VIEWPORT);
+
+    for (const date of dates) {
+      const archivePath = archivePathForDate(date);
+      const shouldRender = options.force || isSameDate(date, baseDate) || !fs.existsSync(archivePath);
+
+      if (!shouldRender) {
+        assertWallpaperOutput(archivePath, `${dateKey(date)} existing wallpaper`);
+        skipped.push(dateKey(date));
+        continue;
+      }
+
+      const recentThemes = recentThemeEntriesForDate(themeHistory, date);
+      const avoidMotifs = recentThemes.map((entry) => entry.motif).filter(Boolean);
+      const info = await renderWallpaper(page, date, 0, archivePath, avoidMotifs, recentThemes);
+      await renderDiscardedCandidates(page, date, info, options, avoidMotifs, recentThemes);
+      rememberTheme(themeHistory, date, info.selectedTheme);
+      generated.push({
+        date: dateKey(date),
+        output: archivePath,
+        selectedTheme: info.selectedTheme.title,
+        selectedMotif: info.selectedTheme.motif,
+        contentSource: info.selectedTheme.contentSource,
+        selectedScoreBreakdown: info.candidates.find((candidate) => candidate.rank === info.selectedRank)?.scoreBreakdown || null,
+        discardedCount: info.candidates.length - 1
+      });
     }
-
-    const recentThemes = recentThemeEntriesForDate(themeHistory, date);
-    const avoidMotifs = recentThemes.map((entry) => entry.motif).filter(Boolean);
-    const info = await renderWallpaper(page, date, 0, archivePath, avoidMotifs, recentThemes);
-    await renderDiscardedCandidates(page, date, info, options, avoidMotifs, recentThemes);
-    rememberTheme(themeHistory, date, info.selectedTheme);
-    generated.push({
-      date: dateKey(date),
-      output: archivePath,
-      selectedTheme: info.selectedTheme.title,
-      selectedMotif: info.selectedTheme.motif,
-      selectedScoreBreakdown: info.candidates.find((candidate) => candidate.rank === info.selectedRank)?.scoreBreakdown || null,
-      discardedCount: info.candidates.length - 1
-    });
+  } finally {
+    await browser.close();
   }
-} finally {
-  await browser.close();
+
+  const todayArchive = archivePathForDate(baseDate);
+  if (fs.existsSync(todayArchive)) {
+    fs.copyFileSync(todayArchive, TODAY_OUTPUT);
+  }
+
+  writeThemeHistory(themeHistory, baseDate);
+  assertWallpaperOutput(TODAY_OUTPUT, "today wallpaper");
+
+  const renderSummary = {
+    generatedAt: new Date().toISOString(),
+    baseDate: dateKey(baseDate),
+    ensuredThrough: dateKey(addDays(baseDate, LOOKAHEAD_DAYS)),
+    today: TODAY_OUTPUT,
+    generated,
+    skipped,
+    health: { render: { status: "complete" }, providers: coverage.providers, contentCoverage: coverage.contentCoverage },
+    contentGaps: coverage.gaps,
+    legacyOnly: coverage.legacyOnly
+  };
+  fs.writeFileSync(RENDER_SUMMARY_FILE, `${JSON.stringify(renderSummary, null, 2)}\n`);
+
+  console.log("Wallpaper generation complete:");
+  console.log(`   base date: ${dateKey(baseDate)}`);
+  console.log(`   ensured through: ${dateKey(addDays(baseDate, LOOKAHEAD_DAYS))}`);
+  console.log(`   generated: ${generated.length}`);
+  for (const item of generated) {
+    console.log(`   -> ${item.date}: ${item.selectedTheme} / ${item.selectedMotif} (${item.discardedCount} discarded)`);
+  }
+  console.log(`   skipped existing: ${skipped.length}`);
+  console.log(`   today: ${TODAY_OUTPUT}`);
+
+} catch (error) {
+  fs.writeFileSync(RENDER_SUMMARY_FILE, `${JSON.stringify({
+    generatedAt: new Date().toISOString(), baseDate: dateKey(baseDate),
+    health: {
+      render: { status: "failed", error: error.message },
+      providers: coverage?.providers || { status: "failed", issues: [error.message] },
+      contentCoverage: coverage?.contentCoverage || { status: "failed" }
+    }
+  }, null, 2)}\n`);
+  throw error;
 }
-
-const todayArchive = archivePathForDate(baseDate);
-if (fs.existsSync(todayArchive)) {
-  fs.copyFileSync(todayArchive, TODAY_OUTPUT);
-}
-
-writeThemeHistory(themeHistory, baseDate);
-assertWallpaperOutput(TODAY_OUTPUT, "today wallpaper");
-
-const renderSummary = {
-  generatedAt: new Date().toISOString(),
-  baseDate: dateKey(baseDate),
-  ensuredThrough: dateKey(addDays(baseDate, LOOKAHEAD_DAYS)),
-  today: TODAY_OUTPUT,
-  generated,
-  skipped
-};
-fs.writeFileSync(RENDER_SUMMARY_FILE, `${JSON.stringify(renderSummary, null, 2)}\n`);
-
-console.log("Wallpaper generation complete:");
-console.log(`   base date: ${dateKey(baseDate)}`);
-console.log(`   ensured through: ${dateKey(addDays(baseDate, LOOKAHEAD_DAYS))}`);
-console.log(`   generated: ${generated.length}`);
-for (const item of generated) {
-  console.log(`   -> ${item.date}: ${item.selectedTheme} / ${item.selectedMotif} (${item.discardedCount} discarded)`);
-}
-console.log(`   skipped existing: ${skipped.length}`);
-console.log(`   today: ${TODAY_OUTPUT}`);

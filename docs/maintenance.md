@@ -97,3 +97,25 @@ Daily, test, and refresh workflows use `content:gaps:render`: content gaps and
 legacy-only entries are reported without failing, while unavailable provider data
 and uncovered cache ranges remain fatal. Full-cache reports run separately.
 Use `content:gaps:render -- --fail-on-gaps` for a strict render-window audit.
+
+## Health diagnostics
+
+- Provider `complete` means the cache records successful requests for both providers.
+  Partial requests, cache errors, or unavailable request statistics produce `degraded`
+  with reasons. Zero successful responses from either provider, absent provider data,
+  uncovered ranges, or malformed cache candidate lists produce `failed` and block the daily check.
+  `generatedAt` and source statistics describe the cache, not a live API probe.
+- Content `degraded` means uncovered country/title identities or legacy-only entries;
+  counts and sorted details are available in coverage JSON and the render summary.
+  Content `failed` means provider/cache integrity prevented a trustworthy assessment,
+  not proof of missing copy. No holiday within a valid window is not a content failure.
+- Render `complete` is written after validating PNG output (including reused archives).
+  Browser, output, and preflight errors write `failed` plus the error to the current
+  render summary. Failures before rendering are reported by the failing workflow step;
+  refresh exceptions also write `debug-action/provider-refresh.json`.
+- `contentSource: generic` includes the renderer's existing heuristic/provider-metadata
+  descriptions and supplied fallback copy when structured/legacy copy is unavailable.
+  This metadata does not change captions, descriptions, ranking, or visual output.
+- Refresh behavior remains conservative: a sufficiently covering existing cache is
+  reused without fetching; attempted strict refresh failures still fail operationally.
+  No new outage-to-stale-cache policy or unbounded cache age exception is introduced.

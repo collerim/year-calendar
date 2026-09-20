@@ -74,7 +74,7 @@ jobs:
         run: |
           npm test
           npm run content:validate
-          npm run content:gaps:render -- --date "$RENDER_DATE"
+          npm run content:gaps:render -- --date "$RENDER_DATE" --report-json tmp/render-coverage.json
 
       - name: Audit full holiday cache
         run: npm run content:gaps -- --require-provider-data
@@ -83,7 +83,18 @@ jobs:
         run: npm run publish:restore-history
 
       - name: Render wallpaper
+        id: render
         run: npm run render -- --date "$RENDER_DATE"
+
+      - name: Upload run health
+        if: always() && steps.render.outcome != 'skipped'
+        uses: actions/upload-artifact@v5
+        with:
+          name: wallpaper-health
+          path: |
+            tmp/render-coverage.json
+            output/render-summary.json
+          if-no-files-found: ignore
 
       - name: Collect failure diagnostics
         if: failure()

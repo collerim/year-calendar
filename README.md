@@ -77,3 +77,12 @@ cache boundary. `--date` is only accepted with `--render-window`.
 ## Notes
 
 Chinese solar terms are intentionally not used as wallpaper themes. The project focuses on holidays, cultural observances, and fallback seasonal moods.
+
+### Independent Health States
+
+`output/render-summary.json` preserves existing output fields and adds `health.render`,
+`health.providers`, and `health.contentCoverage`. Each uses `complete`, `degraded`, or
+`failed`. A successful wallpaper can have degraded content coverage. Generated items
+include `contentSource`: `structured`, `legacy`, `generic`, `curated`, or `seasonal`.
+Daily Actions uploads a `wallpaper-health` artifact; failures also retain diagnostics.
+Use `content:gaps:render -- --report-json tmp/render-coverage.json` for coverage details.

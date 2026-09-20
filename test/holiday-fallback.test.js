@@ -30,3 +30,16 @@ test("no holiday candidates still produces seasonal themes", () => {
   assert.ok(themes.length > 0);
   assert.ok(themes.every(theme => theme.description && theme.tags.includes("month-mood")));
 });
+
+test("description provenance follows structured, legacy, generic and seasonal fallback", () => {
+  const context = engine();
+  const source = { provider: "Nager.Date", countryCode: "US" };
+  context.theme = { title: "Unseen day", source };
+  assert.equal(vm.runInContext("contentSourceForTheme(theme)", context), "generic");
+  context.YearCalendarHolidayIntros = { "Unseen day": "Legacy description" };
+  assert.equal(vm.runInContext("contentSourceForTheme(theme)", context), "legacy");
+  context.YearCalendarHolidayContent = { entries: [{ keys: ["US|Unseen day"], description: "Structured description" }] };
+  assert.equal(vm.runInContext("contentSourceForTheme(theme)", context), "structured");
+  assert.equal(vm.runInContext("displayDescriptionForSource(theme)", context), "Structured description");
+  assert.equal(vm.runInContext("fallbackThemes(new Date(2026, 8, 17))[0].contentSource", context), "seasonal");
+});

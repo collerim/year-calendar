@@ -162,11 +162,12 @@ const THEME_ENGINE_RANKING_RULES = globalThis.ThemeRankingRules || {
   }
 };
 
-function createTheme({ title, caption, motif, gradient, accent, secondary, priority = 50, description, tags = [], source = null, holidayFamily = "", popularityTier = "", scopeTier = "" }) {
+function createTheme({ title, caption, motif, gradient, accent, secondary, priority = 50, description, contentSource = "curated", tags = [], source = null, holidayFamily = "", popularityTier = "", scopeTier = "" }) {
   const theme = {
     title,
     caption,
     description: description || inferThemeDescription(title, caption),
+    contentSource,
     motif,
     tags: Array.from(new Set([...(MOTIF_TAGS[motif] || []), ...inferThemeTags(title, caption), ...tags])),
     gradient,
@@ -338,6 +339,7 @@ function fallbackTheme(date, motif = seasonalFallbackMotifs(date)[0], priorityOf
     title: copy.title,
     caption: copy.caption,
     description: copy.description,
+    contentSource: "seasonal",
     motif,
     gradient: mood.gradient,
     accent: mood.accent,
@@ -392,6 +394,7 @@ function cachedHolidayThemes(date) {
     title: theme.title,
     caption: theme.caption,
     description: displayDescriptionForSource(theme),
+    contentSource: contentSourceForTheme(theme),
     motif: theme.motif,
     gradient: theme.gradient,
     accent: theme.accent,
@@ -403,6 +406,13 @@ function cachedHolidayThemes(date) {
     popularityTier: theme.popularityTier || "",
     scopeTier: theme.scopeTier || ""
   }));
+}
+
+function contentSourceForTheme(theme) {
+  if (!["Nager.Date", "OpenHolidays"].includes(theme.source?.provider)) return "curated";
+  if (holidayContentFor(theme.title, theme.source)?.description) return "structured";
+  if (holidayIntroFor(theme.title, theme.source)) return "legacy";
+  return "generic";
 }
 
 function displayDescriptionForSource(theme) {

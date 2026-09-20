@@ -977,23 +977,32 @@ const baseDate = options.date ? dateFromKey(options.date) : shanghaiToday();
 if (!baseDate) throw new Error(`Invalid --date value: ${options.date}`);
 const existingCache = options.ifNeeded ? readExistingHolidayCache(options.output) : null;
 
-if (options.ifNeeded && cacheCoversRenderWindow(existingCache, baseDate, options.minDays)) {
-  console.log("Holiday cache is fresh enough:");
-  console.log(`   window: ${existingCache.window.start} -> ${existingCache.window.end}`);
-  console.log(`   required through: ${dateKey(addDays(baseDate, options.minDays))}`);
-  console.log(`   fallback days: ${existingCache.coverage?.fallbackDays ?? "unknown"}`);
-} else {
-  const cache = await buildHolidayCache(options);
-  fs.mkdirSync(path.dirname(options.output), { recursive: true });
-  fs.writeFileSync(options.output, `window.YearCalendarHolidayCache = ${JSON.stringify(cache, null, 2)};\n`);
+try {
+  if (options.ifNeeded && cacheCoversRenderWindow(existingCache, baseDate, options.minDays)) {
+    console.log("Holiday cache is fresh enough:");
+    console.log(`   window: ${existingCache.window.start} -> ${existingCache.window.end}`);
+    console.log(`   required through: ${dateKey(addDays(baseDate, options.minDays))}`);
+    console.log(`   fallback days: ${existingCache.coverage?.fallbackDays ?? "unknown"}`);
+  } else {
+    const cache = await buildHolidayCache(options);
+    fs.mkdirSync(path.dirname(options.output), { recursive: true });
+    fs.writeFileSync(options.output, `window.YearCalendarHolidayCache = ${JSON.stringify(cache, null, 2)};\n`);
 
-  console.log("Holiday cache refreshed:");
-  console.log(`   output: ${options.output}`);
-  console.log(`   window: ${cache.window.start} -> ${cache.window.end}`);
-  console.log(`   candidate days: ${cache.coverage.candidateDays}/${cache.coverage.totalDays}`);
-  console.log(`   fallback days: ${cache.coverage.fallbackDays}`);
-  console.log(`   source errors: ${cache.errors.length}`);
-  for (const error of cache.errors.slice(0, 12)) {
-    console.log(`   ! ${error}`);
+    console.log("Holiday cache refreshed:");
+    console.log(`   output: ${options.output}`);
+    console.log(`   window: ${cache.window.start} -> ${cache.window.end}`);
+    console.log(`   candidate days: ${cache.coverage.candidateDays}/${cache.coverage.totalDays}`);
+    console.log(`   fallback days: ${cache.coverage.fallbackDays}`);
+    console.log(`   source errors: ${cache.errors.length}`);
+    for (const error of cache.errors.slice(0, 12)) {
+      console.log(`   ! ${error}`);
+    }
   }
+
+} catch (error) {
+  fs.mkdirSync("debug-action", { recursive: true });
+  fs.writeFileSync("debug-action/provider-refresh.json", `${JSON.stringify({
+    status: "failed", operation: "refresh", error: error.message, generatedAt: new Date().toISOString()
+  }, null, 2)}\n`);
+  throw error;
 }

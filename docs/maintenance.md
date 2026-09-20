@@ -57,7 +57,7 @@ git diff --check
 
 `npm run content:validate` checks for empty fields, TODO text, uncovered legacy intro keys, and risky duplicate lookup keys.
 
-`npm run content:gaps:check` is the CI gate for the current holiday cache. It fails if provider data is missing, uncovered, or still relying on legacy intros.
+`npm run content:gaps:check` is the opt-in strict maintenance gate for the current holiday cache. It fails if provider data is missing, uncovered, or still relying on legacy intros.
 
 Local rendering uses Puppeteer's cached Chrome. If the local cache is missing or corrupted, run `npx puppeteer browsers install chrome`, or set `PUPPETEER_CACHE_DIR` to a clean cache directory. To use a manually installed browser, set `PUPPETEER_EXECUTABLE_PATH` explicitly.
 
@@ -92,3 +92,8 @@ The scan writes ignored temporary files and reports missing or legacy-only conte
 - `calendar-layout.js` owns the year calendar model: date math, month geometry, day states, payday markers, and progress placement.
 - `calendar-renderer.js` owns drawing that year calendar model onto canvas.
 - New motifs should be wired in `theme-motifs.js`, `motif-renderers.js`, and `refresh-holiday-data.js`, then added to fallback rotation if they are suitable for ordinary days.
+
+Daily, test, and refresh workflows use `content:gaps:render`: content gaps and
+legacy-only entries are reported without failing, while unavailable provider data
+and uncovered cache ranges remain fatal. Full-cache reports run separately.
+Use `content:gaps:render -- --fail-on-gaps` for a strict render-window audit.

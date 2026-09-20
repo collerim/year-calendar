@@ -10,7 +10,7 @@
     "refresh-holidays:if-needed": "node refresh-holiday-data.js --if-needed --days 90 --min-days 14 --strict-providers",
     "content:gaps": "node list-holiday-content-gaps.js",
     "content:gaps:check": "node list-holiday-content-gaps.js --fail-on-gaps --require-provider-data",
-    "content:gaps:render": "node list-holiday-content-gaps.js --render-window --fail-on-gaps --require-provider-data",
+    "content:gaps:render": "node list-holiday-content-gaps.js --render-window --require-provider-data",
     "content:scan": "node scan-holiday-content-coverage.js",
     "content:audit": "node audit-holiday-content-coverage.js",
     "content:validate": "node validate-holiday-content.js",

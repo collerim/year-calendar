@@ -45,13 +45,13 @@ For the maintainer-oriented checklist, see [docs/maintenance.md](docs/maintenanc
 
 ### Content Coverage Windows
 
-Daily generation strictly checks today through today + 7 days, inclusive (8 dates).
+Daily generation reports content gaps for today through today + 7 days, inclusive (8 dates).
 `render-window.js` defines the lookahead shared by rendering and coverage checking.
 The workflow pins one Shanghai calendar date for both steps. Cache refresh retains
 its 90-day horizon and 14-day refresh threshold, with the render lookahead as a minimum.
 
 ```bash
-# Strict check for the render window; omit --date to use today in Shanghai.
+# Non-blocking content report with strict provider checks; omit --date to use today in Shanghai.
 npm run content:gaps:render -- --date 2026-09-17
 # General inclusive date-range check.
 npm run content:gaps:check -- --start-date 2026-09-17 --end-date 2026-09-24
@@ -61,9 +61,12 @@ npm run content:gaps
 npm run content:gaps:check
 ```
 
-The daily, test, and cache-refresh workflows all use strict render-window checks
+The daily, test, and cache-refresh workflows all report render-window content gaps without blocking rendering
 and report full-cache gaps. The test workflow refreshes the cache when needed;
 the refresh workflow pins the same date for fetching and checking content.
+Missing structured content or legacy-only copy is reported but does not fail these workflows.
+The renderer retains structured copy, legacy intros, and generic descriptions;
+seasonal themes remain available when no holiday candidate exists.
 Provider-data failures remain
 fatal; a holiday-free render window is valid when the complete cache has provider
 data. Requested ranges outside the cache fail instead of checking partial data.

@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { mkdtempSync, writeFileSync, rmSync } from "node:fs";
+import { mkdtempSync, writeFileSync, rmSync, readFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import path from "node:path";
 import { spawnSync } from "node:child_process";
@@ -62,4 +62,15 @@ test("invalid, reversed and uncovered ranges fail", () => {
 test("provider absence and total provider failure remain fatal", () => {
   assert.equal(run({}, strict).status, 1);
   assert.equal(run({ "2026-12-16": [theme("Independence Day")] }, strict, { nagerRequests: 5, nagerSuccessfulRequests: 0 }).status, 1);
+});
+
+const dailyArgs = JSON.parse(readFileSync(new URL("./package.json", import.meta.url))).scripts["content:gaps:render"].split(" ").slice(2);
+test("daily command reports unknown content without blocking and retains strict provider checks", () => {
+  const args = [...dailyArgs, "--date", "2026-09-17"];
+  const missing = run({ "2026-09-17": [theme("Unknown holiday")] }, args);
+  assert.equal(missing.status, 0, missing.stderr);
+  assert.match(missing.stdout, /Unknown holiday/);
+  assert.equal(run({}, args).status, 1);
+  assert.equal(run({ "2026-09-17": [theme("Unknown holiday")] }, args, { nagerSuccessfulRequests: 0 }).status, 1);
+  assert.equal(run({ "2026-09-17": [theme("Independence Day")] }, args).status, 0);
 });

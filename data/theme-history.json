@@ -1,153 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-15T19:38:16.269Z",
+  "updatedAt": "2026-09-20T18:38:29.612Z",
   "days": {
-    "2026-08-02": {
-      "title": "August Festivals",
-      "motif": "carnivalMasks",
-      "gradient": [
-        "#1c1730",
-        "#633553",
-        "#151616"
-      ],
-      "accent": "#d7728e",
-      "secondary": "#74b2d7",
-      "holidayFamily": "culture-observance",
-      "popularityTier": "niche",
-      "scopeTier": "national",
-      "tags": [
-        "celebration",
-        "procession",
-        "folk",
-        "market"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "SV",
-        "countryName": "El Salvador",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
-    "2026-08-03": {
-      "title": "Nigerien Independence Day",
-      "motif": "cityParade",
-      "gradient": [
-        "#111f37",
-        "#493043",
-        "#111419"
-      ],
-      "accent": "#6fa1d9",
-      "secondary": "#d65561",
-      "holidayFamily": "independence-day",
-      "popularityTier": "common",
-      "scopeTier": "national",
-      "tags": [
-        "civic",
-        "celebration",
-        "procession"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "NE",
-        "countryName": "Niger",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
-    "2026-08-04": {
-      "title": "Emancipation Tuesday",
-      "motif": "maritimeFlags",
-      "gradient": [
-        "#0c2737",
-        "#2a6176",
-        "#11171c"
-      ],
-      "accent": "#6cbcd8",
-      "secondary": "#debd5c",
-      "holidayFamily": "national-civic-day",
-      "popularityTier": "niche",
-      "scopeTier": "national",
-      "tags": [
-        "maritime",
-        "water",
-        "civic",
-        "island",
-        "celebration"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "VG",
-        "countryName": "British Virgin Islands",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
-    "2026-08-05": {
-      "title": "Victory and Homeland Thanksgiving Day and the Day of Croatian defenders",
-      "motif": "laurelTorch",
-      "gradient": [
-        "#281b1b",
-        "#69462c",
-        "#111617"
-      ],
-      "accent": "#cb945c",
-      "secondary": "#90a769",
-      "holidayFamily": "remembrance",
-      "popularityTier": "major",
-      "scopeTier": "national",
-      "tags": [
-        "civic",
-        "remembrance",
-        "light",
-        "celebration",
-        "harvest",
-        "botanical"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "HR",
-        "countryName": "Croatia",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
-    "2026-08-06": {
-      "title": "Independence Day",
-      "motif": "cityParade",
-      "gradient": [
-        "#101f34",
-        "#483041",
-        "#141416"
-      ],
-      "accent": "#6ea1d6",
-      "secondary": "#d9555c",
-      "holidayFamily": "independence-day",
-      "popularityTier": "common",
-      "scopeTier": "national",
-      "tags": [
-        "civic",
-        "celebration",
-        "procession"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "JM",
-        "countryName": "Jamaica",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-08-07": {
       "title": "Constitution Day",
       "motif": "wovenPattern",
@@ -1516,14 +1370,12 @@
         "procession"
       ],
       "source": {
-        "provider": "OpenHolidays",
-        "countryCode": "BG",
-        "countryName": "Bulgaria",
+        "provider": "Nager.Date",
+        "countryCode": "ML",
+        "countryName": "Mali",
         "typeLabels": [
-          "公众节日",
-          "全国性"
+          "公众节日"
         ],
-        "nationwide": true,
         "subdivisions": []
       }
     },
@@ -1555,6 +1407,157 @@
         "typeLabels": [
           "公众节日"
         ],
+        "subdivisions": []
+      }
+    },
+    "2026-09-24": {
+      "title": "Constitution Day",
+      "motif": "wovenPattern",
+      "gradient": [
+        "#121f38",
+        "#4a3043",
+        "#141616"
+      ],
+      "accent": "#6fa1d9",
+      "secondary": "#d9585d",
+      "holidayFamily": "constitution-day",
+      "popularityTier": "common",
+      "scopeTier": "national",
+      "tags": [
+        "civic",
+        "celebration",
+        "procession",
+        "culture"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "KH",
+        "countryName": "Cambodia",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-09-25": {
+      "title": "Mid-Autumn Festival",
+      "motif": "carnivalMasks",
+      "gradient": [
+        "#270a12",
+        "#902525",
+        "#170b0e"
+      ],
+      "accent": "#e3b75c",
+      "secondary": "#dc3937",
+      "holidayFamily": "culture-observance",
+      "popularityTier": "major",
+      "scopeTier": "national",
+      "tags": [
+        "celebration",
+        "procession",
+        "folk",
+        "market",
+        "civic",
+        "sun",
+        "light"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "CN",
+        "countryName": "China",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-09-26": {
+      "title": "Day following the Mid-Autumn Festival",
+      "motif": "bookPress",
+      "gradient": [
+        "#1e1828",
+        "#64354d",
+        "#141418"
+      ],
+      "accent": "#d87387",
+      "secondary": "#73afda",
+      "holidayFamily": "culture-observance",
+      "popularityTier": "major",
+      "scopeTier": "national",
+      "tags": [
+        "celebration",
+        "procession",
+        "folk",
+        "market",
+        "literature",
+        "culture",
+        "heritage"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "HK",
+        "countryName": "Hong Kong",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-09-27": {
+      "title": "Meskel (Orthodox)",
+      "motif": "templeBells",
+      "gradient": [
+        "#161a26",
+        "#534537",
+        "#121615"
+      ],
+      "accent": "#c4ab59",
+      "secondary": "#71b3d7",
+      "holidayFamily": "religious-observance",
+      "popularityTier": "niche",
+      "scopeTier": "national",
+      "tags": [
+        "religious",
+        "heritage",
+        "light"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "ET",
+        "countryName": "Ethiopia",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-09-28": {
+      "title": "Czech Statehood Day",
+      "motif": "cityParade",
+      "gradient": [
+        "#132232",
+        "#4a323f",
+        "#131516"
+      ],
+      "accent": "#70a4d4",
+      "secondary": "#d8565c",
+      "holidayFamily": "national-civic-day",
+      "popularityTier": "niche",
+      "scopeTier": "national",
+      "tags": [
+        "civic",
+        "celebration",
+        "procession"
+      ],
+      "source": {
+        "provider": "OpenHolidays",
+        "countryCode": "CZ",
+        "countryName": "Czechia",
+        "typeLabels": [
+          "公众节日",
+          "全国性"
+        ],
+        "nationwide": true,
         "subdivisions": []
       }
     }

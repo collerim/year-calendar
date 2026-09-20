@@ -1,99 +1,15 @@
 {
-  "generatedAt": "2026-09-15T19:38:16.379Z",
-  "baseDate": "2026-09-16",
-  "ensuredThrough": "2026-09-23",
+  "generatedAt": "2026-09-20T18:38:29.612Z",
+  "baseDate": "2026-09-21",
+  "ensuredThrough": "2026-09-28",
   "today": "output/today.png",
   "generated": [
-    {
-      "date": "2026-09-16",
-      "output": "output/2026/2026.09/2026.09.16.png",
-      "selectedTheme": "Mexico Independence Day",
-      "selectedMotif": "tricolor",
-      "selectedScoreBreakdown": {
-        "basePriority": 76,
-        "popularity": 26,
-        "jitter": 0.107,
-        "motifPenalty": 0,
-        "culturalPenalty": 40,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 40,
-        "finalScore": 22.107
-      },
-      "discardedCount": 4
-    },
-    {
-      "date": "2026-09-17",
-      "output": "output/2026/2026.09/2026.09.17.png",
-      "selectedTheme": "National Heroes' Day",
-      "selectedMotif": "cityParade",
-      "selectedScoreBreakdown": {
-        "basePriority": 69,
-        "popularity": 14,
-        "jitter": 2.205,
-        "motifPenalty": 5,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 42,
-        "finalScore": -3.795
-      },
-      "discardedCount": 2
-    },
-    {
-      "date": "2026-09-18",
-      "output": "output/2026/2026.09/2026.09.18.png",
-      "selectedTheme": "National holiday",
-      "selectedMotif": "lotusMandala",
-      "selectedScoreBreakdown": {
-        "basePriority": 73,
-        "popularity": 14,
-        "jitter": 1.61,
-        "motifPenalty": 0,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 42,
-        "finalScore": 4.61
-      },
-      "discardedCount": 2
-    },
-    {
-      "date": "2026-09-19",
-      "output": "output/2026/2026.09/2026.09.19.png",
-      "selectedTheme": "Independence Day",
-      "selectedMotif": "stainedGlass",
-      "selectedScoreBreakdown": {
-        "basePriority": 73,
-        "popularity": 26,
-        "jitter": 2.671,
-        "motifPenalty": 0,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 14,
-        "colorPenalty": 42,
-        "finalScore": 3.671
-      },
-      "discardedCount": 3
-    },
-    {
-      "date": "2026-09-20",
-      "output": "output/2026/2026.09/2026.09.20.png",
-      "selectedTheme": "Federal Day of Thanksgiving, Repentance and Prayer",
-      "selectedMotif": "harvestSheaves",
-      "selectedScoreBreakdown": {
-        "basePriority": 69,
-        "popularity": 24,
-        "jitter": 2.633,
-        "motifPenalty": 0,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 42,
-        "finalScore": 11.633
-      },
-      "discardedCount": 4
-    },
     {
       "date": "2026-09-21",
       "output": "output/2026/2026.09/2026.09.21.png",
       "selectedTheme": "International Day of Peace",
       "selectedMotif": "candle",
+      "contentSource": "curated",
       "selectedScoreBreakdown": {
         "basePriority": 76,
         "popularity": 18,
@@ -111,23 +27,25 @@
       "output": "output/2026/2026.09/2026.09.22.png",
       "selectedTheme": "Independence Day",
       "selectedMotif": "cityParade",
+      "contentSource": "structured",
       "selectedScoreBreakdown": {
-        "basePriority": 72,
+        "basePriority": 73,
         "popularity": 26,
         "jitter": 1.831,
         "motifPenalty": 10,
         "culturalPenalty": 42,
         "holidayFamilyPenalty": 18,
         "colorPenalty": 42,
-        "finalScore": -12.169
+        "finalScore": -11.169
       },
-      "discardedCount": 2
+      "discardedCount": 4
     },
     {
       "date": "2026-09-23",
       "output": "output/2026/2026.09/2026.09.23.png",
       "selectedTheme": "Autumnal Equinox Day",
       "selectedMotif": "harvestSheaves",
+      "contentSource": "structured",
       "selectedScoreBreakdown": {
         "basePriority": 71,
         "popularity": 18,
@@ -139,7 +57,215 @@
         "finalScore": -11.665
       },
       "discardedCount": 1
+    },
+    {
+      "date": "2026-09-24",
+      "output": "output/2026/2026.09/2026.09.24.png",
+      "selectedTheme": "Constitution Day",
+      "selectedMotif": "wovenPattern",
+      "contentSource": "structured",
+      "selectedScoreBreakdown": {
+        "basePriority": 69,
+        "popularity": 26,
+        "jitter": 3.124,
+        "motifPenalty": 0,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 42,
+        "finalScore": 14.124
+      },
+      "discardedCount": 7
+    },
+    {
+      "date": "2026-09-25",
+      "output": "output/2026/2026.09/2026.09.25.png",
+      "selectedTheme": "Mid-Autumn Festival",
+      "selectedMotif": "carnivalMasks",
+      "contentSource": "structured",
+      "selectedScoreBreakdown": {
+        "basePriority": 91,
+        "popularity": 36,
+        "jitter": 0.594,
+        "motifPenalty": 0,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 0,
+        "finalScore": 85.594
+      },
+      "discardedCount": 7
+    },
+    {
+      "date": "2026-09-26",
+      "output": "output/2026/2026.09/2026.09.26.png",
+      "selectedTheme": "Day following the Mid-Autumn Festival",
+      "selectedMotif": "bookPress",
+      "contentSource": "structured",
+      "selectedScoreBreakdown": {
+        "basePriority": 73,
+        "popularity": 34,
+        "jitter": 2.159,
+        "motifPenalty": 0,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 38,
+        "colorPenalty": 40,
+        "finalScore": -10.841
+      },
+      "discardedCount": 2
+    },
+    {
+      "date": "2026-09-27",
+      "output": "output/2026/2026.09/2026.09.27.png",
+      "selectedTheme": "Meskel (Orthodox)",
+      "selectedMotif": "templeBells",
+      "contentSource": "generic",
+      "selectedScoreBreakdown": {
+        "basePriority": 61,
+        "popularity": 14,
+        "jitter": 0.543,
+        "motifPenalty": 0,
+        "culturalPenalty": 40,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 35,
+        "finalScore": 0.543
+      },
+      "discardedCount": 1
+    },
+    {
+      "date": "2026-09-28",
+      "output": "output/2026/2026.09/2026.09.28.png",
+      "selectedTheme": "Czech Statehood Day",
+      "selectedMotif": "cityParade",
+      "contentSource": "structured",
+      "selectedScoreBreakdown": {
+        "basePriority": 64,
+        "popularity": 14,
+        "jitter": 1.955,
+        "motifPenalty": 7,
+        "culturalPenalty": 32,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 42,
+        "finalScore": -1.045
+      },
+      "discardedCount": 3
     }
   ],
-  "skipped": []
+  "skipped": [],
+  "health": {
+    "render": {
+      "status": "complete"
+    },
+    "providers": {
+      "status": "complete",
+      "issues": [],
+      "warnings": [],
+      "sourceStats": {
+        "nagerRequests": 204,
+        "nagerSuccessfulRequests": 204,
+        "nagerFailedRequests": 0,
+        "nagerErrorSamples": [],
+        "openHolidaysRequests": 36,
+        "openHolidaysSuccessfulRequests": 36,
+        "openHolidaysFailedRequests": 0,
+        "openHolidaysErrorSamples": []
+      },
+      "generatedAt": "2026-09-20T18:37:35.027Z"
+    },
+    "contentCoverage": {
+      "status": "degraded",
+      "missingCount": 5,
+      "legacyOnlyCount": 0
+    }
+  },
+  "contentGaps": [
+    {
+      "key": "et|meskel (orthodox)",
+      "title": "Meskel (Orthodox)",
+      "providers": [
+        "Nager.Date"
+      ],
+      "countries": [
+        "ET"
+      ],
+      "dates": [
+        "2026-09-27"
+      ],
+      "localNames": [
+        "መስቀል"
+      ],
+      "typeLabels": [
+        "公众节日"
+      ]
+    },
+    {
+      "key": "lv|baltic unity day",
+      "title": "Baltic Unity Day",
+      "providers": [
+        "Nager.Date"
+      ],
+      "countries": [
+        "LV"
+      ],
+      "dates": [
+        "2026-09-22"
+      ],
+      "localNames": [
+        "Baltu vienības diena"
+      ],
+      "typeLabels": [
+        "纪念日"
+      ]
+    },
+    {
+      "key": "mh|manit day",
+      "title": "Manit Day",
+      "providers": [
+        "Nager.Date"
+      ],
+      "countries": [
+        "MH"
+      ],
+      "dates": [
+        "2026-09-25"
+      ],
+      "localNames": [],
+      "typeLabels": [
+        "公众节日"
+      ]
+    },
+    {
+      "key": "nc|new caledonia day",
+      "title": "New Caledonia Day",
+      "providers": [
+        "Nager.Date"
+      ],
+      "countries": [
+        "NC"
+      ],
+      "dates": [
+        "2026-09-24"
+      ],
+      "localNames": [],
+      "typeLabels": [
+        "公众节日"
+      ]
+    },
+    {
+      "key": "nr|sir hammer deroburt day",
+      "title": "Sir Hammer DeRoburt Day",
+      "providers": [
+        "Nager.Date"
+      ],
+      "countries": [
+        "NR"
+      ],
+      "dates": [
+        "2026-09-25"
+      ],
+      "localNames": [],
+      "typeLabels": [
+        "公众节日"
+      ]
+    }
+  ],
+  "legacyOnly": []
 }

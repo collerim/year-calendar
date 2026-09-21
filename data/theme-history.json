@@ -1,36 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-20T18:38:29.612Z",
+  "updatedAt": "2026-09-21T20:21:45.099Z",
   "days": {
-    "2026-08-07": {
-      "title": "Constitution Day",
-      "motif": "wovenPattern",
-      "gradient": [
-        "#151f39",
-        "#4c3044",
-        "#12161b"
-      ],
-      "accent": "#72a1da",
-      "secondary": "#d75763",
-      "holidayFamily": "constitution-day",
-      "popularityTier": "common",
-      "scopeTier": "national",
-      "tags": [
-        "civic",
-        "celebration",
-        "procession",
-        "culture"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "AI",
-        "countryName": "Anguilla",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-08-08": {
       "title": "High Festival of Peace",
       "motif": "carnivalMasks",
@@ -1558,6 +1529,35 @@
           "全国性"
         ],
         "nationwide": true,
+        "subdivisions": []
+      }
+    },
+    "2026-09-29": {
+      "title": "Boqueron Battle Victory Day",
+      "motif": "laurelTorch",
+      "gradient": [
+        "#15191b",
+        "#5a3c33",
+        "#131311"
+      ],
+      "accent": "#c5ac59",
+      "secondary": "#c85041",
+      "holidayFamily": "remembrance",
+      "popularityTier": "niche",
+      "scopeTier": "national",
+      "tags": [
+        "civic",
+        "remembrance",
+        "light",
+        "celebration"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "PY",
+        "countryName": "Paraguay",
+        "typeLabels": [
+          "公众节日"
+        ],
         "subdivisions": []
       }
     }

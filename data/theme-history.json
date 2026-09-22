@@ -1,42 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-21T20:21:45.099Z",
+  "updatedAt": "2026-09-22T19:41:28.309Z",
   "days": {
-    "2026-08-08": {
-      "title": "High Festival of Peace",
-      "motif": "carnivalMasks",
-      "gradient": [
-        "#1d1717",
-        "#5f3a30",
-        "#151212"
-      ],
-      "accent": "#cbaa55",
-      "secondary": "#cb4f42",
-      "holidayFamily": "municipal-local",
-      "popularityTier": "niche",
-      "scopeTier": "national",
-      "tags": [
-        "celebration",
-        "procession",
-        "folk",
-        "market",
-        "civic",
-        "remembrance"
-      ],
-      "source": {
-        "provider": "OpenHolidays",
-        "countryCode": "DE",
-        "countryName": "Germany",
-        "typeLabels": [
-          "公众节日",
-          "地方性"
-        ],
-        "nationwide": false,
-        "subdivisions": [
-          "BY-AU"
-        ]
-      }
-    },
     "2026-08-09": {
       "title": "Singapore National Day",
       "motif": "fireworks",
@@ -1555,6 +1520,36 @@
         "provider": "Nager.Date",
         "countryCode": "PY",
         "countryName": "Paraguay",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-09-30": {
+      "title": "National Day for Truth and Reconciliation",
+      "motif": "doveGarland",
+      "gradient": [
+        "#1a181b",
+        "#642a31",
+        "#151515"
+      ],
+      "accent": "#d5555b",
+      "secondary": "#e5e3e3",
+      "holidayFamily": "national-day",
+      "popularityTier": "common",
+      "scopeTier": "national",
+      "tags": [
+        "remembrance",
+        "light",
+        "civic",
+        "celebration",
+        "botanical"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "CA",
+        "countryName": "Canada",
         "typeLabels": [
           "公众节日"
         ],

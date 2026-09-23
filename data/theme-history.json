@@ -1,37 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-22T19:41:28.309Z",
+  "updatedAt": "2026-09-23T19:37:44.831Z",
   "days": {
-    "2026-08-09": {
-      "title": "Singapore National Day",
-      "motif": "fireworks",
-      "gradient": [
-        "#171a27",
-        "#622a37",
-        "#131315"
-      ],
-      "accent": "#d45561",
-      "secondary": "#e3e0e2",
-      "holidayFamily": "national-day",
-      "popularityTier": "common",
-      "scopeTier": "national",
-      "tags": [
-        "sky",
-        "celebration",
-        "light",
-        "civic"
-      ],
-      "source": {
-        "provider": "Fixed Holidays",
-        "countryCode": "SG",
-        "countryName": "Singapore",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "nationwide": true,
-        "subdivisions": []
-      }
-    },
     "2026-08-10": {
       "title": "Father's Day",
       "motif": "maritimeFlags",
@@ -1553,6 +1523,37 @@
         "typeLabels": [
           "公众节日"
         ],
+        "subdivisions": []
+      }
+    },
+    "2026-10-01": {
+      "title": "Tuvalu Independence Day",
+      "motif": "waterFlowers",
+      "gradient": [
+        "#0d2733",
+        "#2a6273",
+        "#12151b"
+      ],
+      "accent": "#6cbcd5",
+      "secondary": "#e0bb5b",
+      "holidayFamily": "independence-day",
+      "popularityTier": "common",
+      "scopeTier": "national",
+      "tags": [
+        "water",
+        "botanical",
+        "island",
+        "civic",
+        "celebration"
+      ],
+      "source": {
+        "provider": "Fixed Holidays",
+        "countryCode": "TV",
+        "countryName": "Tuvalu",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "nationwide": true,
         "subdivisions": []
       }
     }

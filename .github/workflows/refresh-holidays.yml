@@ -13,8 +13,9 @@ env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 concurrency:
-  group: refresh-holiday-data
+  group: year-calendar-main-${{ github.ref }}
   cancel-in-progress: false
+  queue: max
 
 jobs:
   refresh:
@@ -67,5 +68,7 @@ jobs:
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git add data/holiday-cache.js
-          git commit -m "chore: refresh holiday data" || echo "No holiday data changes"
-          git push origin HEAD:${GITHUB_REF_NAME}
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: refresh holiday data"
+            git push origin HEAD:${GITHUB_REF_NAME}
+          fi

@@ -14,8 +14,9 @@ env:
   PUPPETEER_CACHE_DIR: /home/runner/.cache/puppeteer
 
 concurrency:
-  group: generate-daily-wallpaper
+  group: year-calendar-main-${{ github.ref }}
   cancel-in-progress: false
+  queue: max
 
 jobs:
   build:
@@ -110,16 +111,18 @@ jobs:
             debug-action
           if-no-files-found: ignore
 
-      - name: Commit generated data
-        run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-          git add data/holiday-cache.js
-          git commit -m "chore: update generated data" || echo "No generated data changes"
-          git push origin HEAD:${GITHUB_REF_NAME}
-
       - name: Commit generated archive
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           npm run publish:archive
+
+      - name: Commit generated data
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add data/holiday-cache.js
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: update generated data"
+            git push origin HEAD:${GITHUB_REF_NAME}
+          fi

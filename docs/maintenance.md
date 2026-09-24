@@ -76,6 +76,12 @@ The scan writes ignored temporary files and reports missing or legacy-only conte
 - The daily generation workflow should install Puppeteer's pinned Chrome before rendering.
 - The content scan workflow validates the content database, scans future provider windows, and uploads text, JSON, and JS stub artifacts for the next content batch.
 - Temporary caches from scans should not be committed.
+- Daily generation, scheduled refresh, content maintenance, and future scans share one
+  per-branch Actions concurrency group with `queue: max`. They run one at a time so
+  their `main` commits cannot race; queued runs are retained rather than replaced.
+  A long manually started scan can delay a later daily run, so avoid starting one
+  near the daily schedule. Daily generation publishes `generated-wallpapers` before
+  attempting its optional cache commit to `main`.
 
 ## Theme Rules
 

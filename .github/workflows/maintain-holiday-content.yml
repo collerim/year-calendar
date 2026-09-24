@@ -13,8 +13,9 @@ env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 concurrency:
-  group: holiday-content-backlog
+  group: year-calendar-main-${{ github.ref }}
   cancel-in-progress: false
+  queue: max
 
 jobs:
   maintain:

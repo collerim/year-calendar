@@ -15,7 +15,8 @@
       "dates": [
         "2026-12-09"
       ],
-      "status": "missing"
+      "status": "resolved",
+      "resolvedOn": "2026-09-24"
     },
     {
       "key": "at|saint martins day",
@@ -31,7 +32,8 @@
       "dates": [
         "2026-11-11"
       ],
-      "status": "missing"
+      "status": "resolved",
+      "resolvedOn": "2026-09-24"
     },
     {
       "key": "bf|martyrs day",
@@ -47,7 +49,8 @@
       "dates": [
         "2026-10-31"
       ],
-      "status": "missing"
+      "status": "resolved",
+      "resolvedOn": "2026-09-24"
     },
     {
       "key": "bf|proclamation of independence day",
@@ -63,7 +66,8 @@
       "dates": [
         "2026-12-11"
       ],
-      "status": "missing"
+      "status": "resolved",
+      "resolvedOn": "2026-09-24"
     },
     {
       "key": "bi|ndadaye day",
@@ -79,7 +83,8 @@
       "dates": [
         "2026-10-21"
       ],
-      "status": "missing"
+      "status": "resolved",
+      "resolvedOn": "2026-09-24"
     },
     {
       "key": "bi|rwagasore day",
@@ -95,7 +100,8 @@
       "dates": [
         "2026-10-13"
       ],
-      "status": "missing"
+      "status": "resolved",
+      "resolvedOn": "2026-09-24"
     },
     {
       "key": "bl|abolition day",
@@ -111,7 +117,8 @@
       "dates": [
         "2026-10-09"
       ],
-      "status": "missing"
+      "status": "resolved",
+      "resolvedOn": "2026-09-24"
     },
     {
       "key": "bq|saba flag day",
@@ -127,7 +134,8 @@
       "dates": [
         "2026-12-06"
       ],
-      "status": "missing"
+      "status": "resolved",
+      "resolvedOn": "2026-09-24"
     },
     {
       "key": "bq|statia day",
@@ -143,7 +151,8 @@
       "dates": [
         "2026-11-16"
       ],
-      "status": "missing"
+      "status": "resolved",
+      "resolvedOn": "2026-09-24"
     },
     {
       "key": "ch|st martins day",
@@ -159,7 +168,8 @@
       "dates": [
         "2026-11-11"
       ],
-      "status": "missing"
+      "status": "resolved",
+      "resolvedOn": "2026-09-24"
     },
     {
       "key": "ci|national peace day",
@@ -175,7 +185,8 @@
       "dates": [
         "2026-11-15"
       ],
-      "status": "missing"
+      "status": "resolved",
+      "resolvedOn": "2026-09-24"
     },
     {
       "key": "ck|gospel day",
@@ -191,7 +202,8 @@
       "dates": [
         "2026-10-26"
       ],
-      "status": "missing"
+      "status": "resolved",
+      "resolvedOn": "2026-09-24"
     },
     {
       "key": "cw|curaçao day",
@@ -207,7 +219,8 @@
       "dates": [
         "2026-10-10"
       ],
-      "status": "missing"
+      "status": "resolved",
+      "resolvedOn": "2026-09-24"
     },
     {
       "key": "cx|territory day",
@@ -223,7 +236,8 @@
       "dates": [
         "2026-10-05"
       ],
-      "status": "missing"
+      "status": "resolved",
+      "resolvedOn": "2026-09-24"
     },
     {
       "key": "dm|community service day",
@@ -239,7 +253,8 @@
       "dates": [
         "2026-11-04"
       ],
-      "status": "missing"
+      "status": "resolved",
+      "resolvedOn": "2026-09-24"
     },
     {
       "key": "es|regional holiday in valencia",
@@ -255,7 +270,8 @@
       "dates": [
         "2026-10-09"
       ],
-      "status": "missing"
+      "status": "resolved",
+      "resolvedOn": "2026-09-24"
     },
     {
       "key": "et|meskel (orthodox)",
@@ -271,7 +287,8 @@
       "dates": [
         "2026-09-27"
       ],
-      "status": "missing"
+      "status": "resolved",
+      "resolvedOn": "2026-09-24"
     },
     {
       "key": "fk|battle day",
@@ -287,7 +304,8 @@
       "dates": [
         "2026-12-08"
       ],
-      "status": "missing"
+      "status": "resolved",
+      "resolvedOn": "2026-09-24"
     },
     {
       "key": "fm|presidents day",
@@ -303,7 +321,8 @@
       "dates": [
         "2026-11-23"
       ],
-      "status": "missing"
+      "status": "resolved",
+      "resolvedOn": "2026-09-24"
     },
     {
       "key": "fm|teachers appreciation day",
@@ -319,7 +338,8 @@
       "dates": [
         "2026-10-09"
       ],
-      "status": "missing"
+      "status": "resolved",
+      "resolvedOn": "2026-09-24"
     },
     {
       "key": "iq|victory day",
@@ -335,7 +355,8 @@
       "dates": [
         "2026-12-10"
       ],
-      "status": "missing"
+      "status": "resolved",
+      "resolvedOn": "2026-09-24"
     },
     {
       "key": "kh|commemoration day of the kings father",
@@ -351,7 +372,8 @@
       "dates": [
         "2026-10-15"
       ],
-      "status": "missing"
+      "status": "resolved",
+      "resolvedOn": "2026-09-24"
     },
     {
       "key": "kh|coronation day of king sihamoni",
@@ -367,7 +389,8 @@
       "dates": [
         "2026-10-29"
       ],
-      "status": "missing"
+      "status": "resolved",
+      "resolvedOn": "2026-09-24"
     },
     {
       "key": "kh|national independence day",
@@ -383,7 +406,8 @@
       "dates": [
         "2026-11-09"
       ],
-      "status": "missing"
+      "status": "resolved",
+      "resolvedOn": "2026-09-24"
     },
     {
       "key": "kh|pchum ben",
@@ -400,7 +424,8 @@
         "2026-10-10",
         "2026-10-11"
       ],
-      "status": "missing"
+      "status": "resolved",
+      "resolvedOn": "2026-09-24"
     },
     {
       "key": "kh|water festival",
@@ -418,7 +443,8 @@
         "2026-11-24",
         "2026-11-25"
       ],
-      "status": "missing"
+      "status": "resolved",
+      "resolvedOn": "2026-09-24"
     },
     {
       "key": "ki|human rights and peace day",
@@ -434,7 +460,8 @@
       "dates": [
         "2026-12-10"
       ],
-      "status": "missing"
+      "status": "resolved",
+      "resolvedOn": "2026-09-24"
     },
     {
       "key": "km|maore day",
@@ -450,7 +477,8 @@
       "dates": [
         "2026-11-12"
       ],
-      "status": "missing"
+      "status": "resolved",
+      "resolvedOn": "2026-09-24"
     },
     {
       "key": "lr|william v. s. tubmans birthday",
@@ -466,7 +494,8 @@
       "dates": [
         "2026-11-29"
       ],
-      "status": "missing"
+      "status": "resolved",
+      "resolvedOn": "2026-09-24"
     },
     {
       "key": "lv|baltic unity day",
@@ -482,7 +511,8 @@
       "dates": [
         "2026-09-22"
       ],
-      "status": "missing"
+      "status": "resolved",
+      "resolvedOn": "2026-09-24"
     },
     {
       "key": "lv|border guards day",
@@ -498,7 +528,8 @@
       "dates": [
         "2026-11-07"
       ],
-      "status": "missing"
+      "status": "resolved",
+      "resolvedOn": "2026-09-24"
     },
     {
       "key": "lv|commemoration day of victims of genocide against the latvian people by the totalitarian communist regime",
@@ -514,7 +545,8 @@
       "dates": [
         "2026-12-06"
       ],
-      "status": "missing"
+      "status": "resolved",
+      "resolvedOn": "2026-09-24"
     },
     {
       "key": "lv|international day of older persons",
@@ -530,7 +562,8 @@
       "dates": [
         "2026-10-01"
       ],
-      "status": "missing"
+      "status": "resolved",
+      "resolvedOn": "2026-09-24"
     },
     {
       "key": "lv|official language day",
@@ -546,7 +579,8 @@
       "dates": [
         "2026-10-15"
       ],
-      "status": "missing"
+      "status": "resolved",
+      "resolvedOn": "2026-09-24"
     },
     {
       "key": "lv|police day",
@@ -562,7 +596,8 @@
       "dates": [
         "2026-12-05"
       ],
-      "status": "missing"
+      "status": "resolved",
+      "resolvedOn": "2026-09-24"
     },
     {
       "key": "lv|remembrance day of the tragedy of 21 november 2013",
@@ -578,7 +613,8 @@
       "dates": [
         "2026-11-21"
       ],
-      "status": "missing"
+      "status": "resolved",
+      "resolvedOn": "2026-09-24"
     },
     {
       "key": "ly|liberation day",
@@ -594,7 +630,8 @@
       "dates": [
         "2026-10-23"
       ],
-      "status": "legacy-only"
+      "status": "resolved",
+      "resolvedOn": "2026-09-24"
     },
     {
       "key": "mh|gospel day",
@@ -610,7 +647,8 @@
       "dates": [
         "2026-12-04"
       ],
-      "status": "missing"
+      "status": "resolved",
+      "resolvedOn": "2026-09-24"
     },
     {
       "key": "mh|manit day",
@@ -626,7 +664,8 @@
       "dates": [
         "2026-09-25"
       ],
-      "status": "missing"
+      "status": "resolved",
+      "resolvedOn": "2026-09-24"
     },
     {
       "key": "mh|presidents day",
@@ -642,7 +681,8 @@
       "dates": [
         "2026-11-17"
       ],
-      "status": "missing"
+      "status": "resolved",
+      "resolvedOn": "2026-09-24"
     },
     {
       "key": "mk|saint clement of ohrid day",
@@ -658,7 +698,8 @@
       "dates": [
         "2026-12-08"
       ],
-      "status": "missing"
+      "status": "resolved",
+      "resolvedOn": "2026-09-24"
     },
     {
       "key": "mp|citizenship day",
@@ -674,7 +715,8 @@
       "dates": [
         "2026-11-04"
       ],
-      "status": "missing"
+      "status": "resolved",
+      "resolvedOn": "2026-09-24"
     },
     {
       "key": "mp|commonwealth cultural day",
@@ -690,7 +732,8 @@
       "dates": [
         "2026-10-13"
       ],
-      "status": "missing"
+      "status": "resolved",
+      "resolvedOn": "2026-09-24"
     },
     {
       "key": "mw|mothers day",
@@ -706,7 +749,8 @@
       "dates": [
         "2026-10-15"
       ],
-      "status": "missing"
+      "status": "resolved",
+      "resolvedOn": "2026-09-24"
     },
     {
       "key": "nc|new caledonia day",
@@ -722,7 +766,8 @@
       "dates": [
         "2026-09-24"
       ],
-      "status": "missing"
+      "status": "resolved",
+      "resolvedOn": "2026-09-24"
     },
     {
       "key": "nr|angam day",
@@ -738,7 +783,8 @@
       "dates": [
         "2026-10-26"
       ],
-      "status": "missing"
+      "status": "resolved",
+      "resolvedOn": "2026-09-24"
     },
     {
       "key": "nr|sir hammer deroburt day",
@@ -754,7 +800,8 @@
       "dates": [
         "2026-09-25"
       ],
-      "status": "missing"
+      "status": "resolved",
+      "resolvedOn": "2026-09-24"
     },
     {
       "key": "nu|peniamina gospel day",
@@ -770,7 +817,8 @@
       "dates": [
         "2026-10-26"
       ],
-      "status": "missing"
+      "status": "resolved",
+      "resolvedOn": "2026-09-24"
     },
     {
       "key": "pe|battle of ayacucho",
@@ -786,7 +834,8 @@
       "dates": [
         "2026-12-09"
       ],
-      "status": "missing"
+      "status": "resolved",
+      "resolvedOn": "2026-09-24"
     },
     {
       "key": "pf|matarii",
@@ -802,7 +851,8 @@
       "dates": [
         "2026-11-20"
       ],
-      "status": "missing"
+      "status": "resolved",
+      "resolvedOn": "2026-09-24"
     },
     {
       "key": "pw|family day",
@@ -818,7 +868,8 @@
       "dates": [
         "2026-11-27"
       ],
-      "status": "missing"
+      "status": "resolved",
+      "resolvedOn": "2026-09-24"
     },
     {
       "key": "si|day of remembrance for the dead",
@@ -834,7 +885,8 @@
       "dates": [
         "2026-11-01"
       ],
-      "status": "missing"
+      "status": "resolved",
+      "resolvedOn": "2026-09-24"
     },
     {
       "key": "si|day of the dead",
@@ -850,7 +902,8 @@
       "dates": [
         "2026-11-01"
       ],
-      "status": "missing"
+      "status": "resolved",
+      "resolvedOn": "2026-09-24"
     },
     {
       "key": "st|agricultural reform day",
@@ -866,7 +919,8 @@
       "dates": [
         "2026-09-30"
       ],
-      "status": "missing"
+      "status": "resolved",
+      "resolvedOn": "2026-09-24"
     },
     {
       "key": "tc|national heritage day",
@@ -882,7 +936,8 @@
       "dates": [
         "2026-10-12"
       ],
-      "status": "missing"
+      "status": "resolved",
+      "resolvedOn": "2026-09-24"
     },
     {
       "key": "td|freedom and democracy day",
@@ -898,7 +953,8 @@
       "dates": [
         "2026-12-01"
       ],
-      "status": "missing"
+      "status": "resolved",
+      "resolvedOn": "2026-09-24"
     },
     {
       "key": "td|republic day",
@@ -914,7 +970,8 @@
       "dates": [
         "2026-11-28"
       ],
-      "status": "missing"
+      "status": "resolved",
+      "resolvedOn": "2026-09-24"
     },
     {
       "key": "to|anniversary of the coronation of h.m. king george tubou i",
@@ -930,7 +987,8 @@
       "dates": [
         "2026-12-04"
       ],
-      "status": "missing"
+      "status": "resolved",
+      "resolvedOn": "2026-09-24"
     },
     {
       "key": "tv|tuvalu day",
@@ -946,7 +1004,8 @@
       "dates": [
         "2026-10-01"
       ],
-      "status": "missing"
+      "status": "resolved",
+      "resolvedOn": "2026-09-24"
     },
     {
       "key": "tv|tuvalu day holiday",
@@ -962,7 +1021,8 @@
       "dates": [
         "2026-10-02"
       ],
-      "status": "missing"
+      "status": "resolved",
+      "resolvedOn": "2026-09-24"
     },
     {
       "key": "tz|nyerere day",
@@ -978,7 +1038,8 @@
       "dates": [
         "2026-10-14"
       ],
-      "status": "missing"
+      "status": "resolved",
+      "resolvedOn": "2026-09-24"
     },
     {
       "key": "vg|heroes and foreparents day",
@@ -994,7 +1055,8 @@
       "dates": [
         "2026-10-19"
       ],
-      "status": "missing"
+      "status": "resolved",
+      "resolvedOn": "2026-09-24"
     },
     {
       "key": "vg|the 1949 great march and restoration day",
@@ -1010,7 +1072,8 @@
       "dates": [
         "2026-11-23"
       ],
-      "status": "missing"
+      "status": "resolved",
+      "resolvedOn": "2026-09-24"
     },
     {
       "key": "vu|national unity day",
@@ -1026,7 +1089,8 @@
       "dates": [
         "2026-11-29"
       ],
-      "status": "missing"
+      "status": "resolved",
+      "resolvedOn": "2026-09-24"
     },
     {
       "key": "ye|liberation day",
@@ -1042,7 +1106,8 @@
       "dates": [
         "2026-10-14"
       ],
-      "status": "legacy-only"
+      "status": "resolved",
+      "resolvedOn": "2026-09-24"
     },
     {
       "key": "zm|national day of prayer",
@@ -1058,7 +1123,8 @@
       "dates": [
         "2026-10-19"
       ],
-      "status": "missing"
+      "status": "resolved",
+      "resolvedOn": "2026-09-24"
     }
   ]
 }

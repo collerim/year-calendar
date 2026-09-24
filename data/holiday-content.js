@@ -2,6 +2,468 @@ globalThis.YearCalendarHolidayContent = {
   version: 1,
   entries: [
     {
+      title: "National Heroes' Day",
+      zhTitle: "安提瓜和巴布达国家英雄日",
+      type: "国家纪念日",
+      description: "国家英雄日也纪念安提瓜和巴布达首任总理维尔·康沃尔·伯德，回顾他与国家独立进程相连的政治生涯。",
+      keys: ["AG|National Heroes' Day"]
+    },
+    {
+      title: "Saint Martin's Day",
+      zhTitle: "奥地利圣马丁节",
+      type: "宗教与民俗节日",
+      description: "奥地利圣马丁节纪念图尔的圣马丁，儿童提灯游行和分享食物的习俗，让慷慨互助的故事在秋冬之交延续。",
+      keys: ["AT|Saint Martin's Day"]
+    },
+    {
+      title: "Martyrs' Day",
+      zhTitle: "布基纳法索烈士纪念日",
+      type: "历史纪念日",
+      description: "布基纳法索烈士纪念日缅怀国家政治变革中遇难的人们，提醒社会记住他们的牺牲以及对公正与和平的期待。",
+      keys: ["BF|Martyrs' Day"]
+    },
+    {
+      title: "Proclamation of Independence Day",
+      zhTitle: "布基纳法索共和国宣告纪念日",
+      type: "国家纪念日",
+      description: "这一国家纪念日回顾一九五八年上沃尔特共和国宣告成立的历史，是此后布基纳法索建国历程的重要节点。",
+      keys: ["BF|Proclamation of Independence Day"]
+    },
+    {
+      title: "Ndadaye Day",
+      zhTitle: "恩达达耶纪念日",
+      type: "历史人物纪念日",
+      description: "恩达达耶纪念日缅怀布隆迪首位民选总统梅尔希奥尔·恩达达耶及其遇害的历史，也承载对民主与和平的追思。",
+      keys: ["BI|Ndadaye Day"]
+    },
+    {
+      title: "Rwagasore Day",
+      zhTitle: "鲁瓦加索雷纪念日",
+      type: "历史人物纪念日",
+      description: "鲁瓦加索雷纪念日缅怀布隆迪独立运动领袖路易·鲁瓦加索雷亲王，回顾他在国家独立前夕遇害的历史。",
+      keys: ["BI|Rwagasore Day"]
+    },
+    {
+      title: "Abolition Day",
+      zhTitle: "圣巴泰勒米废奴纪念日",
+      type: "历史纪念日",
+      description: "圣巴泰勒米废奴纪念日回顾岛上废除奴隶制的历史，缅怀受奴役者，并将自由与平等纳入地方共同记忆。",
+      keys: ["BL|Abolition Day"]
+    },
+    {
+      title: "Saba Flag Day",
+      zhTitle: "萨巴岛旗帜日",
+      type: "地方纪念日",
+      description: "萨巴岛旗帜日以岛旗为中心，表达居民对本岛文化、历史和地方身份的认同，也是社区共同庆祝的日子。",
+      keys: ["BQ|Saba Flag Day"]
+    },
+    {
+      title: "Statia Day",
+      zhTitle: "圣尤斯特歇斯岛日",
+      type: "地方纪念日",
+      description: "圣尤斯特歇斯岛日纪念岛屿的历史与身份，居民借此回顾地方传统、社区联系和对家园的归属感。",
+      keys: ["BQ|Statia Day"]
+    },
+    {
+      title: "St Martin's Day",
+      zhTitle: "瑞士圣马丁节",
+      type: "宗教与民俗节日",
+      description: "瑞士部分地区在圣马丁节纪念图尔的圣马丁，秋季集市与聚餐等地方习俗延续分享和邻里相聚的传统。",
+      keys: ["CH|St Martin's Day"]
+    },
+    {
+      title: "National Peace Day",
+      zhTitle: "科特迪瓦国家和平日",
+      type: "国家纪念日",
+      description: "科特迪瓦国家和平日提醒人们珍惜社会和解与安宁，公共活动围绕对话、团结及不同社区的共同生活展开。",
+      keys: ["CI|National Peace Day"]
+    },
+    {
+      title: "Gospel Day",
+      zhTitle: "库克群岛福音日",
+      type: "宗教与文化节日",
+      description: "库克群岛福音日纪念基督教传入群岛的历史，教会礼拜、歌唱和社区聚会也呈现当地宗教与文化传统。",
+      keys: ["CK|Gospel Day"]
+    },
+    {
+      title: "Curaçao Day",
+      zhTitle: "库拉索日",
+      type: "地方纪念日",
+      description: "库拉索日庆祝岛屿的历史与文化，居民通过语言、音乐和社区活动表达对库拉索身份与家园的认同。",
+      keys: ["CW|Curaçao Day"]
+    },
+    {
+      title: "Territory Day",
+      zhTitle: "圣诞岛领地日",
+      type: "地方纪念日",
+      description: "圣诞岛领地日回顾岛屿作为澳大利亚领地的历史，公共活动也关注多元社区与这座印度洋岛屿的共同身份。",
+      keys: ["CX|Territory Day"]
+    },
+    {
+      title: "Community Service Day",
+      zhTitle: "多米尼克社区服务日",
+      type: "社区节日",
+      description: "多米尼克社区服务日鼓励居民为街区和公共空间出力，清洁、修缮等志愿行动体现互助与社区责任。",
+      keys: ["DM|Community Service Day"]
+    },
+    {
+      title: "Regional Holiday in Valencia",
+      zhTitle: "瓦伦西亚自治区日",
+      type: "地方纪念日",
+      description: "瓦伦西亚自治区日在当地纪念历史与自治身份，城市庆典、地方文化活动和社区聚会让节日带有鲜明的区域色彩。",
+      keys: ["ES|Regional Holiday in Valencia"]
+    },
+    {
+      title: "Meskel (Orthodox)",
+      zhTitle: "埃塞俄比亚正教寻获真十字架节",
+      type: "宗教节日",
+      description: "梅斯克尔节在埃塞俄比亚正教传统中纪念寻获真十字架，篝火仪式与宗教聚会构成节日的重要景象。",
+      keys: ["ET|Meskel (Orthodox)"]
+    },
+    {
+      title: "Battle Day",
+      zhTitle: "福克兰群岛海战纪念日",
+      type: "历史纪念日",
+      description: "海战纪念日回顾一九一四年福克兰群岛附近的海战，岛上以纪念活动追思战争历史及其中的人们。",
+      keys: ["FK|Battle Day"]
+    },
+    {
+      title: "Presidents Day",
+      zhTitle: "密克罗尼西亚总统日",
+      type: "国家纪念日",
+      description: "密克罗尼西亚总统日向历任国家领导人及其公共服务致意，也让人们回顾联邦制度与国家建设的历程。",
+      keys: ["FM|Presidents Day"]
+    },
+    {
+      title: "Teachers' Appreciation Day",
+      zhTitle: "密克罗尼西亚教师感谢日",
+      type: "公众节日",
+      description: "教师感谢日向密克罗尼西亚联邦的教师致谢，学校与社区借此肯定教育工作对儿童成长和知识传承的意义。",
+      keys: ["FM|Teachers' Appreciation Day"]
+    },
+    {
+      title: "Victory Day",
+      zhTitle: "伊拉克胜利日",
+      type: "历史纪念日",
+      description: "伊拉克胜利日纪念国家宣布战胜极端组织“伊斯兰国”的历史节点，也缅怀在冲突中失去生命的人们。",
+      keys: ["IQ|Victory Day"]
+    },
+    {
+      title: "Commemoration Day of the King's Father",
+      zhTitle: "柬埔寨国父纪念日",
+      type: "历史人物纪念日",
+      description: "国父纪念日缅怀诺罗敦·西哈努克，回顾他与柬埔寨独立、现代国家历史及王室传统的联系。",
+      keys: ["KH|Commemoration Day of the King's Father"]
+    },
+    {
+      title: "Coronation Day of King Sihamoni",
+      zhTitle: "西哈莫尼国王登基纪念日",
+      type: "王室纪念日",
+      description: "西哈莫尼国王登基纪念日纪念二〇〇四年的王位交接，公共仪式表达对柬埔寨君主制与国家延续的重视。",
+      keys: ["KH|Coronation Day of King Sihamoni"]
+    },
+    {
+      title: "National Independence Day",
+      zhTitle: "柬埔寨独立日",
+      type: "国家纪念日",
+      description: "柬埔寨独立日纪念国家摆脱法国殖民统治，庆典和纪念仪式回顾主权确立及此后的国家建设。",
+      keys: ["KH|National Independence Day"]
+    },
+    {
+      title: "Pchum Ben",
+      zhTitle: "柬埔寨亡人节",
+      type: "宗教与民俗节日",
+      description: "亡人节是柬埔寨重要的佛教传统，家人前往寺院供奉、诵经，追念祖先与逝去的亲人。",
+      keys: ["KH|Pchum Ben"]
+    },
+    {
+      title: "Water Festival",
+      zhTitle: "柬埔寨送水节",
+      type: "文化节日",
+      description: "送水节与柬埔寨的河流和季节变化相连，赛龙舟、灯船和滨水庆典把各地居民聚在一起。",
+      keys: ["KH|Water Festival"]
+    },
+    {
+      title: "Human Rights and Peace Day",
+      zhTitle: "基里巴斯人权与和平日",
+      type: "公众纪念日",
+      description: "基里巴斯人权与和平日围绕尊重人的权利与和平共处展开，提醒社区关注公平、尊严和彼此照顾。",
+      keys: ["KI|Human Rights and Peace Day"]
+    },
+    {
+      title: "Maore Day",
+      zhTitle: "科摩罗马约特日",
+      type: "国家纪念日",
+      description: "科摩罗马约特日聚焦马约特岛与群岛的历史联系及主权议题，是国家身份和区域关系的纪念节点。",
+      keys: ["KM|Maore Day"]
+    },
+    {
+      title: "William V. S. Tubman's Birthday",
+      zhTitle: "塔布曼诞辰纪念日",
+      type: "历史人物纪念日",
+      description: "塔布曼诞辰纪念日回顾利比里亚前总统威廉·瓦坎纳拉特·沙德拉奇·塔布曼的政治生涯及其所处的国家历史。",
+      keys: ["LR|William V. S. Tubman's Birthday"]
+    },
+    {
+      title: "Baltic Unity Day",
+      zhTitle: "波罗的海团结日",
+      type: "区域纪念日",
+      description: "波罗的海团结日强调拉脱维亚、立陶宛等邻国的历史联系，也借共同记忆表达跨越边界的合作与团结。",
+      keys: ["LV|Baltic Unity Day"]
+    },
+    {
+      title: "Border Guards Day",
+      zhTitle: "拉脱维亚边防卫队日",
+      type: "职业纪念日",
+      description: "拉脱维亚边防卫队日向守卫边境的人员致意，并回顾国家边界、公共安全与独立后的制度建设。",
+      keys: ["LV|Border Guards Day"]
+    },
+    {
+      title: "Commemoration Day of Victims of Genocide Against the Latvian People By the Totalitarian Communist Regime",
+      zhTitle: "拉脱维亚苏联统治受害者纪念日",
+      type: "历史纪念日",
+      description: "这一天缅怀苏联极权统治下遭迫害的拉脱维亚人民，让受害者经历与人权、历史记忆保持可见。",
+      keys: ["LV|Commemoration Day of Victims of Genocide Against the Latvian People By the Totalitarian Communist Regime"]
+    },
+    {
+      title: "International Day of Older Persons",
+      zhTitle: "拉脱维亚国际老年人日",
+      type: "公众节日",
+      description: "国际老年人日关注长者在家庭与社会中的贡献，也提醒人们重视老年人的尊严、照护和代际联系。",
+      keys: ["LV|International Day of Older Persons"]
+    },
+    {
+      title: "Official Language Day",
+      zhTitle: "拉脱维亚官方语言日",
+      type: "文化纪念日",
+      description: "拉脱维亚官方语言日关注拉脱维亚语在公共生活中的地位，也鼓励人们珍惜语言所承载的文化记忆。",
+      keys: ["LV|Official Language Day"]
+    },
+    {
+      title: "Police Day",
+      zhTitle: "拉脱维亚警察日",
+      type: "职业纪念日",
+      description: "拉脱维亚警察日回顾警务机构的发展，向维护公共秩序与社区安全的警务人员致意。",
+      keys: ["LV|Police Day"]
+    },
+    {
+      title: "Remembrance Day of the Tragedy of 21 November 2013",
+      zhTitle: "二〇一三年十一月二十一日悲剧纪念日",
+      type: "历史纪念日",
+      description: "这一纪念日缅怀二〇一三年里加祖利图德超市屋顶坍塌事故的遇难者，也提醒社会关注公共安全。",
+      keys: ["LV|Remembrance Day of the Tragedy of 21 November 2013"]
+    },
+    {
+      title: "Liberation Day",
+      zhTitle: "利比亚解放日",
+      type: "历史纪念日",
+      description: "利比亚解放日纪念二〇一一年十月宣布全国解放的时刻，也承载对冲突牺牲者及国家未来的思考。",
+      keys: ["LY|Liberation Day"]
+    },
+    {
+      title: "Gospel Day",
+      zhTitle: "马绍尔群岛福音日",
+      type: "宗教与文化节日",
+      description: "马绍尔群岛福音日回顾基督教传入群岛的历史，教会礼拜、唱诗与社区活动延续当地宗教生活。",
+      keys: ["MH|Gospel Day"]
+    },
+    {
+      title: "Manit Day",
+      zhTitle: "马绍尔群岛传统文化日",
+      type: "文化节日",
+      description: "传统文化日庆祝马绍尔群岛的“manit”传统，航海知识、编织、歌舞和口述历史都体现岛屿文化的传承。",
+      keys: ["MH|Manit Day"]
+    },
+    {
+      title: "Presidents' Day",
+      zhTitle: "马绍尔群岛总统日",
+      type: "国家纪念日",
+      description: "总统日纪念马绍尔群岛建国以来的总统，尤其回顾首任总统阿马塔·卡布阿及国家发展的历史。",
+      keys: ["MH|Presidents' Day"]
+    },
+    {
+      title: "Saint Clement of Ohrid Day",
+      zhTitle: "奥赫里德圣克莱门特日",
+      type: "宗教与文化节日",
+      description: "奥赫里德圣克莱门特日纪念巴尔干斯拉夫文字与教育传统的重要人物，也连接北马其顿的宗教和文化记忆。",
+      keys: ["MK|Saint Clement of Ohrid Day"]
+    },
+    {
+      title: "Citizenship Day",
+      zhTitle: "北马里亚纳群岛公民身份日",
+      type: "地方纪念日",
+      description: "公民身份日纪念北马里亚纳群岛与美国政治关系中的身份转变，居民借此回顾自治共同体的历史。",
+      keys: ["MP|Citizenship Day"]
+    },
+    {
+      title: "Commonwealth Cultural Day",
+      zhTitle: "北马里亚纳群岛文化日",
+      type: "文化节日",
+      description: "文化日庆祝北马里亚纳群岛的查莫罗与加罗林等文化传统，社区活动展现语言、舞蹈、食物与岛屿记忆。",
+      keys: ["MP|Commonwealth Cultural Day"]
+    },
+    {
+      title: "Mother's Day",
+      zhTitle: "马拉维母亲节",
+      type: "家庭节日",
+      description: "马拉维母亲节感谢母亲与照护者在家庭和社区中的付出，亲友以探望、祝福和相聚表达敬意。",
+      keys: ["MW|Mother's Day"]
+    },
+    {
+      title: "New Caledonia Day",
+      zhTitle: "新喀里多尼亚日",
+      type: "地方纪念日",
+      description: "新喀里多尼亚日让人们回顾群岛的历史和多元文化，也为思考地方身份与共同未来提供契机。",
+      keys: ["NC|New Caledonia Day"]
+    },
+    {
+      title: "Angam Day",
+      zhTitle: "瑙鲁安加姆日",
+      type: "国家纪念日",
+      description: "安加姆日在瑙鲁纪念原住民人口恢复的历史时刻，承载族群延续、战时记忆与社区生存的意义。",
+      keys: ["NR|Angam Day"]
+    },
+    {
+      title: "Sir Hammer DeRoburt Day",
+      zhTitle: "哈默·德罗伯特爵士纪念日",
+      type: "历史人物纪念日",
+      description: "纪念日致敬瑙鲁建国人物及首任总统哈默·德罗伯特爵士，回顾他在争取独立和国家建设中的作用。",
+      keys: ["NR|Sir Hammer DeRoburt Day"]
+    },
+    {
+      title: "Peniamina Gospel Day",
+      zhTitle: "纽埃佩尼亚米纳福音日",
+      type: "宗教与文化节日",
+      description: "纽埃佩尼亚米纳福音日纪念与基督教传入岛屿相关的佩尼亚米纳，教会活动也延续当地宗教传统。",
+      keys: ["NU|Peniamina Gospel Day"]
+    },
+    {
+      title: "Battle of Ayacucho",
+      zhTitle: "阿亚库乔战役纪念日",
+      type: "历史纪念日",
+      description: "阿亚库乔战役纪念日回顾南美独立战争的重要战役，秘鲁借此缅怀独立进程与共和国的形成。",
+      keys: ["PE|Battle of Ayacucho"]
+    },
+    {
+      title: "Matari'i",
+      zhTitle: "塔希提马塔里伊节",
+      type: "文化与季节节日",
+      description: "马塔里伊节以昴星团在天空中的变化标记波利尼西亚传统季节，连接丰收、自然节律与岛屿文化。",
+      keys: ["PF|Matari'i"]
+    },
+    {
+      title: "Family Day",
+      zhTitle: "帕劳家庭日",
+      type: "家庭节日",
+      description: "帕劳家庭日强调亲人相聚与代际照护，家庭和社区借节日感谢彼此支持，也延续岛屿社会的亲属纽带。",
+      keys: ["PW|Family Day"]
+    },
+    {
+      title: "Day of Remembrance for the Dead",
+      zhTitle: "斯洛文尼亚亡者追思日",
+      type: "宗教与民俗节日",
+      description: "斯洛文尼亚亡者追思日让亲友前往墓园献花点烛，安静地纪念逝去的人并维系家族记忆。",
+      keys: ["SI|Day of Remembrance for the Dead"]
+    },
+    {
+      title: "Day of the Dead",
+      zhTitle: "斯洛文尼亚亡者日",
+      type: "宗教与民俗节日",
+      description: "斯洛文尼亚亡者日以扫墓、鲜花和烛光追思亲人，提醒人们在秋季节期与家人共同保存记忆。",
+      keys: ["SI|Day of the Dead"]
+    },
+    {
+      title: "Agricultural Reform Day",
+      zhTitle: "圣多美和普林西比土地改革日",
+      type: "历史纪念日",
+      description: "土地改革日回顾圣多美和普林西比独立后农业土地制度的转变，也让人们思考土地与乡村生活的关系。",
+      keys: ["ST|Agricultural Reform Day"]
+    },
+    {
+      title: "National Heritage Day",
+      zhTitle: "特克斯和凯科斯群岛文化遗产日",
+      type: "文化节日",
+      description: "文化遗产日庆祝特克斯和凯科斯群岛的历史、音乐、食物与海岛传统，鼓励社区把地方记忆传给下一代。",
+      keys: ["TC|National Heritage Day"]
+    },
+    {
+      title: "Freedom and Democracy Day",
+      zhTitle: "乍得自由与民主日",
+      type: "历史纪念日",
+      description: "自由与民主日回顾乍得政治转折的历史，公共纪念围绕自由、政治参与和国家未来展开。",
+      keys: ["TD|Freedom and Democracy Day"]
+    },
+    {
+      title: "Republic Day",
+      zhTitle: "乍得共和国日",
+      type: "国家纪念日",
+      description: "共和国日纪念乍得确立共和制度的历史节点，也回望独立前后国家制度的形成。",
+      keys: ["TD|Republic Day"]
+    },
+    {
+      title: "Anniversary of the Coronation of H.M. King George Tubou I",
+      zhTitle: "乔治·图普一世国王加冕纪念日",
+      type: "王室纪念日",
+      description: "汤加以这一节日纪念乔治·图普一世国王及王国形成的历史，王室记忆也与现代汤加的国家身份相连。",
+      keys: ["TO|Anniversary of the Coronation of H.M. King George Tubou I"]
+    },
+    {
+      title: "Tuvalu Day",
+      zhTitle: "图瓦卢日",
+      type: "国家纪念日",
+      description: "图瓦卢日庆祝国家独立与岛屿共同体，居民以文化表演、社区聚会和旗帜表达对家园的认同。",
+      keys: ["TV|Tuvalu Day"]
+    },
+    {
+      title: "Tuvalu Day Holiday",
+      zhTitle: "图瓦卢日补休日",
+      type: "公共假日",
+      description: "图瓦卢日补休日延续独立纪念期间的公共假期，让居民有更多时间与家人和社区共同庆祝。",
+      keys: ["TV|Tuvalu Day Holiday"]
+    },
+    {
+      title: "Nyerere Day",
+      zhTitle: "尼雷尔纪念日",
+      type: "历史人物纪念日",
+      description: "尼雷尔纪念日缅怀坦桑尼亚首任总统朱利叶斯·尼雷尔，回顾独立、国家团结与公共服务的历史。",
+      keys: ["TZ|Nyerere Day"]
+    },
+    {
+      title: "Heroes and Foreparents Day",
+      zhTitle: "英属维尔京群岛英雄与先辈日",
+      type: "历史纪念日",
+      description: "英雄与先辈日致敬英属维尔京群岛为社区作出贡献的人们，也追念塑造今日岛屿社会的前辈。",
+      keys: ["VG|Heroes and Foreparents Day"]
+    },
+    {
+      title: "The 1949 Great March and Restoration Day",
+      zhTitle: "一九四九年大游行与议会恢复纪念日",
+      type: "历史纪念日",
+      description: "这一纪念日回顾英属维尔京群岛居民一九四九年的大游行，以及随后恢复立法议会的政治历程。",
+      keys: ["VG|The 1949 Great March and Restoration Day"]
+    },
+    {
+      title: "National Unity Day",
+      zhTitle: "瓦努阿图国家团结日",
+      type: "国家纪念日",
+      description: "国家团结日强调瓦努阿图各岛屿、语言与社区之间的联系，公共活动表达对共同国家身份的认同。",
+      keys: ["VU|National Unity Day"]
+    },
+    {
+      title: "Liberation Day",
+      zhTitle: "也门十月革命纪念日",
+      type: "历史纪念日",
+      description: "也门十月革命纪念日回顾一九六三年南也门反殖民起义的开端，以及通往独立的历史进程。",
+      keys: ["YE|Liberation Day"]
+    },
+    {
+      title: "National Day of Prayer",
+      zhTitle: "赞比亚全国祈祷日",
+      type: "宗教与公众节日",
+      description: "赞比亚全国祈祷日邀请人们以祈祷和反思关注国家生活，宗教团体与社区也借此表达团结和希望。",
+      keys: ["ZM|National Day of Prayer"]
+    },
+    {
       title: "Curaçao National Flag and Anthem Day",
       zhTitle: "库拉索国旗与国歌日",
       type: "国家象征纪念日",

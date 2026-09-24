@@ -1,37 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-23T19:37:44.831Z",
+  "updatedAt": "2026-09-24T19:56:52.860Z",
   "days": {
-    "2026-08-10": {
-      "title": "Father's Day",
-      "motif": "maritimeFlags",
-      "gradient": [
-        "#0d2733",
-        "#2a6273",
-        "#111617"
-      ],
-      "accent": "#6cbcd5",
-      "secondary": "#debc56",
-      "holidayFamily": "national-civic-day",
-      "popularityTier": "common",
-      "scopeTier": "national",
-      "tags": [
-        "maritime",
-        "water",
-        "civic",
-        "island",
-        "celebration"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "WS",
-        "countryName": "Samoa",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-08-11": {
       "title": "Carnival",
       "motif": "carnivalMasks",
@@ -1554,6 +1524,38 @@
           "公众节日"
         ],
         "nationwide": true,
+        "subdivisions": []
+      }
+    },
+    "2026-10-02": {
+      "title": "Tuvalu Day Holiday",
+      "motif": "lotusMandala",
+      "gradient": [
+        "#1f1728",
+        "#583f5a",
+        "#121515"
+      ],
+      "accent": "#caa9d5",
+      "secondary": "#7fbeaa",
+      "holidayFamily": "religious-observance",
+      "popularityTier": "niche",
+      "scopeTier": "national",
+      "tags": [
+        "religious",
+        "botanical",
+        "culture",
+        "heritage",
+        "water",
+        "island",
+        "celebration"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "TV",
+        "countryName": "Tuvalu",
+        "typeLabels": [
+          "公众节日"
+        ],
         "subdivisions": []
       }
     }

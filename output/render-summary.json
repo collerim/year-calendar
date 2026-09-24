@@ -1,27 +1,9 @@
 {
-  "generatedAt": "2026-09-23T19:37:44.834Z",
-  "baseDate": "2026-09-24",
-  "ensuredThrough": "2026-10-01",
+  "generatedAt": "2026-09-24T19:56:52.862Z",
+  "baseDate": "2026-09-25",
+  "ensuredThrough": "2026-10-02",
   "today": "output/today.png",
   "generated": [
-    {
-      "date": "2026-09-24",
-      "output": "output/2026/2026.09/2026.09.24.png",
-      "selectedTheme": "Constitution Day",
-      "selectedMotif": "wovenPattern",
-      "contentSource": "structured",
-      "selectedScoreBreakdown": {
-        "basePriority": 69,
-        "popularity": 26,
-        "jitter": 3.124,
-        "motifPenalty": 0,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 42,
-        "finalScore": 14.124
-      },
-      "discardedCount": 7
-    },
     {
       "date": "2026-09-25",
       "output": "output/2026/2026.09/2026.09.25.png",
@@ -63,7 +45,7 @@
       "output": "output/2026/2026.09/2026.09.27.png",
       "selectedTheme": "Meskel (Orthodox)",
       "selectedMotif": "templeBells",
-      "contentSource": "generic",
+      "contentSource": "structured",
       "selectedScoreBreakdown": {
         "basePriority": 61,
         "popularity": 14,
@@ -147,6 +129,24 @@
         "finalScore": 59.685
       },
       "discardedCount": 8
+    },
+    {
+      "date": "2026-10-02",
+      "output": "output/2026/2026.10/2026.10.02.png",
+      "selectedTheme": "Tuvalu Day Holiday",
+      "selectedMotif": "lotusMandala",
+      "contentSource": "structured",
+      "selectedScoreBreakdown": {
+        "basePriority": 65,
+        "popularity": 14,
+        "jitter": 2.029,
+        "motifPenalty": 0,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 5,
+        "colorPenalty": 42,
+        "finalScore": -7.971
+      },
+      "discardedCount": 1
     }
   ],
   "skipped": [],
@@ -171,137 +171,11 @@
       "generatedAt": "2026-09-20T18:37:35.027Z"
     },
     "contentCoverage": {
-      "status": "degraded",
-      "missingCount": 7,
+      "status": "complete",
+      "missingCount": 0,
       "legacyOnlyCount": 0
     }
   },
-  "contentGaps": [
-    {
-      "key": "et|meskel (orthodox)",
-      "title": "Meskel (Orthodox)",
-      "providers": [
-        "Nager.Date"
-      ],
-      "countries": [
-        "ET"
-      ],
-      "dates": [
-        "2026-09-27"
-      ],
-      "localNames": [
-        "መስቀል"
-      ],
-      "typeLabels": [
-        "公众节日"
-      ]
-    },
-    {
-      "key": "lv|international day of older persons",
-      "title": "International Day of Older Persons",
-      "providers": [
-        "Nager.Date"
-      ],
-      "countries": [
-        "LV"
-      ],
-      "dates": [
-        "2026-10-01"
-      ],
-      "localNames": [
-        "Starptautiskā senioru diena"
-      ],
-      "typeLabels": [
-        "纪念日"
-      ]
-    },
-    {
-      "key": "mh|manit day",
-      "title": "Manit Day",
-      "providers": [
-        "Nager.Date"
-      ],
-      "countries": [
-        "MH"
-      ],
-      "dates": [
-        "2026-09-25"
-      ],
-      "localNames": [],
-      "typeLabels": [
-        "公众节日"
-      ]
-    },
-    {
-      "key": "nc|new caledonia day",
-      "title": "New Caledonia Day",
-      "providers": [
-        "Nager.Date"
-      ],
-      "countries": [
-        "NC"
-      ],
-      "dates": [
-        "2026-09-24"
-      ],
-      "localNames": [],
-      "typeLabels": [
-        "公众节日"
-      ]
-    },
-    {
-      "key": "nr|sir hammer deroburt day",
-      "title": "Sir Hammer DeRoburt Day",
-      "providers": [
-        "Nager.Date"
-      ],
-      "countries": [
-        "NR"
-      ],
-      "dates": [
-        "2026-09-25"
-      ],
-      "localNames": [],
-      "typeLabels": [
-        "公众节日"
-      ]
-    },
-    {
-      "key": "st|agricultural reform day",
-      "title": "Agricultural Reform Day",
-      "providers": [
-        "Nager.Date"
-      ],
-      "countries": [
-        "ST"
-      ],
-      "dates": [
-        "2026-09-30"
-      ],
-      "localNames": [
-        "Dia da Reforma Agrária"
-      ],
-      "typeLabels": [
-        "公众节日"
-      ]
-    },
-    {
-      "key": "tv|tuvalu day",
-      "title": "Tuvalu Day",
-      "providers": [
-        "Nager.Date"
-      ],
-      "countries": [
-        "TV"
-      ],
-      "dates": [
-        "2026-10-01"
-      ],
-      "localNames": [],
-      "typeLabels": [
-        "公众节日"
-      ]
-    }
-  ],
+  "contentGaps": [],
   "legacyOnly": []
 }

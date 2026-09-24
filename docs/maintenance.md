@@ -137,8 +137,13 @@ npm run content:backlog -- --cache ./tmp-cache.js --backlog tmp/backlog.json --d
   Multiple providers and occurrences merge into sorted arrays. New titles or country
   changes are new identities; no fuzzy matching guesses that holidays are equivalent.
 - `firstSeen` and `lastSeen` are dates on which an entry was observed by maintenance,
-  including covered observations. `dates` retains known occurrence dates. Repeating
-  the same observation is byte-stable; changing API order does not change output.
+  including covered observations. `dates` retains known occurrence dates. Scheduled
+  runs use `--meaningful-only`: a change to `lastSeen` alone goes into
+  `tmp/holiday-content-observation.json` and the uploaded artifact, while the tracked
+  backlog remains unchanged. Its `lastSeen` is therefore the most recent observation
+  persisted with a material change. Manual runs without that flag still persist every
+  observation. Repeating the same observation is byte-stable; changing API order
+  does not change output.
 - Status is `missing`, `legacy-only`, or `resolved`. Only an observed structured match
   resolves a tracked entry; absent holidays remain unchanged as windows roll forward.
   Resolved entries keep `resolvedOn`, and missing content on a later observation reopens
@@ -148,7 +153,8 @@ npm run content:backlog -- --cache ./tmp-cache.js --backlog tmp/backlog.json --d
   maintenance task; this is not interpreted as a new content gap or a resolution.
   Writes use a temporary file followed by rename. Old observation dates are rejected.
 - `Maintain Holiday Content Backlog` runs independently each day, refreshes the cache
-  when needed, and commits only the backlog. Scan runs update it after a successful
+  when needed, and commits the backlog only for new gaps, status changes, or other
+  material changes. Scan runs update it after a successful
   audit. Their shared concurrency group serializes backlog writers. Their failures
   are visible in Actions and do not gate wallpaper rendering.
 - Clear stale files from a manually reused scan directory before using `--cache-dir`;

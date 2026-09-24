@@ -56,7 +56,10 @@ test("CLI updates atomically and preserves saved backlog during provider outages
     sourceStats: { nagerRequests: 1, nagerSuccessfulRequests: 1, openHolidaysRequests: 1, openHolidaysSuccessfulRequests: 1 },
     days: { "2026-09-20": [{ title: "Unseen backlog holiday", source: { provider: "Nager.Date", countryCode: "US" } }] }
   };
-  const run = () => spawnSync(process.execPath, ["update-holiday-content-backlog.js", "--cache", cacheFile, "--backlog", backlogFile, "--date", "2026-09-20"], { encoding: "utf8" });
+  const reportFile = path.join(dir, "observation.json");
+  const run = (date = "2026-09-20", options = []) => spawnSync(process.execPath,
+    ["update-holiday-content-backlog.js", "--cache", cacheFile, "--backlog", backlogFile, "--date", date, ...options],
+    { encoding: "utf8" });
   const writeCache = () => fs.writeFileSync(cacheFile, `globalThis.YearCalendarHolidayCache = ${JSON.stringify(cache)};`);
   try {
     writeCache();
@@ -65,10 +68,18 @@ test("CLI updates atomically and preserves saved backlog during provider outages
     assert.equal(JSON.parse(saved).entries.length, 1);
     assert.equal(run().status, 0);
     assert.equal(fs.readFileSync(backlogFile, "utf8"), saved);
+    assert.equal(run("2026-09-21", ["--meaningful-only", "--report-json", reportFile]).status, 0);
+    assert.equal(fs.readFileSync(backlogFile, "utf8"), saved);
+    assert.equal(JSON.parse(fs.readFileSync(reportFile, "utf8")).entries[0].lastSeen, "2026-09-21");
+    cache.days["2026-09-20"].push({ title: "Another unseen holiday", source: { provider: "Nager.Date", countryCode: "US" } });
+    writeCache();
+    assert.equal(run("2026-09-22", ["--meaningful-only", "--report-json", reportFile]).status, 0);
+    const changed = fs.readFileSync(backlogFile, "utf8");
+    assert.equal(JSON.parse(changed).entries.length, 2);
     cache.sourceStats.nagerSuccessfulRequests = 0;
     writeCache();
     assert.notEqual(run().status, 0);
-    assert.equal(fs.readFileSync(backlogFile, "utf8"), saved);
+    assert.equal(fs.readFileSync(backlogFile, "utf8"), changed);
     assert.equal(fs.existsSync(`${backlogFile}.tmp`), false);
   } finally { fs.rmSync(dir, { recursive: true, force: true }); }
 });

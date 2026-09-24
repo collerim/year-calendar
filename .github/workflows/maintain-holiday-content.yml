@@ -39,7 +39,7 @@ jobs:
       - name: Update content backlog
         run: |
           npm run content:validate
-          npm run content:backlog
+          npm run content:backlog -- --meaningful-only --report-json tmp/holiday-content-observation.json
 
       - name: Persist content backlog
         run: |
@@ -60,5 +60,6 @@ jobs:
           name: holiday-content-backlog
           path: |
             data/holiday-content-backlog.json
+            tmp/holiday-content-observation.json
             debug-action
           if-no-files-found: ignore

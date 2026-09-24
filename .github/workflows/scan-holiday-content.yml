@@ -68,7 +68,7 @@ jobs:
           npm run content:audit -- --require-openholidays-complete
 
       - name: Update content backlog
-        run: npm run content:backlog -- --cache-dir tmp/holiday-content-scan
+        run: npm run content:backlog -- --cache-dir tmp/holiday-content-scan --meaningful-only --report-json tmp/holiday-content-observation.json
 
       - name: Persist content backlog
         run: |
@@ -92,6 +92,7 @@ jobs:
           name: holiday-content-coverage
           path: |
             data/holiday-content-backlog.json
+            tmp/holiday-content-observation.json
             holiday-content-coverage.txt
             holiday-content-coverage.json
             holiday-content-stubs.js

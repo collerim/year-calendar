@@ -91,7 +91,9 @@ Use `content:gaps:render -- --report-json tmp/render-coverage.json` for coverage
 
 `npm run content:backlog` updates `data/holiday-content-backlog.json` from the complete
 cache. The independent daily maintenance workflow and future scan workflow persist
-this file and upload it as an artifact. Entries track country/title identity, providers,
+this file only when its content changes meaningfully. Each run uploads an observation
+report with current `lastSeen` dates, so repeated observations do not create daily
+commits. Entries track country/title identity, providers,
 occurrence dates, first/last observation, and `missing`, `legacy-only`, or `resolved`
 status. Provider degradation stops backlog updates, without blocking daily wallpaper
 rendering. Strict checks remain available with `content:gaps:check` and

@@ -1,36 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-24T19:56:52.860Z",
+  "updatedAt": "2026-09-25T19:57:48.804Z",
   "days": {
-    "2026-08-11": {
-      "title": "Carnival",
-      "motif": "carnivalMasks",
-      "gradient": [
-        "#1a1830",
-        "#613554",
-        "#151417"
-      ],
-      "accent": "#d5738f",
-      "secondary": "#75b0d9",
-      "holidayFamily": "culture-observance",
-      "popularityTier": "niche",
-      "scopeTier": "national",
-      "tags": [
-        "celebration",
-        "procession",
-        "folk",
-        "market"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "GD",
-        "countryName": "Grenada",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-08-12": {
       "title": "International Youth Day",
       "motif": "streamers",
@@ -1556,6 +1527,36 @@
         "typeLabels": [
           "公众节日"
         ],
+        "subdivisions": []
+      }
+    },
+    "2026-10-03": {
+      "title": "Germany Unity Day",
+      "motif": "tricolor",
+      "gradient": [
+        "#1d1818",
+        "#5f3b31",
+        "#111314"
+      ],
+      "accent": "#cbab56",
+      "secondary": "#c55045",
+      "holidayFamily": "unity-day",
+      "popularityTier": "common",
+      "scopeTier": "national",
+      "tags": [
+        "civic",
+        "celebration",
+        "sky",
+        "light"
+      ],
+      "source": {
+        "provider": "Fixed Holidays",
+        "countryCode": "DE",
+        "countryName": "Germany",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "nationwide": true,
         "subdivisions": []
       }
     }

@@ -1,27 +1,9 @@
 {
-  "generatedAt": "2026-09-24T19:56:52.862Z",
-  "baseDate": "2026-09-25",
-  "ensuredThrough": "2026-10-02",
+  "generatedAt": "2026-09-25T19:57:48.807Z",
+  "baseDate": "2026-09-26",
+  "ensuredThrough": "2026-10-03",
   "today": "output/today.png",
   "generated": [
-    {
-      "date": "2026-09-25",
-      "output": "output/2026/2026.09/2026.09.25.png",
-      "selectedTheme": "Mid-Autumn Festival",
-      "selectedMotif": "carnivalMasks",
-      "contentSource": "structured",
-      "selectedScoreBreakdown": {
-        "basePriority": 91,
-        "popularity": 36,
-        "jitter": 0.594,
-        "motifPenalty": 0,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 0,
-        "finalScore": 85.594
-      },
-      "discardedCount": 7
-    },
     {
       "date": "2026-09-26",
       "output": "output/2026/2026.09/2026.09.26.png",
@@ -147,6 +129,24 @@
         "finalScore": -7.971
       },
       "discardedCount": 1
+    },
+    {
+      "date": "2026-10-03",
+      "output": "output/2026/2026.10/2026.10.03.png",
+      "selectedTheme": "Germany Unity Day",
+      "selectedMotif": "tricolor",
+      "contentSource": "curated",
+      "selectedScoreBreakdown": {
+        "basePriority": 74,
+        "popularity": 30,
+        "jitter": 4.551,
+        "motifPenalty": 0,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 40,
+        "finalScore": 26.551
+      },
+      "discardedCount": 4
     }
   ],
   "skipped": [],

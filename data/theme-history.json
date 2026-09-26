@@ -1,37 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-25T19:57:48.804Z",
+  "updatedAt": "2026-09-26T19:10:44.247Z",
   "days": {
-    "2026-08-12": {
-      "title": "International Youth Day",
-      "motif": "streamers",
-      "gradient": [
-        "#152139",
-        "#3b5c76",
-        "#11161c"
-      ],
-      "accent": "#72add6",
-      "secondary": "#d56657",
-      "holidayFamily": "culture-observance",
-      "popularityTier": "observance",
-      "scopeTier": "international",
-      "tags": [
-        "civic",
-        "celebration",
-        "sports",
-        "culture",
-        "international"
-      ],
-      "source": {
-        "provider": "Curated Cultural Observances",
-        "countryCode": "INTL",
-        "countryName": "International",
-        "typeLabels": [
-          "文化日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-08-13": {
       "title": "Women's Day",
       "motif": "wovenPattern",
@@ -1557,6 +1527,36 @@
           "公众节日"
         ],
         "nationwide": true,
+        "subdivisions": []
+      }
+    },
+    "2026-10-04": {
+      "title": "World Space Week",
+      "motif": "cosmicObservatory",
+      "gradient": [
+        "#121b28",
+        "#3c3c55",
+        "#12151a"
+      ],
+      "accent": "#c6b268",
+      "secondary": "#94bbf0",
+      "holidayFamily": "culture-observance",
+      "popularityTier": "observance",
+      "scopeTier": "international",
+      "tags": [
+        "science",
+        "sky",
+        "light",
+        "culture",
+        "international"
+      ],
+      "source": {
+        "provider": "Curated Cultural Observances",
+        "countryCode": "INTL",
+        "countryName": "International",
+        "typeLabels": [
+          "文化日"
+        ],
         "subdivisions": []
       }
     }

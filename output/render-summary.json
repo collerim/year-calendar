@@ -1,27 +1,9 @@
 {
-  "generatedAt": "2026-09-26T19:10:44.251Z",
-  "baseDate": "2026-09-27",
-  "ensuredThrough": "2026-10-04",
+  "generatedAt": "2026-09-27T19:41:56.633Z",
+  "baseDate": "2026-09-28",
+  "ensuredThrough": "2026-10-05",
   "today": "output/today.png",
   "generated": [
-    {
-      "date": "2026-09-27",
-      "output": "output/2026/2026.09/2026.09.27.png",
-      "selectedTheme": "Meskel (Orthodox)",
-      "selectedMotif": "templeBells",
-      "contentSource": "structured",
-      "selectedScoreBreakdown": {
-        "basePriority": 61,
-        "popularity": 14,
-        "jitter": 0.543,
-        "motifPenalty": 0,
-        "culturalPenalty": 40,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 35,
-        "finalScore": 0.543
-      },
-      "discardedCount": 1
-    },
     {
       "date": "2026-09-28",
       "output": "output/2026/2026.09/2026.09.28.png",
@@ -147,6 +129,24 @@
         "finalScore": 29.812
       },
       "discardedCount": 4
+    },
+    {
+      "date": "2026-10-05",
+      "output": "output/2026/2026.10/2026.10.05.png",
+      "selectedTheme": "Thanksgiving",
+      "selectedMotif": "stainedGlass",
+      "contentSource": "structured",
+      "selectedScoreBreakdown": {
+        "basePriority": 69,
+        "popularity": 34,
+        "jitter": 5.982,
+        "motifPenalty": 0,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 27,
+        "finalScore": 39.982
+      },
+      "discardedCount": 7
     }
   ],
   "skipped": [],

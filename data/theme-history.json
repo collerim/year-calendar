@@ -1,35 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-26T19:10:44.247Z",
+  "updatedAt": "2026-09-27T19:41:56.632Z",
   "days": {
-    "2026-08-13": {
-      "title": "Women's Day",
-      "motif": "wovenPattern",
-      "gradient": [
-        "#1b1920",
-        "#564433",
-        "#141416"
-      ],
-      "accent": "#c8aa53",
-      "secondary": "#73afd9",
-      "holidayFamily": "national-civic-day",
-      "popularityTier": "niche",
-      "scopeTier": "national",
-      "tags": [
-        "culture",
-        "civic",
-        "celebration"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "TN",
-        "countryName": "Tunisia",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-08-14": {
       "title": "Vigil of the Assumption",
       "motif": "stainedGlass",
@@ -1556,6 +1528,38 @@
         "countryName": "International",
         "typeLabels": [
           "文化日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-10-05": {
+      "title": "Thanksgiving",
+      "motif": "stainedGlass",
+      "gradient": [
+        "#271a19",
+        "#69452b",
+        "#131315"
+      ],
+      "accent": "#cb935b",
+      "secondary": "#91a267",
+      "holidayFamily": "saint-day",
+      "popularityTier": "major",
+      "scopeTier": "national",
+      "tags": [
+        "religious",
+        "heritage",
+        "light",
+        "winter",
+        "celebration",
+        "harvest",
+        "botanical"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "LC",
+        "countryName": "Saint Lucia",
+        "typeLabels": [
+          "公众节日"
         ],
         "subdivisions": []
       }

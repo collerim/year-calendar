@@ -1,37 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-27T19:41:56.632Z",
+  "updatedAt": "2026-09-28T21:46:19.090Z",
   "days": {
-    "2026-08-14": {
-      "title": "Vigil of the Assumption",
-      "motif": "stainedGlass",
-      "gradient": [
-        "#121b37",
-        "#4d3346",
-        "#111519"
-      ],
-      "accent": "#92b7ed",
-      "secondary": "#d6738d",
-      "holidayFamily": "religious-observance",
-      "popularityTier": "niche",
-      "scopeTier": "national",
-      "tags": [
-        "religious",
-        "heritage",
-        "light"
-      ],
-      "source": {
-        "provider": "OpenHolidays",
-        "countryCode": "VA",
-        "countryName": "Vatican City",
-        "typeLabels": [
-          "公众节日",
-          "全国性"
-        ],
-        "nationwide": true,
-        "subdivisions": []
-      }
-    },
     "2026-08-15": {
       "title": "National Day",
       "motif": "cityParade",
@@ -1558,6 +1528,34 @@
         "provider": "Nager.Date",
         "countryCode": "LC",
         "countryName": "Saint Lucia",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-10-06": {
+      "title": "Armed Forces Day",
+      "motif": "wovenPattern",
+      "gradient": [
+        "#1b1820",
+        "#564333",
+        "#111418"
+      ],
+      "accent": "#c8a953",
+      "secondary": "#70b0db",
+      "holidayFamily": "national-civic-day",
+      "popularityTier": "niche",
+      "scopeTier": "national",
+      "tags": [
+        "culture",
+        "civic",
+        "celebration"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "EG",
+        "countryName": "Egypt",
         "typeLabels": [
           "公众节日"
         ],

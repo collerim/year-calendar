@@ -1,27 +1,9 @@
 {
-  "generatedAt": "2026-09-27T19:41:56.633Z",
-  "baseDate": "2026-09-28",
-  "ensuredThrough": "2026-10-05",
+  "generatedAt": "2026-09-28T21:46:19.092Z",
+  "baseDate": "2026-09-29",
+  "ensuredThrough": "2026-10-06",
   "today": "output/today.png",
   "generated": [
-    {
-      "date": "2026-09-28",
-      "output": "output/2026/2026.09/2026.09.28.png",
-      "selectedTheme": "Czech Statehood Day",
-      "selectedMotif": "cityParade",
-      "contentSource": "structured",
-      "selectedScoreBreakdown": {
-        "basePriority": 64,
-        "popularity": 14,
-        "jitter": 1.955,
-        "motifPenalty": 7,
-        "culturalPenalty": 32,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 42,
-        "finalScore": -1.045
-      },
-      "discardedCount": 3
-    },
     {
       "date": "2026-09-29",
       "output": "output/2026/2026.09/2026.09.29.png",
@@ -147,6 +129,24 @@
         "finalScore": 39.982
       },
       "discardedCount": 7
+    },
+    {
+      "date": "2026-10-06",
+      "output": "output/2026/2026.10/2026.10.06.png",
+      "selectedTheme": "Armed Forces Day",
+      "selectedMotif": "wovenPattern",
+      "contentSource": "structured",
+      "selectedScoreBreakdown": {
+        "basePriority": 61,
+        "popularity": 14,
+        "jitter": 4.796,
+        "motifPenalty": 0,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 42,
+        "finalScore": -4.204
+      },
+      "discardedCount": 0
     }
   ],
   "skipped": [],

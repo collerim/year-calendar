@@ -1,35 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-28T21:46:19.090Z",
+  "updatedAt": "2026-09-29T20:37:47.227Z",
   "days": {
-    "2026-08-15": {
-      "title": "National Day",
-      "motif": "cityParade",
-      "gradient": [
-        "#151c30",
-        "#4c2e3e",
-        "#111419"
-      ],
-      "accent": "#729fd2",
-      "secondary": "#d65561",
-      "holidayFamily": "national-day",
-      "popularityTier": "common",
-      "scopeTier": "national",
-      "tags": [
-        "civic",
-        "celebration",
-        "procession"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "CG",
-        "countryName": "Congo",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-08-16": {
       "title": "Saint Stephen of Hungary",
       "motif": "stainedGlass",
@@ -1560,6 +1532,42 @@
           "公众节日"
         ],
         "subdivisions": []
+      }
+    },
+    "2026-10-07": {
+      "title": "Municipal holiday",
+      "motif": "lotusMandala",
+      "gradient": [
+        "#1b1624",
+        "#553e58",
+        "#141317"
+      ],
+      "accent": "#c6a7d2",
+      "secondary": "#80baad",
+      "holidayFamily": "municipal-local",
+      "popularityTier": "local",
+      "scopeTier": "local",
+      "tags": [
+        "religious",
+        "botanical",
+        "culture",
+        "heritage",
+        "celebration",
+        "maritime"
+      ],
+      "source": {
+        "provider": "OpenHolidays",
+        "countryCode": "PT",
+        "countryName": "Portugal",
+        "typeLabels": [
+          "可选假日",
+          "地方性"
+        ],
+        "nationwide": false,
+        "subdivisions": [
+          "CO-OH",
+          "VI-OF"
+        ]
       }
     }
   }

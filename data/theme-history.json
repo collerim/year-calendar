@@ -1,37 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-29T20:37:47.227Z",
+  "updatedAt": "2026-09-30T20:53:29.109Z",
   "days": {
-    "2026-08-16": {
-      "title": "Saint Stephen of Hungary",
-      "motif": "stainedGlass",
-      "gradient": [
-        "#111e33",
-        "#4c3643",
-        "#141419"
-      ],
-      "accent": "#91baea",
-      "secondary": "#d9728d",
-      "holidayFamily": "saint-day",
-      "popularityTier": "niche",
-      "scopeTier": "national",
-      "tags": [
-        "religious",
-        "heritage",
-        "light"
-      ],
-      "source": {
-        "provider": "OpenHolidays",
-        "countryCode": "VA",
-        "countryName": "Vatican City",
-        "typeLabels": [
-          "公众节日",
-          "全国性"
-        ],
-        "nationwide": true,
-        "subdivisions": []
-      }
-    },
     "2026-08-17": {
       "title": "Independence Day",
       "motif": "oceanCompass",
@@ -1568,6 +1538,34 @@
           "CO-OH",
           "VI-OF"
         ]
+      }
+    },
+    "2026-10-08": {
+      "title": "Battle of Angamos",
+      "motif": "streamers",
+      "gradient": [
+        "#1d1923",
+        "#584434",
+        "#151514"
+      ],
+      "accent": "#caaa56",
+      "secondary": "#74b1d6",
+      "holidayFamily": "national-civic-day",
+      "popularityTier": "niche",
+      "scopeTier": "national",
+      "tags": [
+        "culture",
+        "civic",
+        "celebration"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "PE",
+        "countryName": "Peru",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
       }
     }
   }

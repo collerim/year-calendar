@@ -1,38 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-30T20:53:29.109Z",
+  "updatedAt": "2026-10-01T20:56:19.933Z",
   "days": {
-    "2026-08-17": {
-      "title": "Independence Day",
-      "motif": "oceanCompass",
-      "gradient": [
-        "#112036",
-        "#493142",
-        "#151617"
-      ],
-      "accent": "#6ea2d8",
-      "secondary": "#db575d",
-      "holidayFamily": "independence-day",
-      "popularityTier": "common",
-      "scopeTier": "national",
-      "tags": [
-        "civic",
-        "celebration",
-        "procession",
-        "maritime",
-        "water",
-        "travel"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "GA",
-        "countryName": "Gabon",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-08-18": {
       "title": "八月星沙",
       "motif": "desertGeometry",
@@ -1562,6 +1531,34 @@
         "provider": "Nager.Date",
         "countryCode": "PE",
         "countryName": "Peru",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-10-09": {
+      "title": "Independence Day",
+      "motif": "cityParade",
+      "gradient": [
+        "#191e35",
+        "#502f41",
+        "#121419"
+      ],
+      "accent": "#75a1d7",
+      "secondary": "#d75561",
+      "holidayFamily": "independence-day",
+      "popularityTier": "common",
+      "scopeTier": "national",
+      "tags": [
+        "civic",
+        "celebration",
+        "procession"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "UG",
+        "countryName": "Uganda",
         "typeLabels": [
           "公众节日"
         ],

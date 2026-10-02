@@ -1,34 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-01T20:56:19.933Z",
+  "updatedAt": "2026-10-02T20:34:31.147Z",
   "days": {
-    "2026-08-18": {
-      "title": "八月星沙",
-      "motif": "desertGeometry",
-      "gradient": [
-        "#1f291c",
-        "#605736",
-        "#13171b"
-      ],
-      "accent": "#b69753",
-      "secondary": "#778f66",
-      "holidayFamily": "seasonal-fallback",
-      "popularityTier": "niche",
-      "scopeTier": "unknown",
-      "tags": [
-        "islamic",
-        "heritage",
-        "sun",
-        "botanical",
-        "sky",
-        "light",
-        "seasonal",
-        "harvest",
-        "autumn",
-        "month-mood"
-      ],
-      "source": null
-    },
     "2026-08-19": {
       "title": "World Photography Day",
       "motif": "starfield",
@@ -1559,6 +1532,35 @@
         "provider": "Nager.Date",
         "countryCode": "UG",
         "countryName": "Uganda",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-10-10": {
+      "title": "Constitution Day",
+      "motif": "paperCut",
+      "gradient": [
+        "#101f32",
+        "#493040",
+        "#151417"
+      ],
+      "accent": "#6ea1d5",
+      "secondary": "#db555e",
+      "holidayFamily": "constitution-day",
+      "popularityTier": "common",
+      "scopeTier": "national",
+      "tags": [
+        "civic",
+        "celebration",
+        "procession",
+        "culture"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "SX",
+        "countryName": "Sint Maarten",
         "typeLabels": [
           "公众节日"
         ],

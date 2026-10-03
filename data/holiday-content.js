@@ -184,6 +184,13 @@ globalThis.YearCalendarHolidayContent = {
       keys: ["BQ|Statia Day"]
     },
     {
+      title: "Republic Proclamation Day",
+      zhTitle: "巴西共和国宣告日",
+      type: "国家纪念日",
+      description: "纪念1889年推翻帝制、建立共和国，是巴西政治体制的转折点。",
+      keys: ["BR|Republic Proclamation Day", "BR|Proclamação da República"]
+    },
+    {
       title: "Self Determination Day",
       zhTitle: "科科斯群岛自决日",
       type: "地方历史纪念日",
@@ -212,6 +219,13 @@ globalThis.YearCalendarHolidayContent = {
       keys: ["CH|Labour Day", "KN|Labour Day"]
     },
     {
+      title: "Restoration Day",
+      zhTitle: "日内瓦恢复共和国纪念日",
+      type: "地方历史纪念日",
+      description: "日内瓦纪念1813年恢复共和国，结束法国吞并、重回瑞士联邦。",
+      keys: ["CH|Restoration Day"]
+    },
+    {
       title: "St Martin's Day",
       zhTitle: "瑞士圣马丁节",
       type: "宗教与民俗节日",
@@ -238,6 +252,13 @@ globalThis.YearCalendarHolidayContent = {
       type: "传统节日",
       description: "库克群岛的酋长日，以传统仪式和歌舞纪念群岛的阿里基制度。",
       keys: ["CK|Ra o te Ui Ariki"]
+    },
+    {
+      title: "National Day",
+      zhTitle: "中国国庆节",
+      type: "国家纪念日",
+      description: "纪念1949年中华人民共和国成立，以阅兵、升旗和国庆假期庆祝。",
+      keys: ["CN|National Day", "CN|国庆节"]
     },
     {
       title: "Triumph of the Revolution",
@@ -329,6 +350,13 @@ globalThis.YearCalendarHolidayContent = {
       type: "东正教节日",
       description: "纪念耶稣受洗的东正教节日，教堂通宵礼拜后举行游行与祝福水域仪式。",
       keys: ["ER|Orthodox Epiphany", "ER|Timket ጥምቀት"]
+    },
+    {
+      title: "Constitution Day",
+      zhTitle: "西班牙宪法日",
+      type: "宪政纪念日",
+      description: "纪念1978年宪法公投通过，是西班牙民主转型的宪政节点。",
+      keys: ["ES|Constitution Day"]
     },
     {
       title: "Regional Holiday in Valencia",
@@ -448,6 +476,13 @@ globalThis.YearCalendarHolidayContent = {
       type: "文化节庆日",
       description: "雅浦州的传统节日，以舞蹈、独木舟和手工艺展示岛屿文化。",
       keys: ["FM|Yap Day"]
+    },
+    {
+      title: "Saint Andrew's Day",
+      zhTitle: "苏格兰圣安德鲁日",
+      type: "地方守护圣人日",
+      description: "苏格兰的国庆日，纪念守护圣人圣安德鲁，以旗帜、音乐和庆典表达苏格兰身份。",
+      keys: ["GB|Saint Andrew's Day"]
     },
     {
       title: "Freedom Day",
@@ -644,6 +679,13 @@ globalThis.YearCalendarHolidayContent = {
       type: "文化节庆日",
       description: "圣基茨和尼维斯的狂欢节，音乐、游行与化装表演延续加勒比节庆季。",
       keys: ["KN|Carnival Day"]
+    },
+    {
+      title: "National Foundation Day",
+      zhTitle: "韩国开天节",
+      type: "国家起源纪念日",
+      description: "开天节纪念传说中的檀君于公元前2333年建立古朝鲜，是韩国的建国纪念日。",
+      keys: ["KR|National Foundation Day", "KR|개천절"]
     },
     {
       title: "Discovery Day",
@@ -1059,6 +1101,27 @@ globalThis.YearCalendarHolidayContent = {
       keys: ["MW|President Kamuzu Banda's Birthday"]
     },
     {
+      title: "Constitution Day",
+      zhTitle: "墨西哥宪法日",
+      type: "宪政纪念日",
+      description: "纪念1917年宪法颁布，是墨西哥革命后确立社会权利与联邦体制的基础。",
+      keys: ["MX|Constitution Day"]
+    },
+    {
+      title: "Independence Day",
+      zhTitle: "墨西哥独立日",
+      type: "国家纪念日",
+      description: "纪念1810年独立运动开始，前夜的钟声与广场集会是最具标志性的传统。",
+      keys: ["MX|Independence Day"]
+    },
+    {
+      title: "Revolution Day",
+      zhTitle: "墨西哥革命日",
+      type: "革命纪念日",
+      description: "纪念1910年墨西哥革命开始，以游行、集市和公共庆典延续革命记忆。",
+      keys: ["MX|Revolution Day"]
+    },
+    {
       title: "New Caledonia Day",
       zhTitle: "新喀里多尼亚日",
       type: "地方纪念日",
@@ -1078,6 +1141,13 @@ globalThis.YearCalendarHolidayContent = {
       type: "地方历史纪念日",
       description: "纪念诺福克岛的建立，回顾岛屿作为殖民定居地的历史。",
       keys: ["NF|Norfolk Island Foundation Day"]
+    },
+    {
+      title: "Constitution Day",
+      zhTitle: "挪威宪法日",
+      type: "宪政纪念日",
+      description: "纪念1814年宪法签署，儿童游行与国旗是这一天最鲜明的传统。",
+      keys: ["NO|Constitution Day", "NO|Syttende mai"]
     },
     {
       title: "Angam Day",

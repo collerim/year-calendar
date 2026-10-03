@@ -29,6 +29,11 @@ npm run refresh-holidays -- --date YYYY-MM-DD --output ./tmp-cache.js --strict-p
 ## Holiday Content Database
 
 - `data/holiday-content.js` stores structured holiday names, display types, and short Chinese descriptions.
+- Descriptions follow one style: a single Chinese sentence of at most 45 full-width
+  characters, no filler phrases such as `通常` or `提醒人们`, no untranslated holiday
+  name repeated from the line above the description, and no sentence shared by two
+  entries. `test/holiday-content-style.test.js` enforces all four, so a new entry
+  that breaks them fails `npm test`.
 - Use gaps output to find entries that need better copy:
 
 ```bash

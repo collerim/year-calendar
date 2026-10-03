@@ -22,9 +22,11 @@ const ERROR_SAMPLE_LIMIT = 12;
 await import("./data/holiday-content.js");
 await import("./data/holiday-intros.js");
 await import("./theme-ranking-rules.js");
+await import("./holiday-intro-rules.js");
 const HOLIDAY_CONTENT = globalThis.YearCalendarHolidayContent || {};
 const HOLIDAY_INTROS = globalThis.YearCalendarHolidayIntros || {};
 const RANKING_RULES = globalThis.ThemeRankingRules;
+const INTRO_RULES = globalThis.YearCalendarHolidayIntroRules;
 
 const FEATURED_COUNTRY_PROFILE = [
   ["CN", "China", "中国", 42],
@@ -581,10 +583,20 @@ function priorityForHoliday(holiday, country, score) {
   return Math.max(42, Math.min(94, Math.round(52 + score / 24 + typeBoost + globalBoost)));
 }
 
-function descriptionForHoliday(holiday, country) {
+function descriptionForHoliday(holiday, country, nationwide) {
   const intro = holidayIntroFor(holiday.name, country, holiday.localName);
   if (intro) return intro;
-  return holidayIntroduction(holiday, country);
+  // Shared with the renderer so baked and regenerated copy stay identical.
+  // nationwide mirrors what the cache source records, which is what the
+  // renderer reads back when it regenerates this text.
+  return INTRO_RULES.holidayIntroduction({
+    title: holiday.name,
+    localName: holiday.localName && holiday.localName !== holiday.name ? holiday.localName : "",
+    countryCode: country.code,
+    countryName: country.zhName || country.name || "",
+    typeLabel: primaryHolidayTypeLabel(holiday.types),
+    nationwide
+  });
 }
 
 function holidayIntroFor(title, country, localName = "") {
@@ -645,40 +657,6 @@ function normalizeIntroKey(value) {
   return value.toLowerCase().replace(/[’']/g, "").replace(/\s+/g, " ").trim();
 }
 
-function holidayIntroduction(holiday, country) {
-  const title = holiday.name;
-  const text = `${holiday.name} ${holiday.localName}`.toLowerCase();
-  const localName = holiday.localName && holiday.localName !== holiday.name ? holiday.localName : "";
-
-  if (/king'?s birthday|queen'?s birthday/.test(text)) {
-    if (country.code === "AU") {
-      return "这是澳大利亚庆祝英国君主生日的假日，多数地区会把它安排成六月长周末，人们常借此休息、出行或参加社区活动。";
-    }
-    return "这是英联邦传统中的君主生日假日，用来象征君主制与国家礼仪，也常成为当地的长周末。";
-  }
-  if (/new year/.test(text)) return "新年假日标志公历年份开始，人们常用倒数、烟火、聚会和休息迎接新的日历周期。";
-  if (/christmas/.test(text)) return "圣诞节源自基督教传统，后来也成为许多地方的冬日团聚节日，常见象征包括灯饰、松枝、礼物和家庭餐桌。";
-  if (/boxing day/.test(text)) return "节礼日延续自英联邦传统，通常在圣诞节后一天，人们会继续休假、探亲、购物或观看体育赛事。";
-  if (/good friday/.test(text)) return "耶稣受难日纪念基督教传统中耶稣受难的日子，许多地方会以静默礼拜和复活节前的休假来标记。";
-  if (/easter/.test(text)) return "复活节源自基督教传统，纪念复活与新生，许多地方也有彩蛋、家庭聚会和春日休假的习俗。";
-  if (/independence day/.test(text)) return `${country.zhName}的独立纪念日，通常纪念国家取得主权或脱离殖民统治的历史时刻，常伴随旗帜、仪式和公共庆祝。`;
-  if (/national day/.test(text)) return `${country.zhName}的国家纪念日，通常用来纪念国家成立、宪法传统或重要历史节点，常有官方仪式和公共庆典。`;
-  if (/republic day/.test(text)) return `${country.zhName}的共和国纪念日，通常纪念共和国体制确立或重要宪政转折，是国家身份的一部分。`;
-  if (/constitution day/.test(text)) return `${country.zhName}的宪法纪念日，纪念宪法秩序或现代国家制度的重要节点。`;
-  if (/foundation day/.test(text)) return `${country.zhName}的建国或奠基纪念日，通常回望国家、城市或共同体形成的历史。`;
-  if (/labou?r day|workers'? day|may day/.test(text)) return "劳动节纪念劳动者权益与劳动生活，许多地方会在这一天休假，也可能举行游行、集会或公共活动。";
-  if (/thanksgiving/.test(text)) return "感恩节以感谢、收获和团聚为核心，常见习俗包括家庭餐桌、秋日食物和与亲友共度假日。";
-  if (/remembrance|memorial/.test(text)) return "这是带有追思性质的纪念日，常用静默、花束、仪式或公共纪念来记住历史与逝去的人。";
-  if (/all saints/.test(text)) return "诸圣节源自基督教传统，用来纪念圣徒，也常与献花、点烛和追思逝者联系在一起。";
-  if (/bank holiday/.test(text)) return `${country.zhName}的银行假日通常是公共休息日，人们会利用这一天旅行、聚会或处理家庭与社区活动。`;
-  if (/^day of /i.test(title)) {
-    const place = title.replace(/^Day of /i, "");
-    return `${place}日通常纪念地方身份、自治传统或区域历史，是当地公共生活与社区记忆的一部分。`;
-  }
-  if (localName) return `${country.zhName}以「${localName}」为名纪念这一天，通常与当地历史、传统或社区公共生活有关。`;
-  return `${title}是${country.zhName}日历中的纪念日，通常承载当地历史、公共生活或季节性的休假安排。`;
-}
-
 function primaryHolidayTypeLabel(types = []) {
   const labels = holidayTypeLabels(types);
   return labels[0] || "节日";
@@ -709,7 +687,8 @@ function themeForHoliday(holiday, country, score) {
   return RANKING_RULES.withRankingMetadata({
     title: holiday.name,
     caption: captionForHoliday(holiday, country),
-    description: descriptionForHoliday(holiday, country),
+    // Nager entries record no nationwide flag, so the renderer reads them as national.
+    description: descriptionForHoliday(holiday, country, true),
     motif,
     gradient,
     accent,
@@ -744,7 +723,7 @@ function themeForOpenHoliday(holiday, country, score) {
   return RANKING_RULES.withRankingMetadata({
     title: name,
     caption: `${name} · ${country.name}`,
-    description: descriptionForHoliday(normalizedHoliday, country),
+    description: descriptionForHoliday(normalizedHoliday, country, Boolean(holiday.nationwide)),
     motif,
     gradient,
     accent,

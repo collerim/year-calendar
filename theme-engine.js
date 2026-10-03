@@ -419,64 +419,24 @@ function displayDescriptionForSource(theme) {
   if (!theme.source) return theme.description;
   if (theme.source.provider === "Curated Cultural Observances") return theme.description;
 
-  return holidayIntroduction(theme.title, theme.source, theme.description);
+  return holidayIntroduction(theme.title, theme.source);
 }
 
-function holidayIntroduction(title, source, fallback) {
+// Fallback copy is shared with the cache builder so both cannot drift apart.
+function holidayIntroduction(title, source = {}) {
   const intro = holidayIntroFor(title, source);
   if (intro) return intro;
 
-  const text = `${title} ${source?.localName || ""}`.toLowerCase();
-  const country = countryNameZh(source);
-  const localName = source?.localName && source.localName !== title ? source.localName : "";
-
-  if (/king'?s birthday|queen'?s birthday/.test(text)) {
-    if (source?.countryCode === "AU") {
-      return "这是澳大利亚庆祝英国君主生日的假日，多数地区会把它安排成六月长周末，人们常借此休息、出行或参加社区活动。";
-    }
-    return "这是英联邦传统中的君主生日假日，用来象征君主制与国家礼仪，也常成为当地的长周末。";
-  }
-  if (/new year/.test(text)) return "新年假日标志公历年份开始，人们常用倒数、烟火、聚会和休息迎接新的日历周期。";
-  if (/christmas/.test(text)) return "圣诞节源自基督教传统，后来也成为许多地方的冬日团聚节日，常见象征包括灯饰、松枝、礼物和家庭餐桌。";
-  if (/boxing day/.test(text)) return "节礼日延续自英联邦传统，通常在圣诞节后一天，人们会继续休假、探亲、购物或观看体育赛事。";
-  if (/good friday/.test(text)) return "耶稣受难日纪念基督教传统中耶稣受难的日子，许多地方会以静默礼拜和复活节前的休假来标记。";
-  if (/easter/.test(text)) return "复活节源自基督教传统，纪念复活与新生，许多地方也有彩蛋、家庭聚会和春日休假的习俗。";
-  if (/sacred heart/.test(text)) return "圣心节源自天主教传统，纪念耶稣圣心，许多地区会以弥撒、游行或地方守护庆典标记。";
-  if (/corpus christi/.test(text)) return "基督圣体圣血节源自天主教传统，常以圣体游行、花毯和城镇仪式表达信仰共同体。";
-  if (/midsummer|st john|st\. john|john's day/.test(text)) return "仲夏相关节日常见于欧洲传统，篝火、夏夜聚会和地方仪式是重要习俗。";
-  if (/st\.?\s|saint|sankt|san |santa |santo /.test(text)) return saintDayIntroduction(title, country);
-  if (/carnival|karneval|mardi gras/.test(text)) return "狂欢节通常出现在大斋期前后，人们以游行、面具、音乐和街头庆祝暂时打破日常秩序。";
-  if (/municipal holiday|city day|town day|communal holiday|community holiday/.test(text)) return `${country}的地方假日，通常由城市或市镇纪念守护圣人、建城传统或本地共同体历史。`;
-  if (/independence day/.test(text)) return `${country}的独立纪念日，通常纪念国家取得主权或脱离殖民统治的历史时刻，常伴随旗帜、仪式和公共庆祝。`;
-  if (/national day/.test(text)) return `${country}的国家纪念日，通常用来纪念国家成立、宪法传统或重要历史节点，常有官方仪式和公共庆典。`;
-  if (/republic day/.test(text)) return `${country}的共和国纪念日，通常纪念共和国体制确立或重要宪政转折，是国家身份的一部分。`;
-  if (/constitution day/.test(text)) return `${country}的宪法纪念日，纪念宪法秩序或现代国家制度的重要节点。`;
-  if (/foundation day/.test(text)) return `${country}的建国或奠基纪念日，通常回望国家、城市或共同体形成的历史。`;
-  if (/labou?r day|workers'? day|may day/.test(text)) return "劳动节纪念劳动者权益与劳动生活，许多地方会在这一天休假，也可能举行游行、集会或公共活动。";
-  if (/thanksgiving/.test(text)) return "感恩节以感谢、收获和团聚为核心，常见习俗包括家庭餐桌、秋日食物和与亲友共度假日。";
-  if (/remembrance|memorial/.test(text)) return "这是带有追思性质的纪念日，常用静默、花束、仪式或公共纪念来记住历史与逝去的人。";
-  if (/all saints/.test(text)) return "诸圣节源自基督教传统，用来纪念圣徒，也常与献花、点烛和追思逝者联系在一起。";
-  if (/bank holiday/.test(text)) return `${country}的银行假日通常是公共休息日，人们会利用这一天旅行、聚会或处理家庭与社区活动。`;
-  if (/^day of /i.test(title)) {
-    const place = title.replace(/^Day of /i, "");
-    return `${place}日通常纪念地方身份、自治传统或区域历史，是当地公共生活与社区记忆的一部分。`;
-  }
-  if (localName) return `${country}以「${localName}」为名标记这一天，名称本身往往保留了地方语言、宗教传统或社区记忆。`;
-  if (fallback && !/的.+节日/.test(fallback)) return fallback;
-  return genericHolidayIntroduction(title, source, country);
-}
-
-function saintDayIntroduction(title, country) {
-  const saint = title.replace(/^(st\.?|saint|sankt|san|santa|santo)\s+/i, "").trim();
-  if (saint) return `${title}多与基督教圣人纪念和地方守护传统有关，在${country}可能以礼拜、集市、游行或社区聚会延续。`;
-  return `${country}的圣人纪念日多与地方守护传统有关，常见形式包括礼拜、游行、集市和社区聚会。`;
-}
-
-function genericHolidayIntroduction(title, source, country) {
-  const typeLabel = holidayTypeLabelFromSource(source);
-  if (source?.nationwide === false) return `${title}是${country}的地方性${typeLabel}，多半与特定城市、地区守护传统或地方历史记忆有关。`;
-  if (/公众节日|银行假日|Public|Bank/.test((source?.typeLabels || []).join(" "))) return `${title}是${country}的${typeLabel}，这一天会进入公共日历，常伴随休息、仪式或地方社区活动。`;
-  return `${title}在${country}日历中标记一段地方记忆、宗教传统或公共生活节点。`;
+  const rules = globalThis.YearCalendarHolidayIntroRules;
+  if (!rules) return "";
+  return rules.holidayIntroduction({
+    title,
+    localName: source.localName && source.localName !== title ? source.localName : "",
+    countryCode: source.countryCode,
+    countryName: countryNameZh(source),
+    typeLabel: holidayTypeLabelFromSource(source),
+    nationwide: source.nationwide !== false
+  });
 }
 
 function holidayIntroFor(title, source = {}) {

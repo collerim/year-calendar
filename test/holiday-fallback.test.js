@@ -6,13 +6,13 @@ import vm from "node:vm";
 function engine() {
   const context = vm.createContext({});
   vm.runInContext("globalThis.window = globalThis", context);
-  for (const file of ["theme-palettes.js", "theme-motifs.js", "theme-ranking-rules.js", "theme-engine.js", "theme-selector.js"]) {
+  for (const file of ["theme-palettes.js", "theme-motifs.js", "theme-ranking-rules.js", "holiday-intro-rules.js", "theme-engine.js", "theme-selector.js"]) {
     vm.runInContext(fs.readFileSync(new URL(`../${file}`, import.meta.url), "utf8"), context);
   }
   return context;
 }
 
-test("unknown provider holiday retains generic description and selectable candidate", () => {
+test("unknown provider holiday gets Chinese fallback copy without the English title", () => {
   const context = engine();
   vm.runInContext(`YearCalendarHolidayCache = { days: { "2026-09-17": [{
     title: "Unseen holiday", caption: "Holiday", motif: "fireworks",
@@ -21,7 +21,8 @@ test("unknown provider holiday retains generic description and selectable candid
   }] } };`, context);
   const themes = vm.runInContext("candidateThemesForDate(new Date(2026, 8, 17))", context);
   const holiday = themes.find(theme => theme.title === "Unseen holiday");
-  assert.match(holiday.description, /Unseen holiday是美国/);
+  assert.match(holiday.description, /^美国的公众节日/);
+  assert.doesNotMatch(holiday.description, /Unseen holiday/);
 });
 
 test("no holiday candidates still produces seasonal themes", () => {

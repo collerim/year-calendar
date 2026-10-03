@@ -1,37 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-02T20:34:31.147Z",
+  "updatedAt": "2026-10-03T19:09:41.206Z",
   "days": {
-    "2026-08-19": {
-      "title": "World Photography Day",
-      "motif": "starfield",
-      "gradient": [
-        "#171829",
-        "#3d4551",
-        "#151518"
-      ],
-      "accent": "#c9b06a",
-      "secondary": "#75b1d8",
-      "holidayFamily": "culture-observance",
-      "popularityTier": "observance",
-      "scopeTier": "international",
-      "tags": [
-        "sky",
-        "light",
-        "celebration",
-        "culture",
-        "international"
-      ],
-      "source": {
-        "provider": "Curated Cultural Observances",
-        "countryCode": "INTL",
-        "countryName": "International",
-        "typeLabels": [
-          "文化日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-08-20": {
       "title": "State Foundation Day",
       "motif": "cityParade",
@@ -1561,6 +1531,34 @@
         "provider": "Nager.Date",
         "countryCode": "SX",
         "countryName": "Sint Maarten",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-10-11": {
+      "title": "Revolution Day",
+      "motif": "wovenPattern",
+      "gradient": [
+        "#1c1824",
+        "#574435",
+        "#151416"
+      ],
+      "accent": "#c9a957",
+      "secondary": "#75b0d9",
+      "holidayFamily": "revolution-day",
+      "popularityTier": "niche",
+      "scopeTier": "national",
+      "tags": [
+        "culture",
+        "civic",
+        "celebration"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "MK",
+        "countryName": "North Macedonia",
         "typeLabels": [
           "公众节日"
         ],

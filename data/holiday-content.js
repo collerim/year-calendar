@@ -33,7 +33,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Ndadaye Day",
       zhTitle: "恩达达耶纪念日",
       type: "历史人物纪念日",
-      description: "恩达达耶纪念日缅怀布隆迪首位民选总统梅尔希奥尔·恩达达耶及其遇害的历史，也承载对民主与和平的追思。",
+      description: "缅怀首位民选总统恩达达耶及其遇害的历史，也承载对民主与和平的追思。",
       keys: ["BI|Ndadaye Day"]
     },
     {
@@ -110,7 +110,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Regional Holiday in Valencia",
       zhTitle: "瓦伦西亚自治区日",
       type: "地方纪念日",
-      description: "瓦伦西亚自治区日在当地纪念历史与自治身份，城市庆典、地方文化活动和社区聚会让节日带有鲜明的区域色彩。",
+      description: "纪念当地历史与自治身份，城市庆典与社区聚会让节日带有鲜明的区域色彩。",
       keys: ["ES|Regional Holiday in Valencia"]
     },
     {
@@ -467,7 +467,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Curaçao National Flag and Anthem Day",
       zhTitle: "库拉索国旗与国歌日",
       type: "国家象征纪念日",
-      description: "库拉索国旗与国歌日纪念岛屿共同体的旗帜、国歌和自治身份，公共日历中常带有升旗、文化活动和地方自豪感。",
+      description: "纪念岛屿的旗帜、国歌与自治身份，公共日历中带有升旗、文化活动和地方自豪感。",
       keys: ["CW|Curaçao National Flag and Anthem Day", "CW|Curaçao Nationale Vlag en Volkslied Dag"]
     },
     {
@@ -481,7 +481,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Heroes' Day",
       zhTitle: "英雄日",
       type: "国家纪念日",
-      description: "英雄日纪念在国家历史、独立、公共服务或社会建设中具有象征意义的人物，常通过官方仪式和社区活动表达敬意。",
+      description: "纪念在国家历史、独立或社会建设中具有象征意义的人物，以官方仪式和社区活动致敬。",
       keys: ["ZM|Heroes' Day"]
     },
     {
@@ -502,7 +502,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Anniversary of the Fall of Fascism and Day of Freedom",
       zhTitle: "法西斯垮台与自由日",
       type: "历史纪念日",
-      description: "法西斯垮台与自由日纪念圣马力诺摆脱法西斯统治的历史节点，把二十世纪政治转折、自由和共和国记忆连在一起。",
+      description: "纪念摆脱法西斯统治的历史节点，连接二十世纪政治转折、自由与共和国记忆。",
       keys: ["SM|Anniversary of the Fall of Fascism and Day of Freedom"]
     },
     {
@@ -530,7 +530,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Emancipation Tuesday",
       zhTitle: "解放星期二",
       type: "历史纪念日",
-      description: "英属维尔京群岛的解放星期二属于解放节庆周期，纪念废奴历史，也通过游行、音乐和社区活动延续自由记忆。",
+      description: "属于解放节庆周期的一部分，纪念废奴历史，以游行、音乐和社区活动延续自由记忆。",
       keys: ["VG|Emancipation Tuesday"]
     },
     {
@@ -621,14 +621,14 @@ globalThis.YearCalendarHolidayContent = {
       title: "Integration of Primorska into the Homeland",
       zhTitle: "普里莫斯卡回归祖国纪念日",
       type: "历史纪念日",
-      description: "普里莫斯卡回归祖国纪念日纪念斯洛文尼亚沿海地区重新并入民族共同体的历史记忆，带有地区身份和国家叙事。",
+      description: "纪念沿海地区重新并入民族共同体，这一天带有地区身份与国家叙事的双重意味。",
       keys: ["SI|Integration of Primorska into the Homeland", "SI|priključitev Primorske k matični domovini"]
     },
     {
       title: "National Heroes' Day",
       zhTitle: "国家英雄日",
       type: "国家纪念日",
-      description: "国家英雄日纪念为国家历史、公共生活或独立进程作出象征性贡献的人物，常以官方仪式和社区活动表达敬意。",
+      description: "纪念为国家历史、公共生活或独立进程作出贡献的人物，以官方仪式和社区活动致敬。",
       keys: ["KN|National Heroes' Day"]
     },
     {
@@ -782,7 +782,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Celebration of independence",
       zhTitle: "独立庆祝日",
       type: "地方纪念日",
-      description: "瑞士部分地方的独立庆祝日与州或社区历史传统相连，用地方仪式把自治记忆、共同体身份和夏季庆典连在一起。",
+      description: "与州或社区的历史传统相连，以地方仪式连接自治记忆、共同体身份与夏季庆典。",
       keys: ["CH|Celebration of independence", "Celebration of independence"]
     },
     {
@@ -817,7 +817,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Statehood Day",
       zhTitle: "国家地位日",
       type: "国家纪念日",
-      description: "国家地位日纪念国家制度、主权或历史身份的重要节点，常通过升旗、官方仪式和公共纪念表达共同体连续性。",
+      description: "纪念国家制度、主权或历史身份的重要节点，以升旗和官方仪式表达共同体的连续性。",
       keys: ["SI|Statehood Day", "ME|Statehood Day", "UA|Statehood Day", "UA|День Української Державності", "Statehood Day"]
     },
     {
@@ -866,7 +866,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Hong Kong Special Administrative Region Establishment Day",
       zhTitle: "香港特别行政区成立纪念日",
       type: "公众节日",
-      description: "香港特别行政区成立纪念日纪念1997年香港特别行政区成立，公共仪式中常出现升旗、官方庆典和城市节日安排。",
+      description: "纪念1997年香港特别行政区成立，公共仪式包括升旗、官方庆典和城市节日安排。",
       keys: ["HK|Hong Kong Special Administrative Region Establishment Day", "HK|香港特別行政區成立紀念日", "Hong Kong Special Administrative Region Establishment Day"]
     },
     {
@@ -936,14 +936,14 @@ globalThis.YearCalendarHolidayContent = {
       title: "Naadam Holiday",
       zhTitle: "那达慕假期",
       type: "传统节庆日",
-      description: "那达慕是蒙古最重要的传统节庆之一，赛马、摔跤和射箭被称为三项男子技艺，也承载草原文化和国家庆典。",
+      description: "蒙古最重要的传统节庆之一，赛马、摔跤和射箭是核心竞技，也承载草原文化与传统。",
       keys: ["MN|Naadam Holiday", "MN|Наадам", "Naadam Holiday", "Наадам"]
     },
     {
       title: "Day of Benedict of Nursia",
       zhTitle: "努西亚的本笃日",
       type: "圣人纪念日",
-      description: "努西亚的本笃日纪念西方修道传统中的重要圣人圣本笃，在欧洲地方日历中常与修道院、守护传统和礼拜相连。",
+      description: "纪念西方修道传统中的重要圣人本笃，与修道院、守护传统和礼拜相连。",
       keys: ["PT|Day of Benedict of Nursia", "Day of Benedict of Nursia"]
     },
     {
@@ -999,7 +999,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Presidents' Day",
       zhTitle: "总统日",
       type: "国家纪念日",
-      description: "博茨瓦纳总统日纪念国家领导传统和共和国公共制度，也常与长周末、官方活动和对国家建设历程的回望相连。",
+      description: "纪念国家领导传统与共和国公共制度，也常与长周末、官方活动和国家建设历程相连。",
       keys: ["BW|Presidents' Day", "Presidents' Day"]
     },
     {
@@ -1013,21 +1013,21 @@ globalThis.YearCalendarHolidayContent = {
       title: "Belgian National Day",
       zhTitle: "比利时国庆日",
       type: "国家纪念日",
-      description: "比利时国庆日纪念1831年利奥波德一世宣誓成为首任国王，现代庆祝常包括阅兵、王室仪式、烟火和城市活动。",
+      description: "纪念1831年利奥波德一世宣誓就任首任国王，庆祝活动包括阅兵、王室仪式和烟火。",
       keys: ["BE|Belgian National Day", "BE|National Day", "BE|Nationale feestdag", "Belgian National Day", "Nationale feestdag"]
     },
     {
       title: "St Mary Magdalene's Day",
       zhTitle: "圣玛利亚·玛达肋纳日",
       type: "圣人纪念日",
-      description: "圣玛利亚·玛达肋纳日纪念基督教传统中的重要女性圣徒，在地方日历中常与礼拜、守护传统和小城镇庆典相连。",
+      description: "纪念基督教传统中的重要女性圣徒玛达肋纳，与礼拜、守护传统和小镇庆典相连。",
       keys: ["PT|St Mary Magdalene's Day", "St Mary Magdalene's Day"]
     },
     {
       title: "Simón Bolívar's Birthday",
       zhTitle: "西蒙·玻利瓦尔诞辰",
       type: "历史人物纪念日",
-      description: "西蒙·玻利瓦尔诞辰纪念拉丁美洲独立运动领袖，委内瑞拉公共记忆中常把他与独立、共和国理想和解放者形象联系起来。",
+      description: "纪念拉丁美洲独立运动领袖玻利瓦尔，他被尊为解放者，与共和国理想紧密相连。",
       keys: ["VE|Simón Bolívar's Birthday", "VE|Natalicio del Libertador Simón Bolívar", "Simón Bolívar's Birthday"]
     },
     {
@@ -1069,7 +1069,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Day after the Commemoration of the Assault of the Moncada garrison",
       zhTitle: "蒙卡达纪念日次日",
       type: "革命纪念假日",
-      description: "蒙卡达纪念日次日延续古巴7月26日前后的革命纪念安排，让公共日历保留更完整的纪念、休息和社区活动时间。",
+      description: "延续7月26日蒙卡达纪念日前后的革命纪念安排，让公共日历保留更完整的纪念与休息时间。",
       keys: ["CU|Day after the Commemoration of the Assault of the Moncada garrison", "CU|Conmemoración del asalto a Moncada", "Day after the Commemoration of the Assault of the Moncada garrison"]
     },
     {
@@ -1111,7 +1111,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Emancipation Day",
       zhTitle: "解放日",
       type: "历史纪念日",
-      description: "加勒比地区的解放日多纪念废除奴隶制的历史，公共活动常结合追思、音乐、游行和黑人文化传统的重新呈现。",
+      description: "加勒比地区多在这一天纪念废除奴隶制，活动结合追思、音乐、游行与文化传统。",
       keys: ["BB|Emancipation Day", "BZ|Emancipation Day", "BS|Emancipation Day", "Emancipation Day"]
     },
     {
@@ -1153,7 +1153,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Picnic Day",
       zhTitle: "野餐日",
       type: "地方假日",
-      description: "澳大利亚北领地野餐日延续长周末休闲传统，人们常把它用于户外聚会、旅行、赛马活动和冬季末的轻松休息。",
+      description: "北领地的长周末休闲传统，人们用它来户外聚会、旅行、看赛马，享受冬末的轻松。",
       keys: ["AU|Picnic Day", "Picnic Day"]
     },
     {
@@ -1181,7 +1181,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "July Mass Uprising Day",
       zhTitle: "七月群众起义日",
       type: "政治纪念日",
-      description: "孟加拉国七月群众起义日纪念近年学生与公众抗议中的政治转折，公共记忆中带有青年、街头动员和制度变迁意味。",
+      description: "纪念近年学生与公众抗议带来的政治转折，公共记忆中带有青年动员与制度变迁的意味。",
       keys: ["BD|July Mass Uprising Day", "BD|জুলাই গণঅভ্যুত্থান দিবস", "July Mass Uprising Day"]
     },
     {
@@ -1237,7 +1237,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Carnival",
       zhTitle: "狂欢节",
       type: "节庆日",
-      description: "格林纳达狂欢节以音乐、化装、街头游行和加勒比节奏为核心，把殖民历史、非洲传统和现代城市庆典混合在一起。",
+      description: "以音乐、化装和街头游行为核心，融汇非洲传统与加勒比节奏的城市庆典。",
       keys: ["GD|Carnival", "Carnival"]
     },
     {
@@ -1300,7 +1300,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Day of Restoration of Independence",
       zhTitle: "恢复独立日",
       type: "国家纪念日",
-      description: "爱沙尼亚恢复独立日纪念1991年重新确立独立国家地位，公共记忆中连接歌唱革命、主权恢复和波罗的海历史。",
+      description: "纪念1991年重新确立独立国家地位，公共记忆连接歌唱革命、主权恢复与波罗的海历史。",
       keys: ["EE|Day of Restoration of Independence", "EE|taasiseseisvumispäev", "Day of Restoration of Independence"]
     },
     {
@@ -1321,7 +1321,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Day of St Bernard of Clairvaux",
       zhTitle: "克莱尔沃的圣伯尔纳铎日",
       type: "圣人纪念日",
-      description: "克莱尔沃的圣伯尔纳铎日纪念中世纪修道传统中的重要人物，在地方日历中常与修道院记忆、礼拜和守护传统相关。",
+      description: "纪念中世纪修道传统中的重要人物伯尔纳铎，与修道院记忆、礼拜和守护传统相关。",
       keys: ["PT|Day of St Bernard of Clairvaux", "Day of St Bernard of Clairvaux"]
     },
     {
@@ -1356,7 +1356,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Saint Mary's Day",
       zhTitle: "圣玛丽日",
       type: "宗教节日",
-      description: "格鲁吉亚圣玛丽日对应东正教传统中的圣母安息节，许多人会参加礼拜、探亲，并以玛利亚崇敬连接家庭和信仰生活。",
+      description: "东正教传统中的圣母安息节，人们参加礼拜、探亲，以对玛利亚的崇敬连接家庭与信仰。",
       keys: ["GE|Saint Mary's Day", "GE|მარიამობა", "Saint Mary's Day", "მარიამობა"]
     },
     {
@@ -1377,7 +1377,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "National Language Day",
       zhTitle: "国家语言日",
       type: "文化纪念日",
-      description: "摩尔多瓦国家语言日纪念语言和文字在国家身份中的位置，公共活动常围绕罗马尼亚语、文学、教育和文化传承展开。",
+      description: "纪念语言与文字在国家身份中的位置，活动围绕罗马尼亚语、文学和文化传承展开。",
       keys: ["MD|National Language Day", "MD|Limba Noastra", "National Language Day", "Limba Noastra"]
     },
     {
@@ -1419,7 +1419,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "The Feast of San Marino and the Republic",
       zhTitle: "圣马力诺与共和国节",
       type: "国家与宗教节日",
-      description: "圣马力诺与共和国节纪念圣马力诺守护圣人和共和国传统，把山城小国的起源传说、国家仪式和宗教礼拜连在一起。",
+      description: "纪念守护圣人与共和国传统，把山城小国的起源传说、国家仪式和宗教礼拜连在一起。",
       keys: ["SM|The Feast of San Marino and the Republic", "The Feast of San Marino and the Republic"]
     },
     {
@@ -1447,7 +1447,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Mother Teresa Day",
       zhTitle: "特蕾莎修女日",
       type: "人物纪念日",
-      description: "阿尔巴尼亚特蕾莎修女日纪念这位出生于巴尔干地区的天主教修女，人道服务、慈善和宗教身份是这一天的核心记忆。",
+      description: "纪念出生于巴尔干地区的天主教修女特蕾莎，她毕生从事人道服务与慈善，被视为国家骄傲。",
       keys: ["AL|Mother Teresa Day", "AL|Dita e Nënë Terezës", "Mother Teresa Day", "Dita e Nënë Terezës"]
     },
     {
@@ -1489,7 +1489,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Philippine Independence Day",
       zhTitle: "菲律宾独立日",
       type: "国家纪念日",
-      description: "菲律宾独立日纪念1898年宣布脱离西班牙殖民统治，升旗仪式、历史纪念和民族英雄叙事是这一天的重要部分。",
+      description: "纪念1898年宣布脱离西班牙殖民统治，升旗仪式与历史纪念是这一天的重要部分。",
       keys: ["PH|Independence Day", "PH|Araw ng Kalayaan", "Philippine Independence Day"]
     },
     {
@@ -1538,7 +1538,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "National Aboriginal Day",
       zhTitle: "加拿大原住民日",
       type: "文化纪念日",
-      description: "加拿大原住民日纪念第一民族、因纽特人与梅蒂斯人的文化、历史和贡献，常有社区活动、舞蹈、手作和文化展示。",
+      description: "纪念第一民族、因纽特人与梅蒂斯人的文化与历史，常有社区活动、舞蹈和手作展示。",
       keys: ["CA|National Aboriginal Day", "National Aboriginal Day"]
     },
     {
@@ -1552,7 +1552,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Discovery Day",
       zhTitle: "发现日",
       type: "地方历史纪念日",
-      description: "加拿大部分地区的发现日纪念地方历史中的抵达、探险或建制记忆，现代更多呈现为夏季社区活动和地方身份节点。",
+      description: "部分省份纪念地方历史中的抵达、探险或建制，如今更像夏季社区活动与地方身份节点。",
       keys: ["CA|Discovery Day", "Discovery Day"]
     },
     {
@@ -1741,7 +1741,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Egypt Revolution Day",
       zhTitle: "埃及七月革命日",
       type: "国家纪念日",
-      description: "埃及七月革命日纪念1952年自由军官运动和共和国转折，公共叙事中连接民族主义、现代国家和政治改革记忆。",
+      description: "纪念1952年自由军官运动与共和国转折，连接民族主义、现代国家与政治改革的记忆。",
       keys: ["EG|Revolution Day", "EG|عيد ثورة 23 يوليو", "Egypt Revolution Day"]
     },
     {
@@ -1797,7 +1797,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Heritage Day",
       zhTitle: "遗产日",
       type: "地方文化假日",
-      description: "加拿大部分地区的遗产日用于回望地方历史、多元社区和文化传统，也常成为夏季公共活动和家庭出游的时间。",
+      description: "加拿大部分地区用于回望地方历史、多元社区与文化传统，也常成为夏季出游的时间。",
       keys: ["CA|Heritage Day", "Heritage Day"]
     },
     {
@@ -1958,7 +1958,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Labor Day",
       zhTitle: "美国劳动节",
       type: "劳动节日",
-      description: "美国劳动节纪念劳动者和劳工运动，也通常象征夏季结束，常见活动包括长周末旅行、烧烤和体育赛事。",
+      description: "美国劳动节致敬劳动者与劳工运动，也标志夏季结束，常见长周末旅行、烧烤和体育赛事。",
       keys: ["US|Labour Day", "US|Labor Day", "Labor Day"]
     },
     {
@@ -1993,7 +1993,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "2 January",
       zhTitle: "1月2日假日",
       type: "新年延续假日",
-      description: "1月2日延续新年假期的休息节奏，在部分英联邦地区作为跨年后的公共假日，方便人们继续团聚、旅行或调整作息。",
+      description: "延续新年的休息节奏，在部分英联邦地区是跨年后的公共假日，便于继续团聚或旅行。",
       keys: ["2 January"]
     },
     {
@@ -2028,14 +2028,14 @@ globalThis.YearCalendarHolidayContent = {
       title: "King's Birthday",
       zhTitle: "国王生日",
       type: "王室公共假日",
-      description: "澳大利亚的国王生日假日延续英联邦君主生日传统，多数地区会把它安排成六月长周末，用于休息、出行和社区活动。",
+      description: "延续英联邦君主生日传统，多数地区安排在六月形成长周末，用于休息与出行。",
       keys: ["AU|King's Birthday", "AU|King’s Birthday"]
     },
     {
       title: "Australia Day",
       zhTitle: "澳大利亚日",
       type: "国家纪念日",
-      description: "澳大利亚日是澳大利亚的国家纪念日，现代公共生活中既有庆祝国家身份的活动，也伴随关于历史记忆和原住民处境的讨论。",
+      description: "澳大利亚的国家纪念日，既有庆祝国家身份的活动，也伴随对历史记忆与原住民处境的讨论。",
       keys: ["AU|Australia Day", "Australia Day"]
     },
     {
@@ -2077,7 +2077,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Christmas Day",
       zhTitle: "圣诞节",
       type: "宗教与团聚节日",
-      description: "圣诞节源自基督教传统，后来也成为许多地方的冬日团聚节日，常见象征包括灯饰、松枝、礼物和家庭餐桌。",
+      description: "基督教传统中的冬日团聚节日，常见灯饰、松枝、礼物与家庭餐桌。",
       keys: ["Christmas Day"]
     },
     {
@@ -2882,7 +2882,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Angel Consecration",
       zhTitle: "天使祝圣纪念日",
       type: "地方宗教节日",
-      description: "瑞士的天使祝圣纪念日与艾因西德伦修道院传统相连，纪念圣堂献堂与朝圣礼仪，是地方天主教记忆中的节日。",
+      description: "与艾因西德伦修道院传统相连，纪念圣堂献堂与朝圣礼仪，是地方天主教记忆中的节日。",
       keys: ["CH|Angel consecration"]
     },
     {
@@ -3015,7 +3015,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Saint Nicholas of Flüe Day",
       zhTitle: "圣尼各老·弗吕埃日",
       type: "地方圣人纪念日",
-      description: "圣尼各老·弗吕埃日纪念瑞士隐修者和和平象征 Nicholas of Flüe，在瑞士中部尤其具有地方身份意义。",
+      description: "纪念瑞士隐修者、和平象征弗吕埃，他在瑞士中部尤其具有地方身份意义。",
       keys: ["CH|Saint Nicholas of Flüe Day"]
     },
     {
@@ -3071,7 +3071,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Francisco Morazán's Day and Soldier's Day",
       zhTitle: "弗朗西斯科·莫拉桑日与军人日",
       type: "国家纪念日",
-      description: "洪都拉斯这一天纪念中美洲联邦理想人物 Francisco Morazán，也与军人纪念和十月公民假期传统相连。",
+      description: "纪念中美洲联邦的推动者莫拉桑，也致敬军人，与十月公民假期传统相连。",
       keys: ["HN|Francisco Morazán's Day/Soldier's Day", "HN|Francisco Morazán's Day and Soldier's Day"]
     },
     {
@@ -3162,7 +3162,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Heritage Day",
       zhTitle: "南非遗产日",
       type: "文化节庆日",
-      description: "南非遗产日庆祝多元语言、食物、服饰和社区传统，也常被称作 Braai Day，带有鲜明的共享饮食气氛。",
+      description: "庆祝多元语言、饮食、服饰和社区传统，因烤肉聚会而被称作烧烤日，气氛共享而热闹。",
       keys: ["ZA|Heritage Day"]
     },
     {
@@ -3568,7 +3568,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Army Abolition Day",
       zhTitle: "废除军队日",
       type: "国家纪念日",
-      description: "哥斯达黎加废除军队日纪念1948年宣布取消常备军，凸显该国把教育、民主体制和和平身份放在国家叙事中心。",
+      description: "纪念1948年取消常备军，这一决定让教育、民主体制与和平身份成为国家叙事的中心。",
       keys: ["CR|Army Abolition Day", "CR|Día de la Abolición del Ejército"]
     },
     {
@@ -3624,7 +3624,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Jamhuri Day",
       zhTitle: "共和国日",
       type: "国家纪念日",
-      description: "肯尼亚 Jamhuri Day 纪念1963年独立和1964年成为共和国，是国家庆典、授勋和公共仪式的重要日子。",
+      description: "纪念1963年独立与1964年成为共和国，是国家庆典、授勋和公共仪式的重要日子。",
       keys: ["KE|Jamhuri Day"]
     },
     {
@@ -3785,7 +3785,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "George Price Day",
       zhTitle: "乔治·普赖斯日",
       type: "国家人物纪念日",
-      description: "伯利兹 George Price Day 纪念独立运动领袖和首任总理 George Cadle Price，他常被称为国家之父。",
+      description: "纪念独立运动领袖、首任总理普赖斯，他被尊称为国家之父。",
       keys: ["BZ|George Price Day"]
     },
     {
@@ -4415,7 +4415,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Foundation Anniversary Day of San Cristóbal, Táchira",
       zhTitle: "塔奇拉圣克里斯托瓦尔建城纪念日",
       type: "地方城市纪念日",
-      description: "委内瑞拉塔奇拉州圣克里斯托瓦尔建城纪念日庆祝城市历史，常与地方身份、街区活动和安第斯城市记忆相连。",
+      description: "塔奇拉州圣克里斯托瓦尔的建城纪念，与地方身份、街区活动和安第斯城市记忆相连。",
       keys: ["VE|Foundation anniversary Day of San Cristóbal, Táchira", "VE|Aniversario del fundacion del San Cristóbal"]
     },
     {
@@ -4527,7 +4527,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Bengali New Year",
       zhTitle: "孟加拉新年",
       type: "文化新年",
-      description: "孟加拉新年 Pohela Boishakh 以游行、音乐、集市和新衣开启新年，是孟加拉文化身份中明亮的一天。",
+      description: "以游行、音乐、集市和新衣开启新年，是孟加拉文化身份中最明亮的一天。",
       keys: ["BD|Bengali New Year", "BD|নববর্ষ"]
     },
     {
@@ -5465,7 +5465,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Carnival",
       zhTitle: "狂欢节",
       type: "季节民俗节日",
-      description: "安道尔、安哥拉、海地和巴拿马的狂欢节在大斋期前后展开，面具、音乐、舞蹈和街头游行让城市进入节庆节奏。",
+      description: "在大斋期前后展开，面具、音乐、舞蹈和街头游行让城市进入节庆节奏。",
       keys: ["AD|Carnival", "AD|Carnaval", "AO|Carnival", "AO|Carnaval", "HT|Carnival", "HT|Carnaval", "PA|Carnival"]
     },
     {
@@ -5724,7 +5724,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Day of the Balearic Islands",
       zhTitle: "巴利阿里群岛日",
       type: "地方自治纪念日",
-      description: "巴利阿里群岛日纪念1983年自治章程生效，马略卡、梅诺卡、伊维萨等岛屿会借此展示本地身份和地中海文化。",
+      description: "纪念1983年自治章程生效，马略卡、梅诺卡、伊维萨等岛屿借此展示地中海文化。",
       keys: ["ES|Day of the Balearic Islands", "ES|Dia de les Illes Balears"]
     },
     {
@@ -5906,7 +5906,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Caracas City Foundation Day",
       zhTitle: "加拉加斯建城日",
       type: "城市历史纪念日",
-      description: "加拉加斯建城日纪念1567年城市建立，委内瑞拉首都的地方身份、历史建筑和城市公共记忆会在这一天被重新提起。",
+      description: "纪念1567年建城，首都的地方身份、历史建筑与城市记忆在这一天被重新提起。",
       keys: ["VE|Caracas City Foundation Day", "VE|Aniversario del fundacion del Caracas"]
     },
     {

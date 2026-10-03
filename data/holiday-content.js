@@ -1840,7 +1840,7 @@ globalThis.YearCalendarHolidayContent = {
       zhTitle: "澳式橄榄球总决赛前星期五",
       type: "体育节庆日",
       description: "维多利亚州围绕澳式橄榄球总决赛设立的公众假日，连着体育传统与周末庆典。",
-      keys: ["AU|Friday before AFL Grand Final"]
+      keys: ["AU|Friday before AFL Grand Final", "AU|Friday before AFL Grand Final (Tentative Date)"]
     },
     {
       title: "Labour Day",
@@ -2564,18 +2564,11 @@ globalThis.YearCalendarHolidayContent = {
       keys: ["PE|Santa Rosa de Lima", "PE|Día de Santa Rosa de Lima", "Santa Rosa de Lima", "Día de Santa Rosa de Lima"]
     },
     {
-      title: "National Language Day",
-      zhTitle: "国家语言日",
-      type: "文化纪念日",
-      description: "纪念语言与文字在国家身份中的位置，活动围绕罗马尼亚语、文学和文化传承展开。",
-      keys: ["MD|National Language Day", "MD|Limba Noastra", "National Language Day", "Limba Noastra"]
-    },
-    {
       title: "Limba Noastra (National Language Day)",
       zhTitle: "我们的语言日",
       type: "文化纪念日",
       description: "节名意为我们的语言，这一天强调摩尔多瓦语言文化、诗歌传统与语言归属感。",
-      keys: ["MD|Limba Noastra (National Language Day)", "Limba Noastra (National Language Day)"]
+      keys: ["MD|Limba Noastra", "MD|Limba Noastra (National Language Day)", "MD|National Language Day", "Limba Noastra", "Limba Noastra (National Language Day)", "National Language Day"]
     },
     {
       title: "National Heroes Day",
@@ -2645,7 +2638,7 @@ globalThis.YearCalendarHolidayContent = {
       zhTitle: "阿斯图里亚斯日",
       type: "地方纪念日",
       description: "纪念西班牙北部阿斯图里亚斯的地区身份，与科瓦东加圣母传统、山地文化和自治庆典相连。",
-      keys: ["ES|Asturias Day", "Asturias Day", "Day of Asturias"]
+      keys: ["ES|Asturias Day", "ES|Day of Asturias", "ES|Día de Asturias", "Asturias Day", "Day of Asturias"]
     },
     {
       title: "Nativity of Mary",
@@ -3212,7 +3205,7 @@ globalThis.YearCalendarHolidayContent = {
       zhTitle: "圣母升天节",
       type: "宗教节日",
       description: "源自天主教传统，纪念圣母玛利亚升天，欧洲和拉丁文化中与礼拜、游行和夏日休假相连。",
-      keys: ["Assumption", "Assumption of the Virgin Mary"]
+      keys: ["Assumption", "Assumption Day", "Assumption of the Virgin Mary"]
     },
     {
       title: "King's Birthday",
@@ -6568,20 +6561,6 @@ globalThis.YearCalendarHolidayContent = {
       keys: ["PR|Labour Day", "PR|Día del Trabajo"]
     },
     {
-      title: "Day of Asturias",
-      zhTitle: "阿斯图里亚斯日",
-      type: "地方自治纪念日",
-      description: "纪念阿斯图里亚斯的地区身份与科瓦东加圣母传统，是地方历史和社区庆祝的一部分。",
-      keys: ["ES|Day of Asturias", "ES|Día de Asturias"]
-    },
-    {
-      title: "Friday before AFL Grand Final",
-      zhTitle: "澳式足球总决赛前星期五",
-      type: "体育公众假日",
-      description: "维多利亚州为澳式足球总决赛设立的长周末假日，城市里满是球队颜色与球迷活动。",
-      keys: ["AU|Friday before AFL Grand Final (Tentative Date)"]
-    },
-    {
       title: "Saint Rupert's Day",
       zhTitle: "圣鲁伯特日",
       type: "地方圣人纪念日",
@@ -7203,13 +7182,6 @@ globalThis.YearCalendarHolidayContent = {
       type: "仲夏民俗节日",
       description: "仲夏节庆的高潮，人们戴橡叶或花环、唱民歌、点篝火，在短夜里庆祝夏至。",
       keys: ["LV|Jāņi Day", "LV|Jāņu diena"]
-    },
-    {
-      title: "Assumption Day",
-      zhTitle: "圣母升天节",
-      type: "宗教节日",
-      description: "圣母升天节源自天主教传统，纪念圣母玛利亚升天，欧洲与拉丁美洲常以礼拜、游行和休假度过。",
-      keys: ["Assumption Day"]
     },
     {
       title: "Constitution Day",

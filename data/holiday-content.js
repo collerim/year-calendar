@@ -369,7 +369,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Day of the Dead",
       zhTitle: "斯洛文尼亚亡者日",
       type: "宗教与民俗节日",
-      description: "斯洛文尼亚亡者日以扫墓、鲜花和烛光追思亲人，提醒人们在秋季节期与家人共同保存记忆。",
+      description: "以扫墓、鲜花和烛光追思亲人，在秋季节期与家人共同保存记忆。",
       keys: ["SI|Day of the Dead"]
     },
     {
@@ -2287,7 +2287,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "National Day",
       zhTitle: "国庆日",
       type: "国家纪念日",
-      description: "国庆日通常纪念国家成立、独立或重要制度节点，是公共仪式、旗帜和国家身份表达的日子。",
+      description: "纪念国家成立、独立或重要制度节点，是公共仪式、旗帜和国家身份表达的日子。",
       keys: ["National Day"]
     },
     {
@@ -2315,7 +2315,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "National Foundation Day",
       zhTitle: "建国纪念日",
       type: "国家起源纪念日",
-      description: "建国纪念日通常回望国家起源、神话传统或制度形成，是表达国家身份和历史连续性的节日。",
+      description: "回望国家起源、神话传统或制度形成，是表达国家身份与历史连续性的节日。",
       keys: ["National Foundation Day"]
     },
     {
@@ -2378,7 +2378,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Restoration Day",
       zhTitle: "复辟日",
       type: "国家历史纪念日",
-      description: "复辟日通常纪念王权、国家制度或政治秩序恢复的历史节点，带有国家记忆和制度象征。",
+      description: "纪念王权、国家制度或政治秩序恢复的历史节点，带有国家记忆与制度象征。",
       keys: ["Restoration Day"]
     },
     {
@@ -2574,7 +2574,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "International Mother Language Day",
       zhTitle: "国际母语日",
       type: "语言文化日",
-      description: "国际母语日纪念语言多样性与文化传承，提醒人们保护母语和少数语言。",
+      description: "纪念语言多样性与文化传承，强调保护母语和少数语言。",
       keys: ["International Mother Language Day"]
     },
     {
@@ -2896,7 +2896,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Knabenschiessen",
       zhTitle: "苏黎世少年射击节",
       type: "地方民俗节日",
-      description: "Knabenschiessen 是苏黎世传统少年射击节，现代也融合游乐场、市集和城市秋季聚会气氛。",
+      description: "苏黎世的传统少年射击节，也融合游乐场、市集和城市秋季聚会的气氛。",
       keys: ["CH|Knabenschiessen"]
     },
     {
@@ -3127,7 +3127,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Mazingira Day",
       zhTitle: "环境日",
       type: "公共环保节日",
-      description: "肯尼亚 Mazingira Day 关注环境保护和植树行动，名字来自斯瓦希里语中与环境相关的表达。",
+      description: "关注环境保护和植树行动，节名来自斯瓦希里语中与环境相关的表达。",
       keys: ["KE|Mazingira Day"]
     },
     {
@@ -3281,7 +3281,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Armed Forces Day",
       zhTitle: "贝宁武装部队日",
       type: "国家纪念日",
-      description: "贝宁武装部队日表彰国家军队和公共安全服务，通常带有阅兵、官方致敬和国家仪式感。",
+      description: "表彰国家军队和公共安全服务，带有阅兵、官方致敬和国家仪式感。",
       keys: ["BJ|Armed Forces Day"]
     },
     {
@@ -3526,7 +3526,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Statehood Day",
       zhTitle: "波黑国家地位日",
       type: "国家纪念日",
-      description: "波黑国家地位日纪念1943年 ZAVNOBiH 会议，强调波黑多民族共同体和现代国家连续性。",
+      description: "纪念1943年的国家解放会议，强调多民族共同体与现代国家连续性。",
       keys: ["BA|Statehood Day", "BA|Dan državnosti Bosne i Hercegovine"]
     },
     {
@@ -3715,7 +3715,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "New Year's Day Holiday",
       zhTitle: "元旦补假",
       type: "调休假日",
-      description: "元旦补假通常在元旦附近安排，用来延续新年休假或补足周末重叠后的公众假期。",
+      description: "在元旦附近安排的补假，用来延续新年休假，或补足与周末重叠的公众假期。",
       keys: ["AL|New Year's Day Holiday"]
     },
     {
@@ -3925,7 +3925,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Saint Brigid's Day",
       zhTitle: "圣布里吉德日",
       type: "宗教与季节节日",
-      description: "爱尔兰圣布里吉德日靠近 Imbolc 春初传统，现代也强调女性、创造力和爱尔兰文化复兴。",
+      description: "与盖尔人的春初节庆相连，现代也强调女性、创造力和爱尔兰文化复兴。",
       keys: ["IE|Saint Brigid's Day"]
     },
     {
@@ -3946,7 +3946,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Heroes' Day",
       zhTitle: "英雄日",
       type: "国家纪念日",
-      description: "莫桑比克英雄日纪念民族解放斗争人物，特别追忆 Eduardo Mondlane 等独立运动领袖。",
+      description: "纪念民族解放斗争人物，特别追忆蒙德拉纳等独立运动领袖。",
       keys: ["MZ|Heroes's Day", "MZ|Heroes' Day", "MZ|Dia do Heroi Nacional"]
     },
     {
@@ -4016,14 +4016,14 @@ globalThis.YearCalendarHolidayContent = {
       title: "Seollal",
       zhTitle: "韩国春节",
       type: "农历新年",
-      description: "韩国 Seollal 是农历新年，家人祭祖、行岁拜、吃年糕汤，也在新年里重整亲族关系。",
+      description: "农历新年，家人祭祖、行岁拜、吃年糕汤，也在新年里重整亲族关系。",
       keys: ["KR|Lunar New Year", "KR|설날"]
     },
     {
       title: "Lunar New Year",
       zhTitle: "香港农历新年",
       type: "农历新年",
-      description: "香港农历新年以花市、拜年、利是、团聚和城市灯饰为特色，公共假日通常覆盖初一到初三。",
+      description: "以花市、拜年、利是、团聚和城市灯饰为特色，公共假日覆盖初一到初三。",
       keys: ["HK|Lunar New Year", "HK|農曆年初一"]
     },
     {
@@ -4093,7 +4093,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Lincoln's Birthday",
       zhTitle: "林肯诞辰",
       type: "历史人物纪念日",
-      description: "林肯诞辰纪念美国总统 Abraham Lincoln，常与废奴、内战记忆和宪政共同体叙事相连。",
+      description: "纪念美国总统林肯，他与废奴、内战记忆和宪政共同体叙事相连。",
       keys: ["US|Lincoln's Birthday"]
     },
     {
@@ -4156,7 +4156,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Robert Mugabe National Youth Day",
       zhTitle: "罗伯特·穆加贝全国青年日",
       type: "青年纪念日",
-      description: "津巴布韦全国青年日以 Robert Mugabe 命名，官方语境中强调青年、国家历史和政治遗产。",
+      description: "以穆加贝命名的全国青年日，官方语境中强调青年、国家历史和政治遗产。",
       keys: ["ZW|Robert Mugabe National Youth Day"]
     },
     {
@@ -4492,7 +4492,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Women's Day",
       zhTitle: "莫桑比克妇女节",
       type: "女性纪念日",
-      description: "莫桑比克妇女节纪念民族解放斗争中的女性角色，特别与 Josina Machel 的公共记忆相连。",
+      description: "纪念民族解放斗争中的女性角色，特别与若西娜·马谢尔的公共记忆相连。",
       keys: ["MZ|Women's Day", "MZ|Dia da Mulher"]
     },
     {
@@ -4632,7 +4632,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "National Flag Day",
       zhTitle: "国旗日",
       type: "国家象征纪念日",
-      description: "法罗群岛国旗日纪念 Merkið 旗帜获得承认，岛屿身份、语言和自治传统都凝结在旗帜之中。",
+      description: "纪念岛旗获得承认，岛屿身份、语言和自治传统都凝结在这面旗帜之中。",
       keys: ["FO|National Flag Day", "FO|Flaggdagur"]
     },
     {
@@ -4702,7 +4702,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Shōwa Day",
       zhTitle: "昭和日",
       type: "国家纪念日",
-      description: "日本昭和日纪念昭和天皇生日，也提醒人们回顾昭和时代的战争、复兴和社会变化。",
+      description: "纪念昭和天皇生日，也让人回顾昭和时代的战争、复兴和社会变化。",
       keys: ["JP|Shōwa Day", "JP|昭和の日"]
     },
     {
@@ -4891,14 +4891,14 @@ globalThis.YearCalendarHolidayContent = {
       title: "Father's Day",
       zhTitle: "父亲节",
       type: "家庭节日",
-      description: "萨尔瓦多父亲节感谢父亲和家庭照护角色，通常以家庭餐聚、问候和社区活动庆祝。",
+      description: "感谢父亲和家庭照护角色，以家庭餐聚、问候和社区活动庆祝。",
       keys: ["SV|Father's Day", "SV|Día del Padre"]
     },
     {
       title: "Radonitsa",
       zhTitle: "亡者纪念日",
       type: "东正教追思日",
-      description: "Radonitsa 是东正教复活节后的亡者纪念日，人们扫墓、点烛并把复活节的希望带入追思。",
+      description: "东正教复活节后的亡者纪念日，人们扫墓、点烛，把复活节的希望带入追思。",
       keys: ["Radunitsa", "Commemoration Day", "Commemoration Day (Radonitsa)", "Радунiца"]
     },
     {
@@ -5010,7 +5010,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Memorial Day",
       zhTitle: "波多黎各阵亡将士纪念日",
       type: "战争追思日",
-      description: "波多黎各阵亡将士纪念日沿用美国 Memorial Day 传统，追思在战争中牺牲的军人。",
+      description: "沿用美国的阵亡将士纪念传统，追思在战争中牺牲的军人。",
       keys: ["PR|Memorial Day", "PR|Recordación de los Muertos de la Guerra"]
     },
     {
@@ -5178,14 +5178,14 @@ globalThis.YearCalendarHolidayContent = {
       title: "Madaraka Day",
       zhTitle: "自治日",
       type: "国家纪念日",
-      description: "肯尼亚 Madaraka Day 纪念1963年获得内部自治，是通往独立和共和国成立的重要一步。",
+      description: "纪念1963年获得内部自治，是通往独立和共和国成立的重要一步。",
       keys: ["KE|Madaraka Day"]
     },
     {
       title: "Pancasila Day",
       zhTitle: "建国五项原则日",
       type: "国家理念纪念日",
-      description: "印度尼西亚 Pancasila Day 纪念建国五项原则提出，强调多元国家的共同政治价值。",
+      description: "纪念建国五项原则的提出，强调多元国家的共同政治价值。",
       keys: ["ID|Pancasila Day", "ID|Hari Lahir Pancasila"]
     },
     {
@@ -5283,7 +5283,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Midsummer Day",
       zhTitle: "仲夏节",
       type: "季节节日",
-      description: "立陶宛仲夏节与 Joninės 传统相连，篝火、草药、花冠和通宵庆祝表达夏至时节的生命力。",
+      description: "与圣约翰节传统相连，篝火、草药、花冠和通宵庆祝表达夏至时节的生命力。",
       keys: ["LT|Midsummer Day"]
     },
     {
@@ -6032,7 +6032,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Independence Day",
       zhTitle: "独立日",
       type: "国家纪念日",
-      description: "独立日通常纪念国家取得主权或脱离殖民统治的历史时刻，常伴随旗帜、仪式和公共庆祝。",
+      description: "纪念国家取得主权或脱离殖民统治的历史时刻，伴随旗帜、仪式和公共庆祝。",
       keys: ["Independence Day"]
     },
     {

@@ -121,6 +121,13 @@ globalThis.YearCalendarHolidayContent = {
       keys: ["BF|Day of Customs and Traditions"]
     },
     {
+      title: "Independence Day",
+      zhTitle: "布基纳法索独立日",
+      type: "国家纪念日",
+      description: "纪念1960年宣布独立，以游行和国家仪式庆祝。",
+      keys: ["BF|Independence Day"]
+    },
+    {
       title: "Martyrs' Day",
       zhTitle: "布基纳法索烈士纪念日",
       type: "历史纪念日",
@@ -133,6 +140,13 @@ globalThis.YearCalendarHolidayContent = {
       type: "国家纪念日",
       description: "回顾1958年上沃尔特共和国宣告成立，是此后建国历程的重要节点。",
       keys: ["BF|Proclamation of Independence Day"]
+    },
+    {
+      title: "Revolution Day",
+      zhTitle: "布基纳法索革命日",
+      type: "革命纪念日",
+      description: "纪念1966年的民众运动与政治转折，是革命纪念日。",
+      keys: ["BF|Revolution Day"]
     },
     {
       title: "Christmas Day (Observed)",
@@ -149,11 +163,25 @@ globalThis.YearCalendarHolidayContent = {
       keys: ["BG|Independence Day"]
     },
     {
+      title: "National Day",
+      zhTitle: "巴林国庆日",
+      type: "国家纪念日",
+      description: "巴林国庆日，以官方庆典、旗帜和公共活动表达国家身份。",
+      keys: ["BH|National Day", "BH|اليوم الوطني"]
+    },
+    {
       title: "Sports Day",
       zhTitle: "巴林体育日",
       type: "体育节庆日",
       description: "巴林全国体育日，学校与社区举办运动活动，鼓励全民参与锻炼。",
       keys: ["BH|Sports Day", "BH|اليوم الرياضي"]
+    },
+    {
+      title: "Independence Day",
+      zhTitle: "布隆迪独立日",
+      type: "国家纪念日",
+      description: "纪念1962年脱离比利时统治、布隆迪独立。",
+      keys: ["BI|Independence Day"]
     },
     {
       title: "National Patriotism Day",
@@ -189,6 +217,13 @@ globalThis.YearCalendarHolidayContent = {
       type: "国家和解纪念日",
       description: "强调国内各族群的和解与团结，以公共活动推动共同生活。",
       keys: ["BI|Unity Day"]
+    },
+    {
+      title: "National Day",
+      zhTitle: "贝宁国庆日",
+      type: "国家纪念日",
+      description: "纪念1975年独立，以阅兵、音乐和公共庆典庆祝。",
+      keys: ["BJ|National Day"]
     },
     {
       title: "Abolition Day",
@@ -248,6 +283,13 @@ globalThis.YearCalendarHolidayContent = {
     },
     {
       title: "Independence Day",
+      zhTitle: "博茨瓦纳独立日",
+      type: "国家纪念日",
+      description: "纪念1966年独立，以升旗、游行和社区活动庆祝。",
+      keys: ["BW|Independence Day"]
+    },
+    {
+      title: "Independence Day",
       zhTitle: "伯利兹独立日",
       type: "国家纪念日",
       description: "纪念1981年脱离英国统治、伯利兹独立。",
@@ -266,6 +308,20 @@ globalThis.YearCalendarHolidayContent = {
       type: "宗教节日",
       description: "中非共和国的公共祈祷日，人们以礼拜和集会祈求国家平安。",
       keys: ["CF|General Prayer Day"]
+    },
+    {
+      title: "Independence Day",
+      zhTitle: "中非独立日",
+      type: "国家纪念日",
+      description: "纪念1960年脱离法国统治、中非共和国独立。",
+      keys: ["CF|Independence Day"]
+    },
+    {
+      title: "National Day",
+      zhTitle: "中非国庆日",
+      type: "国家纪念日",
+      description: "纪念1958年共和国宣告成立，是国家纪念日。",
+      keys: ["CF|National Day"]
     },
     {
       title: "Berchtold's Day",
@@ -296,6 +352,13 @@ globalThis.YearCalendarHolidayContent = {
       keys: ["CH|St Martin's Day"]
     },
     {
+      title: "Independence Day",
+      zhTitle: "科特迪瓦独立日",
+      type: "国家纪念日",
+      description: "纪念1960年独立，以游行、音乐和公共庆典庆祝。",
+      keys: ["CI|Independence Day"]
+    },
+    {
       title: "National Peace Day",
       zhTitle: "科特迪瓦国家和平日",
       type: "国家纪念日",
@@ -322,6 +385,13 @@ globalThis.YearCalendarHolidayContent = {
       type: "国家纪念日",
       description: "智利国庆节，纪念1810年首届自治政府成立，以游行和民间舞庆祝。",
       keys: ["CL|National holiday", "CL|Fiestas Patrias"]
+    },
+    {
+      title: "National Day",
+      zhTitle: "喀麦隆国庆日",
+      type: "国家纪念日",
+      description: "纪念1972年全民公投确立统一国家体制。",
+      keys: ["CM|National Day"]
     },
     {
       title: "National Day",
@@ -385,6 +455,13 @@ globalThis.YearCalendarHolidayContent = {
       type: "国家纪念日",
       description: "纪念1918年捷克斯洛伐克建国，是国家荣誉与纪念日。",
       keys: ["CZ|Independence Day"]
+    },
+    {
+      title: "Independence Day",
+      zhTitle: "吉布提独立日",
+      type: "国家纪念日",
+      description: "纪念1977年脱离法国统治、吉布提独立。",
+      keys: ["DJ|Independence Day"]
     },
     {
       title: "Constitution Day",
@@ -464,6 +541,13 @@ globalThis.YearCalendarHolidayContent = {
       keys: ["EG|Prophet Muhammad's Birthday (Tentative Date)", "ML|Mawloud (Roughly Date)"]
     },
     {
+      title: "Independence Day",
+      zhTitle: "厄立特里亚独立日",
+      type: "国家纪念日",
+      description: "纪念1993年独立公投后建国，以游行和庆典庆祝。",
+      keys: ["ER|Independence Day", "ER|Maelti Natsinet መዓልቲ ናጽነት"]
+    },
+    {
       title: "Martyrs' Day",
       zhTitle: "厄立特里亚烈士日",
       type: "追思纪念日",
@@ -483,6 +567,13 @@ globalThis.YearCalendarHolidayContent = {
       type: "东正教节日",
       description: "纪念耶稣受洗的东正教节日，教堂通宵礼拜后举行游行与祝福水域仪式。",
       keys: ["ER|Orthodox Epiphany", "ER|Timket ጥምቀት"]
+    },
+    {
+      title: "Revolution Day",
+      zhTitle: "厄立特里亚革命日",
+      type: "革命纪念日",
+      description: "纪念1961年武装斗争开始，是独立进程的起点。",
+      keys: ["ER|Revolution Day", "ER|Bahti Meskerem ባሕቲ መስከረም"]
     },
     {
       title: "Constitution Day",
@@ -639,11 +730,53 @@ globalThis.YearCalendarHolidayContent = {
       keys: ["GE|Independence Day", "GE|დამოუკიდებლობის დღე"]
     },
     {
+      title: "Constitution Day",
+      zhTitle: "加纳宪法日",
+      type: "宪政纪念日",
+      description: "纪念1993年恢复宪政体制，是加纳的宪法日。",
+      keys: ["GH|Constitution Day"]
+    },
+    {
+      title: "Independence Day",
+      zhTitle: "加纳独立日",
+      type: "国家纪念日",
+      description: "纪念1957年独立，是撒哈拉以南非洲最早独立的国家。",
+      keys: ["GH|Independence Day"]
+    },
+    {
+      title: "Independence Day",
+      zhTitle: "冈比亚独立日",
+      type: "国家纪念日",
+      description: "纪念1965年脱离英国统治、冈比亚独立。",
+      keys: ["GM|Independence Day"]
+    },
+    {
+      title: "Independence Day",
+      zhTitle: "几内亚独立日",
+      type: "国家纪念日",
+      description: "纪念1958年拒绝加入法兰西共同体、宣布独立。",
+      keys: ["GN|Independence Day"]
+    },
+    {
+      title: "Constitution Day",
+      zhTitle: "赤道几内亚宪法日",
+      type: "宪政纪念日",
+      description: "赤道几内亚的宪法日，纪念现行宪政体制的确立。",
+      keys: ["GQ|Constitution Day"]
+    },
+    {
       title: "Freedom Day",
       zhTitle: "赤道几内亚自由日",
       type: "国家纪念日",
       description: "赤道几内亚的自由日，纪念改变国家政治进程的历史事件。",
       keys: ["GQ|Freedom Day"]
+    },
+    {
+      title: "Independence Day",
+      zhTitle: "赤道几内亚独立日",
+      type: "国家纪念日",
+      description: "纪念1968年脱离西班牙统治、赤道几内亚独立。",
+      keys: ["GQ|Independence Day"]
     },
     {
       title: "Independence Day",
@@ -665,6 +798,13 @@ globalThis.YearCalendarHolidayContent = {
       type: "革命纪念日",
       description: "纪念1944年十月革命，是危地马拉民主转型的节点。",
       keys: ["GT|Revolution Day"]
+    },
+    {
+      title: "Independence Day",
+      zhTitle: "几内亚比绍独立日",
+      type: "国家纪念日",
+      description: "纪念1973年宣布独立，结束葡萄牙殖民统治。",
+      keys: ["GW|Independence Day"]
     },
     {
       title: "National Heroes' Day",
@@ -870,6 +1010,13 @@ globalThis.YearCalendarHolidayContent = {
       keys: ["KM|Maore Day"]
     },
     {
+      title: "National Day",
+      zhTitle: "科摩罗国庆日",
+      type: "国家纪念日",
+      description: "纪念1975年脱离法国统治、科摩罗独立。",
+      keys: ["KM|National Day"]
+    },
+    {
       title: "Buckley's Uprising Day",
       zhTitle: "圣基茨巴克利起义纪念日",
       type: "历史纪念日",
@@ -947,6 +1094,13 @@ globalThis.YearCalendarHolidayContent = {
       keys: ["LR|Fast and Prayer Day"]
     },
     {
+      title: "Independence Day",
+      zhTitle: "利比里亚独立日",
+      type: "国家纪念日",
+      description: "纪念1847年宣布独立，是非洲最早的共和国之一。",
+      keys: ["LR|Independence Day"]
+    },
+    {
       title: "Joseph Jenkins Roberts Birthday",
       zhTitle: "约瑟夫·詹金斯·罗伯茨诞辰",
       type: "历史人物纪念日",
@@ -980,6 +1134,13 @@ globalThis.YearCalendarHolidayContent = {
       type: "历史人物纪念日",
       description: "回顾利比里亚前总统塔布曼的政治生涯与他所处的国家历史时期。",
       keys: ["LR|William V. S. Tubman's Birthday"]
+    },
+    {
+      title: "Independence Day",
+      zhTitle: "莱索托独立日",
+      type: "国家纪念日",
+      description: "纪念1966年脱离英国统治、莱索托独立。",
+      keys: ["LS|Independence Day"]
     },
     {
       title: "International Working Day",
@@ -1283,6 +1444,13 @@ globalThis.YearCalendarHolidayContent = {
       keys: ["ML|Baptism of the Prophet (Roughly Date)"]
     },
     {
+      title: "Independence Day",
+      zhTitle: "马里独立日",
+      type: "国家纪念日",
+      description: "纪念1960年脱离法国统治、马里独立。",
+      keys: ["ML|Independence Day"]
+    },
+    {
       title: "Korité (Roughly Date)",
       zhTitle: "马里开斋节",
       type: "伊斯兰节日",
@@ -1332,11 +1500,25 @@ globalThis.YearCalendarHolidayContent = {
       keys: ["MP|Labour Day", "MP|Labor Day", "MH|Labour Day", "MH|Labor Day"]
     },
     {
+      title: "Independence Day",
+      zhTitle: "毛里塔尼亚独立日",
+      type: "国家纪念日",
+      description: "纪念1960年脱离法国统治、毛里塔尼亚独立。",
+      keys: ["MR|Independence Day"]
+    },
+    {
       title: "Festival Day",
       zhTitle: "蒙特塞拉特节庆日",
       type: "节庆日",
       description: "年末的节庆日，音乐、街头活动和社区聚会一同迎接新年。",
       keys: ["MS|Festival Day"]
+    },
+    {
+      title: "Independence Day",
+      zhTitle: "马拉维独立日",
+      type: "国家纪念日",
+      description: "纪念1964年脱离英国统治、马拉维独立。",
+      keys: ["MW|Independence Day"]
     },
     {
       title: "John Chilembwe Day",
@@ -1388,6 +1570,20 @@ globalThis.YearCalendarHolidayContent = {
       keys: ["MX|Revolution Day"]
     },
     {
+      title: "Revolution Day",
+      zhTitle: "莫桑比克革命日",
+      type: "革命纪念日",
+      description: "纪念1964年武装斗争开始，是莫桑比克独立的起点。",
+      keys: ["MZ|Revolution Day", "MZ|Dia da Revolução"]
+    },
+    {
+      title: "Independence Day",
+      zhTitle: "纳米比亚独立日",
+      type: "国家纪念日",
+      description: "纪念1990年脱离南非统治、纳米比亚独立。",
+      keys: ["NA|Independence Day"]
+    },
+    {
       title: "New Caledonia Day",
       zhTitle: "新喀里多尼亚日",
       type: "地方纪念日",
@@ -1407,6 +1603,13 @@ globalThis.YearCalendarHolidayContent = {
       type: "地方历史纪念日",
       description: "纪念诺福克岛的建立，回顾岛屿作为殖民定居地的历史。",
       keys: ["NF|Norfolk Island Foundation Day"]
+    },
+    {
+      title: "National Day",
+      zhTitle: "尼日利亚国庆日",
+      type: "国家纪念日",
+      description: "纪念1960年脱离英国统治、尼日利亚独立。",
+      keys: ["NG|National Day"]
     },
     {
       title: "Constitution Day",
@@ -1577,6 +1780,13 @@ globalThis.YearCalendarHolidayContent = {
       keys: ["RO|Saint John the Baptist Day"]
     },
     {
+      title: "Independence Day",
+      zhTitle: "卢旺达独立日",
+      type: "国家纪念日",
+      description: "纪念1962年脱离比利时统治、卢旺达独立。",
+      keys: ["RW|Independence Day"]
+    },
+    {
       title: "Liberation Day",
       zhTitle: "卢旺达解放日",
       type: "历史纪念日",
@@ -1610,6 +1820,13 @@ globalThis.YearCalendarHolidayContent = {
       type: "宗教与团聚节日",
       description: "所罗门群岛的感恩节，以礼拜、家庭聚会和社区活动表达感谢。",
       keys: ["SB|National Day of Thanksgiving"]
+    },
+    {
+      title: "Independence Day",
+      zhTitle: "苏丹独立日",
+      type: "国家纪念日",
+      description: "纪念1956年脱离英埃共管、苏丹独立。",
+      keys: ["SD|Independence Day"]
     },
     {
       title: "National Day",
@@ -1669,10 +1886,38 @@ globalThis.YearCalendarHolidayContent = {
     },
     {
       title: "Independence Day",
+      zhTitle: "塞拉利昂独立日",
+      type: "国家纪念日",
+      description: "纪念1961年脱离英国统治、塞拉利昂独立。",
+      keys: ["SL|Independence Day"]
+    },
+    {
+      title: "Independence Day",
+      zhTitle: "塞内加尔独立日",
+      type: "国家纪念日",
+      description: "纪念1960年脱离法国统治、塞内加尔独立。",
+      keys: ["SN|Independence Day"]
+    },
+    {
+      title: "Independence Day",
+      zhTitle: "索马里独立日",
+      type: "国家纪念日",
+      description: "纪念1960年独立，随后与南部地区合并建立共和国。",
+      keys: ["SO|Independence Day"]
+    },
+    {
+      title: "Independence Day",
       zhTitle: "苏里南独立日",
       type: "国家纪念日",
       description: "纪念1975年脱离荷兰统治、苏里南独立。",
       keys: ["SR|Independence Day"]
+    },
+    {
+      title: "Independence Day",
+      zhTitle: "南苏丹独立日",
+      type: "国家纪念日",
+      description: "纪念2011年独立，是非洲最年轻的国家。",
+      keys: ["SS|Independence Day"]
     },
     {
       title: "Martyrs' Day",
@@ -1694,6 +1939,13 @@ globalThis.YearCalendarHolidayContent = {
       type: "历史纪念日",
       description: "土地改革日回顾圣多美和普林西比独立后农业土地制度的转变，也让人们思考土地与乡村生活的关系。",
       keys: ["ST|Agricultural Reform Day"]
+    },
+    {
+      title: "Independence Day",
+      zhTitle: "圣多美和普林西比独立日",
+      type: "国家纪念日",
+      description: "纪念1975年脱离葡萄牙统治、国家独立。",
+      keys: ["ST|Independence Day", "ST|Dia da Independência"]
     },
     {
       title: "Martyrs' Day",
@@ -1724,6 +1976,13 @@ globalThis.YearCalendarHolidayContent = {
       keys: ["SY|Syrian Revolution Day", "SY|عيد الثورة السورية"]
     },
     {
+      title: "Independence Day",
+      zhTitle: "斯威士兰独立日",
+      type: "国家纪念日",
+      description: "纪念1968年脱离英国统治、斯威士兰独立。",
+      keys: ["SZ|Independence Day"]
+    },
+    {
       title: "National Flag Day",
       zhTitle: "斯威士兰国旗日",
       type: "国家象征纪念日",
@@ -1752,11 +2011,25 @@ globalThis.YearCalendarHolidayContent = {
       keys: ["TD|Freedom and Democracy Day"]
     },
     {
+      title: "Independence Day",
+      zhTitle: "乍得独立日",
+      type: "国家纪念日",
+      description: "纪念1960年脱离法国统治、乍得独立。",
+      keys: ["TD|Independence Day"]
+    },
+    {
       title: "Republic Day",
       zhTitle: "乍得共和国日",
       type: "国家纪念日",
       description: "共和国日纪念乍得确立共和制度的历史节点，也回望独立前后国家制度的形成。",
       keys: ["TD|Republic Day"]
+    },
+    {
+      title: "Independence Day",
+      zhTitle: "多哥独立日",
+      type: "国家纪念日",
+      description: "纪念1960年脱离法国托管、多哥独立。",
+      keys: ["TG|Independence Day"]
     },
     {
       title: "Liberation Day",
@@ -1878,6 +2151,13 @@ globalThis.YearCalendarHolidayContent = {
       keys: ["TV|Tuvalu Day Holiday"]
     },
     {
+      title: "Independence Day",
+      zhTitle: "坦桑尼亚独立日",
+      type: "国家纪念日",
+      description: "纪念1961年坦噶尼喀独立，是联合共和国的前身。",
+      keys: ["TZ|Independence Day", "TZ|Siku ya Uhuru"]
+    },
+    {
       title: "Karume Day",
       zhTitle: "卡鲁梅日",
       type: "历史人物纪念日",
@@ -1925,6 +2205,13 @@ globalThis.YearCalendarHolidayContent = {
       type: "战争纪念日",
       description: "纪念二战中击败纳粹，乌克兰以献花、默哀和纪念活动追思。",
       keys: ["UA|Victory day over Nazism in World War II", "UA|День перемоги над нацизмом у Другій світовій війні"]
+    },
+    {
+      title: "Independence Day",
+      zhTitle: "乌干达独立日",
+      type: "国家纪念日",
+      description: "纪念1962年脱离英国统治、乌干达独立。",
+      keys: ["UG|Independence Day"]
     },
     {
       title: "Anniversary of the election of Pope Leo XIV",
@@ -2051,6 +2338,13 @@ globalThis.YearCalendarHolidayContent = {
       type: "家庭节日",
       description: "南非的复活节星期一家庭日，人们团聚、出行并延续节日休息。",
       keys: ["ZA|Family Day"]
+    },
+    {
+      title: "Independence Day",
+      zhTitle: "赞比亚独立日",
+      type: "国家纪念日",
+      description: "纪念1964年脱离英国统治、赞比亚独立。",
+      keys: ["ZM|Independence Day"]
     },
     {
       title: "Kenneth Kaunda's Birthday",
@@ -5243,6 +5537,13 @@ globalThis.YearCalendarHolidayContent = {
       type: "国家纪念日",
       description: "尼日尔共和国日纪念1958年成为法兰西共同体内自治共和国，是走向独立国家的重要制度节点。",
       keys: ["NE|Nigerien Republic Day"]
+    },
+    {
+      title: "Independence Day",
+      zhTitle: "津巴布韦独立日",
+      type: "国家纪念日",
+      description: "纪念1980年独立，结束少数族群统治时期。",
+      keys: ["ZW|Independence Day"]
     },
     {
       title: "Unity Day",

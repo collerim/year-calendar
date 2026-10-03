@@ -40,7 +40,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Rwagasore Day",
       zhTitle: "鲁瓦加索雷纪念日",
       type: "历史人物纪念日",
-      description: "鲁瓦加索雷纪念日缅怀布隆迪独立运动领袖路易·鲁瓦加索雷亲王，回顾他在国家独立前夕遇害的历史。",
+      description: "缅怀独立运动领袖鲁瓦加索雷亲王，回顾他在国家独立前夕遇害的历史。",
       keys: ["BI|Rwagasore Day"]
     },
     {
@@ -229,7 +229,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "International Day of Older Persons",
       zhTitle: "拉脱维亚国际老年人日",
       type: "公众节日",
-      description: "国际老年人日关注长者在家庭与社会中的贡献，也提醒人们重视老年人的尊严、照护和代际联系。",
+      description: "关注长者在家庭与社会中的贡献，也强调老年人的尊严、照护和代际联系。",
       keys: ["LV|International Day of Older Persons"]
     },
     {
@@ -558,7 +558,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Father's Day",
       zhTitle: "父亲节",
       type: "家庭节日",
-      description: "父亲节表达对父亲和照护者的感谢，不同国家日期各异，但通常围绕家庭团聚、祝福和亲情纪念展开。",
+      description: "表达对父亲和照护者的感谢，各国日期不同，多以家庭团聚和祝福度过。",
       keys: ["WS|Father's Day"]
     },
     {
@@ -614,7 +614,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Day of Our Lady of the Seven Sorrows",
       zhTitle: "七苦圣母日",
       type: "宗教节日",
-      description: "七苦圣母日纪念天主教传统中圣母玛利亚的七种悲痛，在斯洛伐克等地具有全国性宗教和公共节日意义。",
+      description: "纪念天主教传统中圣母玛利亚的七种悲痛，在斯洛伐克等地是全国性宗教与公共节日。",
       keys: ["SK|Day of Our Lady of the Seven Sorrows"]
     },
     {
@@ -642,7 +642,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "National Youth Day",
       zhTitle: "全国青年日",
       type: "公众节日",
-      description: "全国青年日关注青年、教育和社区未来，通常通过学校、公共活动和社区庆典强调下一代的角色。",
+      description: "关注青年、教育和社区未来，通过学校、公共活动和社区庆典强调下一代的角色。",
       keys: ["TC|National Youth Day"]
     },
     {
@@ -698,7 +698,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Municipal holiday",
       zhTitle: "市镇假日",
       type: "地方假日",
-      description: "葡萄牙市镇假日通常由各地自行纪念守护圣人、建城传统或地方历史，日期和习俗会随着城市而变化。",
+      description: "葡萄牙各市镇的假日，分别纪念守护圣人、建城传统或地方历史，日期与习俗随城市而变。",
       keys: ["PT|Municipal holiday", "Municipal holiday"]
     },
     {
@@ -803,7 +803,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Līgo Day",
       zhTitle: "利戈日",
       type: "仲夏节庆日",
-      description: "拉脱维亚 Līgo Day 是仲夏庆典的核心前夜，人们用花环、奶酪、啤酒、歌唱和篝火迎接 Jāņi。",
+      description: "仲夏庆典的核心前夜，人们用花环、奶酪、啤酒、歌唱和篝火迎接仲夏日。",
       keys: ["LV|Līgo Day", "LV|Līgo diena", "Līgo Day", "Līgo diena"]
     },
     {
@@ -915,7 +915,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Jan Hus Day",
       zhTitle: "扬·胡斯日",
       type: "宗教改革纪念日",
-      description: "扬·胡斯日纪念捷克宗教改革先驱 Jan Hus，他的殉道记忆连接信仰改革、民族文化和思想自由传统。",
+      description: "纪念捷克宗教改革先驱扬·胡斯，他的殉道连接信仰改革、民族文化与思想自由传统。",
       keys: ["CZ|Jan Hus Day", "CZ|Den upálení mistra Jana Husa", "Jan Hus Day"]
     },
     {
@@ -1433,7 +1433,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Conquest of the city from the Moors",
       zhTitle: "从摩尔人手中收复城市纪念日",
       type: "地方历史纪念日",
-      description: "这类葡萄牙地方纪念日回望中世纪城市归属变化和再征服时代记忆，常被市镇用来保存本地历史身份。",
+      description: "葡萄牙地方纪念日，回望中世纪城市归属的变化，市镇借此保存本地历史身份。",
       keys: ["PT|Conquest of the city from the Moors", "Conquest of the city from the Moors"]
     },
     {
@@ -1671,7 +1671,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Matariki",
       zhTitle: "毛利新年",
       type: "传统节庆日",
-      description: "Matariki 是毛利新年，标记昴星团在冬季天空中重新出现，人们会追思逝者、团聚并展望新一年。",
+      description: "毛利新年，标记昴星团在冬季天空重新出现，人们追思逝者、团聚并展望新一年。",
       keys: ["NZ|Matariki", "Matariki"]
     },
     {
@@ -1685,7 +1685,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Battle of the Boyne",
       zhTitle: "博因河战役纪念日",
       type: "历史纪念日",
-      description: "博因河战役纪念日与北爱尔兰历史和橙色传统有关，纪念1690年战役，常伴随游行和地方性仪式。",
+      description: "与北爱尔兰历史和橙色传统有关，纪念1690年战役，伴随游行和地方仪式。",
       keys: ["GB|Battle of the Boyne", "Battle of the Boyne"]
     },
     {
@@ -2056,7 +2056,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Boxing Day",
       zhTitle: "节礼日",
       type: "圣诞延续假日",
-      description: "节礼日延续自英联邦传统，通常在圣诞节后一天，人们会继续休假、探亲、购物或观看体育赛事。",
+      description: "延续英联邦传统，在圣诞节次日继续休假、探亲、购物或观看体育赛事。",
       keys: ["Boxing Day"]
     },
     {
@@ -2091,7 +2091,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Columbus Day",
       zhTitle: "哥伦布日",
       type: "历史纪念日",
-      description: "哥伦布日纪念哥伦布抵达美洲的历史事件，在现代也常伴随关于殖民历史和原住民处境的讨论。",
+      description: "纪念哥伦布抵达美洲的历史事件，现代也引发关于殖民历史与原住民处境的讨论。",
       keys: ["Columbus Day"]
     },
     {
@@ -2175,7 +2175,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Feast of Our Lady of Bien Aparecida",
       zhTitle: "显灵圣母节",
       type: "宗教与地方节日",
-      description: "Bien Aparecida 圣母节是西班牙坎塔布里亚的守护圣母纪念日，常与地方宗教传统和朝圣活动相连。",
+      description: "西班牙坎塔布里亚的守护圣母纪念日，与地方宗教传统和朝圣活动相连。",
       keys: ["ES|Feast of Our Lady of Bien Aparecida", "Feast of Our Lady of Bien Aparecida"]
     },
     {
@@ -3008,7 +3008,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Feast of the Our Lady of Mercy",
       zhTitle: "仁慈圣母节",
       type: "宗教纪念日",
-      description: "委内瑞拉仁慈圣母节纪念 Virgen de las Mercedes，地方信众常以弥撒、游行和还愿传统表达敬礼。",
+      description: "纪念仁慈圣母，地方信众以弥撒、游行和还愿传统表达敬礼。",
       keys: ["VE|Feast of the Our Lady of Mercy", "VE|Día del Virgen de las Mercedes"]
     },
     {
@@ -3120,7 +3120,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Abolition of Slavery",
       zhTitle: "废除奴隶制纪念日",
       type: "历史纪念日",
-      description: "法国部分海外地区的废奴纪念日回望奴隶制终结，也提醒人们殖民历史、自由和公民平等的意义。",
+      description: "法国部分海外地区回望奴隶制终结，也让人思考殖民历史、自由与公民平等的意义。",
       keys: ["FR|Abolition of slavery", "FR|Abolition of Slavery"]
     },
     {
@@ -3232,7 +3232,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Mashujaa Day",
       zhTitle: "英雄日",
       type: "国家纪念日",
-      description: "肯尼亚 Mashujaa Day 纪念为国家独立和社会建设作出贡献的人，名称在斯瓦希里语中意为英雄。",
+      description: "纪念为国家独立和社会建设作出贡献的人，节名在斯瓦希里语中意为英雄。",
       keys: ["KE|Mashujaa Day"]
     },
     {
@@ -3295,7 +3295,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Ohi Day",
       zhTitle: "不屈日",
       type: "历史纪念日",
-      description: "塞浦路斯 Ohi Day 纪念1940年希腊拒绝轴心国最后通牒的“不”，在希腊语文化圈象征抵抗精神。",
+      description: "纪念1940年希腊拒绝轴心国最后通牒，在希腊语文化圈象征抵抗精神。",
       keys: ["CY|Ohi Day", "CY|Το Όχι"]
     },
     {
@@ -3309,7 +3309,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Ochi Day",
       zhTitle: "不屈日",
       type: "历史纪念日",
-      description: "希腊 Ochi Day 纪念1940年拒绝意大利最后通牒，游行、旗帜和学校活动常围绕抵抗与民族记忆展开。",
+      description: "纪念1940年拒绝意大利最后通牒，游行、旗帜和学校活动围绕抵抗与民族记忆展开。",
       keys: ["GR|Ochi Day", "GR|Το Όχι"]
     },
     {
@@ -3400,7 +3400,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "National Pupusa Festival",
       zhTitle: "全国普普萨节",
       type: "饮食文化节",
-      description: "萨尔瓦多全国普普萨节庆祝玉米饼包馅美食 pupusa，餐桌、市集和地方竞赛把国民味道变成节庆。",
+      description: "庆祝玉米饼包馅的国民美食普普萨，餐桌、市集和地方竞赛把家常味道变成节庆。",
       keys: ["SV|National Pupusa Festival", "SV|Festival Nacional De La Pupusa"]
     },
     {
@@ -3484,7 +3484,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Day of the Queen of Peace",
       zhTitle: "和平之后日",
       type: "宗教节日",
-      description: "萨尔瓦多和平之后日纪念国家守护圣母 Virgen de la Paz，宗教游行和地方庆典体现天主教传统。",
+      description: "纪念国家守护圣母和平之后，宗教游行和地方庆典体现天主教传统。",
       keys: ["SV|Day of the Queen of Peace", "SV|Dia de la Reina de la Paz"]
     },
     {
@@ -3505,7 +3505,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "National Sovereignty Day",
       zhTitle: "国家主权日",
       type: "历史纪念日",
-      description: "阿根廷国家主权日纪念1845年 Vuelta de Obligado 战役，强调维护河流通行主权和国家独立尊严。",
+      description: "纪念1845年奥夫利加多河湾战役，强调维护河流通行主权与国家独立尊严。",
       keys: ["AR|National Sovereignty Day", "AR|Día de la Soberanía Nacional"]
     },
     {
@@ -3603,7 +3603,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "St. Ambrose",
       zhTitle: "圣安波罗修日",
       type: "地方圣人纪念日",
-      description: "圣安波罗修日纪念米兰守护圣人 Ambrose，米兰常以宗教礼仪、市集和冬季城市活动迎接节日季。",
+      description: "纪念米兰的守护圣人安波罗修，米兰以宗教礼仪、市集和冬季城市活动迎接节日季。",
       keys: ["IT|St. Ambrose"]
     },
     {
@@ -3652,7 +3652,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Unity Day",
       zhTitle: "津巴布韦团结日",
       type: "国家纪念日",
-      description: "津巴布韦团结日纪念1987年 ZANU 与 ZAPU 达成 Unity Accord，象征结束内部冲突并强调民族和解。",
+      description: "纪念1987年两大解放运动达成统一协议，象征结束内部冲突并推动民族和解。",
       keys: ["ZW|Unity Day"]
     },
     {
@@ -3687,7 +3687,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Rizal Day",
       zhTitle: "黎刹日",
       type: "国家英雄纪念日",
-      description: "菲律宾黎刹日纪念民族英雄 José Rizal 于1896年被处决，献花和纪念仪式常围绕独立思想展开。",
+      description: "纪念民族英雄黎刹于1896年被处决，献花和纪念仪式围绕独立思想展开。",
       keys: ["PH|Rizal Day", "PH|Araw ng Kamatayan ni Dr. Jose Rizal"]
     },
     {
@@ -3771,7 +3771,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Amazigh New Year",
       zhTitle: "阿马齐格新年",
       type: "文化新年",
-      description: "阿马齐格新年 Yennayer 标记北非柏柏尔历的新年，家庭餐食、谷物和土地祝福常带有农业季节意味。",
+      description: "标记北非柏柏尔历的新年，家庭餐食、谷物和土地祝福带有农业季节的意味。",
       keys: ["MA|Amazigh New Year", "MA|Id Yennayer"]
     },
     {
@@ -3827,7 +3827,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Patrice Lumumba Assassination",
       zhTitle: "帕特里斯·卢蒙巴遇刺纪念日",
       type: "历史人物纪念日",
-      description: "这一天纪念刚果独立领袖 Patrice Lumumba 遇害，他在非洲反殖民和国家主权记忆中具有象征地位。",
+      description: "纪念刚果独立领袖卢蒙巴遇害，他在非洲反殖民与国家主权记忆中具有象征地位。",
       keys: ["CD|Patrice Lumumba Assassination"]
     },
     {
@@ -3841,7 +3841,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Meinrad Day",
       zhTitle: "圣迈因拉德日",
       type: "地方圣人纪念日",
-      description: "瑞士 Meinrad Day 纪念与艾因西德伦修道传统相关的隐修圣人 Meinrad，带有朝圣和修道院记忆。",
+      description: "纪念与艾因西德伦修道传统相关的隐修圣人迈因拉德，带有朝圣与修道院记忆。",
       keys: ["CH|Meinrad Day"]
     },
     {
@@ -3953,7 +3953,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Agathe's Day",
       zhTitle: "圣阿加莎日",
       type: "地方圣人纪念日",
-      description: "瑞士部分地方的圣阿加莎日纪念早期殉道圣女 Agatha，教堂礼仪和地方守护传统延续冬季圣人节期。",
+      description: "瑞士部分地方纪念早期殉道圣女阿加莎，教堂礼仪和地方守护传统延续冬季圣人节期。",
       keys: ["CH|Agathe's day", "CH|Agathe's Day"]
     },
     {
@@ -4107,14 +4107,14 @@ globalThis.YearCalendarHolidayContent = {
       title: "Louis Riel Day",
       zhTitle: "路易·里尔日",
       type: "地方人物纪念日",
-      description: "加拿大路易·里尔日纪念梅蒂斯领袖 Louis Riel，在曼尼托巴历史和原住民、梅蒂斯身份中意义重要。",
+      description: "纪念梅蒂斯领袖路易·里尔，他在曼尼托巴历史与梅蒂斯身份中意义重要。",
       keys: ["CA|Louis Riel Day"]
     },
     {
       title: "Islander Day",
       zhTitle: "岛民日",
       type: "地方公众假日",
-      description: "爱德华王子岛 Islander Day 是二月家庭长周末的一部分，强调本地社区、亲友休息和冬季活动。",
+      description: "爱德华王子岛的二月家庭长周末，强调本地社区、亲友休息和冬季活动。",
       keys: ["CA|Islander Day"]
     },
     {
@@ -4128,7 +4128,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Archbishop Janani Luwum Day",
       zhTitle: "雅纳尼·卢乌姆大主教日",
       type: "宗教人物纪念日",
-      description: "乌干达纪念 Janani Luwum 大主教，他在阿明时期因批评暴政遇害，成为信仰勇气和人权记忆的象征。",
+      description: "纪念大主教卢乌姆，他在阿明时期因批评暴政遇害，成为信仰勇气与人权记忆的象征。",
       keys: ["UG|Archbishop Janani Luwum Day"]
     },
     {
@@ -4163,7 +4163,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Republic Day",
       zhTitle: "圭亚那共和国日",
       type: "国家纪念日",
-      description: "圭亚那共和国日纪念1970年成为共和国，也与 Mashramani 狂欢庆典相连，街头游行和音乐色彩鲜明。",
+      description: "纪念1970年成为共和国，与马斯克拉马尼狂欢庆典相连，街头游行和音乐色彩鲜明。",
       keys: ["GY|Republic Day"]
     },
     {
@@ -4520,7 +4520,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Juan Santamaría Day",
       zhTitle: "胡安·圣玛丽亚日",
       type: "国家英雄纪念日",
-      description: "哥斯达黎加纪念民族英雄 Juan Santamaría，他在1856年抵抗威廉·沃克势力的战斗中成为国家象征。",
+      description: "纪念民族英雄圣玛丽亚，他在1856年抵抗威廉·沃克势力的战斗中成为国家象征。",
       keys: ["CR|Juan Santamaría Day", "CR|Día de Juan Santamaría"]
     },
     {
@@ -4555,7 +4555,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Birthday of José de Diego",
       zhTitle: "何塞·德迭戈诞辰",
       type: "历史人物纪念日",
-      description: "波多黎各纪念诗人和政治人物 José de Diego，他与自治、教育和波多黎各文化身份密切相关。",
+      description: "纪念诗人和政治人物德迭戈，他与自治、教育和岛内文化身份密切相关。",
       keys: ["PR|Birthday of José de Diego", "PR|Natalicio de José de Diego"]
     },
     {
@@ -4569,14 +4569,14 @@ globalThis.YearCalendarHolidayContent = {
       title: "Sechseläuten",
       zhTitle: "六点钟鸣节",
       type: "地方春季节日",
-      description: "苏黎世 Sechseläuten 用行会游行和焚烧雪人 Böögg 迎接春天，是城市身份鲜明的季节庆典。",
+      description: "苏黎世以行会游行和焚烧雪人迎接春天，是城市身份鲜明的季节庆典。",
       keys: ["CH|Sechseläuten"]
     },
     {
       title: "Tiradentes",
       zhTitle: "蒂拉登特斯日",
       type: "国家英雄纪念日",
-      description: "巴西蒂拉登特斯日纪念独立先驱 Joaquim José da Silva Xavier，他象征反殖民理想和共和国记忆。",
+      description: "纪念独立先驱蒂拉登特斯，他本名席尔瓦·沙维尔，象征反殖民理想与共和国记忆。",
       keys: ["BR|Tiradentes", "BR|Dia de Tiradentes"]
     },
     {
@@ -4604,7 +4604,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Castile and León Day",
       zhTitle: "卡斯蒂利亚-莱昂日",
       type: "地方自治纪念日",
-      description: "卡斯蒂利亚-莱昂日纪念1521年 Villalar 战役和地方自治身份，常以旗帜、集会和文化活动呈现。",
+      description: "纪念1521年比利亚拉尔战役与地方自治身份，以旗帜、集会和文化活动呈现。",
       keys: ["ES|Castile and León Day", "ES|Día de Castilla y León"]
     },
     {
@@ -4947,7 +4947,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Hari Raya Haji",
       zhTitle: "哈芝节",
       type: "宗教节日",
-      description: "新加坡 Hari Raya Haji 对应宰牲节，纪念易卜拉欣的信仰故事，也连接朝觐、礼拜和分享食物。",
+      description: "对应宰牲节，纪念易卜拉欣的信仰故事，也连接朝觐、礼拜和分享食物。",
       keys: ["SG|Hari Raya Haji (Tentative Date)"]
     },
     {
@@ -5031,7 +5031,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Navy Day",
       zhTitle: "海军日",
       type: "军事纪念日",
-      description: "智利海军日纪念1879年伊基克海战和海军英雄 Arturo Prat，国家仪式中带有海洋与牺牲记忆。",
+      description: "纪念1879年伊基克海战与海军英雄普拉特，国家仪式中带有海洋与牺牲记忆。",
       keys: ["CL|Navy Day", "CL|Día de las Glorias Navales"]
     },
     {
@@ -5045,7 +5045,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Birthday of Sacadura Cabral",
       zhTitle: "萨卡杜拉·卡布拉尔诞辰",
       type: "历史人物纪念日",
-      description: "葡萄牙纪念飞行员 Sacadura Cabral，他与1922年首次飞越南大西洋的葡萄牙航空壮举紧密相连。",
+      description: "纪念飞行员萨卡杜拉·卡布拉尔，他与1922年首次飞越南大西洋的航空壮举相连。",
       keys: ["PT|Birthday of Sacadura Cabral"]
     },
     {
@@ -5269,7 +5269,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Birthday of José Gervasio Artigas and Never Again Day",
       zhTitle: "阿蒂加斯诞辰与永不再犯日",
       type: "国家历史纪念日",
-      description: "乌拉圭这一天纪念民族英雄 José Gervasio Artigas，也以“永不再犯”回望独裁时期的人权创伤。",
+      description: "纪念民族英雄阿蒂加斯，也以永不再犯回望独裁时期的人权创伤。",
       keys: ["UY|Birthday of José Gervasio Artigas and Never Again Day", "UY|Natalicio de Artigas y Día del Nunca Más"]
     },
     {
@@ -5297,7 +5297,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Feast of St. Peter and St. Paul",
       zhTitle: "圣伯多禄与圣保禄节",
       type: "宗教节日",
-      description: "马耳他 L-Imnarja 纪念圣伯多禄与圣保禄，也以传统农业展、民歌和夏夜庆典呈现岛上民俗。",
+      description: "纪念圣伯多禄与圣保禄，以传统农业展、民歌和夏夜庆典呈现岛上民俗。",
       keys: ["MT|Feast of St.Peter and St.Paul", "MT|L-Imnarja"]
     },
     {
@@ -5353,7 +5353,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "General José de San Martín Memorial Day",
       zhTitle: "圣马丁将军纪念日",
       type: "历史人物纪念日",
-      description: "阿根廷圣马丁将军纪念日追忆独立战争领袖 José de San Martín，他被视为南美解放运动核心人物。",
+      description: "追忆独立战争领袖圣马丁将军，他被视为南美解放运动的核心人物。",
       keys: ["AR|General José de San Martín Memorial Day", "AR|Paso a la Inmortalidad del General José de San Martín"]
     },
     {
@@ -5395,7 +5395,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Saint Rupert's Day",
       zhTitle: "圣鲁伯特日",
       type: "地方圣人纪念日",
-      description: "奥地利萨尔茨堡圣鲁伯特日纪念城市守护圣人 Rupert，学校假日和地方庆典带有鲜明区域传统。",
+      description: "萨尔茨堡纪念城市守护圣人鲁伯特，学校假日和地方庆典带有鲜明的区域传统。",
       keys: ["AT|Saint Rupert's Day", "AT|Rupertitag"]
     },
     {
@@ -5423,7 +5423,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Ethnic Pride Day",
       zhTitle: "族裔自豪日",
       type: "文化纪念日",
-      description: "萨尔瓦多族裔自豪日保留 Día de la raza 的日历位置，现代语境中更强调族群身份和文化反思。",
+      description: "保留族群日的历史日历位置，现代语境中更强调族群身份与文化反思。",
       keys: ["SV|Ethnic Pride Day", "SV|Día de la raza"]
     },
     {
@@ -5444,7 +5444,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Bonifacio Day",
       zhTitle: "博尼法西奥日",
       type: "民族英雄纪念日",
-      description: "菲律宾博尼法西奥日纪念革命领袖 Andrés Bonifacio，他创立卡蒂普南并推动反殖民独立运动。",
+      description: "纪念革命领袖博尼法西奥，他创立卡蒂普南并推动反殖民独立运动。",
       keys: ["PH|Bonifacio Day", "PH|Araw ni Gat Andres Bonifacio"]
     },
     {
@@ -5689,7 +5689,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Liberation Day",
       zhTitle: "刚果民主共和国解放日",
       type: "国家纪念日",
-      description: "刚果民主共和国解放日纪念1997年政权更替和 Laurent-Désiré Kabila 进入金沙萨的历史转折。",
+      description: "纪念1997年政权更替与卡比拉进入金沙萨的历史转折。",
       keys: ["CD|Liberation Day"]
     },
     {
@@ -5997,7 +5997,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Whit Monday",
       zhTitle: "罗马尼亚圣灵降临节星期一",
       type: "东正教节日",
-      description: "罗马尼亚 Rusaliile 是圣灵降临节后的星期一，民间传统中也带有护佑、鲜枝和夏季仪式的色彩。",
+      description: "圣灵降临节后的星期一，民间传统中带有护佑、鲜枝和夏季仪式的色彩。",
       keys: ["RO|Whit Monday", "RO|Rusaliile"]
     },
     {
@@ -6011,7 +6011,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Jāņi Day",
       zhTitle: "雅尼斯日",
       type: "仲夏民俗节日",
-      description: "拉脱维亚 Jāņi Day 是仲夏节庆高潮，人们戴橡叶或花环、唱民歌、点篝火，并在短夜里庆祝夏至。",
+      description: "仲夏节庆的高潮，人们戴橡叶或花环、唱民歌、点篝火，在短夜里庆祝夏至。",
       keys: ["LV|Jāņi Day", "LV|Jāņu diena"]
     },
     {

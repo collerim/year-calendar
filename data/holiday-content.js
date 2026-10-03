@@ -9,6 +9,13 @@ globalThis.YearCalendarHolidayContent = {
       keys: ["AG|National Heroes' Day"]
     },
     {
+      title: "Anguilla Day",
+      zhTitle: "安圭拉日",
+      type: "历史纪念日",
+      description: "纪念1967年安圭拉革命，回顾岛屿脱离联合邦并走向自治。",
+      keys: ["AI|Anguilla Day"]
+    },
+    {
       title: "James Ronald Webster Day",
       zhTitle: "詹姆斯·罗纳德·韦伯斯特日",
       type: "历史人物纪念日",
@@ -37,11 +44,25 @@ globalThis.YearCalendarHolidayContent = {
       keys: ["AW|Betico Croes Day", "AW|Dag van Betico Croes"]
     },
     {
+      title: "King's Day",
+      zhTitle: "阿鲁巴国王节",
+      type: "王室公共假日",
+      description: "阿鲁巴庆祝荷兰国王生日的假日，以橙色装饰、市集和街头活动度过。",
+      keys: ["AW|King's Day", "AW|Koningsdag"]
+    },
+    {
       title: "National Anthem and Flag Day",
       zhTitle: "阿鲁巴国旗与国歌日",
       type: "国家象征纪念日",
       description: "阿鲁巴的国旗与国歌日，以升旗、音乐和社区活动表达岛屿身份。",
       keys: ["AW|National Anthem and Flag Day", "AW|Dag van het Volkslied en de Vlag"]
+    },
+    {
+      title: "Day of Customs and Traditions",
+      zhTitle: "习俗与传统日",
+      type: "文化纪念日",
+      description: "布基纳法索的习俗与传统日，以服饰、舞蹈和手工艺展示文化多样。",
+      keys: ["BF|Day of Customs and Traditions"]
     },
     {
       title: "Martyrs' Day",
@@ -104,7 +125,28 @@ globalThis.YearCalendarHolidayContent = {
       zhTitle: "圣巴泰勒米废奴纪念日",
       type: "历史纪念日",
       description: "回顾岛上废除奴隶制的历史，缅怀受奴役者，把自由与平等写入地方共同记忆。",
-      keys: ["BL|Abolition Day"]
+      keys: ["BL|Abolition Day", "MF|Abolition Day", "MF|Abolition de l'Esclavage", "MQ|Abolition Day", "MQ|Abolition de l'Esclavage"]
+    },
+    {
+      title: "Victory Day",
+      zhTitle: "二战欧洲胜利日",
+      type: "战争纪念日",
+      description: "纪念1945年5月8日二战在欧洲结束，以仪式、献花和纪念活动追思。",
+      keys: ["BL|Victory Day", "BL|Fête de la Victoire 1945", "NC|Victory Day", "MD|Victory Day"]
+    },
+    {
+      title: "Bermuda Day",
+      zhTitle: "百慕大日",
+      type: "文化节庆日",
+      description: "百慕大日以游行、赛艇、音乐和家庭聚会展示岛屿文化与身份。",
+      keys: ["BM|Bermuda Day"]
+    },
+    {
+      title: "Rincon Day",
+      zhTitle: "林孔日",
+      type: "地方节庆日",
+      description: "博奈尔岛林孔村的传统节日，以音乐、游行和社区聚会庆祝。",
+      keys: ["BQ|Rincon Day"]
     },
     {
       title: "Saba Flag Day",
@@ -133,6 +175,13 @@ globalThis.YearCalendarHolidayContent = {
       type: "公众节日",
       description: "瑞士新年后一天的假日，部分地区继续休息，与元旦连成长假。",
       keys: ["CH|Berchtold's Day"]
+    },
+    {
+      title: "Labour Day",
+      zhTitle: "劳动节",
+      type: "劳动节日",
+      description: "五一劳动节的公众休假，部分行业与工会也会组织游行和集会。",
+      keys: ["CH|Labour Day", "KN|Labour Day"]
     },
     {
       title: "St Martin's Day",
@@ -240,11 +289,25 @@ globalThis.YearCalendarHolidayContent = {
       keys: ["ET|Adwa Victory Day", "ET|የዓድዋ ድል በዓል"]
     },
     {
+      title: "Downfall of the Derg",
+      zhTitle: "德尔格政权垮台纪念日",
+      type: "历史纪念日",
+      description: "纪念1991年德尔格政权垮台，是埃塞俄比亚现代政治史的转折点。",
+      keys: ["ET|Downfall of the Derg", "ET|ደርግ የወደቀበት ቀን"]
+    },
+    {
       title: "Epiphany (Orthodox)",
       zhTitle: "埃塞俄比亚主显节",
       type: "东正教节日",
       description: "又称提姆卡特，纪念耶稣受洗，信众以游行和祝福水域的仪式庆祝。",
       keys: ["ET|Epiphany (Orthodox)"]
+    },
+    {
+      title: "Ethiopian Patriots' Victory Day",
+      zhTitle: "埃塞俄比亚爱国者胜利日",
+      type: "历史纪念日",
+      description: "纪念1941年埃塞俄比亚爱国者击退意大利占领，是民族抵抗的纪念日。",
+      keys: ["ET|Ethiopian Patriots' Victory Day", "ET|የአርበኞች ቀን"]
     },
     {
       title: "Meskel (Orthodox)",
@@ -324,6 +387,13 @@ globalThis.YearCalendarHolidayContent = {
       keys: ["IQ|Victory Day"]
     },
     {
+      title: "Whit Monday",
+      zhTitle: "圣灵降临节星期一",
+      type: "基督教节日",
+      description: "圣灵降临节后的星期一，部分国家和地区作为公共假日。",
+      keys: ["IT|Whit Monday", "SH|Whit Monday"]
+    },
+    {
       title: "Cambodia Peace Day",
       zhTitle: "柬埔寨和平日",
       type: "和平纪念日",
@@ -352,6 +422,13 @@ globalThis.YearCalendarHolidayContent = {
       keys: ["KH|Khmer New Year", "KH|ពិធីបុណ្យចូលឆ្នាំថ្មី ប្រពៃណីជាតិ"]
     },
     {
+      title: "King Sihamoni's Birthday",
+      zhTitle: "西哈莫尼国王生日",
+      type: "王室庆典日",
+      description: "柬埔寨国王西哈莫尼的生日，以官方庆典和公共装饰表达祝福。",
+      keys: ["KH|King Sihamoni's Birthday", "KH|ព្រះរាជពិធីបុណ្យចម្រើនព្រះជន្ម ព្រះករុណា នរោត្តម សីហមុនី"]
+    },
+    {
       title: "National Independence Day",
       zhTitle: "柬埔寨独立日",
       type: "国家纪念日",
@@ -364,6 +441,13 @@ globalThis.YearCalendarHolidayContent = {
       type: "宗教与民俗节日",
       description: "亡人节是柬埔寨重要的佛教传统，家人前往寺院供奉、诵经，追念祖先与逝去的亲人。",
       keys: ["KH|Pchum Ben"]
+    },
+    {
+      title: "Royal Ploughing Ceremony",
+      zhTitle: "御耕节",
+      type: "传统节日",
+      description: "柬埔寨御耕节，王室主持仪式祈求稻作丰收与风调雨顺。",
+      keys: ["KH|Royal Ploughing Ceremony", "KH|ព្រះរាជពិធីច្រត់ព្រះនង្គ័ល"]
     },
     {
       title: "Victory over Genocide Day",
@@ -422,11 +506,25 @@ globalThis.YearCalendarHolidayContent = {
       keys: ["KN|Carnival Day"]
     },
     {
+      title: "Discovery Day",
+      zhTitle: "开曼群岛发现日",
+      type: "历史纪念日",
+      description: "纪念开曼群岛被发现，回顾岛屿早期航海与定居历史。",
+      keys: ["KY|Discovery Day"]
+    },
+    {
       title: "National Heroes Day",
       zhTitle: "开曼群岛国家英雄日",
       type: "国家英雄纪念日",
       description: "纪念开曼群岛的国家英雄，以仪式和社区活动致敬他们的贡献。",
       keys: ["KY|National Heroes Day"]
+    },
+    {
+      title: "Corpus Christi",
+      zhTitle: "圣卢西亚基督圣体圣血节",
+      type: "天主教节日",
+      description: "圣卢西亚的基督圣体圣血节，以弥撒、游行和街道装饰表达信仰。",
+      keys: ["LC|Corpus Christi"]
     },
     {
       title: "Armed Forces Day",
@@ -457,11 +555,25 @@ globalThis.YearCalendarHolidayContent = {
       keys: ["LR|National Decoration Day"]
     },
     {
+      title: "National Unification Day",
+      zhTitle: "利比里亚国家统一日",
+      type: "国家纪念日",
+      description: "利比里亚的国家统一日，回顾不同群体走向共同政治体的历程。",
+      keys: ["LR|National Unification Day"]
+    },
+    {
       title: "William V. S. Tubman's Birthday",
       zhTitle: "塔布曼诞辰纪念日",
       type: "历史人物纪念日",
       description: "回顾利比里亚前总统塔布曼的政治生涯与他所处的国家历史时期。",
       keys: ["LR|William V. S. Tubman's Birthday"]
+    },
+    {
+      title: "International Working Day",
+      zhTitle: "立陶宛国际劳动日",
+      type: "劳动节日",
+      description: "五一国际劳动节，立陶宛以休假、春季市集和家庭活动度过。",
+      keys: ["LT|International Working Day", "LT|Tarptautinė darbo diena"]
     },
     {
       title: "Baltic Unity Day",
@@ -492,6 +604,13 @@ globalThis.YearCalendarHolidayContent = {
       keys: ["LV|Commemoration Day of Victims of Genocide Against the Latvian People By the Totalitarian Communist Regime"]
     },
     {
+      title: "Day of the Convocation of the Constitutional Assembly of the Republic of Latvia",
+      zhTitle: "拉脱维亚制宪议会召开日",
+      type: "宪政纪念日",
+      description: "纪念1920年拉脱维亚制宪议会召开，是共和国宪政史的起点。",
+      keys: ["LV|Day of the Convocation of the Constitutional Assembly of the Republic of Latvia", "LV|Latvijas Republikas Satversmes sapulces sasaukšanas diena"]
+    },
+    {
       title: "Day of the International (de jure) Recognition of the Republic of Latvia",
       zhTitle: "拉脱维亚国际承认日",
       type: "历史纪念日",
@@ -499,11 +618,32 @@ globalThis.YearCalendarHolidayContent = {
       keys: ["LV|Day of the International (de jure) Recognition of the Republic of Latvia", "LV|Latvijas Republikas starptautiskās (de jure) atzīšanas diena"]
     },
     {
+      title: "International Day for Protection of Children",
+      zhTitle: "国际儿童保护日",
+      type: "儿童节日",
+      description: "关注儿童的保护与成长，以学校和社区活动表达对儿童的关怀。",
+      keys: ["LV|International Day for Protection of Children", "LV|Starptautiskā bērnu aizsardzības diena"]
+    },
+    {
       title: "International Day of Older Persons",
       zhTitle: "拉脱维亚国际老年人日",
       type: "公众节日",
       description: "关注长者在家庭与社会中的贡献，也强调老年人的尊严、照护和代际联系。",
       keys: ["LV|International Day of Older Persons"]
+    },
+    {
+      title: "International Day of the Family",
+      zhTitle: "国际家庭日",
+      type: "家庭节日",
+      description: "关注家庭在社会中的角色，以活动强调代际支持与共同生活。",
+      keys: ["LV|International Day of the Family", "LV|Starptautiskā ģimenes diena"]
+    },
+    {
+      title: "Latgale Congress Day",
+      zhTitle: "拉特加莱议会日",
+      type: "历史纪念日",
+      description: "纪念1917年拉特加莱议会召开，回望地方自治与民族意识的觉醒。",
+      keys: ["LV|Latgale Congress Day", "LV|Latgales kongresa diena"]
     },
     {
       title: "National Partisan Armed Resistance Remembrance Day",
@@ -660,6 +800,13 @@ globalThis.YearCalendarHolidayContent = {
       keys: ["MW|Mother's Day"]
     },
     {
+      title: "President Kamuzu Banda's Birthday",
+      zhTitle: "卡穆祖·班达总统诞辰",
+      type: "历史人物纪念日",
+      description: "纪念马拉维首任总统班达，他在国家独立与早期政治中地位重要。",
+      keys: ["MW|President Kamuzu Banda's Birthday"]
+    },
+    {
       title: "New Caledonia Day",
       zhTitle: "新喀里多尼亚日",
       type: "地方纪念日",
@@ -737,6 +884,13 @@ globalThis.YearCalendarHolidayContent = {
       keys: ["PN|Bounty Day"]
     },
     {
+      title: "King's Official Birthday",
+      zhTitle: "君主官方生日",
+      type: "王室公共假日",
+      description: "英联邦传统中的君主官方生日，以阅兵、升旗和社区活动庆祝。",
+      keys: ["PN|King's Official Birthday", "TV|King's Official Birthday"]
+    },
+    {
       title: "St George's Day",
       zhTitle: "圣乔治日",
       type: "圣人纪念日",
@@ -749,6 +903,13 @@ globalThis.YearCalendarHolidayContent = {
       type: "家庭节日",
       description: "帕劳家庭日强调亲人相聚与代际照护，家庭和社区借节日感谢彼此支持，也延续岛屿社会的亲属纽带。",
       keys: ["PW|Family Day"]
+    },
+    {
+      title: "Senior Citizens Day",
+      zhTitle: "帕劳长者日",
+      type: "社会纪念日",
+      description: "帕劳的长者日，社区以活动与致意肯定老年人的贡献。",
+      keys: ["PW|Senior Citizens Day"]
     },
     {
       title: "Saint John the Baptist Day",
@@ -779,6 +940,20 @@ globalThis.YearCalendarHolidayContent = {
       keys: ["SB|National Day of Thanksgiving"]
     },
     {
+      title: "Vesak Day",
+      zhTitle: "卫塞节",
+      type: "佛教节日",
+      description: "卫塞节纪念佛陀诞生、成道与涅槃，信众浴佛、布施和诵经。",
+      keys: ["SG|Vesak Day"]
+    },
+    {
+      title: "Saint Helena Day",
+      zhTitle: "圣赫勒拿日",
+      type: "地方纪念日",
+      description: "圣赫勒拿的岛屿日，以升旗、游行和社区活动纪念岛屿身份。",
+      keys: ["SH|Saint Helena Day"]
+    },
+    {
       title: "Day of Remembrance for the Dead",
       zhTitle: "斯洛文尼亚亡者追思日",
       type: "宗教与民俗节日",
@@ -805,6 +980,13 @@ globalThis.YearCalendarHolidayContent = {
       type: "军事纪念日",
       description: "塞拉利昂的建军纪念日，以阅兵和公共活动致敬武装部队。",
       keys: ["SL|Armed Forces Day"]
+    },
+    {
+      title: "SPLA Day",
+      zhTitle: "南苏丹人民解放军日",
+      type: "军事纪念日",
+      description: "南苏丹纪念人民解放军成立，回顾武装斗争与建国历程。",
+      keys: ["SS|SPLA Day"]
     },
     {
       title: "Agricultural Reform Day",
@@ -842,6 +1024,20 @@ globalThis.YearCalendarHolidayContent = {
       keys: ["SY|Syrian Revolution Day", "SY|عيد الثورة السورية"]
     },
     {
+      title: "National Flag Day",
+      zhTitle: "斯威士兰国旗日",
+      type: "国家象征纪念日",
+      description: "斯威士兰的国旗日，以升旗和公共仪式表达国家身份。",
+      keys: ["SZ|National Flag Day"]
+    },
+    {
+      title: "JAGS McCartney Day",
+      zhTitle: "麦卡特尼日",
+      type: "历史人物纪念日",
+      description: "纪念特克斯和凯科斯群岛首任首席部长麦卡特尼，他是自治进程的推动者。",
+      keys: ["TC|JAGS McCartney Day"]
+    },
+    {
       title: "National Heritage Day",
       zhTitle: "特克斯和凯科斯群岛文化遗产日",
       type: "文化节日",
@@ -870,6 +1066,13 @@ globalThis.YearCalendarHolidayContent = {
       keys: ["TG|Liberation Day"]
     },
     {
+      title: "Mother's Day",
+      zhTitle: "母亲节",
+      type: "家庭节日",
+      description: "五月的第二个星期日，以家庭聚会和赠礼感谢母亲的付出。",
+      keys: ["TK|Mother's Day", "WS|Mother's Day"]
+    },
+    {
       title: "Anniversary of the Coronation of H.M. King George Tubou I",
       zhTitle: "乔治·图普一世国王加冕纪念日",
       type: "王室纪念日",
@@ -877,11 +1080,25 @@ globalThis.YearCalendarHolidayContent = {
       keys: ["TO|Anniversary of the Coronation of H.M. King George Tubou I"]
     },
     {
+      title: "Eid al-Adha Third Day (Tentative Date)",
+      zhTitle: "土耳其宰牲节",
+      type: "伊斯兰节日",
+      description: "宰牲节期间以礼拜、宰牲和探访亲友庆祝，土耳其连休四天。",
+      keys: ["TR|Eid al-Adha Third Day (Tentative Date)", "TR|Eid al-Adha Fourth Day (Tentative Date)", "TR|Kurban Bayramı 3. Gün (Tentative Date)", "TR|Kurban Bayramı 4. Gün (Tentative Date)"]
+    },
+    {
       title: "Eid al-Fitr First Day (Tentative Date)",
       zhTitle: "土耳其开斋节",
       type: "伊斯兰节日",
       description: "开斋节庆祝斋月结束，土耳其以拜访亲友、甜食和问候度过三天。",
       keys: ["TR|Eid al-Fitr First Day (Tentative Date)", "TR|Eid al-Fitr Second Day (Tentative Date)", "TR|Eid al-Fitr Third Day (Tentative Date)", "TR|Ramazan Bayramı 1. Gün (Tentative Date)", "TR|Ramazan Bayramı 2. Gün (Tentative Date)", "TR|Ramazan Bayramı 3. Gün (Tentative Date)"]
+    },
+    {
+      title: "Indian Arrival Day",
+      zhTitle: "印度人抵达日",
+      type: "族群文化纪念日",
+      description: "纪念印度契约劳工抵达特立尼达，回望移民与多元社会的形成。",
+      keys: ["TT|Indian Arrival Day"]
     },
     {
       title: "Spiritual Baptist Shouter Liberation Day",
@@ -919,11 +1136,32 @@ globalThis.YearCalendarHolidayContent = {
       keys: ["TZ|Nyerere Day"]
     },
     {
+      title: "Union Day",
+      zhTitle: "坦桑尼亚联合日",
+      type: "国家纪念日",
+      description: "纪念1964年坦噶尼喀与桑给巴尔联合，是联合共和国的成立节点。",
+      keys: ["TZ|Union Day", "TZ|Sikukuu ya Muungano"]
+    },
+    {
       title: "Zanzibar Revolution Day",
       zhTitle: "桑给巴尔革命日",
       type: "革命纪念日",
       description: "纪念1964年桑给巴尔革命，是坦桑尼亚联合共和国历史的重要节点。",
       keys: ["TZ|Zanzibar Revolution Day", "TZ|Sikukuu ya Mapinduzi ya Zanzibar"]
+    },
+    {
+      title: "Victory day over Nazism in World War II",
+      zhTitle: "乌克兰战胜纳粹纪念日",
+      type: "战争纪念日",
+      description: "纪念二战中击败纳粹，乌克兰以献花、默哀和纪念活动追思。",
+      keys: ["UA|Victory day over Nazism in World War II", "UA|День перемоги над нацизмом у Другій світовій війні"]
+    },
+    {
+      title: "Anniversary of the election of Pope Leo XIV",
+      zhTitle: "教宗良十四世当选纪念日",
+      type: "教廷纪念日",
+      description: "纪念教宗良十四世当选，梵蒂冈以教廷礼仪标记这一日子。",
+      keys: ["VA|Anniversary of the election of Pope Leo XIV"]
     },
     {
       title: "Saint Joseph",
@@ -989,6 +1227,13 @@ globalThis.YearCalendarHolidayContent = {
       keys: ["VU|National Unity Day"]
     },
     {
+      title: "Saint Pierre-Chanel Day",
+      zhTitle: "圣彼得·沙内尔日",
+      type: "宗教人物纪念日",
+      description: "纪念瓦利斯和富图纳的传教士圣彼得·沙内尔，回顾信仰传入岛屿的历史。",
+      keys: ["WF|Saint Pierre-Chanel Day"]
+    },
+    {
       title: "Liberation Day",
       zhTitle: "也门十月革命纪念日",
       type: "历史纪念日",
@@ -1017,6 +1262,13 @@ globalThis.YearCalendarHolidayContent = {
       keys: ["ZA|Family Day"]
     },
     {
+      title: "Kenneth Kaunda's Birthday",
+      zhTitle: "肯尼思·卡翁达诞辰",
+      type: "历史人物纪念日",
+      description: "纪念赞比亚首任总统卡翁达，他是独立运动与国家建构的核心人物。",
+      keys: ["ZM|Kenneth Kaunda's Birthday"]
+    },
+    {
       title: "National Day of Prayer",
       zhTitle: "赞比亚全国祈祷日",
       type: "宗教与公众节日",
@@ -1035,7 +1287,7 @@ globalThis.YearCalendarHolidayContent = {
       zhTitle: "解放日",
       type: "历史纪念日",
       description: "纪念废除奴隶制与追求自由的进程，在加勒比地区与祖先记忆、社区庆典和文化传承相连。",
-      keys: ["VI|Emancipation Day", "BM|Emancipation Day", "GY|Emancipation Day", "DM|Emancipation Day", "VC|Emancipation Day"]
+      keys: ["BM|Emancipation Day", "DM|Emancipation Day", "GY|Emancipation Day", "KY|Emancipation Day", "VC|Emancipation Day", "VI|Emancipation Day"]
     },
     {
       title: "Heroes' Day",
@@ -2827,7 +3079,7 @@ globalThis.YearCalendarHolidayContent = {
       zhTitle: "阵亡将士纪念日",
       type: "追思纪念日",
       description: "阵亡将士纪念日是美国追思军人牺牲的节日，常有扫墓、献旗、默哀和社区仪式。",
-      keys: ["US|Memorial Day", "Memorial Day"]
+      keys: ["MP|Memorial Day", "US|Memorial Day", "VI|Memorial Day", "Memorial Day"]
     },
     {
       title: "Mid-Autumn Festival",
@@ -5200,7 +5452,7 @@ globalThis.YearCalendarHolidayContent = {
       zhTitle: "澳新军团日",
       type: "战争追思日",
       description: "澳新军团日纪念一战加里波利登陆和服役军人的牺牲，黎明仪式、花环和默哀是核心传统。",
-      keys: ["AU|Anzac Day", "CC|Anzac Day", "CK|Anzac Day", "CX|Anzac Day", "NZ|Anzac Day"]
+      keys: ["AU|Anzac Day", "CC|Anzac Day", "CK|Anzac Day", "CX|Anzac Day", "NF|Anzac Day", "NZ|Anzac Day"]
     },
     {
       title: "Liberty Day",
@@ -5508,7 +5760,7 @@ globalThis.YearCalendarHolidayContent = {
       zhTitle: "哈芝节",
       type: "宗教节日",
       description: "对应宰牲节，纪念易卜拉欣的信仰故事，也连接朝觐、礼拜和分享食物。",
-      keys: ["SG|Hari Raya Haji (Tentative Date)"]
+      keys: ["SG|Hari Raya Haji", "SG|Hari Raya Haji (Tentative Date)"]
     },
     {
       title: "Flag and Universities Day",

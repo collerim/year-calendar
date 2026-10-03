@@ -303,6 +303,13 @@ globalThis.YearCalendarHolidayContent = {
       keys: ["EG|Islamic New Year"]
     },
     {
+      title: "Prophet Muhammad's Birthday (Tentative Date)",
+      zhTitle: "圣纪节",
+      type: "伊斯兰节日",
+      description: "伊斯兰教的圣纪节，纪念先知穆罕默德诞辰，以礼拜和集会庆祝。",
+      keys: ["EG|Prophet Muhammad's Birthday (Tentative Date)", "ML|Mawloud (Roughly Date)"]
+    },
+    {
       title: "Martyrs' Day",
       zhTitle: "厄立特里亚烈士日",
       type: "追思纪念日",
@@ -343,6 +350,13 @@ globalThis.YearCalendarHolidayContent = {
       type: "历史纪念日",
       description: "纪念1991年德尔格政权垮台，是埃塞俄比亚现代政治史的转折点。",
       keys: ["ET|Downfall of the Derg", "ET|ደርግ የወደቀበት ቀን"]
+    },
+    {
+      title: "Enkutatash",
+      zhTitle: "埃塞俄比亚新年",
+      type: "文化新年",
+      description: "埃塞俄比亚新年，标志雨季结束，以花环、歌舞和家庭聚会迎新岁。",
+      keys: ["ET|Enkutatash", "ET|እንቁጣጣሽ/የዘመን መለወጫ/አዲስ አመት"]
     },
     {
       title: "Epiphany (Orthodox)",
@@ -399,6 +413,20 @@ globalThis.YearCalendarHolidayContent = {
       type: "文化节日",
       description: "密克罗尼西亚的文化日，以舞蹈、手工艺和传统技艺展示岛屿文化。",
       keys: ["FM|Culture Day"]
+    },
+    {
+      title: "Gospel Day",
+      zhTitle: "密克罗尼西亚福音日",
+      type: "宗教节日",
+      description: "密克罗尼西亚的福音日，以礼拜、唱诗和社区聚餐纪念信仰传入。",
+      keys: ["FM|Gospel Day"]
+    },
+    {
+      title: "Liberation Day",
+      zhTitle: "密克罗尼西亚解放日",
+      type: "历史纪念日",
+      description: "纪念二战在太平洋岛屿结束，回顾战后自治与建国的历程。",
+      keys: ["FM|Liberation Day"]
     },
     {
       title: "Presidents Day",
@@ -667,6 +695,13 @@ globalThis.YearCalendarHolidayContent = {
       keys: ["LR|National Decoration Day"]
     },
     {
+      title: "National Flag Day",
+      zhTitle: "利比里亚国旗日",
+      type: "国家象征纪念日",
+      description: "利比里亚的国旗日，以升旗和教育强调国家象征与共同体记忆。",
+      keys: ["LR|National Flag Day"]
+    },
+    {
       title: "National Unification Day",
       zhTitle: "利比里亚国家统一日",
       type: "国家纪念日",
@@ -730,6 +765,13 @@ globalThis.YearCalendarHolidayContent = {
       keys: ["LV|Commemoration Day of Victims of Genocide Against the Latvian People By the Totalitarian Communist Regime"]
     },
     {
+      title: "Day of Remembrance for Victims of Stalinism and Nazism",
+      zhTitle: "斯大林主义与纳粹主义受害者纪念日",
+      type: "追思纪念日",
+      description: "纪念斯大林主义与纳粹主义的受害者，欧洲以纪念活动反思极权历史。",
+      keys: ["LV|Day of Remembrance for Victims of Stalinism and Nazism", "LV|Staļinisma un nacisma upuru atceres diena"]
+    },
+    {
       title: "Day of the Convocation of the Constitutional Assembly of the Republic of Latvia",
       zhTitle: "拉脱维亚制宪议会召开日",
       type: "宪政纪念日",
@@ -751,11 +793,25 @@ globalThis.YearCalendarHolidayContent = {
       keys: ["LV|Day of the Occupation of the Republic of Latvia", "LV|Latvijas Republikas okupācijas diena"]
     },
     {
+      title: "Day of the Passing of the Constitutional Law on the Status of the Republic of Latvia as a State",
+      zhTitle: "拉脱维亚国家地位宪法性法律通过日",
+      type: "宪政纪念日",
+      description: "纪念1991年宪法性法律通过，确认拉脱维亚的国家地位。",
+      keys: ["LV|Day of the Passing of the Constitutional Law on the Status of the Republic of Latvia as a State", "LV|Konstitucionālā likuma “Par Latvijas Republikas valstisko statusu” pieņemšanas diena"]
+    },
+    {
       title: "Day of the Sea Festival",
       zhTitle: "拉脱维亚海节",
       type: "地方节庆日",
       description: "拉脱维亚的海节，以港口活动、音乐和渔业传统庆祝海滨生活。",
       keys: ["LV|Day of the Sea Festival", "LV|Jūras svētku diena"]
+    },
+    {
+      title: "Father's Day",
+      zhTitle: "拉脱维亚父亲节",
+      type: "家庭节日",
+      description: "拉脱维亚的父亲节，以家庭聚会和致意感谢父亲的付出。",
+      keys: ["LV|Father's Day", "LV|Tēva diena"]
     },
     {
       title: "Heroes' Commemoration Day (Anniversary of the Battle of Cēsis)",
@@ -784,6 +840,13 @@ globalThis.YearCalendarHolidayContent = {
       type: "家庭节日",
       description: "关注家庭在社会中的角色，以活动强调代际支持与共同生活。",
       keys: ["LV|International Day of the Family", "LV|Starptautiskā ģimenes diena"]
+    },
+    {
+      title: "Knowledge Day",
+      zhTitle: "拉脱维亚知识日",
+      type: "教育纪念日",
+      description: "拉脱维亚的知识日，标记新学年开始，学生与教师共同庆祝。",
+      keys: ["LV|Knowledge Day", "LV|Zinību diena"]
     },
     {
       title: "Latgale Congress Day",
@@ -856,6 +919,13 @@ globalThis.YearCalendarHolidayContent = {
       keys: ["LY|Liberation Day"]
     },
     {
+      title: "Martyrs' Day",
+      zhTitle: "利比亚烈士日",
+      type: "追思纪念日",
+      description: "利比亚的烈士纪念日，缅怀在国家历史中牺牲的人。",
+      keys: ["LY|Martyrs' Day", "LY|يوم الشهيد"]
+    },
+    {
       title: "Fishermen's Day",
       zhTitle: "马绍尔群岛渔民节",
       type: "职业纪念日",
@@ -898,6 +968,13 @@ globalThis.YearCalendarHolidayContent = {
       keys: ["ML|Armed Forces Day"]
     },
     {
+      title: "Baptism of the Prophet (Roughly Date)",
+      zhTitle: "先知受洗纪念日",
+      type: "伊斯兰节日",
+      description: "伊斯兰教传统中的先知受洗纪念日，信众以集会与祈祷度过。",
+      keys: ["ML|Baptism of the Prophet (Roughly Date)"]
+    },
+    {
       title: "Korité (Roughly Date)",
       zhTitle: "马里开斋节",
       type: "伊斯兰节日",
@@ -938,6 +1015,13 @@ globalThis.YearCalendarHolidayContent = {
       type: "文化节日",
       description: "庆祝北马里亚纳群岛的查莫罗与加罗林文化传统，社区活动展现语言、舞蹈与岛屿记忆。",
       keys: ["MP|Commonwealth Cultural Day"]
+    },
+    {
+      title: "Labour Day",
+      zhTitle: "九月劳动节",
+      type: "劳动节日",
+      description: "九月的劳动节，以休假、社区活动和长周末结束夏季节奏。",
+      keys: ["MP|Labour Day", "MP|Labor Day", "MH|Labour Day", "MH|Labor Day"]
     },
     {
       title: "Festival Day",
@@ -1010,6 +1094,13 @@ globalThis.YearCalendarHolidayContent = {
       keys: ["NR|Easter Tuesday"]
     },
     {
+      title: "Ibumin Earoeni Day",
+      zhTitle: "瑙鲁伊布明·埃阿罗埃尼日",
+      type: "地方纪念日",
+      description: "瑙鲁的公共纪念日，以社区活动回顾岛屿历史。",
+      keys: ["NR|Ibumin Earoeni Day"]
+    },
+    {
       title: "Sir Hammer DeRoburt Day",
       zhTitle: "哈默·德罗伯特爵士纪念日",
       type: "历史人物纪念日",
@@ -1080,6 +1171,13 @@ globalThis.YearCalendarHolidayContent = {
       keys: ["PT|St George's Day"]
     },
     {
+      title: "St Matthew's Day",
+      zhTitle: "圣马太日",
+      type: "地方守护圣人日",
+      description: "葡萄牙地方日历中的圣人纪念日，与守护传统、集市和秋季节庆相连。",
+      keys: ["PT|St Matthew's Day"]
+    },
+    {
       title: "St Peter's Day",
       zhTitle: "圣彼得日",
       type: "地方守护圣人日",
@@ -1148,6 +1246,13 @@ globalThis.YearCalendarHolidayContent = {
       type: "佛教节日",
       description: "卫塞节纪念佛陀诞生、成道与涅槃，信众浴佛、布施和诵经。",
       keys: ["SG|Vesak Day"]
+    },
+    {
+      title: "Anniversary Day",
+      zhTitle: "圣赫勒拿周年纪念日",
+      type: "地方纪念日",
+      description: "圣赫勒拿的周年纪念日，以社区活动回顾岛屿历史与共同生活。",
+      keys: ["SH|Anniversary Day"]
     },
     {
       title: "Saint Helena Day",
@@ -1290,11 +1395,25 @@ globalThis.YearCalendarHolidayContent = {
       keys: ["TK|Mother's Day", "WS|Mother's Day"]
     },
     {
+      title: "Tokehega Day",
+      zhTitle: "托克劳托克赫加日",
+      type: "历史纪念日",
+      description: "托克劳的托克赫加日，纪念与新西兰签订的边界与自治协议。",
+      keys: ["TK|Tokehega Day"]
+    },
+    {
       title: "Anniversary of the Coronation of H.M. King George Tubou I",
       zhTitle: "乔治·图普一世国王加冕纪念日",
       type: "王室纪念日",
       description: "汤加以这一节日纪念乔治·图普一世国王及王国形成的历史，王室记忆也与现代汤加的国家身份相连。",
       keys: ["TO|Anniversary of the Coronation of H.M. King George Tubou I"]
+    },
+    {
+      title: "Birthday of the Heir to the Crown of Tonga",
+      zhTitle: "汤加王储生日",
+      type: "王室庆典日",
+      description: "汤加王储的生日，以官方庆典和社区活动表达王室祝福。",
+      keys: ["TO|Birthday of the Heir to the Crown of Tonga"]
     },
     {
       title: "Emancipation Day",

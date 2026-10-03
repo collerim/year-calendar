@@ -271,7 +271,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Manit Day",
       zhTitle: "马绍尔群岛传统文化日",
       type: "文化节日",
-      description: "传统文化日庆祝马绍尔群岛的“manit”传统，航海知识、编织、歌舞和口述历史都体现岛屿文化的传承。",
+      description: "庆祝马绍尔群岛的传统文化，航海知识、编织、歌舞和口述历史体现岛屿文化的传承。",
       keys: ["MH|Manit Day"]
     },
     {
@@ -593,7 +593,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Birth of the Blessed Virgin Mary",
       zhTitle: "圣母诞辰日",
       type: "宗教纪念日",
-      description: "圣母诞辰日纪念圣母玛利亚诞生，在天主教传统和拉丁美洲地方信仰中常以礼拜、游行或守护圣母庆典标记。",
+      description: "纪念圣母玛利亚诞生，天主教传统与拉丁美洲地方信仰常以礼拜、游行和守护圣母庆典标记。",
       keys: ["VE|Birth of the Blessed Virgin Mary", "VE|Día del Virgen del Valle"]
     },
     {
@@ -607,7 +607,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Regional Holiday in Cantabria",
       zhTitle: "坎塔布里亚地方假日",
       type: "地方假日",
-      description: "坎塔布里亚地方假日属于西班牙区域日历的一部分，通常连接地方守护传统、社区活动和区域身份。",
+      description: "西班牙区域日历中的地方假日，连接地方守护传统、社区活动和区域身份。",
       keys: ["ES|Regional Holiday in Cantabria"]
     },
     {
@@ -649,7 +649,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Friday before AFL Grand Final",
       zhTitle: "澳式橄榄球总决赛前星期五",
       type: "体育节庆日",
-      description: "澳式橄榄球总决赛前星期五是维多利亚州围绕 AFL 总决赛形成的公众假日，把体育传统、城市活动和周末庆典连在一起。",
+      description: "维多利亚州围绕澳式橄榄球总决赛设立的公众假日，连着体育传统与周末庆典。",
       keys: ["AU|Friday before AFL Grand Final"]
     },
     {
@@ -768,7 +768,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Ullortuneq",
       zhTitle: "格陵兰国庆日",
       type: "国家纪念日",
-      description: "Ullortuneq 是格陵兰国庆日，夏至附近的长昼、旗帜、民族服饰、音乐和户外聚会共同呈现北极岛屿身份。",
+      description: "格陵兰国庆日，夏至附近的长昼、旗帜、民族服饰、音乐和户外聚会呈现北极岛屿身份。",
       keys: ["GL|Ullortuneq", "Ullortuneq"]
     },
     {
@@ -908,7 +908,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Tynwald Day",
       zhTitle: "廷瓦尔德日",
       type: "议会传统日",
-      description: "廷瓦尔德日是曼岛古老议会传统的公开仪式日，法律会在露天仪式中宣读，呈现海岛自治和制度连续性。",
+      description: "曼岛古老议会传统的公开仪式日，法律在露天仪式中宣读，呈现海岛自治与制度连续性。",
       keys: ["IM|Tynwald Day", "Tynwald Day"]
     },
     {
@@ -1041,7 +1041,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "National Day of Galicia",
       zhTitle: "加利西亚民族日",
       type: "地方纪念日",
-      description: "加利西亚民族日与圣雅各日同在7月25日，既连接圣地亚哥朝圣传统，也表达加利西亚语言、文化和地区身份。",
+      description: "与圣雅各日同在7月25日，既连接圣地亚哥朝圣传统，也表达加利西亚语言与文化身份。",
       keys: ["ES|National Day of Galicia", "National Day of Galicia"]
     },
     {
@@ -1055,7 +1055,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Saint James' Day",
       zhTitle: "圣雅各日",
       type: "宗教与地方节日",
-      description: "圣雅各日纪念使徒圣雅各，在西班牙尤其连接圣地亚哥-德孔波斯特拉、朝圣道路和加利西亚地方庆典。",
+      description: "纪念使徒圣雅各，在西班牙尤其连接圣地亚哥-德孔波斯特拉、朝圣道路与地方庆典。",
       keys: ["ES|Saint James' Day", "Saint James' Day", "Santiago Apóstol"]
     },
     {
@@ -1083,7 +1083,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Cantabrian Institutions Day",
       zhTitle: "坎塔布里亚机构日",
       type: "地方制度纪念日",
-      description: "坎塔布里亚机构日纪念当地历史制度和自治传统，把地区公共机构、地方身份和山海之间的社区记忆连在一起。",
+      description: "纪念当地历史制度与自治传统，把公共机构、地方身份和山海的社区记忆连在一起。",
       keys: ["ES|Cantabrian Institutions Day", "Cantabrian Institutions Day", "Day of the Cantabrian Institutions"]
     },
     {
@@ -1118,14 +1118,14 @@ globalThis.YearCalendarHolidayContent = {
       title: "Feast of Our Lady of the Angels",
       zhTitle: "天使圣母节",
       type: "宗教节日",
-      description: "哥斯达黎加天使圣母节纪念 Cartago 的守护圣母传统，许多人会朝圣前往大教堂，表达祈愿和感恩。",
+      description: "纪念卡塔戈的守护圣母传统，人们朝圣前往大教堂，表达祈愿和感恩。",
       keys: ["CR|Feast of Our Lady of the Angels", "CR|Fiesta de Nuestra Señora de los Ángeles", "Feast of Our Lady of the Angels"]
     },
     {
       title: "Congolese Genocide Day",
       zhTitle: "刚果种族灭绝纪念日",
       type: "追思纪念日",
-      description: "刚果种族灭绝纪念日用于追思暴力冲突和大规模苦难中的受害者，也提醒公共记忆继续面对创伤与和平议题。",
+      description: "追思暴力冲突和大规模苦难中的受害者，也让公共记忆继续面对创伤与和平议题。",
       keys: ["CD|Congolese Genocide Day", "Congolese Genocide Day"]
     },
     {
@@ -1139,7 +1139,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Agrarian Reform Day",
       zhTitle: "土地改革日",
       type: "社会历史纪念日",
-      description: "玻利维亚土地改革日纪念农村土地制度和农民权利的历史转折，也连接原住民社区、土地与社会改革记忆。",
+      description: "纪念农村土地制度与农民权利的历史转折，也连接原住民社区与土地改革记忆。",
       keys: ["BO|Agrarian Reform Day", "BO|Día de la Revolución Agraria", "Agrarian Reform Day"]
     },
     {
@@ -1167,7 +1167,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Nuestra Señora de Las Nieves",
       zhTitle: "雪地圣母节",
       type: "宗教与地方节日",
-      description: "雪地圣母节纪念天主教圣母传统，在西班牙地方日历中常与守护圣母、礼拜、游行和夏季社区庆典相连。",
+      description: "纪念天主教圣母传统，在西班牙地方日历中与守护圣母、礼拜和夏季社区庆典相连。",
       keys: ["ES|Nuestra Señora de Las Nieves", "Nuestra Señora de Las Nieves"]
     },
     {
@@ -1216,7 +1216,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "National Women's Day observed",
       zhTitle: "全国妇女日补假",
       type: "社会纪念日",
-      description: "南非全国妇女日补假延续8月9日的纪念意义，回望1956年女性反通行证制度游行，并强调性别平等与公共参与。",
+      description: "延续8月9日的纪念意义，回望1956年女性反通行证制度游行，强调性别平等与公共参与。",
       keys: ["ZA|National Women's Day observed", "National Women's Day observed", "National Women's Day"]
     },
     {
@@ -1293,7 +1293,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Birthday of Couto Jardim",
       zhTitle: "库托·雅尔丁诞辰",
       type: "地方人物纪念日",
-      description: "库托·雅尔丁诞辰是葡萄牙地方日历中的人物纪念日，用本地历史人物的名字保留社区记忆和市镇身份。",
+      description: "葡萄牙地方日历中的人物纪念日，用本地历史人物的名字保留社区记忆与市镇身份。",
       keys: ["PT|Birthday of Couto Jardim", "Birthday of Couto Jardim"]
     },
     {
@@ -1384,7 +1384,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Limba Noastra (National Language Day)",
       zhTitle: "我们的语言日",
       type: "文化纪念日",
-      description: "Limba Noastra 意为“我们的语言”，这一天强调摩尔多瓦语言文化、诗歌传统和公共身份中的语言归属感。",
+      description: "节名意为我们的语言，这一天强调摩尔多瓦语言文化、诗歌传统与语言归属感。",
       keys: ["MD|Limba Noastra (National Language Day)", "Limba Noastra (National Language Day)"]
     },
     {
@@ -1405,7 +1405,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Regional Holiday in Ceuta",
       zhTitle: "休达地方假日",
       type: "地方纪念日",
-      description: "休达地方假日标记这座北非西班牙城市的自治身份和地中海边城历史，公共活动常带有地方旗帜与社区庆典。",
+      description: "标记这座北非西班牙城市的自治身份与地中海边城历史，活动带有地方旗帜与社区庆典。",
       keys: ["ES|Regional Holiday in Ceuta", "Regional Holiday in Ceuta"]
     },
     {
@@ -1454,7 +1454,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Asturias Day",
       zhTitle: "阿斯图里亚斯日",
       type: "地方纪念日",
-      description: "阿斯图里亚斯日纪念西班牙北部阿斯图里亚斯地区身份，也常与科瓦东加圣母传统、山地文化和自治庆典相连。",
+      description: "纪念西班牙北部阿斯图里亚斯的地区身份，与科瓦东加圣母传统、山地文化和自治庆典相连。",
       keys: ["ES|Asturias Day", "Asturias Day", "Day of Asturias"]
     },
     {
@@ -1496,14 +1496,14 @@ globalThis.YearCalendarHolidayContent = {
       title: "St Anthony",
       zhTitle: "圣安东尼日",
       type: "圣人纪念日",
-      description: "西班牙地方日历中的圣安东尼日多与守护圣人传统相连，礼拜、游行、集市和社区聚会会把宗教纪念带入街巷。",
+      description: "西班牙地方日历中的圣人纪念日，礼拜、游行、集市和社区聚会把宗教纪念带入街巷。",
       keys: ["ES|St Anthony"]
     },
     {
       title: "World Cup Bank Holiday",
       zhTitle: "世界杯银行假日",
       type: "特别公共假日",
-      description: "世界杯银行假日是为重大体育赛事安排的特别休息日，体现足球在公共生活中的凝聚力和集体观看的节庆气氛。",
+      description: "为重大体育赛事安排的特别休息日，体现足球在公共生活中的凝聚力与集体观看的节庆气氛。",
       keys: ["GB|World Cup Bank Holiday", "World Cup Bank Holiday"]
     },
     {
@@ -2021,7 +2021,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Assumption",
       zhTitle: "圣母升天节",
       type: "宗教节日",
-      description: "圣母升天节源自天主教传统，纪念圣母玛利亚升天，在欧洲和拉丁文化中常与礼拜、游行和夏日休假相连。",
+      description: "源自天主教传统，纪念圣母玛利亚升天，欧洲和拉丁文化中与礼拜、游行和夏日休假相连。",
       keys: ["Assumption", "Assumption of the Virgin Mary"]
     },
     {
@@ -2280,7 +2280,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Natal Day",
       zhTitle: "纳塔尔日",
       type: "地方夏季假日",
-      description: "Natal Day 是加拿大部分地区的夏季地方假日，常与城市生日、社区庆祝和长周末活动相连。",
+      description: "加拿大部分地区的夏季地方假日，与城市生日、社区庆祝和长周末活动相连。",
       keys: ["CA|Natal Day", "Natal Day"]
     },
     {
@@ -2483,14 +2483,14 @@ globalThis.YearCalendarHolidayContent = {
       title: "International Day for Biological Diversity",
       zhTitle: "国际生物多样性日",
       type: "生态纪念日",
-      description: "国际生物多样性日关注生态系统、多样物种与共同栖居的地球，提醒人们保护生命网络。",
+      description: "关注生态系统、多样物种与共同栖居的地球，强调保护生命网络。",
       keys: ["International Day for Biological Diversity"]
     },
     {
       title: "International Day for Tolerance",
       zhTitle: "国际宽容日",
       type: "社会倡议日",
-      description: "国际宽容日由联合国教科文组织倡议，提醒人们尊重差异、理解多元并维护共同生活。",
+      description: "由联合国教科文组织倡议，强调尊重差异、理解多元并维护共同生活。",
       keys: ["International Day for Tolerance"]
     },
     {
@@ -2504,7 +2504,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "International Day of Education",
       zhTitle: "国际教育日",
       type: "教育纪念日",
-      description: "国际教育日关注学习、知识和人的发展，提醒人们教育对社会公平和未来生活的重要性。",
+      description: "关注学习、知识和人的发展，强调教育对社会公平与未来生活的重要性。",
       keys: ["International Day of Education"]
     },
     {
@@ -2525,7 +2525,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "International Day of Happiness",
       zhTitle: "国际幸福日",
       type: "生活质量倡议日",
-      description: "国际幸福日由联合国设立，提醒人们重视幸福、身心状态和共同生活的质量。",
+      description: "由联合国设立，强调幸福、身心状态与共同生活的质量。",
       keys: ["International Day of Happiness"]
     },
     {
@@ -2546,7 +2546,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "International Holocaust Remembrance Day",
       zhTitle: "国际大屠杀纪念日",
       type: "历史追思日",
-      description: "国际大屠杀纪念日追思大屠杀受害者，也提醒人们警惕仇恨、极端主义和制度化暴力。",
+      description: "追思大屠杀受害者，也警示仇恨、极端主义与制度化暴力的危险。",
       keys: ["International Holocaust Remembrance Day"]
     },
     {
@@ -2581,14 +2581,14 @@ globalThis.YearCalendarHolidayContent = {
       title: "International Mountain Day",
       zhTitle: "国际山岳日",
       type: "生态与地方文化日",
-      description: "国际山岳日关注山地生态、地方社区和高处风景中的生活，也提醒人们保护脆弱的山地环境。",
+      description: "关注山地生态、地方社区与高处的日常生活，也强调保护脆弱的山地环境。",
       keys: ["International Mountain Day"]
     },
     {
       title: "International Migrants Day",
       zhTitle: "国际移民日",
       type: "社会关怀纪念日",
-      description: "国际移民日关注迁徙、家园与跨文化生活，提醒人们看见移民经验和社会连接。",
+      description: "关注迁徙、家园与跨文化生活，让移民经验和社会连接被看见。",
       keys: ["International Migrants Day"]
     },
     {
@@ -2644,7 +2644,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "World Art Day",
       zhTitle: "世界艺术日",
       type: "艺术文化日",
-      description: "世界艺术日纪念艺术、创作与视觉文化，提醒人们艺术如何参与公共生活和日常想象。",
+      description: "纪念艺术、创作与视觉文化，关注艺术如何参与公共生活和日常想象。",
       keys: ["World Art Day"]
     },
     {
@@ -2693,7 +2693,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "World Food Safety Day",
       zhTitle: "世界食品安全日",
       type: "公共健康日",
-      description: "世界食品安全日关注食物生产、餐桌安全和公共健康，提醒人们安全食物是日常生活的基础。",
+      description: "关注食物生产、餐桌安全和公共健康，强调安全食物是日常生活的基础。",
       keys: ["World Food Safety Day"]
     },
     {
@@ -2763,7 +2763,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "World Oceans Day",
       zhTitle: "世界海洋日",
       type: "海洋生态日",
-      description: "世界海洋日关注海洋、潮汐与蓝色星球，提醒人们保护海洋生态和水域生命。",
+      description: "关注海洋、潮汐与蓝色星球，强调保护海洋生态和水域生命。",
       keys: ["World Oceans Day"]
     },
     {
@@ -2777,7 +2777,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "World Poetry Day",
       zhTitle: "世界诗歌日",
       type: "文学文化日",
-      description: "世界诗歌日纪念诗歌、语言与想象力，提醒人们保留表达细微经验的方式。",
+      description: "纪念诗歌、语言与想象力，也保留表达细微经验的方式。",
       keys: ["World Poetry Day"]
     },
     {
@@ -2847,7 +2847,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "World Tourism Day",
       zhTitle: "世界旅游日",
       type: "旅行文化日",
-      description: "世界旅游日关注旅行、地方文化与人与地点之间的连接，也提醒人们思考可持续旅游。",
+      description: "关注旅行、地方文化与人地之间的连接，也思考可持续旅游的可能。",
       keys: ["World Tourism Day"]
     },
     {
@@ -2861,7 +2861,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "World Water Day",
       zhTitle: "世界水日",
       type: "水资源倡议日",
-      description: "世界水日关注水资源、饮用水安全和蓝色星球，提醒人们水与生活、生态和公平紧密相连。",
+      description: "关注水资源、饮用水安全与蓝色星球，强调水与生活、生态和公平紧密相连。",
       keys: ["World Water Day"]
     },
     {
@@ -2924,7 +2924,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Melilla Regional Holiday",
       zhTitle: "梅利利亚地方假日",
       type: "地方纪念日",
-      description: "梅利利亚地方假日标记这座西班牙北非自治城市的地方历史与城市身份，常与官方仪式和社区活动相连。",
+      description: "标记这座西班牙北非自治城市的地方历史与城市身份，与官方仪式和社区活动相连。",
       keys: ["ES|Regional Holiday in Meilla", "ES|Regional Holiday in Melilla"]
     },
     {
@@ -5584,7 +5584,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Saint George",
       zhTitle: "圣乔治日",
       type: "宗教纪念日",
-      description: "梵蒂冈圣乔治日与教宗方济各的本名 Jorge 相连，作为命名日进入教廷节庆日历。",
+      description: "与教宗方济各的本名相连，作为命名日进入教廷节庆日历。",
       keys: ["VA|Saint George", "VA|Onomastico del Santo Padre"]
     },
     {
@@ -5661,7 +5661,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Sette Giugno",
       zhTitle: "六月七日纪念日",
       type: "历史纪念日",
-      description: "马耳他 Sette Giugno 纪念1919年反殖民抗议中的遇难者，是走向自治和宪政改革的重要记忆。",
+      description: "纪念1919年反殖民抗议中的遇难者，是走向自治与宪政改革的重要记忆。",
       keys: ["MT|Sette Giugno", "MT|​Sette Giugno"]
     },
     {
@@ -5675,7 +5675,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Labour Day",
       zhTitle: "塞尔维亚劳动节",
       type: "劳动纪念日",
-      description: "塞尔维亚劳动节延续五一国际劳动节传统，通常形成连休、家庭出游和春季聚会。",
+      description: "延续五一国际劳动节传统，形成连休、家庭出游和春季聚会。",
       keys: ["RS|Labour Day"]
     },
     {
@@ -5745,7 +5745,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Orthodox Easter Monday",
       zhTitle: "东正教复活节星期一",
       type: "宗教节日",
-      description: "东正教复活节星期一延续复活节庆祝，阿尔巴尼亚、摩尔多瓦和罗马尼亚会把礼拜、探亲和春季团聚延伸到节后一天。",
+      description: "延续复活节庆祝，阿尔巴尼亚、摩尔多瓦和罗马尼亚把礼拜、探亲和团聚延伸到节后一天。",
       keys: ["AL|Orthodox Easter Monday", "MD|Orthodox Easter Monday", "RO|Orthodox Easter Monday"]
     },
     {
@@ -5787,7 +5787,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Keti Koti",
       zhTitle: "锁链断裂日",
       type: "废奴纪念日",
-      description: "苏里南 Keti Koti 意为“锁链断裂”，纪念1863年废除奴隶制，常见纪念仪式、音乐和克里奥尔文化表达。",
+      description: "节名意为锁链断裂，纪念1863年废除奴隶制，常见纪念仪式、音乐和克里奥尔文化。",
       keys: ["SR|Keti Koti"]
     },
     {
@@ -5815,7 +5815,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Day of Reconciliation observed",
       zhTitle: "南非和解日补假",
       type: "国家和解纪念日",
-      description: "南非和解日源自12月16日的复杂历史记忆，民主转型后被赋予跨族群和解、反思冲突与共同生活的意义。",
+      description: "源自12月16日的复杂历史记忆，民主转型后被赋予跨族群和解与共同生活的意义。",
       keys: ["ZA|Day of Reconciliation observed"]
     },
     {
@@ -5836,7 +5836,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Eid ul-Adha",
       zhTitle: "宰牲节",
       type: "伊斯兰节日",
-      description: "阿尔巴尼亚宰牲节纪念易卜拉欣献祭的信仰故事，穆斯林家庭会礼拜、宰牲分食并帮助亲友和需要的人。",
+      description: "纪念易卜拉欣献祭的信仰故事，穆斯林家庭礼拜、宰牲分食并帮助需要的人。",
       keys: ["AL|Eid ul-Adha (Feast of Sacrifice)"]
     },
     {
@@ -5927,14 +5927,14 @@ globalThis.YearCalendarHolidayContent = {
       title: "Second Day of Christmas",
       zhTitle: "圣诞节第二日",
       type: "圣诞延续假日",
-      description: "保加利亚圣诞节第二日延续东正教文化中的家庭团聚、节庆餐桌和礼拜气氛，让圣诞庆祝从一天扩展为连续假期。",
+      description: "延续东正教文化中的家庭团聚、节庆餐桌和礼拜气氛，把圣诞庆祝延长为连续假期。",
       keys: ["BG|Second day of Christmas"]
     },
     {
       title: "Second Day of Christmas",
       zhTitle: "斯瓦尔巴和扬马延圣诞节第二日",
       type: "圣诞延续假日",
-      description: "斯瓦尔巴和扬马延的圣诞第二日延续北欧圣诞假期，人们在极地冬季的长夜里继续休息、团聚和守住节庆灯火。",
+      description: "延续北欧圣诞假期，人们在极地冬季的长夜里继续休息、团聚和守住节庆灯火。",
       keys: ["SJ|Second day of Christmas", "SJ|Andre juledag"]
     },
     {
@@ -5969,7 +5969,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Azores Day",
       zhTitle: "亚速尔日",
       type: "地方自治与宗教民俗节日",
-      description: "亚速尔日纪念葡萄牙亚速尔自治区的身份与自治传统，也和圣灵降临节后的地方庆典、圣灵崇拜和海岛文化相连。",
+      description: "纪念亚速尔自治区的身份与自治传统，也与圣灵降临节后的地方庆典和海岛文化相连。",
       keys: ["PT|Azores Day", "PT|Dia dos Açores"]
     },
     {
@@ -5983,7 +5983,7 @@ globalThis.YearCalendarHolidayContent = {
       title: "Whit Monday",
       zhTitle: "加勒比圣灵降临节星期一",
       type: "基督教公共假日",
-      description: "巴哈马和巴巴多斯的 Whit Monday 延续圣灵降临节传统，也保留英联邦公共假日的节奏，常成为春末休息日。",
+      description: "巴哈马和巴巴多斯延续圣灵降临节传统，也保留英联邦公共假日的节奏，成为春末休息日。",
       keys: ["BS|Whit Monday", "BB|Whit Monday"]
     },
     {

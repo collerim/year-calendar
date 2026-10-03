@@ -64,7 +64,13 @@ git diff --check
 
 `npm run content:gaps:check` is the opt-in strict maintenance gate for the current holiday cache. It fails if provider data is missing, uncovered, or still relying on legacy intros.
 
-Local rendering uses Puppeteer's cached Chrome. If the local cache is missing or corrupted, run `npx puppeteer browsers install chrome`, or set `PUPPETEER_CACHE_DIR` to a clean cache directory. To use a manually installed browser, set `PUPPETEER_EXECUTABLE_PATH` explicitly.
+Local rendering prefers Puppeteer's cached Chrome so output matches the version
+continuous integration installs. When that browser is missing, `render.js` falls
+back to an installed Chrome, Edge, Brave or Chromium and logs which one it used,
+so a local render works with no setup. `PUPPETEER_EXECUTABLE_PATH` overrides both.
+If `npx puppeteer browsers install chrome` reports that the browser folder exists
+but its executable is missing, remove that empty folder or point
+`PUPPETEER_CACHE_DIR` at a clean directory before installing again.
 
 ## Coverage Scans
 

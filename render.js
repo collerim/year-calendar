@@ -29,13 +29,41 @@ const EXPECTED_PNG = {
   height: VIEWPORT.height * VIEWPORT.deviceScaleFactor,
   minBytes: 200000
 };
-function browserExecutablePath() {
+const INSTALLED_BROWSERS = [
+  "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+  "/Applications/Microsoft Edge.app/Contents/MacOS/Microsoft Edge",
+  "/Applications/Brave Browser.app/Contents/MacOS/Brave Browser",
+  "/Applications/Chromium.app/Contents/MacOS/Chromium",
+  "/usr/bin/google-chrome",
+  "/usr/bin/chromium",
+  "/usr/bin/chromium-browser"
+];
+
+async function browserExecutablePath() {
   const explicitPath = process.env.PUPPETEER_EXECUTABLE_PATH;
   if (explicitPath) {
     if (!fs.existsSync(explicitPath)) {
       throw new Error(`PUPPETEER_EXECUTABLE_PATH does not exist: ${explicitPath}`);
     }
     return explicitPath;
+  }
+
+  // Prefer the Puppeteer-managed browser so local output matches the version
+  // continuous integration installs.
+  let managedPath = null;
+  try {
+    managedPath = await puppeteer.executablePath();
+  } catch {
+    managedPath = null;
+  }
+  if (managedPath && fs.existsSync(managedPath)) return null;
+
+  // Otherwise fall back to an installed browser, so a local render works
+  // without the managed download.
+  const installedPath = INSTALLED_BROWSERS.find((candidate) => fs.existsSync(candidate));
+  if (installedPath) {
+    console.log(`Puppeteer browser is not installed; using ${installedPath}`);
+    return installedPath;
   }
   return null;
 }
@@ -338,7 +366,7 @@ try {
   await import("./data/holiday-intros.js");
   coverage = analyzeHolidayCoverage(globalThis.YearCalendarHolidayCache || {}, globalThis.YearCalendarHolidayContent || {}, globalThis.YearCalendarHolidayIntros || {}, renderWindow(dateKey(baseDate)));
   if (coverage.providers.status === "failed") throw new Error(coverage.providers.issues.join("; "));
-  const executablePath = browserExecutablePath();
+  const executablePath = await browserExecutablePath();
   browser = await puppeteer.launch({
     ...(executablePath ? { executablePath } : {}),
     args: [

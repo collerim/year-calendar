@@ -30,6 +30,13 @@ globalThis.YearCalendarHolidayContent = {
       keys: ["AI|Anguilla Day"]
     },
     {
+      title: "Constitution Day",
+      zhTitle: "安圭拉宪法日",
+      type: "宪政纪念日",
+      description: "安圭拉的宪法日，纪念岛屿宪政体制与自治安排。",
+      keys: ["AI|Constitution Day"]
+    },
+    {
       title: "James Ronald Webster Day",
       zhTitle: "詹姆斯·罗纳德·韦伯斯特日",
       type: "历史人物纪念日",
@@ -366,6 +373,13 @@ globalThis.YearCalendarHolidayContent = {
       keys: ["CI|National Peace Day"]
     },
     {
+      title: "Constitution Day",
+      zhTitle: "库克群岛宪法日",
+      type: "宪政纪念日",
+      description: "纪念1965年实行自治，是库克群岛宪政史的起点。",
+      keys: ["CK|Constitution Day"]
+    },
+    {
       title: "Gospel Day",
       zhTitle: "库克群岛福音日",
       type: "宗教与文化节日",
@@ -667,6 +681,13 @@ globalThis.YearCalendarHolidayContent = {
       keys: ["FK|Liberation Day"]
     },
     {
+      title: "Constitution Day",
+      zhTitle: "密克罗尼西亚宪法日",
+      type: "宪政纪念日",
+      description: "密克罗尼西亚的宪法日，纪念联邦宪政体制的确立。",
+      keys: ["FM|Constitution Day"]
+    },
+    {
       title: "Culture Day",
       zhTitle: "密克罗尼西亚文化日",
       type: "文化节日",
@@ -679,6 +700,13 @@ globalThis.YearCalendarHolidayContent = {
       type: "宗教节日",
       description: "密克罗尼西亚的福音日，以礼拜、唱诗和社区聚餐纪念信仰传入。",
       keys: ["FM|Gospel Day"]
+    },
+    {
+      title: "Independence Day",
+      zhTitle: "密克罗尼西亚独立日",
+      type: "国家纪念日",
+      description: "纪念1986年结束托管、密克罗尼西亚独立。",
+      keys: ["FM|Independence Day"]
     },
     {
       title: "Liberation Day",
@@ -884,6 +912,13 @@ globalThis.YearCalendarHolidayContent = {
       keys: ["KH|Commemoration Day of the King's Father"]
     },
     {
+      title: "Constitution Day",
+      zhTitle: "柬埔寨宪法日",
+      type: "宪政纪念日",
+      description: "纪念1993年宪法颁布，标志柬埔寨恢复君主立宪制。",
+      keys: ["KH|Constitution Day", "KH|ទិវាប្រកាសរដ្ឋធម្មនុញ្ញ"]
+    },
+    {
       title: "Coronation Day of King Sihamoni",
       zhTitle: "西哈莫尼国王登基纪念日",
       type: "王室纪念日",
@@ -975,6 +1010,13 @@ globalThis.YearCalendarHolidayContent = {
       keys: ["KI|National Culture and Senior Citizens Day"]
     },
     {
+      title: "National Day",
+      zhTitle: "基里巴斯国庆日",
+      type: "国家纪念日",
+      description: "纪念1979年脱离英国统治、基里巴斯独立。",
+      keys: ["KI|National Day"]
+    },
+    {
       title: "National Youth Day",
       zhTitle: "基里巴斯全国青年日",
       type: "青年纪念日",
@@ -1045,6 +1087,13 @@ globalThis.YearCalendarHolidayContent = {
       keys: ["KR|National Foundation Day", "KR|개천절"]
     },
     {
+      title: "Constitution Day",
+      zhTitle: "开曼群岛宪法日",
+      type: "宪政纪念日",
+      description: "纪念1959年首部宪法生效，是开曼群岛的宪政起点。",
+      keys: ["KY|Constitution Day"]
+    },
+    {
       title: "Discovery Day",
       zhTitle: "开曼群岛发现日",
       type: "历史纪念日",
@@ -1057,6 +1106,13 @@ globalThis.YearCalendarHolidayContent = {
       type: "国家英雄纪念日",
       description: "纪念开曼群岛的国家英雄，以仪式和社区活动致敬他们的贡献。",
       keys: ["KY|National Heroes Day"]
+    },
+    {
+      title: "Independence Day",
+      zhTitle: "哈萨克斯坦独立日",
+      type: "国家纪念日",
+      description: "纪念1991年宣布独立，是哈萨克斯坦的建国节点。",
+      keys: ["KZ|Independence Day", "KZ|Тәуелсіздік күні"]
     },
     {
       title: "Corpus Christi",
@@ -1388,6 +1444,13 @@ globalThis.YearCalendarHolidayContent = {
       keys: ["ME|Independence Day", "ME|Dan nezavisnosti"]
     },
     {
+      title: "Constitution Day",
+      zhTitle: "马绍尔群岛宪法日",
+      type: "宪政纪念日",
+      description: "纪念1979年宪法生效，马绍尔群岛由此建立自治政府。",
+      keys: ["MH|Constitution Day"]
+    },
+    {
       title: "Fishermen's Day",
       zhTitle: "马绍尔群岛渔民节",
       type: "职业纪念日",
@@ -1472,6 +1535,13 @@ globalThis.YearCalendarHolidayContent = {
       keys: ["ML|Martyrs' Day"]
     },
     {
+      title: "Independence Day",
+      zhTitle: "蒙古独立日",
+      type: "国家纪念日",
+      description: "纪念1911年宣布脱离清朝统治、蒙古独立。",
+      keys: ["MN|Independence Day", "MN|Тусгаар Тогтнолын Өдөр"]
+    },
+    {
       title: "Citizenship Day",
       zhTitle: "北马里亚纳群岛公民身份日",
       type: "地方纪念日",
@@ -1491,6 +1561,13 @@ globalThis.YearCalendarHolidayContent = {
       type: "文化节日",
       description: "庆祝北马里亚纳群岛的查莫罗与加罗林文化传统，社区活动展现语言、舞蹈与岛屿记忆。",
       keys: ["MP|Commonwealth Cultural Day"]
+    },
+    {
+      title: "Constitution Day",
+      zhTitle: "北马里亚纳宪法日",
+      type: "宪政纪念日",
+      description: "北马里亚纳群岛的宪法日，纪念自治宪政体制生效。",
+      keys: ["MP|Constitution Day"]
     },
     {
       title: "Labour Day",
@@ -1626,6 +1703,13 @@ globalThis.YearCalendarHolidayContent = {
       keys: ["NR|Angam Day"]
     },
     {
+      title: "Constitution Day",
+      zhTitle: "瑙鲁宪法日",
+      type: "宪政纪念日",
+      description: "纪念1968年宪法通过，是瑙鲁独立前后的宪政节点。",
+      keys: ["NR|Constitution Day"]
+    },
+    {
       title: "Easter Tuesday",
       zhTitle: "瑙鲁复活节星期二",
       type: "宗教延续假日",
@@ -1640,11 +1724,25 @@ globalThis.YearCalendarHolidayContent = {
       keys: ["NR|Ibumin Earoeni Day"]
     },
     {
+      title: "Independence Day",
+      zhTitle: "瑙鲁独立日",
+      type: "国家纪念日",
+      description: "纪念1968年脱离澳大利亚托管、瑙鲁独立。",
+      keys: ["NR|Independence Day"]
+    },
+    {
       title: "Sir Hammer DeRoburt Day",
       zhTitle: "哈默·德罗伯特爵士纪念日",
       type: "历史人物纪念日",
       description: "纪念日致敬瑙鲁建国人物及首任总统哈默·德罗伯特爵士，回顾他在争取独立和国家建设中的作用。",
       keys: ["NR|Sir Hammer DeRoburt Day"]
+    },
+    {
+      title: "Constitution Day",
+      zhTitle: "纽埃宪法日",
+      type: "宪政纪念日",
+      description: "纪念1974年实行自治，纽埃与新西兰建立自由联合。",
+      keys: ["NU|Constitution Day"]
     },
     {
       title: "Peniamina Gospel Day",
@@ -1694,6 +1792,13 @@ globalThis.YearCalendarHolidayContent = {
       type: "宗教与历史纪念日",
       description: "纪念传教士抵达法属波利尼西亚，回顾信仰传入与岛屿历史。",
       keys: ["PF|Missionary Day", "PF|Arrivée de l'Evangile"]
+    },
+    {
+      title: "Independence Day",
+      zhTitle: "巴布亚新几内亚独立日",
+      type: "国家纪念日",
+      description: "纪念1975年脱离澳大利亚托管、巴布亚新几内亚独立。",
+      keys: ["PG|Independence Day"]
     },
     {
       title: "Constitution Day",
@@ -1759,11 +1864,25 @@ globalThis.YearCalendarHolidayContent = {
       keys: ["PT|St Peter's Day"]
     },
     {
+      title: "Constitution Day",
+      zhTitle: "帕劳宪法日",
+      type: "宪政纪念日",
+      description: "纪念1980年宪法生效，是帕劳共和国的宪政起点。",
+      keys: ["PW|Constitution Day"]
+    },
+    {
       title: "Family Day",
       zhTitle: "帕劳家庭日",
       type: "家庭节日",
       description: "帕劳家庭日强调亲人相聚与代际照护，家庭和社区借节日感谢彼此支持，也延续岛屿社会的亲属纽带。",
       keys: ["PW|Family Day"]
+    },
+    {
+      title: "Independence Day",
+      zhTitle: "帕劳独立日",
+      type: "国家纪念日",
+      description: "纪念1994年结束托管、帕劳独立。",
+      keys: ["PW|Independence Day"]
     },
     {
       title: "Senior Citizens Day",
@@ -1813,6 +1932,13 @@ globalThis.YearCalendarHolidayContent = {
       type: "传统节日",
       description: "卢旺达的丰收节，以分享新收作物和社区聚会表达感谢。",
       keys: ["RW|Umuganura Day"]
+    },
+    {
+      title: "Independence Day",
+      zhTitle: "所罗门群岛独立日",
+      type: "国家纪念日",
+      description: "纪念1978年脱离英国统治、所罗门群岛独立。",
+      keys: ["SB|Independence Day"]
     },
     {
       title: "National Day of Thanksgiving",
@@ -1962,6 +2088,20 @@ globalThis.YearCalendarHolidayContent = {
       keys: ["ST|São Tomé Day", "ST|Dia de São Tomé"]
     },
     {
+      title: "Constitution Day",
+      zhTitle: "荷属圣马丁宪法日",
+      type: "宪政纪念日",
+      description: "纪念2010年成为荷兰王国构成国，确立宪法地位。",
+      keys: ["SX|Constitution Day"]
+    },
+    {
+      title: "Independence Day",
+      zhTitle: "叙利亚独立日",
+      type: "国家纪念日",
+      description: "纪念1946年外国军队撤离、叙利亚独立。",
+      keys: ["SY|Independence Day", "SY|عيد الجلاء"]
+    },
+    {
       title: "Mother's Day",
       zhTitle: "叙利亚母亲节",
       type: "家庭节日",
@@ -1988,6 +2128,13 @@ globalThis.YearCalendarHolidayContent = {
       type: "国家象征纪念日",
       description: "斯威士兰的国旗日，以升旗和公共仪式表达国家身份。",
       keys: ["SZ|National Flag Day"]
+    },
+    {
+      title: "Constitution Day",
+      zhTitle: "特克斯和凯科斯宪法日",
+      type: "宪政纪念日",
+      description: "特克斯和凯科斯群岛的宪法日，纪念宪政安排确立。",
+      keys: ["TC|Constitution Day"]
     },
     {
       title: "JAGS McCartney Day",
@@ -2086,6 +2233,13 @@ globalThis.YearCalendarHolidayContent = {
       type: "王室庆典日",
       description: "汤加王储的生日，以官方庆典和社区活动表达王室祝福。",
       keys: ["TO|Birthday of the Heir to the Crown of Tonga"]
+    },
+    {
+      title: "Constitution Day",
+      zhTitle: "汤加宪法日",
+      type: "宪政纪念日",
+      description: "纪念1875年宪法颁布，汤加由此确立君主立宪体制。",
+      keys: ["TO|Constitution Day"]
     },
     {
       title: "Emancipation Day",
@@ -2277,6 +2431,13 @@ globalThis.YearCalendarHolidayContent = {
       keys: ["VU|Children's Day"]
     },
     {
+      title: "Constitution Day",
+      zhTitle: "瓦努阿图宪法日",
+      type: "宪政纪念日",
+      description: "纪念1979年宪法生效，为瓦努阿图独立奠定基础。",
+      keys: ["VU|Constitution Day"]
+    },
+    {
       title: "Custom Chief's Day",
       zhTitle: "传统酋长日",
       type: "文化纪念日",
@@ -2289,6 +2450,13 @@ globalThis.YearCalendarHolidayContent = {
       type: "历史人物纪念日",
       description: "纪念瓦努阿图首任总理沃尔特·利尼神父，他是独立运动的核心人物。",
       keys: ["VU|Father Walter Lini Day"]
+    },
+    {
+      title: "Independence Day",
+      zhTitle: "瓦努阿图独立日",
+      type: "国家纪念日",
+      description: "纪念1980年脱离英法共管、瓦努阿图独立。",
+      keys: ["VU|Independence Day"]
     },
     {
       title: "National Unity Day",
@@ -2312,11 +2480,25 @@ globalThis.YearCalendarHolidayContent = {
       keys: ["WF|Territory Day"]
     },
     {
+      title: "Independence Day",
+      zhTitle: "萨摩亚独立日",
+      type: "国家纪念日",
+      description: "纪念1962年独立，是太平洋岛国中最早独立的国家。",
+      keys: ["WS|Independence Day"]
+    },
+    {
       title: "Liberation Day",
       zhTitle: "也门十月革命纪念日",
       type: "历史纪念日",
       description: "也门十月革命纪念日回顾一九六三年南也门反殖民起义的开端，以及通往独立的历史进程。",
       keys: ["YE|Liberation Day"]
+    },
+    {
+      title: "Revolution Day",
+      zhTitle: "也门革命日",
+      type: "革命纪念日",
+      description: "纪念1962年九月革命，是也门共和史的起点。",
+      keys: ["YE|Revolution Day", "YE|ثورة 26 سبتمبر المجيدة"]
     },
     {
       title: "Unity Day",
@@ -3499,7 +3681,7 @@ globalThis.YearCalendarHolidayContent = {
       zhTitle: "美国独立日",
       type: "国家纪念日",
       description: "纪念1776年《独立宣言》，烟火、国旗、游行、烧烤和家庭聚会构成典型的夏季庆典。",
-      keys: ["US|Independence Day"]
+      keys: ["MP|Independence Day", "US|Independence Day", "VI|Independence Day"]
     },
     {
       title: "Belarus Independence Day",
@@ -3583,7 +3765,7 @@ globalThis.YearCalendarHolidayContent = {
       zhTitle: "法国国庆日",
       type: "国家纪念日",
       description: "法国国庆日纪念1789年巴士底狱事件及法国大革命传统，阅兵、烟火和公共庆祝是最醒目的节日符号。",
-      keys: ["FR|Bastille Day", "FR|Fête nationale", "FR|National Day", "NC|French National Day", "WF|Bastille Day", "Bastille Day"]
+      keys: ["FR|Bastille Day", "FR|Fête nationale", "FR|National Day", "GF|National Day", "NC|French National Day", "PF|National Day", "PM|National Day", "WF|Bastille Day", "Bastille Day"]
     },
     {
       title: "Korea Constitution Day",

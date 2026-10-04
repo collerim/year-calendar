@@ -1,27 +1,9 @@
 {
-  "generatedAt": "2026-10-03T19:09:41.208Z",
-  "baseDate": "2026-10-04",
-  "ensuredThrough": "2026-10-11",
+  "generatedAt": "2026-10-04T19:24:03.307Z",
+  "baseDate": "2026-10-05",
+  "ensuredThrough": "2026-10-12",
   "today": "output/today.png",
   "generated": [
-    {
-      "date": "2026-10-04",
-      "output": "output/2026/2026.10/2026.10.04.png",
-      "selectedTheme": "World Space Week",
-      "selectedMotif": "cosmicObservatory",
-      "contentSource": "curated",
-      "selectedScoreBreakdown": {
-        "basePriority": 70,
-        "popularity": 14,
-        "jitter": 0.812,
-        "motifPenalty": 0,
-        "culturalPenalty": 13,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 42,
-        "finalScore": 29.812
-      },
-      "discardedCount": 4
-    },
     {
       "date": "2026-10-05",
       "output": "output/2026/2026.10/2026.10.05.png",
@@ -147,6 +129,24 @@
         "finalScore": -15.718
       },
       "discardedCount": 2
+    },
+    {
+      "date": "2026-10-12",
+      "output": "output/2026/2026.10/2026.10.12.png",
+      "selectedTheme": "Thanksgiving",
+      "selectedMotif": "harvestSheaves",
+      "contentSource": "structured",
+      "selectedScoreBreakdown": {
+        "basePriority": 74,
+        "popularity": 36,
+        "jitter": 5.841,
+        "motifPenalty": 0,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 42,
+        "finalScore": 31.841
+      },
+      "discardedCount": 7
     }
   ],
   "skipped": [],

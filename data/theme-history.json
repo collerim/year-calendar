@@ -1,37 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-03T19:09:41.206Z",
+  "updatedAt": "2026-10-04T19:24:03.305Z",
   "days": {
-    "2026-08-20": {
-      "title": "State Foundation Day",
-      "motif": "cityParade",
-      "gradient": [
-        "#131d37",
-        "#4b2e42",
-        "#111618"
-      ],
-      "accent": "#70a0d8",
-      "secondary": "#d65860",
-      "holidayFamily": "foundation-day",
-      "popularityTier": "common",
-      "scopeTier": "national",
-      "tags": [
-        "civic",
-        "celebration",
-        "procession"
-      ],
-      "source": {
-        "provider": "OpenHolidays",
-        "countryCode": "HU",
-        "countryName": "Hungary",
-        "typeLabels": [
-          "公众节日",
-          "全国性"
-        ],
-        "nationwide": true,
-        "subdivisions": []
-      }
-    },
     "2026-08-21": {
       "title": "Youth Day",
       "motif": "crescentLantern",
@@ -1559,6 +1529,35 @@
         "provider": "Nager.Date",
         "countryCode": "MK",
         "countryName": "North Macedonia",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-10-12": {
+      "title": "Thanksgiving",
+      "motif": "harvestSheaves",
+      "gradient": [
+        "#201d19",
+        "#63472b",
+        "#141514"
+      ],
+      "accent": "#c5965a",
+      "secondary": "#93a566",
+      "holidayFamily": "environmental-observance",
+      "popularityTier": "major",
+      "scopeTier": "national",
+      "tags": [
+        "botanical",
+        "harvest",
+        "seasonal",
+        "celebration"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "CA",
+        "countryName": "Canada",
         "typeLabels": [
           "公众节日"
         ],

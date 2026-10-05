@@ -1,38 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-04T19:24:03.305Z",
+  "updatedAt": "2026-10-05T22:29:51.708Z",
   "days": {
-    "2026-08-21": {
-      "title": "Youth Day",
-      "motif": "crescentLantern",
-      "gradient": [
-        "#111d2b",
-        "#34415d",
-        "#111518"
-      ],
-      "accent": "#c5b46b",
-      "secondary": "#70b2d8",
-      "holidayFamily": "religious-observance",
-      "popularityTier": "major",
-      "scopeTier": "national",
-      "tags": [
-        "islamic",
-        "religious",
-        "light",
-        "sky",
-        "celebration",
-        "sports"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "MA",
-        "countryName": "Morocco",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-08-22": {
       "title": "Municipal holiday",
       "motif": "lotusMandala",
@@ -1558,6 +1527,36 @@
         "provider": "Nager.Date",
         "countryCode": "CA",
         "countryName": "Canada",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-10-13": {
+      "title": "Commonwealth Cultural Day",
+      "motif": "maritimeFlags",
+      "gradient": [
+        "#122632",
+        "#2d6172",
+        "#10171b"
+      ],
+      "accent": "#70bcd3",
+      "secondary": "#debe5b",
+      "holidayFamily": "national-civic-day",
+      "popularityTier": "niche",
+      "scopeTier": "national",
+      "tags": [
+        "maritime",
+        "water",
+        "civic",
+        "island",
+        "celebration"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "MP",
+        "countryName": "Northern Mariana Islands",
         "typeLabels": [
           "公众节日"
         ],

@@ -1,27 +1,9 @@
 {
-  "generatedAt": "2026-10-04T19:24:03.307Z",
-  "baseDate": "2026-10-05",
-  "ensuredThrough": "2026-10-12",
+  "generatedAt": "2026-10-05T22:29:51.711Z",
+  "baseDate": "2026-10-06",
+  "ensuredThrough": "2026-10-13",
   "today": "output/today.png",
   "generated": [
-    {
-      "date": "2026-10-05",
-      "output": "output/2026/2026.10/2026.10.05.png",
-      "selectedTheme": "Thanksgiving",
-      "selectedMotif": "stainedGlass",
-      "contentSource": "structured",
-      "selectedScoreBreakdown": {
-        "basePriority": 69,
-        "popularity": 34,
-        "jitter": 5.982,
-        "motifPenalty": 0,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 27,
-        "finalScore": 39.982
-      },
-      "discardedCount": 7
-    },
     {
       "date": "2026-10-06",
       "output": "output/2026/2026.10/2026.10.06.png",
@@ -147,6 +129,24 @@
         "finalScore": 31.841
       },
       "discardedCount": 7
+    },
+    {
+      "date": "2026-10-13",
+      "output": "output/2026/2026.10/2026.10.13.png",
+      "selectedTheme": "Commonwealth Cultural Day",
+      "selectedMotif": "maritimeFlags",
+      "contentSource": "structured",
+      "selectedScoreBreakdown": {
+        "basePriority": 65,
+        "popularity": 14,
+        "jitter": 0.098,
+        "motifPenalty": 0,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 5,
+        "colorPenalty": 23,
+        "finalScore": 9.098
+      },
+      "discardedCount": 1
     }
   ],
   "skipped": [],

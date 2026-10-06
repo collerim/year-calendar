@@ -1,27 +1,9 @@
 {
-  "generatedAt": "2026-10-05T22:29:51.711Z",
-  "baseDate": "2026-10-06",
-  "ensuredThrough": "2026-10-13",
+  "generatedAt": "2026-10-06T20:54:33.278Z",
+  "baseDate": "2026-10-07",
+  "ensuredThrough": "2026-10-14",
   "today": "output/today.png",
   "generated": [
-    {
-      "date": "2026-10-06",
-      "output": "output/2026/2026.10/2026.10.06.png",
-      "selectedTheme": "Armed Forces Day",
-      "selectedMotif": "wovenPattern",
-      "contentSource": "structured",
-      "selectedScoreBreakdown": {
-        "basePriority": 61,
-        "popularity": 14,
-        "jitter": 4.796,
-        "motifPenalty": 0,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 42,
-        "finalScore": -4.204
-      },
-      "discardedCount": 0
-    },
     {
       "date": "2026-10-07",
       "output": "output/2026/2026.10/2026.10.07.png",
@@ -147,6 +129,24 @@
         "finalScore": 9.098
       },
       "discardedCount": 1
+    },
+    {
+      "date": "2026-10-14",
+      "output": "output/2026/2026.10/2026.10.14.png",
+      "selectedTheme": "Liberation Day",
+      "selectedMotif": "laurelTorch",
+      "contentSource": "structured",
+      "selectedScoreBreakdown": {
+        "basePriority": 61,
+        "popularity": 14,
+        "jitter": 4.618,
+        "motifPenalty": 0,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 36,
+        "finalScore": 1.618
+      },
+      "discardedCount": 3
     }
   ],
   "skipped": [],

@@ -1,42 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-05T22:29:51.708Z",
+  "updatedAt": "2026-10-06T20:54:33.276Z",
   "days": {
-    "2026-08-22": {
-      "title": "Municipal holiday",
-      "motif": "lotusMandala",
-      "gradient": [
-        "#19182e",
-        "#54405f",
-        "#141318"
-      ],
-      "accent": "#c5a9da",
-      "secondary": "#81bbae",
-      "holidayFamily": "municipal-local",
-      "popularityTier": "local",
-      "scopeTier": "local",
-      "tags": [
-        "religious",
-        "botanical",
-        "culture",
-        "heritage",
-        "celebration",
-        "maritime"
-      ],
-      "source": {
-        "provider": "OpenHolidays",
-        "countryCode": "PT",
-        "countryName": "Portugal",
-        "typeLabels": [
-          "可选假日",
-          "地方性"
-        ],
-        "nationwide": false,
-        "subdivisions": [
-          "BA-BR"
-        ]
-      }
-    },
     "2026-08-23": {
       "title": "八月麦束",
       "motif": "harvestSheaves",
@@ -1557,6 +1522,35 @@
         "provider": "Nager.Date",
         "countryCode": "MP",
         "countryName": "Northern Mariana Islands",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-10-14": {
+      "title": "Liberation Day",
+      "motif": "laurelTorch",
+      "gradient": [
+        "#1b1915",
+        "#5f3b2f",
+        "#121412"
+      ],
+      "accent": "#caac54",
+      "secondary": "#c75242",
+      "holidayFamily": "remembrance",
+      "popularityTier": "niche",
+      "scopeTier": "national",
+      "tags": [
+        "civic",
+        "remembrance",
+        "light",
+        "celebration"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "YE",
+        "countryName": "Yemen",
         "typeLabels": [
           "公众节日"
         ],

@@ -1,27 +1,9 @@
 {
-  "generatedAt": "2026-10-06T20:54:33.278Z",
-  "baseDate": "2026-10-07",
-  "ensuredThrough": "2026-10-14",
+  "generatedAt": "2026-10-07T21:09:59.388Z",
+  "baseDate": "2026-10-08",
+  "ensuredThrough": "2026-10-15",
   "today": "output/today.png",
   "generated": [
-    {
-      "date": "2026-10-07",
-      "output": "output/2026/2026.10/2026.10.07.png",
-      "selectedTheme": "Municipal holiday",
-      "selectedMotif": "lotusMandala",
-      "contentSource": "structured",
-      "selectedScoreBreakdown": {
-        "basePriority": 58,
-        "popularity": -22,
-        "jitter": 0.266,
-        "motifPenalty": 10,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 42,
-        "finalScore": -57.734
-      },
-      "discardedCount": 0
-    },
     {
       "date": "2026-10-08",
       "output": "output/2026/2026.10/2026.10.08.png",
@@ -147,6 +129,24 @@
         "finalScore": 1.618
       },
       "discardedCount": 3
+    },
+    {
+      "date": "2026-10-15",
+      "output": "output/2026/2026.10/2026.10.15.png",
+      "selectedTheme": "Mother's Day",
+      "selectedMotif": "petals",
+      "contentSource": "structured",
+      "selectedScoreBreakdown": {
+        "basePriority": 65,
+        "popularity": 26,
+        "jitter": 5.991,
+        "motifPenalty": 0,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 38,
+        "colorPenalty": 31,
+        "finalScore": -14.009
+      },
+      "discardedCount": 4
     }
   ],
   "skipped": [],

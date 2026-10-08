@@ -1,27 +1,9 @@
 {
-  "generatedAt": "2026-10-07T21:09:59.388Z",
-  "baseDate": "2026-10-08",
-  "ensuredThrough": "2026-10-15",
+  "generatedAt": "2026-10-08T21:14:04.611Z",
+  "baseDate": "2026-10-09",
+  "ensuredThrough": "2026-10-16",
   "today": "output/today.png",
   "generated": [
-    {
-      "date": "2026-10-08",
-      "output": "output/2026/2026.10/2026.10.08.png",
-      "selectedTheme": "Battle of Angamos",
-      "selectedMotif": "streamers",
-      "contentSource": "structured",
-      "selectedScoreBreakdown": {
-        "basePriority": 61,
-        "popularity": 14,
-        "jitter": 2.47,
-        "motifPenalty": 0,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 24,
-        "colorPenalty": 42,
-        "finalScore": -30.53
-      },
-      "discardedCount": 0
-    },
     {
       "date": "2026-10-09",
       "output": "output/2026/2026.10/2026.10.09.png",
@@ -147,6 +129,24 @@
         "finalScore": -14.009
       },
       "discardedCount": 4
+    },
+    {
+      "date": "2026-10-16",
+      "output": "output/2026/2026.10/2026.10.16.png",
+      "selectedTheme": "World Food Day",
+      "selectedMotif": "grain",
+      "contentSource": "curated",
+      "selectedScoreBreakdown": {
+        "basePriority": 70,
+        "popularity": 14,
+        "jitter": 4.38,
+        "motifPenalty": 0,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 42,
+        "finalScore": 4.38
+      },
+      "discardedCount": 3
     }
   ],
   "skipped": [],

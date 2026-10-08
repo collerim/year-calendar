@@ -1,35 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-07T21:09:59.386Z",
+  "updatedAt": "2026-10-08T21:14:04.609Z",
   "days": {
-    "2026-08-24": {
-      "title": "Independence Day",
-      "motif": "cityParade",
-      "gradient": [
-        "#172030",
-        "#4e303e",
-        "#12151a"
-      ],
-      "accent": "#73a2d3",
-      "secondary": "#d75662",
-      "holidayFamily": "independence-day",
-      "popularityTier": "common",
-      "scopeTier": "national",
-      "tags": [
-        "civic",
-        "celebration",
-        "procession"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "UA",
-        "countryName": "Ukraine",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-08-25": {
       "title": "Independence Day",
       "motif": "oceanCompass",
@@ -1557,6 +1529,36 @@
         "countryName": "Malawi",
         "typeLabels": [
           "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-10-16": {
+      "title": "World Food Day",
+      "motif": "grain",
+      "gradient": [
+        "#241915",
+        "#664429",
+        "#111618"
+      ],
+      "accent": "#c89257",
+      "secondary": "#90a76b",
+      "holidayFamily": "culture-observance",
+      "popularityTier": "observance",
+      "scopeTier": "international",
+      "tags": [
+        "botanical",
+        "harvest",
+        "celebration",
+        "culture",
+        "international"
+      ],
+      "source": {
+        "provider": "Curated Cultural Observances",
+        "countryCode": "INTL",
+        "countryName": "International",
+        "typeLabels": [
+          "文化日"
         ],
         "subdivisions": []
       }

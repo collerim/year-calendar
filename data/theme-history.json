@@ -1,38 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-08T21:14:04.609Z",
+  "updatedAt": "2026-10-09T20:52:10.048Z",
   "days": {
-    "2026-08-25": {
-      "title": "Independence Day",
-      "motif": "oceanCompass",
-      "gradient": [
-        "#152131",
-        "#4c323f",
-        "#151418"
-      ],
-      "accent": "#72a3d3",
-      "secondary": "#db555f",
-      "holidayFamily": "independence-day",
-      "popularityTier": "common",
-      "scopeTier": "national",
-      "tags": [
-        "civic",
-        "celebration",
-        "procession",
-        "maritime",
-        "water",
-        "travel"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "UY",
-        "countryName": "Uruguay",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-08-26": {
       "title": "Heroes' Day",
       "motif": "wovenPattern",
@@ -1559,6 +1528,34 @@
         "countryName": "International",
         "typeLabels": [
           "文化日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-10-17": {
+      "title": "Dessalines Day",
+      "motif": "wovenPattern",
+      "gradient": [
+        "#191d22",
+        "#544833",
+        "#121518"
+      ],
+      "accent": "#c6ad55",
+      "secondary": "#70b1db",
+      "holidayFamily": "national-civic-day",
+      "popularityTier": "niche",
+      "scopeTier": "national",
+      "tags": [
+        "culture",
+        "civic",
+        "celebration"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "HT",
+        "countryName": "Haiti",
+        "typeLabels": [
+          "公众节日"
         ],
         "subdivisions": []
       }

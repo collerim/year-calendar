@@ -1,35 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-09T20:52:10.048Z",
+  "updatedAt": "2026-10-10T19:57:06.121Z",
   "days": {
-    "2026-08-26": {
-      "title": "Heroes' Day",
-      "motif": "wovenPattern",
-      "gradient": [
-        "#1c1824",
-        "#574435",
-        "#141417"
-      ],
-      "accent": "#c9a957",
-      "secondary": "#73afda",
-      "holidayFamily": "heroes-day",
-      "popularityTier": "niche",
-      "scopeTier": "national",
-      "tags": [
-        "culture",
-        "civic",
-        "celebration"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "NA",
-        "countryName": "Namibia",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-08-27": {
       "title": "Independence Day (Moldova)",
       "motif": "cityParade",
@@ -1559,6 +1531,31 @@
         ],
         "subdivisions": []
       }
+    },
+    "2026-10-18": {
+      "title": "十月烛台",
+      "motif": "ancestralTable",
+      "gradient": [
+        "#151f34",
+        "#364a64",
+        "#18151a"
+      ],
+      "accent": "#7da4cb",
+      "secondary": "#b39a66",
+      "holidayFamily": "seasonal-fallback",
+      "popularityTier": "niche",
+      "scopeTier": "unknown",
+      "tags": [
+        "remembrance",
+        "religious",
+        "light",
+        "sky",
+        "memorial",
+        "seasonal",
+        "autumn",
+        "month-mood"
+      ],
+      "source": null
     }
   }
 }

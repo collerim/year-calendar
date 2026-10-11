@@ -1,35 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-10T19:57:06.121Z",
+  "updatedAt": "2026-10-11T20:07:32.225Z",
   "days": {
-    "2026-08-27": {
-      "title": "Independence Day (Moldova)",
-      "motif": "cityParade",
-      "gradient": [
-        "#151f39",
-        "#4c3044",
-        "#15141a"
-      ],
-      "accent": "#72a1da",
-      "secondary": "#db5661",
-      "holidayFamily": "independence-day",
-      "popularityTier": "common",
-      "scopeTier": "national",
-      "tags": [
-        "civic",
-        "celebration",
-        "procession"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "MD",
-        "countryName": "Moldova",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-08-28": {
       "title": "Saint Mary's Day",
       "motif": "stainedGlass",
@@ -1556,6 +1528,34 @@
         "month-mood"
       ],
       "source": null
+    },
+    "2026-10-19": {
+      "title": "Constitution Day",
+      "motif": "cityParade",
+      "gradient": [
+        "#101f32",
+        "#493040",
+        "#141316"
+      ],
+      "accent": "#6ea1d5",
+      "secondary": "#d9545c",
+      "holidayFamily": "constitution-day",
+      "popularityTier": "common",
+      "scopeTier": "national",
+      "tags": [
+        "civic",
+        "celebration",
+        "procession"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "NU",
+        "countryName": "Niue",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
     }
   }
 }

@@ -1,27 +1,9 @@
 {
-  "generatedAt": "2026-10-11T20:07:32.228Z",
-  "baseDate": "2026-10-12",
-  "ensuredThrough": "2026-10-19",
+  "generatedAt": "2026-10-12T22:51:34.989Z",
+  "baseDate": "2026-10-13",
+  "ensuredThrough": "2026-10-20",
   "today": "output/today.png",
   "generated": [
-    {
-      "date": "2026-10-12",
-      "output": "output/2026/2026.10/2026.10.12.png",
-      "selectedTheme": "Thanksgiving",
-      "selectedMotif": "harvestSheaves",
-      "contentSource": "structured",
-      "selectedScoreBreakdown": {
-        "basePriority": 74,
-        "popularity": 36,
-        "jitter": 5.841,
-        "motifPenalty": 0,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 42,
-        "finalScore": 31.841
-      },
-      "discardedCount": 7
-    },
     {
       "date": "2026-10-13",
       "output": "output/2026/2026.10/2026.10.13.png",
@@ -147,6 +129,24 @@
         "finalScore": 31.149
       },
       "discardedCount": 4
+    },
+    {
+      "date": "2026-10-20",
+      "output": "output/2026/2026.10/2026.10.20.png",
+      "selectedTheme": "Revolution Day",
+      "selectedMotif": "wovenPattern",
+      "contentSource": "structured",
+      "selectedScoreBreakdown": {
+        "basePriority": 65,
+        "popularity": 14,
+        "jitter": 3.068,
+        "motifPenalty": 20,
+        "culturalPenalty": 41,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 42,
+        "finalScore": -20.932
+      },
+      "discardedCount": 3
     }
   ],
   "skipped": [],

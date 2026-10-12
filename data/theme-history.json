@@ -1,36 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-11T20:07:32.225Z",
+  "updatedAt": "2026-10-12T22:51:34.987Z",
   "days": {
-    "2026-08-28": {
-      "title": "Saint Mary's Day",
-      "motif": "stainedGlass",
-      "gradient": [
-        "#112035",
-        "#4c3745",
-        "#13151b"
-      ],
-      "accent": "#92bbeb",
-      "secondary": "#d8748f",
-      "holidayFamily": "saint-day",
-      "popularityTier": "niche",
-      "scopeTier": "national",
-      "tags": [
-        "religious",
-        "heritage",
-        "light",
-        "celebration"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "GE",
-        "countryName": "Georgia",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-08-29": {
       "title": "World Video Game Day",
       "motif": "starfield",
@@ -1551,6 +1522,34 @@
         "provider": "Nager.Date",
         "countryCode": "NU",
         "countryName": "Niue",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-10-20": {
+      "title": "Revolution Day",
+      "motif": "wovenPattern",
+      "gradient": [
+        "#1b1a21",
+        "#564533",
+        "#141416"
+      ],
+      "accent": "#c8ab54",
+      "secondary": "#73afd9",
+      "holidayFamily": "revolution-day",
+      "popularityTier": "niche",
+      "scopeTier": "national",
+      "tags": [
+        "culture",
+        "civic",
+        "celebration"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "GT",
+        "countryName": "Guatemala",
         "typeLabels": [
           "公众节日"
         ],

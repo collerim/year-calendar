@@ -1,37 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-14T20:06:36.132Z",
+  "updatedAt": "2026-10-15T19:50:14.606Z",
   "days": {
-    "2026-08-31": {
-      "title": "Constitution Day",
-      "motif": "maritimeFlags",
-      "gradient": [
-        "#102631",
-        "#2c6171",
-        "#101618"
-      ],
-      "accent": "#6fbcd3",
-      "secondary": "#ddbc57",
-      "holidayFamily": "constitution-day",
-      "popularityTier": "common",
-      "scopeTier": "national",
-      "tags": [
-        "maritime",
-        "water",
-        "civic",
-        "island",
-        "celebration"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "TC",
-        "countryName": "Turks and Caicos Islands",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-09-01": {
       "title": "Day of the Constitution of the Slovak Republic",
       "motif": "cityParade",
@@ -1558,6 +1528,36 @@
         "subdivisions": [
           "SE-GR"
         ]
+      }
+    },
+    "2026-10-23": {
+      "title": "National Day",
+      "motif": "cityParade",
+      "gradient": [
+        "#132232",
+        "#4a323f",
+        "#13151b"
+      ],
+      "accent": "#70a4d4",
+      "secondary": "#d85763",
+      "holidayFamily": "national-day",
+      "popularityTier": "common",
+      "scopeTier": "national",
+      "tags": [
+        "civic",
+        "celebration",
+        "procession"
+      ],
+      "source": {
+        "provider": "OpenHolidays",
+        "countryCode": "HU",
+        "countryName": "Hungary",
+        "typeLabels": [
+          "公众节日",
+          "全国性"
+        ],
+        "nationwide": true,
+        "subdivisions": []
       }
     }
   }

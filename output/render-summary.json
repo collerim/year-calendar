@@ -1,27 +1,9 @@
 {
-  "generatedAt": "2026-10-14T20:06:36.133Z",
-  "baseDate": "2026-10-15",
-  "ensuredThrough": "2026-10-22",
+  "generatedAt": "2026-10-15T19:50:14.608Z",
+  "baseDate": "2026-10-16",
+  "ensuredThrough": "2026-10-23",
   "today": "output/today.png",
   "generated": [
-    {
-      "date": "2026-10-15",
-      "output": "output/2026/2026.10/2026.10.15.png",
-      "selectedTheme": "Mother's Day",
-      "selectedMotif": "petals",
-      "contentSource": "structured",
-      "selectedScoreBreakdown": {
-        "basePriority": 65,
-        "popularity": 26,
-        "jitter": 5.991,
-        "motifPenalty": 0,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 38,
-        "colorPenalty": 31,
-        "finalScore": -14.009
-      },
-      "discardedCount": 4
-    },
     {
       "date": "2026-10-16",
       "output": "output/2026/2026.10/2026.10.16.png",
@@ -147,6 +129,24 @@
         "finalScore": -44.666
       },
       "discardedCount": 0
+    },
+    {
+      "date": "2026-10-23",
+      "output": "output/2026/2026.10/2026.10.23.png",
+      "selectedTheme": "National Day",
+      "selectedMotif": "cityParade",
+      "contentSource": "structured",
+      "selectedScoreBreakdown": {
+        "basePriority": 72,
+        "popularity": 26,
+        "jitter": 5.318,
+        "motifPenalty": 14,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 42,
+        "finalScore": 5.318
+      },
+      "discardedCount": 5
     }
   ],
   "skipped": [],

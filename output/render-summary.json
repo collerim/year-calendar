@@ -1,27 +1,9 @@
 {
-  "generatedAt": "2026-10-15T19:50:14.608Z",
-  "baseDate": "2026-10-16",
-  "ensuredThrough": "2026-10-23",
+  "generatedAt": "2026-10-16T19:30:20.295Z",
+  "baseDate": "2026-10-17",
+  "ensuredThrough": "2026-10-24",
   "today": "output/today.png",
   "generated": [
-    {
-      "date": "2026-10-16",
-      "output": "output/2026/2026.10/2026.10.16.png",
-      "selectedTheme": "World Food Day",
-      "selectedMotif": "grain",
-      "contentSource": "curated",
-      "selectedScoreBreakdown": {
-        "basePriority": 70,
-        "popularity": 14,
-        "jitter": 4.38,
-        "motifPenalty": 0,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 42,
-        "finalScore": 4.38
-      },
-      "discardedCount": 3
-    },
     {
       "date": "2026-10-17",
       "output": "output/2026/2026.10/2026.10.17.png",
@@ -147,6 +129,24 @@
         "finalScore": 5.318
       },
       "discardedCount": 5
+    },
+    {
+      "date": "2026-10-24",
+      "output": "output/2026/2026.10/2026.10.24.png",
+      "selectedTheme": "United Nations Day",
+      "selectedMotif": "tricolor",
+      "contentSource": "curated",
+      "selectedScoreBreakdown": {
+        "basePriority": 72,
+        "popularity": 6,
+        "jitter": 1.831,
+        "motifPenalty": 0,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 42,
+        "finalScore": -4.169
+      },
+      "discardedCount": 1
     }
   ],
   "skipped": [],

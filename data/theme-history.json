@@ -1,35 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-15T19:50:14.606Z",
+  "updatedAt": "2026-10-16T19:30:20.293Z",
   "days": {
-    "2026-09-01": {
-      "title": "Day of the Constitution of the Slovak Republic",
-      "motif": "cityParade",
-      "gradient": [
-        "#112238",
-        "#493243",
-        "#141416"
-      ],
-      "accent": "#6ea4d9",
-      "secondary": "#d9555c",
-      "holidayFamily": "republic-day",
-      "popularityTier": "common",
-      "scopeTier": "unknown",
-      "tags": [
-        "civic",
-        "celebration",
-        "procession"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "SK",
-        "countryName": "Slovakia",
-        "typeLabels": [
-          "纪念日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-09-02": {
       "title": "National Day",
       "motif": "sportsMedals",
@@ -1557,6 +1529,35 @@
           "全国性"
         ],
         "nationwide": true,
+        "subdivisions": []
+      }
+    },
+    "2026-10-24": {
+      "title": "United Nations Day",
+      "motif": "tricolor",
+      "gradient": [
+        "#132039",
+        "#2d4261",
+        "#131317"
+      ],
+      "accent": "#70a2da",
+      "secondary": "#e2e0e3",
+      "holidayFamily": "culture-observance",
+      "popularityTier": "niche",
+      "scopeTier": "international",
+      "tags": [
+        "civic",
+        "celebration",
+        "culture",
+        "international"
+      ],
+      "source": {
+        "provider": "Curated Cultural Observances",
+        "countryCode": "INTL",
+        "countryName": "International",
+        "typeLabels": [
+          "文化日"
+        ],
         "subdivisions": []
       }
     }

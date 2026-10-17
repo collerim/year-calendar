@@ -1,36 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-16T19:30:20.293Z",
+  "updatedAt": "2026-10-17T18:21:16.767Z",
   "days": {
-    "2026-09-02": {
-      "title": "National Day",
-      "motif": "sportsMedals",
-      "gradient": [
-        "#151d30",
-        "#4c2f3e",
-        "#121517"
-      ],
-      "accent": "#72a0d2",
-      "secondary": "#d7575d",
-      "holidayFamily": "national-day",
-      "popularityTier": "common",
-      "scopeTier": "national",
-      "tags": [
-        "civic",
-        "celebration",
-        "procession",
-        "sports"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "VN",
-        "countryName": "Vietnam",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-09-03": {
       "title": "San Marino Foundation Day",
       "motif": "mountainFlags",
@@ -1557,6 +1528,35 @@
         "countryName": "International",
         "typeLabels": [
           "文化日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-10-25": {
+      "title": "Thanksgiving Day",
+      "motif": "harvestSheaves",
+      "gradient": [
+        "#241b16",
+        "#67462a",
+        "#151416"
+      ],
+      "accent": "#c89458",
+      "secondary": "#95a468",
+      "holidayFamily": "environmental-observance",
+      "popularityTier": "major",
+      "scopeTier": "national",
+      "tags": [
+        "botanical",
+        "harvest",
+        "seasonal",
+        "celebration"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "GD",
+        "countryName": "Grenada",
+        "typeLabels": [
+          "公众节日"
         ],
         "subdivisions": []
       }

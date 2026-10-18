@@ -1,36 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-17T18:21:16.767Z",
+  "updatedAt": "2026-10-18T18:34:11.841Z",
   "days": {
-    "2026-09-03": {
-      "title": "San Marino Foundation Day",
-      "motif": "mountainFlags",
-      "gradient": [
-        "#11213a",
-        "#364f6b",
-        "#14151b"
-      ],
-      "accent": "#74acd8",
-      "secondary": "#e2dfe4",
-      "holidayFamily": "foundation-day",
-      "popularityTier": "common",
-      "scopeTier": "national",
-      "tags": [
-        "mountain",
-        "civic",
-        "celebration"
-      ],
-      "source": {
-        "provider": "Fixed Holidays",
-        "countryCode": "SM",
-        "countryName": "San Marino",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "nationwide": true,
-        "subdivisions": []
-      }
-    },
     "2026-09-04": {
       "title": "九月暖雾",
       "motif": "teaSteam",
@@ -1555,6 +1526,35 @@
         "provider": "Nager.Date",
         "countryCode": "GD",
         "countryName": "Grenada",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-10-26": {
+      "title": "Labour Day",
+      "motif": "paperCut",
+      "gradient": [
+        "#141f30",
+        "#2f4662",
+        "#11161b"
+      ],
+      "accent": "#71a1d3",
+      "secondary": "#d75763",
+      "holidayFamily": "labour-day",
+      "popularityTier": "common",
+      "scopeTier": "national",
+      "tags": [
+        "civic",
+        "celebration",
+        "culture",
+        "sky"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "NZ",
+        "countryName": "New Zealand",
         "typeLabels": [
           "公众节日"
         ],

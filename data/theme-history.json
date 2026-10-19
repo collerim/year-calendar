@@ -1,33 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-18T18:34:11.841Z",
+  "updatedAt": "2026-10-19T20:59:07.823Z",
   "days": {
-    "2026-09-04": {
-      "title": "九月暖雾",
-      "motif": "teaSteam",
-      "gradient": [
-        "#21261c",
-        "#625636",
-        "#121718"
-      ],
-      "accent": "#b89753",
-      "secondary": "#7c9163",
-      "holidayFamily": "seasonal-fallback",
-      "popularityTier": "niche",
-      "scopeTier": "unknown",
-      "tags": [
-        "culture",
-        "light",
-        "winter",
-        "botanical",
-        "sky",
-        "seasonal",
-        "harvest",
-        "autumn",
-        "month-mood"
-      ],
-      "source": null
-    },
     "2026-09-05": {
       "title": "九月晴风",
       "motif": "paperKites",
@@ -1555,6 +1529,36 @@
         "provider": "Nager.Date",
         "countryCode": "NZ",
         "countryName": "New Zealand",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-10-27": {
+      "title": "Independence Day",
+      "motif": "stainedGlass",
+      "gradient": [
+        "#191c35",
+        "#533445",
+        "#111419"
+      ],
+      "accent": "#98b8ec",
+      "secondary": "#d6738e",
+      "holidayFamily": "independence-day",
+      "popularityTier": "common",
+      "scopeTier": "national",
+      "tags": [
+        "religious",
+        "heritage",
+        "light",
+        "civic",
+        "celebration"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "VC",
+        "countryName": "Saint Vincent and the Grenadines",
         "typeLabels": [
           "公众节日"
         ],

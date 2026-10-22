@@ -1,38 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-21T20:01:00.347Z",
+  "updatedAt": "2026-10-22T19:53:21.861Z",
   "days": {
-    "2026-09-07": {
-      "title": "Labour Day",
-      "motif": "sunRibbons",
-      "gradient": [
-        "#121e39",
-        "#493046",
-        "#121517"
-      ],
-      "accent": "#629cef",
-      "secondary": "#d7575d",
-      "holidayFamily": "labour-day",
-      "popularityTier": "common",
-      "scopeTier": "national",
-      "tags": [
-        "civic",
-        "celebration",
-        "culture",
-        "sky",
-        "sun"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "US",
-        "countryName": "United States",
-        "typeLabels": [
-          "公众节日",
-          "银行假日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-09-08": {
       "title": "Andorra National Day",
       "motif": "mountainFlags",
@@ -1566,6 +1535,38 @@
           "公众节日"
         ],
         "subdivisions": []
+      }
+    },
+    "2026-10-30": {
+      "title": "St. Saturninus",
+      "motif": "wovenPattern",
+      "gradient": [
+        "#142525",
+        "#4f3739",
+        "#141515"
+      ],
+      "accent": "#6ab071",
+      "secondary": "#d75555",
+      "holidayFamily": "municipal-local",
+      "popularityTier": "niche",
+      "scopeTier": "national",
+      "tags": [
+        "culture",
+        "civic",
+        "botanical"
+      ],
+      "source": {
+        "provider": "OpenHolidays",
+        "countryCode": "IT",
+        "countryName": "Italy",
+        "typeLabels": [
+          "公众节日",
+          "地方性"
+        ],
+        "nationwide": false,
+        "subdivisions": [
+          "SA-CA"
+        ]
       }
     }
   }

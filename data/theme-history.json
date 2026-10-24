@@ -1,34 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-23T19:54:40.007Z",
+  "updatedAt": "2026-10-24T18:42:51.624Z",
   "days": {
-    "2026-09-09": {
-      "title": "九月菱绣",
-      "motif": "folkEmbroidery",
-      "gradient": [
-        "#29241d",
-        "#695436",
-        "#13171b"
-      ],
-      "accent": "#bf9553",
-      "secondary": "#7d9167",
-      "holidayFamily": "seasonal-fallback",
-      "popularityTier": "niche",
-      "scopeTier": "unknown",
-      "tags": [
-        "folk",
-        "heritage",
-        "culture",
-        "botanical",
-        "sky",
-        "light",
-        "seasonal",
-        "harvest",
-        "autumn",
-        "month-mood"
-      ],
-      "source": null
-    },
     "2026-09-10": {
       "title": "Gibraltar National Day",
       "motif": "cityParade",
@@ -1567,6 +1540,39 @@
         "countryName": "International",
         "typeLabels": [
           "国际日"
+        ],
+        "nationwide": true,
+        "subdivisions": []
+      }
+    },
+    "2026-11-01": {
+      "title": "All Saints Day",
+      "motif": "stainedGlass",
+      "gradient": [
+        "#151c39",
+        "#392f4d",
+        "#4d2733"
+      ],
+      "accent": "#6599e7",
+      "secondary": "#dc565d",
+      "holidayFamily": "saint-day",
+      "popularityTier": "niche",
+      "scopeTier": "national",
+      "tags": [
+        "religious",
+        "heritage",
+        "light",
+        "memorial",
+        "celebration",
+        "civic"
+      ],
+      "source": {
+        "provider": "OpenHolidays",
+        "countryCode": "FR",
+        "countryName": "France",
+        "typeLabels": [
+          "公众节日",
+          "全国性"
         ],
         "nationwide": true,
         "subdivisions": []

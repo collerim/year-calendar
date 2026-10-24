@@ -1,27 +1,9 @@
 {
-  "generatedAt": "2026-10-23T19:54:40.010Z",
-  "baseDate": "2026-10-24",
-  "ensuredThrough": "2026-10-31",
+  "generatedAt": "2026-10-24T18:42:51.626Z",
+  "baseDate": "2026-10-25",
+  "ensuredThrough": "2026-11-01",
   "today": "output/today.png",
   "generated": [
-    {
-      "date": "2026-10-24",
-      "output": "output/2026/2026.10/2026.10.24.png",
-      "selectedTheme": "United Nations Day",
-      "selectedMotif": "tricolor",
-      "contentSource": "curated",
-      "selectedScoreBreakdown": {
-        "basePriority": 72,
-        "popularity": 6,
-        "jitter": 1.831,
-        "motifPenalty": 0,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 42,
-        "finalScore": -4.169
-      },
-      "discardedCount": 1
-    },
     {
       "date": "2026-10-25",
       "output": "output/2026/2026.10/2026.10.25.png",
@@ -147,6 +129,24 @@
         "finalScore": 39.955
       },
       "discardedCount": 7
+    },
+    {
+      "date": "2026-11-01",
+      "output": "output/2026/2026.11/2026.11.01.png",
+      "selectedTheme": "All Saints Day",
+      "selectedMotif": "stainedGlass",
+      "contentSource": "structured",
+      "selectedScoreBreakdown": {
+        "basePriority": 73,
+        "popularity": 18,
+        "jitter": 5.416,
+        "motifPenalty": 10,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 24,
+        "finalScore": 20.416
+      },
+      "discardedCount": 8
     }
   ],
   "skipped": [],

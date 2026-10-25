@@ -1,27 +1,9 @@
 {
-  "generatedAt": "2026-10-24T18:42:51.626Z",
-  "baseDate": "2026-10-25",
-  "ensuredThrough": "2026-11-01",
+  "generatedAt": "2026-10-25T18:51:31.308Z",
+  "baseDate": "2026-10-26",
+  "ensuredThrough": "2026-11-02",
   "today": "output/today.png",
   "generated": [
-    {
-      "date": "2026-10-25",
-      "output": "output/2026/2026.10/2026.10.25.png",
-      "selectedTheme": "Thanksgiving Day",
-      "selectedMotif": "harvestSheaves",
-      "contentSource": "structured",
-      "selectedScoreBreakdown": {
-        "basePriority": 73,
-        "popularity": 34,
-        "jitter": 4.816,
-        "motifPenalty": 0,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 20,
-        "finalScore": 49.816
-      },
-      "discardedCount": 2
-    },
     {
       "date": "2026-10-26",
       "output": "output/2026/2026.10/2026.10.26.png",
@@ -145,6 +127,24 @@
         "holidayFamilyPenalty": 0,
         "colorPenalty": 24,
         "finalScore": 20.416
+      },
+      "discardedCount": 8
+    },
+    {
+      "date": "2026-11-02",
+      "output": "output/2026/2026.11/2026.11.02.png",
+      "selectedTheme": "Dia de Muertos",
+      "selectedMotif": "marigold",
+      "contentSource": "curated",
+      "selectedScoreBreakdown": {
+        "basePriority": 86,
+        "popularity": 14,
+        "jitter": 0.398,
+        "motifPenalty": 0,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 42,
+        "finalScore": 16.398
       },
       "discardedCount": 8
     }

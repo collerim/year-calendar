@@ -1,35 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-24T18:42:51.624Z",
+  "updatedAt": "2026-10-25T18:51:31.271Z",
   "days": {
-    "2026-09-10": {
-      "title": "Gibraltar National Day",
-      "motif": "cityParade",
-      "gradient": [
-        "#191f33",
-        "#503041",
-        "#121617"
-      ],
-      "accent": "#75a1d5",
-      "secondary": "#d7585d",
-      "holidayFamily": "national-day",
-      "popularityTier": "common",
-      "scopeTier": "national",
-      "tags": [
-        "civic",
-        "celebration",
-        "procession"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "GI",
-        "countryName": "Gibraltar",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-09-11": {
       "title": "National Day of Catalonia",
       "motif": "streamers",
@@ -1573,6 +1545,37 @@
         "typeLabels": [
           "公众节日",
           "全国性"
+        ],
+        "nationwide": true,
+        "subdivisions": []
+      }
+    },
+    "2026-11-02": {
+      "title": "Dia de Muertos",
+      "motif": "marigold",
+      "gradient": [
+        "#15231d",
+        "#503634",
+        "#111717"
+      ],
+      "accent": "#6bae6b",
+      "secondary": "#d6565f",
+      "holidayFamily": "remembrance",
+      "popularityTier": "niche",
+      "scopeTier": "national",
+      "tags": [
+        "botanical",
+        "memorial",
+        "celebration",
+        "remembrance",
+        "civic"
+      ],
+      "source": {
+        "provider": "Fixed Holidays",
+        "countryCode": "MX",
+        "countryName": "Mexico",
+        "typeLabels": [
+          "公众节日"
         ],
         "nationwide": true,
         "subdivisions": []

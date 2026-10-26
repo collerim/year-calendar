@@ -1,36 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-25T18:51:31.271Z",
+  "updatedAt": "2026-10-26T21:11:38.009Z",
   "days": {
-    "2026-09-11": {
-      "title": "National Day of Catalonia",
-      "motif": "streamers",
-      "gradient": [
-        "#28191b",
-        "#6b402e",
-        "#111618"
-      ],
-      "accent": "#cbab56",
-      "secondary": "#d4595a",
-      "holidayFamily": "national-day",
-      "popularityTier": "common",
-      "scopeTier": "national",
-      "tags": [
-        "civic",
-        "celebration",
-        "procession",
-        "sun"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "ES",
-        "countryName": "Spain",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-09-12": {
       "title": "九月微月",
       "motif": "moonOrbit",
@@ -1578,6 +1549,34 @@
           "公众节日"
         ],
         "nationwide": true,
+        "subdivisions": []
+      }
+    },
+    "2026-11-03": {
+      "title": "Independence Day",
+      "motif": "cityParade",
+      "gradient": [
+        "#161e37",
+        "#4d2f42",
+        "#131419"
+      ],
+      "accent": "#73a0d8",
+      "secondary": "#d85561",
+      "holidayFamily": "independence-day",
+      "popularityTier": "common",
+      "scopeTier": "national",
+      "tags": [
+        "civic",
+        "celebration",
+        "procession"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "DM",
+        "countryName": "Dominica",
+        "typeLabels": [
+          "公众节日"
+        ],
         "subdivisions": []
       }
     }

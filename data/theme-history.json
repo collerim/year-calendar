@@ -1,31 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-26T21:11:38.009Z",
+  "updatedAt": "2026-10-27T20:36:13.522Z",
   "days": {
-    "2026-09-12": {
-      "title": "九月微月",
-      "motif": "moonOrbit",
-      "gradient": [
-        "#22222a",
-        "#635340",
-        "#181518"
-      ],
-      "accent": "#b9945e",
-      "secondary": "#838e63",
-      "holidayFamily": "seasonal-fallback",
-      "popularityTier": "niche",
-      "scopeTier": "unknown",
-      "tags": [
-        "sky",
-        "light",
-        "seasonal",
-        "botanical",
-        "harvest",
-        "autumn",
-        "month-mood"
-      ],
-      "source": null
-    },
     "2026-09-13": {
       "title": "九月光串",
       "motif": "lanterns",
@@ -1574,6 +1550,36 @@
         "provider": "Nager.Date",
         "countryCode": "DM",
         "countryName": "Dominica",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-11-04": {
+      "title": "Constitution Day",
+      "motif": "maritimeFlags",
+      "gradient": [
+        "#132831",
+        "#2e6271",
+        "#111618"
+      ],
+      "accent": "#71bdd3",
+      "secondary": "#dfbc57",
+      "holidayFamily": "constitution-day",
+      "popularityTier": "common",
+      "scopeTier": "national",
+      "tags": [
+        "maritime",
+        "water",
+        "civic",
+        "island",
+        "celebration"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "TO",
+        "countryName": "Tonga",
         "typeLabels": [
           "公众节日"
         ],

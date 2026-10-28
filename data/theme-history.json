@@ -1,33 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-27T20:36:13.522Z",
+  "updatedAt": "2026-10-28T21:00:10.984Z",
   "days": {
-    "2026-09-13": {
-      "title": "九月光串",
-      "motif": "lanterns",
-      "gradient": [
-        "#1f242a",
-        "#615440",
-        "#141815"
-      ],
-      "accent": "#b6955e",
-      "secondary": "#7f925f",
-      "holidayFamily": "seasonal-fallback",
-      "popularityTier": "niche",
-      "scopeTier": "unknown",
-      "tags": [
-        "light",
-        "celebration",
-        "culture",
-        "botanical",
-        "sky",
-        "seasonal",
-        "harvest",
-        "autumn",
-        "month-mood"
-      ],
-      "source": null
-    },
     "2026-09-14": {
       "title": "Battle of San Jacinto",
       "motif": "wovenPattern",
@@ -1580,6 +1554,35 @@
         "provider": "Nager.Date",
         "countryCode": "TO",
         "countryName": "Tonga",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-11-05": {
+      "title": "Thanksgiving Day",
+      "motif": "harvestSheaves",
+      "gradient": [
+        "#241e16",
+        "#66482a",
+        "#121518"
+      ],
+      "accent": "#c89658",
+      "secondary": "#90a56a",
+      "holidayFamily": "environmental-observance",
+      "popularityTier": "major",
+      "scopeTier": "national",
+      "tags": [
+        "botanical",
+        "harvest",
+        "seasonal",
+        "celebration"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "LR",
+        "countryName": "Liberia",
         "typeLabels": [
           "公众节日"
         ],

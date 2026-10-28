@@ -1,27 +1,9 @@
 {
-  "generatedAt": "2026-10-27T20:36:13.525Z",
-  "baseDate": "2026-10-28",
-  "ensuredThrough": "2026-11-04",
+  "generatedAt": "2026-10-28T21:00:10.986Z",
+  "baseDate": "2026-10-29",
+  "ensuredThrough": "2026-11-05",
   "today": "output/today.png",
   "generated": [
-    {
-      "date": "2026-10-28",
-      "output": "output/2026/2026.10/2026.10.28.png",
-      "selectedTheme": "Independent Czechoslovak State Day",
-      "selectedMotif": "lanterns",
-      "contentSource": "structured",
-      "selectedScoreBreakdown": {
-        "basePriority": 61,
-        "popularity": 14,
-        "jitter": 5.672,
-        "motifPenalty": 0,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 7,
-        "finalScore": 31.672
-      },
-      "discardedCount": 3
-    },
     {
       "date": "2026-10-29",
       "output": "output/2026/2026.10/2026.10.29.png",
@@ -147,6 +129,24 @@
         "finalScore": 23.182
       },
       "discardedCount": 4
+    },
+    {
+      "date": "2026-11-05",
+      "output": "output/2026/2026.11/2026.11.05.png",
+      "selectedTheme": "Thanksgiving Day",
+      "selectedMotif": "harvestSheaves",
+      "contentSource": "structured",
+      "selectedScoreBreakdown": {
+        "basePriority": 73,
+        "popularity": 34,
+        "jitter": 5.316,
+        "motifPenalty": 0,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 12,
+        "finalScore": 58.316
+      },
+      "discardedCount": 1
     }
   ],
   "skipped": [],

@@ -1,34 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-28T21:00:10.984Z",
+  "updatedAt": "2026-10-29T21:02:23.490Z",
   "days": {
-    "2026-09-14": {
-      "title": "Battle of San Jacinto",
-      "motif": "wovenPattern",
-      "gradient": [
-        "#161b25",
-        "#534636",
-        "#131315"
-      ],
-      "accent": "#c4ab58",
-      "secondary": "#71aed7",
-      "holidayFamily": "saint-day",
-      "popularityTier": "niche",
-      "scopeTier": "national",
-      "tags": [
-        "culture",
-        "civic"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "NI",
-        "countryName": "Nicaragua",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-09-15": {
       "title": "Day of Our Lady of the Seven Sorrows",
       "motif": "tanabata",
@@ -1583,6 +1556,36 @@
         "provider": "Nager.Date",
         "countryCode": "LR",
         "countryName": "Liberia",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-11-06": {
+      "title": "Green March",
+      "motif": "crescentLantern",
+      "gradient": [
+        "#111b2d",
+        "#333f5f",
+        "#111517"
+      ],
+      "accent": "#c5b26c",
+      "secondary": "#6fb1d7",
+      "holidayFamily": "religious-observance",
+      "popularityTier": "major",
+      "scopeTier": "national",
+      "tags": [
+        "islamic",
+        "religious",
+        "light",
+        "sky",
+        "botanical"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "MA",
+        "countryName": "Morocco",
         "typeLabels": [
           "公众节日"
         ],

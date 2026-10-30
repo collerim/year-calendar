@@ -1,27 +1,9 @@
 {
-  "generatedAt": "2026-10-29T21:02:23.491Z",
-  "baseDate": "2026-10-30",
-  "ensuredThrough": "2026-11-06",
+  "generatedAt": "2026-10-30T20:38:06.614Z",
+  "baseDate": "2026-10-31",
+  "ensuredThrough": "2026-11-07",
   "today": "output/today.png",
   "generated": [
-    {
-      "date": "2026-10-30",
-      "output": "output/2026/2026.10/2026.10.30.png",
-      "selectedTheme": "St. Saturninus",
-      "selectedMotif": "wovenPattern",
-      "contentSource": "structured",
-      "selectedScoreBreakdown": {
-        "basePriority": 62,
-        "popularity": 8,
-        "jitter": 5.322,
-        "motifPenalty": 0,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 42,
-        "finalScore": -8.678
-      },
-      "discardedCount": 0
-    },
     {
       "date": "2026-10-31",
       "output": "output/2026/2026.10/2026.10.31.png",
@@ -147,6 +129,24 @@
         "finalScore": 32.143
       },
       "discardedCount": 2
+    },
+    {
+      "date": "2026-11-07",
+      "output": "output/2026/2026.11/2026.11.07.png",
+      "selectedTheme": "National Pupusa Festival",
+      "selectedMotif": "carnivalMasks",
+      "contentSource": "structured",
+      "selectedScoreBreakdown": {
+        "basePriority": 73,
+        "popularity": 14,
+        "jitter": 4.821,
+        "motifPenalty": 0,
+        "culturalPenalty": 32,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 28,
+        "finalScore": 31.821
+      },
+      "discardedCount": 3
     }
   ],
   "skipped": [],

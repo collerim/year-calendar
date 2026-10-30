@@ -1,38 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-29T21:02:23.490Z",
+  "updatedAt": "2026-10-30T20:38:06.613Z",
   "days": {
-    "2026-09-15": {
-      "title": "Day of Our Lady of the Seven Sorrows",
-      "motif": "tanabata",
-      "gradient": [
-        "#181a33",
-        "#333467",
-        "#14131c"
-      ],
-      "accent": "#98b9ea",
-      "secondary": "#d7b967",
-      "holidayFamily": "public-holiday",
-      "popularityTier": "niche",
-      "scopeTier": "national",
-      "tags": [
-        "sky",
-        "wish",
-        "light",
-        "celebration"
-      ],
-      "source": {
-        "provider": "OpenHolidays",
-        "countryCode": "SK",
-        "countryName": "Slovakia",
-        "typeLabels": [
-          "公众节日",
-          "全国性"
-        ],
-        "nationwide": true,
-        "subdivisions": []
-      }
-    },
     "2026-09-16": {
       "title": "Mexico Independence Day",
       "motif": "tricolor",
@@ -1586,6 +1555,36 @@
         "provider": "Nager.Date",
         "countryCode": "MA",
         "countryName": "Morocco",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-11-07": {
+      "title": "National Pupusa Festival",
+      "motif": "carnivalMasks",
+      "gradient": [
+        "#1d162e",
+        "#643452",
+        "#121519"
+      ],
+      "accent": "#d8718d",
+      "secondary": "#70b1db",
+      "holidayFamily": "national-civic-day",
+      "popularityTier": "niche",
+      "scopeTier": "national",
+      "tags": [
+        "celebration",
+        "procession",
+        "folk",
+        "market",
+        "civic"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "SV",
+        "countryName": "El Salvador",
         "typeLabels": [
           "公众节日"
         ],

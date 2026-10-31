@@ -1,35 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-30T20:38:06.613Z",
+  "updatedAt": "2026-10-31T19:51:47.182Z",
   "days": {
-    "2026-09-16": {
-      "title": "Mexico Independence Day",
-      "motif": "tricolor",
-      "gradient": [
-        "#102623",
-        "#4c3838",
-        "#131619"
-      ],
-      "accent": "#66b070",
-      "secondary": "#d85661",
-      "holidayFamily": "independence-day",
-      "popularityTier": "common",
-      "scopeTier": "national",
-      "tags": [
-        "civic",
-        "celebration"
-      ],
-      "source": {
-        "provider": "Fixed Holidays",
-        "countryCode": "MX",
-        "countryName": "Mexico",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "nationwide": true,
-        "subdivisions": []
-      }
-    },
     "2026-09-17": {
       "title": "National Heroes' Day",
       "motif": "cityParade",
@@ -1585,6 +1557,34 @@
         "provider": "Nager.Date",
         "countryCode": "SV",
         "countryName": "El Salvador",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-11-08": {
+      "title": "Constitution Day",
+      "motif": "cityParade",
+      "gradient": [
+        "#171e37",
+        "#4e2f43",
+        "#151516"
+      ],
+      "accent": "#74a1d9",
+      "secondary": "#da575c",
+      "holidayFamily": "constitution-day",
+      "popularityTier": "common",
+      "scopeTier": "national",
+      "tags": [
+        "civic",
+        "celebration",
+        "procession"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "FM",
+        "countryName": "Micronesia",
         "typeLabels": [
           "公众节日"
         ],

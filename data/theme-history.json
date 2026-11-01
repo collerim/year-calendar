@@ -1,35 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-31T19:51:47.182Z",
+  "updatedAt": "2026-11-01T20:25:31.396Z",
   "days": {
-    "2026-09-17": {
-      "title": "National Heroes' Day",
-      "motif": "cityParade",
-      "gradient": [
-        "#151f31",
-        "#4d303f",
-        "#13141a"
-      ],
-      "accent": "#72a1d3",
-      "secondary": "#d85661",
-      "holidayFamily": "heroes-day",
-      "popularityTier": "niche",
-      "scopeTier": "national",
-      "tags": [
-        "civic",
-        "celebration",
-        "procession"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "AO",
-        "countryName": "Angola",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-09-18": {
       "title": "National holiday",
       "motif": "lotusMandala",
@@ -1585,6 +1557,36 @@
         "provider": "Nager.Date",
         "countryCode": "FM",
         "countryName": "Micronesia",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-11-09": {
+      "title": "National Independence Day",
+      "motif": "marketBanners",
+      "gradient": [
+        "#171e37",
+        "#4e2f43",
+        "#121617"
+      ],
+      "accent": "#74a1d9",
+      "secondary": "#d7585d",
+      "holidayFamily": "independence-day",
+      "popularityTier": "common",
+      "scopeTier": "national",
+      "tags": [
+        "civic",
+        "celebration",
+        "procession",
+        "market",
+        "folk"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "KH",
+        "countryName": "Cambodia",
         "typeLabels": [
           "公众节日"
         ],

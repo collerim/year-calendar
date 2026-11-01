@@ -11,7 +11,7 @@
         "Nager.Date"
       ],
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-11-02",
       "dates": [
         "2026-12-09"
       ],
@@ -28,12 +28,28 @@
         "Nager.Date"
       ],
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-11-02",
       "dates": [
         "2026-11-11"
       ],
       "status": "resolved",
       "resolvedOn": "2026-09-24"
+    },
+    {
+      "key": "ax|midsummer eve",
+      "title": "Midsummer Eve",
+      "countries": [
+        "AX"
+      ],
+      "providers": [
+        "Nager.Date"
+      ],
+      "firstSeen": "2026-11-02",
+      "lastSeen": "2026-11-02",
+      "dates": [
+        "2027-06-25"
+      ],
+      "status": "missing"
     },
     {
       "key": "bf|martyrs day",
@@ -62,7 +78,7 @@
         "Nager.Date"
       ],
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-11-02",
       "dates": [
         "2026-12-11"
       ],
@@ -79,9 +95,10 @@
         "Nager.Date"
       ],
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-11-02",
       "dates": [
-        "2026-10-21"
+        "2026-10-21",
+        "2027-10-21"
       ],
       "status": "resolved",
       "resolvedOn": "2026-09-24"
@@ -96,9 +113,10 @@
         "Nager.Date"
       ],
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-11-02",
       "dates": [
-        "2026-10-13"
+        "2026-10-13",
+        "2027-10-13"
       ],
       "status": "resolved",
       "resolvedOn": "2026-09-24"
@@ -113,12 +131,29 @@
         "Nager.Date"
       ],
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-11-02",
       "dates": [
-        "2026-10-09"
+        "2026-10-09",
+        "2027-10-09"
       ],
       "status": "resolved",
       "resolvedOn": "2026-09-24"
+    },
+    {
+      "key": "bq|saba day",
+      "title": "Saba Day",
+      "countries": [
+        "BQ"
+      ],
+      "providers": [
+        "Nager.Date"
+      ],
+      "firstSeen": "2026-11-02",
+      "lastSeen": "2026-11-02",
+      "dates": [
+        "2026-12-04"
+      ],
+      "status": "missing"
     },
     {
       "key": "bq|saba flag day",
@@ -147,7 +182,7 @@
         "Nager.Date"
       ],
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-11-02",
       "dates": [
         "2026-11-16"
       ],
@@ -164,7 +199,7 @@
         "OpenHolidays"
       ],
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-11-02",
       "dates": [
         "2026-11-11"
       ],
@@ -181,7 +216,7 @@
         "Nager.Date"
       ],
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-11-02",
       "dates": [
         "2026-11-15"
       ],
@@ -198,9 +233,10 @@
         "Nager.Date"
       ],
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-11-02",
       "dates": [
-        "2026-10-26"
+        "2026-10-26",
+        "2027-10-26"
       ],
       "status": "resolved",
       "resolvedOn": "2026-09-24"
@@ -215,9 +251,10 @@
         "Nager.Date"
       ],
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-11-02",
       "dates": [
-        "2026-10-10"
+        "2026-10-10",
+        "2027-10-10"
       ],
       "status": "resolved",
       "resolvedOn": "2026-09-24"
@@ -232,9 +269,10 @@
         "Nager.Date"
       ],
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-11-02",
       "dates": [
-        "2026-10-05"
+        "2026-10-05",
+        "2027-10-04"
       ],
       "status": "resolved",
       "resolvedOn": "2026-09-24"
@@ -249,7 +287,7 @@
         "Nager.Date"
       ],
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-11-02",
       "dates": [
         "2026-11-04"
       ],
@@ -283,9 +321,10 @@
         "Nager.Date"
       ],
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-11-02",
       "dates": [
-        "2026-09-27"
+        "2026-09-27",
+        "2027-09-27"
       ],
       "status": "resolved",
       "resolvedOn": "2026-09-24"
@@ -300,7 +339,7 @@
         "Nager.Date"
       ],
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-11-02",
       "dates": [
         "2026-12-08"
       ],
@@ -317,12 +356,28 @@
         "Nager.Date"
       ],
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-11-02",
       "dates": [
         "2026-11-23"
       ],
       "status": "resolved",
       "resolvedOn": "2026-09-24"
+    },
+    {
+      "key": "fm|satowan day",
+      "title": "Satowan Day",
+      "countries": [
+        "FM"
+      ],
+      "providers": [
+        "Nager.Date"
+      ],
+      "firstSeen": "2026-11-02",
+      "lastSeen": "2026-11-02",
+      "dates": [
+        "2026-11-01"
+      ],
+      "status": "missing"
     },
     {
       "key": "fm|teachers appreciation day",
@@ -334,9 +389,10 @@
         "Nager.Date"
       ],
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-11-02",
       "dates": [
-        "2026-10-09"
+        "2026-10-09",
+        "2027-10-08"
       ],
       "status": "resolved",
       "resolvedOn": "2026-09-24"
@@ -351,7 +407,7 @@
         "Nager.Date"
       ],
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-11-02",
       "dates": [
         "2026-12-10"
       ],
@@ -368,9 +424,10 @@
         "Nager.Date"
       ],
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-11-02",
       "dates": [
-        "2026-10-15"
+        "2026-10-15",
+        "2027-10-15"
       ],
       "status": "resolved",
       "resolvedOn": "2026-09-24"
@@ -385,9 +442,10 @@
         "Nager.Date"
       ],
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-11-02",
       "dates": [
-        "2026-10-29"
+        "2026-10-29",
+        "2027-10-29"
       ],
       "status": "resolved",
       "resolvedOn": "2026-09-24"
@@ -402,7 +460,7 @@
         "Nager.Date"
       ],
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-11-02",
       "dates": [
         "2026-11-09"
       ],
@@ -419,10 +477,12 @@
         "Nager.Date"
       ],
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-11-02",
       "dates": [
         "2026-10-10",
-        "2026-10-11"
+        "2026-10-11",
+        "2027-09-29",
+        "2027-09-30"
       ],
       "status": "resolved",
       "resolvedOn": "2026-09-24"
@@ -437,7 +497,7 @@
         "Nager.Date"
       ],
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-11-02",
       "dates": [
         "2026-11-23",
         "2026-11-24",
@@ -456,7 +516,7 @@
         "Nager.Date"
       ],
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-11-02",
       "dates": [
         "2026-12-10"
       ],
@@ -473,7 +533,7 @@
         "Nager.Date"
       ],
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-11-02",
       "dates": [
         "2026-11-12"
       ],
@@ -490,7 +550,7 @@
         "Nager.Date"
       ],
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-11-02",
       "dates": [
         "2026-11-29"
       ],
@@ -507,9 +567,10 @@
         "Nager.Date"
       ],
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-11-02",
       "dates": [
-        "2026-09-22"
+        "2026-09-22",
+        "2027-09-22"
       ],
       "status": "resolved",
       "resolvedOn": "2026-09-24"
@@ -524,7 +585,7 @@
         "Nager.Date"
       ],
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-11-02",
       "dates": [
         "2026-11-07"
       ],
@@ -541,7 +602,7 @@
         "Nager.Date"
       ],
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-11-02",
       "dates": [
         "2026-12-06"
       ],
@@ -558,9 +619,10 @@
         "Nager.Date"
       ],
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-11-02",
       "dates": [
-        "2026-10-01"
+        "2026-10-01",
+        "2027-10-01"
       ],
       "status": "resolved",
       "resolvedOn": "2026-09-24"
@@ -575,9 +637,10 @@
         "Nager.Date"
       ],
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-11-02",
       "dates": [
-        "2026-10-15"
+        "2026-10-15",
+        "2027-10-15"
       ],
       "status": "resolved",
       "resolvedOn": "2026-09-24"
@@ -592,7 +655,7 @@
         "Nager.Date"
       ],
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-11-02",
       "dates": [
         "2026-12-05"
       ],
@@ -609,12 +672,28 @@
         "Nager.Date"
       ],
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-11-02",
       "dates": [
         "2026-11-21"
       ],
       "status": "resolved",
       "resolvedOn": "2026-09-24"
+    },
+    {
+      "key": "lv|teachers day",
+      "title": "Teachers' Day",
+      "countries": [
+        "LV"
+      ],
+      "providers": [
+        "Nager.Date"
+      ],
+      "firstSeen": "2026-11-02",
+      "lastSeen": "2026-11-02",
+      "dates": [
+        "2027-10-05"
+      ],
+      "status": "missing"
     },
     {
       "key": "ly|liberation day",
@@ -626,9 +705,10 @@
         "Nager.Date"
       ],
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-11-02",
       "dates": [
-        "2026-10-23"
+        "2026-10-23",
+        "2027-10-23"
       ],
       "status": "resolved",
       "resolvedOn": "2026-09-24"
@@ -643,7 +723,7 @@
         "Nager.Date"
       ],
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-11-02",
       "dates": [
         "2026-12-04"
       ],
@@ -677,7 +757,7 @@
         "Nager.Date"
       ],
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-11-02",
       "dates": [
         "2026-11-17"
       ],
@@ -694,7 +774,7 @@
         "Nager.Date"
       ],
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-11-02",
       "dates": [
         "2026-12-08"
       ],
@@ -711,7 +791,7 @@
         "Nager.Date"
       ],
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-11-02",
       "dates": [
         "2026-11-04"
       ],
@@ -745,9 +825,10 @@
         "Nager.Date"
       ],
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-11-02",
       "dates": [
-        "2026-10-15"
+        "2026-10-15",
+        "2027-10-15"
       ],
       "status": "resolved",
       "resolvedOn": "2026-09-24"
@@ -779,9 +860,10 @@
         "Nager.Date"
       ],
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-11-02",
       "dates": [
-        "2026-10-26"
+        "2026-10-26",
+        "2027-10-26"
       ],
       "status": "resolved",
       "resolvedOn": "2026-09-24"
@@ -796,9 +878,10 @@
         "Nager.Date"
       ],
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-11-02",
       "dates": [
-        "2026-09-25"
+        "2026-09-25",
+        "2027-09-25"
       ],
       "status": "resolved",
       "resolvedOn": "2026-09-24"
@@ -813,12 +896,61 @@
         "Nager.Date"
       ],
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-11-02",
       "dates": [
-        "2026-10-26"
+        "2026-10-26",
+        "2027-10-25"
       ],
       "status": "resolved",
       "resolvedOn": "2026-09-24"
+    },
+    {
+      "key": "pa|consolidation of the separation day",
+      "title": "Consolidation of the Separation Day",
+      "countries": [
+        "PA"
+      ],
+      "providers": [
+        "Nager.Date"
+      ],
+      "firstSeen": "2026-11-02",
+      "lastSeen": "2026-11-02",
+      "dates": [
+        "2026-11-05"
+      ],
+      "status": "missing"
+    },
+    {
+      "key": "pa|national day of mourning",
+      "title": "National Day of Mourning",
+      "countries": [
+        "PA"
+      ],
+      "providers": [
+        "Nager.Date"
+      ],
+      "firstSeen": "2026-11-02",
+      "lastSeen": "2026-11-02",
+      "dates": [
+        "2026-12-21"
+      ],
+      "status": "missing"
+    },
+    {
+      "key": "pe|battle of arica and flag day",
+      "title": "Battle of Arica and Flag Day",
+      "countries": [
+        "PE"
+      ],
+      "providers": [
+        "Nager.Date"
+      ],
+      "firstSeen": "2026-11-02",
+      "lastSeen": "2026-11-02",
+      "dates": [
+        "2027-06-07"
+      ],
+      "status": "missing"
     },
     {
       "key": "pe|battle of ayacucho",
@@ -830,7 +962,7 @@
         "Nager.Date"
       ],
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-11-02",
       "dates": [
         "2026-12-09"
       ],
@@ -847,7 +979,7 @@
         "Nager.Date"
       ],
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-11-02",
       "dates": [
         "2026-11-20"
       ],
@@ -864,7 +996,7 @@
         "Nager.Date"
       ],
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-11-02",
       "dates": [
         "2026-11-27"
       ],
@@ -898,7 +1030,7 @@
         "Nager.Date"
       ],
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-11-02",
       "dates": [
         "2026-11-01"
       ],
@@ -915,9 +1047,10 @@
         "Nager.Date"
       ],
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-11-02",
       "dates": [
-        "2026-09-30"
+        "2026-09-30",
+        "2027-09-30"
       ],
       "status": "resolved",
       "resolvedOn": "2026-09-24"
@@ -932,9 +1065,10 @@
         "Nager.Date"
       ],
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-11-02",
       "dates": [
-        "2026-10-12"
+        "2026-10-12",
+        "2027-10-11"
       ],
       "status": "resolved",
       "resolvedOn": "2026-09-24"
@@ -949,7 +1083,7 @@
         "Nager.Date"
       ],
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-11-02",
       "dates": [
         "2026-12-01"
       ],
@@ -966,7 +1100,7 @@
         "Nager.Date"
       ],
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-11-02",
       "dates": [
         "2026-11-28"
       ],
@@ -983,12 +1117,28 @@
         "Nager.Date"
       ],
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-11-02",
       "dates": [
         "2026-12-04"
       ],
       "status": "resolved",
       "resolvedOn": "2026-09-24"
+    },
+    {
+      "key": "to|birthday of the reigning sovereign of tonga",
+      "title": "Birthday of the reigning Sovereign of Tonga",
+      "countries": [
+        "TO"
+      ],
+      "providers": [
+        "Nager.Date"
+      ],
+      "firstSeen": "2026-11-02",
+      "lastSeen": "2026-11-02",
+      "dates": [
+        "2027-07-04"
+      ],
+      "status": "missing"
     },
     {
       "key": "tv|tuvalu day",
@@ -1000,9 +1150,10 @@
         "Nager.Date"
       ],
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-11-02",
       "dates": [
-        "2026-10-01"
+        "2026-10-01",
+        "2027-10-01"
       ],
       "status": "resolved",
       "resolvedOn": "2026-09-24"
@@ -1017,9 +1168,10 @@
         "Nager.Date"
       ],
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-11-02",
       "dates": [
-        "2026-10-02"
+        "2026-10-02",
+        "2027-10-02"
       ],
       "status": "resolved",
       "resolvedOn": "2026-09-24"
@@ -1034,12 +1186,45 @@
         "Nager.Date"
       ],
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-11-02",
       "dates": [
-        "2026-10-14"
+        "2026-10-14",
+        "2027-10-14"
       ],
       "status": "resolved",
       "resolvedOn": "2026-09-24"
+    },
+    {
+      "key": "uy|day of the race",
+      "title": "Day of the race",
+      "countries": [
+        "UY"
+      ],
+      "providers": [
+        "Nager.Date"
+      ],
+      "firstSeen": "2026-11-02",
+      "lastSeen": "2026-11-02",
+      "dates": [
+        "2027-10-12"
+      ],
+      "status": "missing"
+    },
+    {
+      "key": "ve|day of indigenous resistance",
+      "title": "Day of Indigenous Resistance",
+      "countries": [
+        "VE"
+      ],
+      "providers": [
+        "Nager.Date"
+      ],
+      "firstSeen": "2026-11-02",
+      "lastSeen": "2026-11-02",
+      "dates": [
+        "2027-10-12"
+      ],
+      "status": "missing"
     },
     {
       "key": "vg|heroes and foreparents day",
@@ -1051,9 +1236,10 @@
         "Nager.Date"
       ],
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-11-02",
       "dates": [
-        "2026-10-19"
+        "2026-10-19",
+        "2027-10-18"
       ],
       "status": "resolved",
       "resolvedOn": "2026-09-24"
@@ -1068,7 +1254,7 @@
         "Nager.Date"
       ],
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-11-02",
       "dates": [
         "2026-11-23"
       ],
@@ -1085,7 +1271,7 @@
         "Nager.Date"
       ],
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-11-02",
       "dates": [
         "2026-11-29"
       ],
@@ -1102,9 +1288,10 @@
         "Nager.Date"
       ],
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-11-02",
       "dates": [
-        "2026-10-14"
+        "2026-10-14",
+        "2027-10-14"
       ],
       "status": "resolved",
       "resolvedOn": "2026-09-24"
@@ -1119,9 +1306,10 @@
         "Nager.Date"
       ],
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-11-02",
       "dates": [
-        "2026-10-19"
+        "2026-10-19",
+        "2027-10-18"
       ],
       "status": "resolved",
       "resolvedOn": "2026-09-24"

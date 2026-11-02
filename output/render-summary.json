@@ -1,27 +1,9 @@
 {
-  "generatedAt": "2026-11-01T20:25:31.397Z",
-  "baseDate": "2026-11-02",
-  "ensuredThrough": "2026-11-09",
+  "generatedAt": "2026-11-02T23:26:03.202Z",
+  "baseDate": "2026-11-03",
+  "ensuredThrough": "2026-11-10",
   "today": "output/today.png",
   "generated": [
-    {
-      "date": "2026-11-02",
-      "output": "output/2026/2026.11/2026.11.02.png",
-      "selectedTheme": "Dia de Muertos",
-      "selectedMotif": "marigold",
-      "contentSource": "curated",
-      "selectedScoreBreakdown": {
-        "basePriority": 86,
-        "popularity": 14,
-        "jitter": 0.398,
-        "motifPenalty": 0,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 42,
-        "finalScore": 16.398
-      },
-      "discardedCount": 8
-    },
     {
       "date": "2026-11-03",
       "output": "output/2026/2026.11/2026.11.03.png",
@@ -38,7 +20,7 @@
         "colorPenalty": 42,
         "finalScore": 8.656
       },
-      "discardedCount": 6
+      "discardedCount": 5
     },
     {
       "date": "2026-11-04",
@@ -56,7 +38,7 @@
         "colorPenalty": 39,
         "finalScore": 23.182
       },
-      "discardedCount": 4
+      "discardedCount": 5
     },
     {
       "date": "2026-11-05",
@@ -110,7 +92,7 @@
         "colorPenalty": 28,
         "finalScore": 31.821
       },
-      "discardedCount": 3
+      "discardedCount": 2
     },
     {
       "date": "2026-11-08",
@@ -147,6 +129,24 @@
         "finalScore": 15.946
       },
       "discardedCount": 3
+    },
+    {
+      "date": "2026-11-10",
+      "output": "output/2026/2026.11/2026.11.10.png",
+      "selectedTheme": "World Science Day for Peace and Development",
+      "selectedMotif": "cosmicObservatory",
+      "contentSource": "curated",
+      "selectedScoreBreakdown": {
+        "basePriority": 68,
+        "popularity": 14,
+        "jitter": 0.793,
+        "motifPenalty": 0,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 42,
+        "finalScore": -1.207
+      },
+      "discardedCount": 2
     }
   ],
   "skipped": [],
@@ -159,8 +159,8 @@
       "issues": [],
       "warnings": [],
       "sourceStats": {
-        "nagerRequests": 204,
-        "nagerSuccessfulRequests": 204,
+        "nagerRequests": 408,
+        "nagerSuccessfulRequests": 408,
         "nagerFailedRequests": 0,
         "nagerErrorSamples": [],
         "openHolidaysRequests": 36,
@@ -168,14 +168,34 @@
         "openHolidaysFailedRequests": 0,
         "openHolidaysErrorSamples": []
       },
-      "generatedAt": "2026-09-20T18:37:35.027Z"
+      "generatedAt": "2026-11-01T20:35:20.452Z"
     },
     "contentCoverage": {
-      "status": "complete",
-      "missingCount": 0,
+      "status": "degraded",
+      "missingCount": 1,
       "legacyOnlyCount": 0
     }
   },
-  "contentGaps": [],
+  "contentGaps": [
+    {
+      "key": "pa|consolidation of the separation day",
+      "title": "Consolidation of the Separation Day",
+      "providers": [
+        "Nager.Date"
+      ],
+      "countries": [
+        "PA"
+      ],
+      "dates": [
+        "2026-11-05"
+      ],
+      "localNames": [
+        "Consolidación de la Separación de Panamá de Colombia"
+      ],
+      "typeLabels": [
+        "公众节日"
+      ]
+    }
+  ],
   "legacyOnly": []
 }

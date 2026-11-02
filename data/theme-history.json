@@ -1,39 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-01T20:25:31.396Z",
+  "updatedAt": "2026-11-02T23:26:03.200Z",
   "days": {
-    "2026-09-18": {
-      "title": "National holiday",
-      "motif": "lotusMandala",
-      "gradient": [
-        "#161729",
-        "#523f5c",
-        "#141414"
-      ],
-      "accent": "#c2a9d6",
-      "secondary": "#81bba9",
-      "holidayFamily": "religious-observance",
-      "popularityTier": "niche",
-      "scopeTier": "national",
-      "tags": [
-        "religious",
-        "botanical",
-        "culture",
-        "heritage",
-        "civic",
-        "celebration",
-        "procession"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "CL",
-        "countryName": "Chile",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-09-19": {
       "title": "Independence Day",
       "motif": "stainedGlass",
@@ -1589,6 +1557,38 @@
         "countryName": "Cambodia",
         "typeLabels": [
           "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-11-10": {
+      "title": "World Science Day for Peace and Development",
+      "motif": "cosmicObservatory",
+      "gradient": [
+        "#1e192e",
+        "#49365f",
+        "#141616"
+      ],
+      "accent": "#ac84c8",
+      "secondary": "#73b2d6",
+      "holidayFamily": "peace-observance",
+      "popularityTier": "observance",
+      "scopeTier": "international",
+      "tags": [
+        "science",
+        "sky",
+        "light",
+        "celebration",
+        "remembrance",
+        "culture",
+        "international"
+      ],
+      "source": {
+        "provider": "Curated Cultural Observances",
+        "countryCode": "INTL",
+        "countryName": "International",
+        "typeLabels": [
+          "文化日"
         ],
         "subdivisions": []
       }

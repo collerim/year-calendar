@@ -1,37 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-02T23:26:03.200Z",
+  "updatedAt": "2026-11-03T22:55:17.426Z",
   "days": {
-    "2026-09-19": {
-      "title": "Independence Day",
-      "motif": "stainedGlass",
-      "gradient": [
-        "#171c37",
-        "#513447",
-        "#111517"
-      ],
-      "accent": "#97b8ee",
-      "secondary": "#d6748b",
-      "holidayFamily": "independence-day",
-      "popularityTier": "common",
-      "scopeTier": "national",
-      "tags": [
-        "religious",
-        "heritage",
-        "light",
-        "civic",
-        "celebration"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "KN",
-        "countryName": "Saint Kitts and Nevis",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-09-20": {
       "title": "Federal Day of Thanksgiving, Repentance and Prayer",
       "motif": "harvestSheaves",
@@ -1589,6 +1559,37 @@
         "countryName": "International",
         "typeLabels": [
           "文化日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-11-11": {
+      "title": "Remembrance Day",
+      "motif": "doveGarland",
+      "gradient": [
+        "#1f191e",
+        "#682b34",
+        "#121418"
+      ],
+      "accent": "#da565e",
+      "secondary": "#e0e2e7",
+      "holidayFamily": "remembrance",
+      "popularityTier": "niche",
+      "scopeTier": "national",
+      "tags": [
+        "remembrance",
+        "light",
+        "civic",
+        "memorial",
+        "celebration",
+        "botanical"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "CA",
+        "countryName": "Canada",
+        "typeLabels": [
+          "公众节日"
         ],
         "subdivisions": []
       }

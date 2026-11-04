@@ -1,47 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-03T22:55:17.426Z",
+  "updatedAt": "2026-11-04T21:48:21.320Z",
   "days": {
-    "2026-09-20": {
-      "title": "Federal Day of Thanksgiving, Repentance and Prayer",
-      "motif": "harvestSheaves",
-      "gradient": [
-        "#201c1d",
-        "#63462e",
-        "#131519"
-      ],
-      "accent": "#c5955d",
-      "secondary": "#91a56c",
-      "holidayFamily": "municipal-local",
-      "popularityTier": "major",
-      "scopeTier": "national",
-      "tags": [
-        "botanical",
-        "harvest",
-        "seasonal",
-        "celebration"
-      ],
-      "source": {
-        "provider": "OpenHolidays",
-        "countryCode": "CH",
-        "countryName": "Switzerland",
-        "typeLabels": [
-          "公众节日",
-          "地方性"
-        ],
-        "nationwide": false,
-        "subdivisions": [
-          "LU",
-          "BL",
-          "VS",
-          "GR",
-          "SZ",
-          "NW",
-          "GL",
-          "ZG"
-        ]
-      }
-    },
     "2026-09-21": {
       "title": "International Day of Peace",
       "motif": "candle",
@@ -1588,6 +1548,34 @@
         "provider": "Nager.Date",
         "countryCode": "CA",
         "countryName": "Canada",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-11-12": {
+      "title": "Maore Day",
+      "motif": "wovenPattern",
+      "gradient": [
+        "#1b1a29",
+        "#564539",
+        "#141519"
+      ],
+      "accent": "#c8ab5b",
+      "secondary": "#73b1dc",
+      "holidayFamily": "national-civic-day",
+      "popularityTier": "niche",
+      "scopeTier": "national",
+      "tags": [
+        "culture",
+        "civic",
+        "celebration"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "KM",
+        "countryName": "Comoros",
         "typeLabels": [
           "公众节日"
         ],

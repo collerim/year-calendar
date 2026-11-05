@@ -1,40 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-04T21:48:21.320Z",
+  "updatedAt": "2026-11-05T21:53:43.104Z",
   "days": {
-    "2026-09-21": {
-      "title": "International Day of Peace",
-      "motif": "candle",
-      "gradient": [
-        "#171927",
-        "#483a4b",
-        "#111617"
-      ],
-      "accent": "#dfb857",
-      "secondary": "#dfe2c9",
-      "holidayFamily": "peace-observance",
-      "popularityTier": "common",
-      "scopeTier": "international",
-      "tags": [
-        "memorial",
-        "light",
-        "winter",
-        "civic",
-        "celebration",
-        "remembrance",
-        "culture",
-        "international"
-      ],
-      "source": {
-        "provider": "Curated Cultural Observances",
-        "countryCode": "INTL",
-        "countryName": "International",
-        "typeLabels": [
-          "文化日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-09-22": {
       "title": "Independence Day",
       "motif": "cityParade",
@@ -1578,6 +1545,37 @@
         "countryName": "Comoros",
         "typeLabels": [
           "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-11-13": {
+      "title": "World Kindness Day",
+      "motif": "petals",
+      "gradient": [
+        "#271823",
+        "#6b3547",
+        "#151315"
+      ],
+      "accent": "#d77288",
+      "secondary": "#cca965",
+      "holidayFamily": "culture-observance",
+      "popularityTier": "observance",
+      "scopeTier": "international",
+      "tags": [
+        "botanical",
+        "memorial",
+        "celebration",
+        "culture",
+        "international",
+        "light"
+      ],
+      "source": {
+        "provider": "Curated Cultural Observances",
+        "countryCode": "INTL",
+        "countryName": "International",
+        "typeLabels": [
+          "文化日"
         ],
         "subdivisions": []
       }

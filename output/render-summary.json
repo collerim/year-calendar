@@ -1,27 +1,9 @@
 {
-  "generatedAt": "2026-11-04T21:48:21.322Z",
-  "baseDate": "2026-11-05",
-  "ensuredThrough": "2026-11-12",
+  "generatedAt": "2026-11-05T21:53:43.106Z",
+  "baseDate": "2026-11-06",
+  "ensuredThrough": "2026-11-13",
   "today": "output/today.png",
   "generated": [
-    {
-      "date": "2026-11-05",
-      "output": "output/2026/2026.11/2026.11.05.png",
-      "selectedTheme": "Thanksgiving Day",
-      "selectedMotif": "harvestSheaves",
-      "contentSource": "structured",
-      "selectedScoreBreakdown": {
-        "basePriority": 73,
-        "popularity": 34,
-        "jitter": 5.316,
-        "motifPenalty": 0,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 12,
-        "finalScore": 58.316
-      },
-      "discardedCount": 1
-    },
     {
       "date": "2026-11-06",
       "output": "output/2026/2026.11/2026.11.06.png",
@@ -147,6 +129,24 @@
         "finalScore": -7.357
       },
       "discardedCount": 1
+    },
+    {
+      "date": "2026-11-13",
+      "output": "output/2026/2026.11/2026.11.13.png",
+      "selectedTheme": "World Kindness Day",
+      "selectedMotif": "petals",
+      "contentSource": "curated",
+      "selectedScoreBreakdown": {
+        "basePriority": 66,
+        "popularity": 14,
+        "jitter": 3.703,
+        "motifPenalty": 0,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 42,
+        "finalScore": -0.297
+      },
+      "discardedCount": 2
     }
   ],
   "skipped": [],
@@ -171,31 +171,11 @@
       "generatedAt": "2026-11-01T20:35:20.452Z"
     },
     "contentCoverage": {
-      "status": "degraded",
-      "missingCount": 1,
+      "status": "complete",
+      "missingCount": 0,
       "legacyOnlyCount": 0
     }
   },
-  "contentGaps": [
-    {
-      "key": "pa|consolidation of the separation day",
-      "title": "Consolidation of the Separation Day",
-      "providers": [
-        "Nager.Date"
-      ],
-      "countries": [
-        "PA"
-      ],
-      "dates": [
-        "2026-11-05"
-      ],
-      "localNames": [
-        "Consolidación de la Separación de Panamá de Colombia"
-      ],
-      "typeLabels": [
-        "公众节日"
-      ]
-    }
-  ],
+  "contentGaps": [],
   "legacyOnly": []
 }

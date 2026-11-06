@@ -1,27 +1,9 @@
 {
-  "generatedAt": "2026-11-05T21:53:43.106Z",
-  "baseDate": "2026-11-06",
-  "ensuredThrough": "2026-11-13",
+  "generatedAt": "2026-11-06T21:25:26.896Z",
+  "baseDate": "2026-11-07",
+  "ensuredThrough": "2026-11-14",
   "today": "output/today.png",
   "generated": [
-    {
-      "date": "2026-11-06",
-      "output": "output/2026/2026.11/2026.11.06.png",
-      "selectedTheme": "Green March",
-      "selectedMotif": "crescentLantern",
-      "contentSource": "structured",
-      "selectedScoreBreakdown": {
-        "basePriority": 61,
-        "popularity": 34,
-        "jitter": 2.143,
-        "motifPenalty": 0,
-        "culturalPenalty": 37,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 28,
-        "finalScore": 32.143
-      },
-      "discardedCount": 2
-    },
     {
       "date": "2026-11-07",
       "output": "output/2026/2026.11/2026.11.07.png",
@@ -147,6 +129,24 @@
         "finalScore": -0.297
       },
       "discardedCount": 2
+    },
+    {
+      "date": "2026-11-14",
+      "output": "output/2026/2026.11/2026.11.14.png",
+      "selectedTheme": "十一月山色",
+      "selectedMotif": "aurora",
+      "contentSource": "seasonal",
+      "selectedScoreBreakdown": {
+        "basePriority": 29.25,
+        "popularity": 0,
+        "jitter": 5.06,
+        "motifPenalty": 0,
+        "culturalPenalty": 0,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 42,
+        "finalScore": -7.69
+      },
+      "discardedCount": 10
     }
   ],
   "skipped": [],

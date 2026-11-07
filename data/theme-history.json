@@ -1,38 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-06T21:25:26.895Z",
+  "updatedAt": "2026-11-07T20:04:20.638Z",
   "days": {
-    "2026-09-23": {
-      "title": "Autumnal Equinox Day",
-      "motif": "harvestSheaves",
-      "gradient": [
-        "#16161d",
-        "#53303b",
-        "#141514"
-      ],
-      "accent": "#dbdbd6",
-      "secondary": "#cb4948",
-      "holidayFamily": "environmental-observance",
-      "popularityTier": "niche",
-      "scopeTier": "national",
-      "tags": [
-        "botanical",
-        "harvest",
-        "seasonal",
-        "celebration",
-        "sun",
-        "civic"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "JP",
-        "countryName": "Japan",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-09-24": {
       "title": "Constitution Day",
       "motif": "wovenPattern",
@@ -1574,6 +1543,35 @@
         "month-mood"
       ],
       "source": null
+    },
+    "2026-11-15": {
+      "title": "Republic Proclamation Day",
+      "motif": "cityParade",
+      "gradient": [
+        "#132a22",
+        "#476334",
+        "#14161a"
+      ],
+      "accent": "#6fbc83",
+      "secondary": "#ccb36d",
+      "holidayFamily": "national-civic-day",
+      "popularityTier": "niche",
+      "scopeTier": "national",
+      "tags": [
+        "civic",
+        "celebration",
+        "procession",
+        "sun"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "BR",
+        "countryName": "Brazil",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
     }
   }
 }

@@ -1,36 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-07T20:04:20.638Z",
+  "updatedAt": "2026-11-08T20:21:10.727Z",
   "days": {
-    "2026-09-24": {
-      "title": "Constitution Day",
-      "motif": "wovenPattern",
-      "gradient": [
-        "#121f38",
-        "#4a3043",
-        "#141616"
-      ],
-      "accent": "#6fa1d9",
-      "secondary": "#d9585d",
-      "holidayFamily": "constitution-day",
-      "popularityTier": "common",
-      "scopeTier": "national",
-      "tags": [
-        "civic",
-        "celebration",
-        "procession",
-        "culture"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "KH",
-        "countryName": "Cambodia",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-09-25": {
       "title": "Mid-Autumn Festival",
       "motif": "carnivalMasks",
@@ -1569,6 +1540,38 @@
         "countryName": "Brazil",
         "typeLabels": [
           "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-11-16": {
+      "title": "International Day for Tolerance",
+      "motif": "candle",
+      "gradient": [
+        "#131b2e",
+        "#453c50",
+        "#111318"
+      ],
+      "accent": "#dcba5c",
+      "secondary": "#dfdfca",
+      "holidayFamily": "rights-observance",
+      "popularityTier": "common",
+      "scopeTier": "international",
+      "tags": [
+        "memorial",
+        "light",
+        "winter",
+        "civic",
+        "celebration",
+        "culture",
+        "international"
+      ],
+      "source": {
+        "provider": "Curated Cultural Observances",
+        "countryCode": "INTL",
+        "countryName": "International",
+        "typeLabels": [
+          "文化日"
         ],
         "subdivisions": []
       }

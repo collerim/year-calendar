@@ -1,27 +1,9 @@
 {
-  "generatedAt": "2026-11-07T20:04:20.640Z",
-  "baseDate": "2026-11-08",
-  "ensuredThrough": "2026-11-15",
+  "generatedAt": "2026-11-08T20:21:10.755Z",
+  "baseDate": "2026-11-09",
+  "ensuredThrough": "2026-11-16",
   "today": "output/today.png",
   "generated": [
-    {
-      "date": "2026-11-08",
-      "output": "output/2026/2026.11/2026.11.08.png",
-      "selectedTheme": "Constitution Day",
-      "selectedMotif": "cityParade",
-      "contentSource": "structured",
-      "selectedScoreBreakdown": {
-        "basePriority": 70,
-        "popularity": 26,
-        "jitter": 1.036,
-        "motifPenalty": 10,
-        "culturalPenalty": 37,
-        "holidayFamilyPenalty": 10,
-        "colorPenalty": 42,
-        "finalScore": -1.964
-      },
-      "discardedCount": 1
-    },
     {
       "date": "2026-11-09",
       "output": "output/2026/2026.11/2026.11.09.png",
@@ -147,6 +129,24 @@
         "finalScore": 27.175
       },
       "discardedCount": 2
+    },
+    {
+      "date": "2026-11-16",
+      "output": "output/2026/2026.11/2026.11.16.png",
+      "selectedTheme": "International Day for Tolerance",
+      "selectedMotif": "candle",
+      "contentSource": "curated",
+      "selectedScoreBreakdown": {
+        "basePriority": 68,
+        "popularity": 18,
+        "jitter": 3.857,
+        "motifPenalty": 0,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 35,
+        "finalScore": 12.857
+      },
+      "discardedCount": 4
     }
   ],
   "skipped": [],

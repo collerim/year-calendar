@@ -1,27 +1,9 @@
 {
-  "generatedAt": "2026-11-08T20:21:10.755Z",
-  "baseDate": "2026-11-09",
-  "ensuredThrough": "2026-11-16",
+  "generatedAt": "2026-11-10T00:04:32.223Z",
+  "baseDate": "2026-11-10",
+  "ensuredThrough": "2026-11-17",
   "today": "output/today.png",
   "generated": [
-    {
-      "date": "2026-11-09",
-      "output": "output/2026/2026.11/2026.11.09.png",
-      "selectedTheme": "National Independence Day",
-      "selectedMotif": "marketBanners",
-      "contentSource": "structured",
-      "selectedScoreBreakdown": {
-        "basePriority": 69,
-        "popularity": 26,
-        "jitter": 4.946,
-        "motifPenalty": 0,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 42,
-        "finalScore": 15.946
-      },
-      "discardedCount": 3
-    },
     {
       "date": "2026-11-10",
       "output": "output/2026/2026.11/2026.11.10.png",
@@ -145,6 +127,24 @@
         "holidayFamilyPenalty": 0,
         "colorPenalty": 35,
         "finalScore": 12.857
+      },
+      "discardedCount": 4
+    },
+    {
+      "date": "2026-11-17",
+      "output": "output/2026/2026.11/2026.11.17.png",
+      "selectedTheme": "Struggle for Freedom and Democracy Day",
+      "selectedMotif": "oliveBranches",
+      "contentSource": "structured",
+      "selectedScoreBreakdown": {
+        "basePriority": 56,
+        "popularity": 0,
+        "jitter": 2.387,
+        "motifPenalty": 0,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 27,
+        "finalScore": -10.613
       },
       "discardedCount": 4
     }

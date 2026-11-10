@@ -1,39 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-08T20:21:10.727Z",
+  "updatedAt": "2026-11-10T00:04:32.221Z",
   "days": {
-    "2026-09-25": {
-      "title": "Mid-Autumn Festival",
-      "motif": "carnivalMasks",
-      "gradient": [
-        "#270a12",
-        "#902525",
-        "#170b0e"
-      ],
-      "accent": "#e3b75c",
-      "secondary": "#dc3937",
-      "holidayFamily": "culture-observance",
-      "popularityTier": "major",
-      "scopeTier": "national",
-      "tags": [
-        "celebration",
-        "procession",
-        "folk",
-        "market",
-        "civic",
-        "sun",
-        "light"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "CN",
-        "countryName": "China",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-09-26": {
       "title": "Day following the Mid-Autumn Festival",
       "motif": "bookPress",
@@ -1572,6 +1540,35 @@
         "countryName": "International",
         "typeLabels": [
           "文化日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-11-17": {
+      "title": "Struggle for Freedom and Democracy Day",
+      "motif": "oliveBranches",
+      "gradient": [
+        "#172525",
+        "#4d5e35",
+        "#111819"
+      ],
+      "accent": "#93a26a",
+      "secondary": "#c8af5a",
+      "holidayFamily": "remembrance",
+      "popularityTier": "niche",
+      "scopeTier": "unknown",
+      "tags": [
+        "heritage",
+        "botanical",
+        "civic",
+        "celebration"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "SK",
+        "countryName": "Slovakia",
+        "typeLabels": [
+          "纪念日"
         ],
         "subdivisions": []
       }

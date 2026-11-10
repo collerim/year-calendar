@@ -1,39 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-10T00:04:32.221Z",
+  "updatedAt": "2026-11-10T21:44:59.048Z",
   "days": {
-    "2026-09-26": {
-      "title": "Day following the Mid-Autumn Festival",
-      "motif": "bookPress",
-      "gradient": [
-        "#1e1828",
-        "#64354d",
-        "#141418"
-      ],
-      "accent": "#d87387",
-      "secondary": "#73afda",
-      "holidayFamily": "culture-observance",
-      "popularityTier": "major",
-      "scopeTier": "national",
-      "tags": [
-        "celebration",
-        "procession",
-        "folk",
-        "market",
-        "literature",
-        "culture",
-        "heritage"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "HK",
-        "countryName": "Hong Kong",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-09-27": {
       "title": "Meskel (Orthodox)",
       "motif": "templeBells",
@@ -1569,6 +1537,37 @@
         "countryName": "Slovakia",
         "typeLabels": [
           "纪念日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-11-18": {
+      "title": "Independence Day",
+      "motif": "crescentLantern",
+      "gradient": [
+        "#151927",
+        "#373e5a",
+        "#121617"
+      ],
+      "accent": "#c8b167",
+      "secondary": "#71b3d7",
+      "holidayFamily": "independence-day",
+      "popularityTier": "major",
+      "scopeTier": "national",
+      "tags": [
+        "islamic",
+        "religious",
+        "light",
+        "sky",
+        "civic",
+        "celebration"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "MA",
+        "countryName": "Morocco",
+        "typeLabels": [
+          "公众节日"
         ],
         "subdivisions": []
       }

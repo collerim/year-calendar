@@ -1,27 +1,9 @@
 {
-  "generatedAt": "2026-11-10T21:44:59.050Z",
-  "baseDate": "2026-11-11",
-  "ensuredThrough": "2026-11-18",
+  "generatedAt": "2026-11-11T22:35:18.265Z",
+  "baseDate": "2026-11-12",
+  "ensuredThrough": "2026-11-19",
   "today": "output/today.png",
   "generated": [
-    {
-      "date": "2026-11-11",
-      "output": "output/2026/2026.11/2026.11.11.png",
-      "selectedTheme": "Remembrance Day",
-      "selectedMotif": "doveGarland",
-      "contentSource": "structured",
-      "selectedScoreBreakdown": {
-        "basePriority": 70,
-        "popularity": 18,
-        "jitter": 3.278,
-        "motifPenalty": 0,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 42,
-        "finalScore": 7.278
-      },
-      "discardedCount": 8
-    },
     {
       "date": "2026-11-12",
       "output": "output/2026/2026.11/2026.11.12.png",
@@ -145,6 +127,24 @@
         "holidayFamilyPenalty": 0,
         "colorPenalty": 28,
         "finalScore": 38.205
+      },
+      "discardedCount": 5
+    },
+    {
+      "date": "2026-11-19",
+      "output": "output/2026/2026.11/2026.11.19.png",
+      "selectedTheme": "National Day",
+      "selectedMotif": "cityParade",
+      "contentSource": "structured",
+      "selectedScoreBreakdown": {
+        "basePriority": 69,
+        "popularity": 26,
+        "jitter": 3.206,
+        "motifPenalty": 14,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 42,
+        "finalScore": 0.206
       },
       "discardedCount": 5
     }

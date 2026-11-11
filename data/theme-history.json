@@ -1,35 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-10T21:44:59.048Z",
+  "updatedAt": "2026-11-11T22:35:18.265Z",
   "days": {
-    "2026-09-27": {
-      "title": "Meskel (Orthodox)",
-      "motif": "templeBells",
-      "gradient": [
-        "#161a26",
-        "#534537",
-        "#121615"
-      ],
-      "accent": "#c4ab59",
-      "secondary": "#71b3d7",
-      "holidayFamily": "religious-observance",
-      "popularityTier": "niche",
-      "scopeTier": "national",
-      "tags": [
-        "religious",
-        "heritage",
-        "light"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "ET",
-        "countryName": "Ethiopia",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-09-28": {
       "title": "Czech Statehood Day",
       "motif": "cityParade",
@@ -1566,6 +1538,34 @@
         "provider": "Nager.Date",
         "countryCode": "MA",
         "countryName": "Morocco",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-11-19": {
+      "title": "National Day",
+      "motif": "cityParade",
+      "gradient": [
+        "#181e32",
+        "#4f2f3f",
+        "#131316"
+      ],
+      "accent": "#75a0d4",
+      "secondary": "#d9545d",
+      "holidayFamily": "national-day",
+      "popularityTier": "common",
+      "scopeTier": "national",
+      "tags": [
+        "civic",
+        "celebration",
+        "procession"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "MC",
+        "countryName": "Monaco",
         "typeLabels": [
           "公众节日"
         ],

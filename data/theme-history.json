@@ -1,37 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-11T22:35:18.265Z",
+  "updatedAt": "2026-11-12T22:11:34.390Z",
   "days": {
-    "2026-09-28": {
-      "title": "Czech Statehood Day",
-      "motif": "cityParade",
-      "gradient": [
-        "#132232",
-        "#4a323f",
-        "#131516"
-      ],
-      "accent": "#70a4d4",
-      "secondary": "#d8565c",
-      "holidayFamily": "national-civic-day",
-      "popularityTier": "niche",
-      "scopeTier": "national",
-      "tags": [
-        "civic",
-        "celebration",
-        "procession"
-      ],
-      "source": {
-        "provider": "OpenHolidays",
-        "countryCode": "CZ",
-        "countryName": "Czechia",
-        "typeLabels": [
-          "公众节日",
-          "全国性"
-        ],
-        "nationwide": true,
-        "subdivisions": []
-      }
-    },
     "2026-09-29": {
       "title": "Boqueron Battle Victory Day",
       "motif": "laurelTorch",
@@ -1566,6 +1536,35 @@
         "provider": "Nager.Date",
         "countryCode": "MC",
         "countryName": "Monaco",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-11-20": {
+      "title": "Black Awareness Day",
+      "motif": "wovenPattern",
+      "gradient": [
+        "#162524",
+        "#4a5f36",
+        "#10181a"
+      ],
+      "accent": "#72b885",
+      "secondary": "#c8b66e",
+      "holidayFamily": "national-civic-day",
+      "popularityTier": "niche",
+      "scopeTier": "national",
+      "tags": [
+        "culture",
+        "civic",
+        "celebration",
+        "sun"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "BR",
+        "countryName": "Brazil",
         "typeLabels": [
           "公众节日"
         ],

@@ -1,36 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-12T22:11:34.390Z",
+  "updatedAt": "2026-11-13T21:53:55.105Z",
   "days": {
-    "2026-09-29": {
-      "title": "Boqueron Battle Victory Day",
-      "motif": "laurelTorch",
-      "gradient": [
-        "#15191b",
-        "#5a3c33",
-        "#131311"
-      ],
-      "accent": "#c5ac59",
-      "secondary": "#c85041",
-      "holidayFamily": "remembrance",
-      "popularityTier": "niche",
-      "scopeTier": "national",
-      "tags": [
-        "civic",
-        "remembrance",
-        "light",
-        "celebration"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "PY",
-        "countryName": "Paraguay",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-09-30": {
       "title": "National Day for Truth and Reconciliation",
       "motif": "doveGarland",
@@ -1567,6 +1538,36 @@
         "countryName": "Brazil",
         "typeLabels": [
           "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-11-21": {
+      "title": "World Television Day",
+      "motif": "starfield",
+      "gradient": [
+        "#121f38",
+        "#35507a",
+        "#101519"
+      ],
+      "accent": "#92baef",
+      "secondary": "#d4bc6c",
+      "holidayFamily": "culture-observance",
+      "popularityTier": "observance",
+      "scopeTier": "international",
+      "tags": [
+        "sky",
+        "light",
+        "celebration",
+        "culture",
+        "international"
+      ],
+      "source": {
+        "provider": "Curated Cultural Observances",
+        "countryCode": "INTL",
+        "countryName": "International",
+        "typeLabels": [
+          "文化日"
         ],
         "subdivisions": []
       }

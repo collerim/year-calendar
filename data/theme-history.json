@@ -1,37 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-13T21:53:55.105Z",
+  "updatedAt": "2026-11-14T20:35:00.790Z",
   "days": {
-    "2026-09-30": {
-      "title": "National Day for Truth and Reconciliation",
-      "motif": "doveGarland",
-      "gradient": [
-        "#1a181b",
-        "#642a31",
-        "#151515"
-      ],
-      "accent": "#d5555b",
-      "secondary": "#e5e3e3",
-      "holidayFamily": "national-day",
-      "popularityTier": "common",
-      "scopeTier": "national",
-      "tags": [
-        "remembrance",
-        "light",
-        "civic",
-        "celebration",
-        "botanical"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "CA",
-        "countryName": "Canada",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-10-01": {
       "title": "Tuvalu Independence Day",
       "motif": "waterFlowers",
@@ -1571,6 +1541,29 @@
         ],
         "subdivisions": []
       }
+    },
+    "2026-11-22": {
+      "title": "十一月流光",
+      "motif": "aurora",
+      "gradient": [
+        "#191b30",
+        "#2f415a",
+        "#191519"
+      ],
+      "accent": "#76a0c8",
+      "secondary": "#c0bdcd",
+      "holidayFamily": "seasonal-fallback",
+      "popularityTier": "niche",
+      "scopeTier": "unknown",
+      "tags": [
+        "sky",
+        "mountain",
+        "light",
+        "winter",
+        "seasonal",
+        "month-mood"
+      ],
+      "source": null
     }
   }
 }

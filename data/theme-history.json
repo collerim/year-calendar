@@ -1,38 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-14T20:35:00.790Z",
+  "updatedAt": "2026-11-15T20:58:07.113Z",
   "days": {
-    "2026-10-01": {
-      "title": "Tuvalu Independence Day",
-      "motif": "waterFlowers",
-      "gradient": [
-        "#0d2733",
-        "#2a6273",
-        "#12151b"
-      ],
-      "accent": "#6cbcd5",
-      "secondary": "#e0bb5b",
-      "holidayFamily": "independence-day",
-      "popularityTier": "common",
-      "scopeTier": "national",
-      "tags": [
-        "water",
-        "botanical",
-        "island",
-        "civic",
-        "celebration"
-      ],
-      "source": {
-        "provider": "Fixed Holidays",
-        "countryCode": "TV",
-        "countryName": "Tuvalu",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "nationwide": true,
-        "subdivisions": []
-      }
-    },
     "2026-10-02": {
       "title": "Tuvalu Day Holiday",
       "motif": "lotusMandala",
@@ -1564,6 +1533,36 @@
         "month-mood"
       ],
       "source": null
+    },
+    "2026-11-23": {
+      "title": "Labour Thanksgiving Day",
+      "motif": "paperCut",
+      "gradient": [
+        "#201d19",
+        "#63472b",
+        "#111418"
+      ],
+      "accent": "#c5965a",
+      "secondary": "#90a46a",
+      "holidayFamily": "national-civic-day",
+      "popularityTier": "major",
+      "scopeTier": "national",
+      "tags": [
+        "civic",
+        "celebration",
+        "culture",
+        "harvest",
+        "botanical"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "JP",
+        "countryName": "Japan",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
     }
   }
 }

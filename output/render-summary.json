@@ -1,27 +1,9 @@
 {
-  "generatedAt": "2026-11-15T20:58:07.115Z",
-  "baseDate": "2026-11-16",
-  "ensuredThrough": "2026-11-23",
+  "generatedAt": "2026-11-17T00:08:21.112Z",
+  "baseDate": "2026-11-17",
+  "ensuredThrough": "2026-11-24",
   "today": "output/today.png",
   "generated": [
-    {
-      "date": "2026-11-16",
-      "output": "output/2026/2026.11/2026.11.16.png",
-      "selectedTheme": "International Day for Tolerance",
-      "selectedMotif": "candle",
-      "contentSource": "curated",
-      "selectedScoreBreakdown": {
-        "basePriority": 68,
-        "popularity": 18,
-        "jitter": 3.857,
-        "motifPenalty": 0,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 35,
-        "finalScore": 12.857
-      },
-      "discardedCount": 4
-    },
     {
       "date": "2026-11-17",
       "output": "output/2026/2026.11/2026.11.17.png",
@@ -147,6 +129,24 @@
         "finalScore": 53.812
       },
       "discardedCount": 7
+    },
+    {
+      "date": "2026-11-24",
+      "output": "output/2026/2026.11/2026.11.24.png",
+      "selectedTheme": "Water Festival",
+      "selectedMotif": "carnivalMasks",
+      "contentSource": "structured",
+      "selectedScoreBreakdown": {
+        "basePriority": 65,
+        "popularity": 14,
+        "jitter": 2.46,
+        "motifPenalty": 0,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 14,
+        "colorPenalty": 39,
+        "finalScore": -13.54
+      },
+      "discardedCount": 1
     }
   ],
   "skipped": [],

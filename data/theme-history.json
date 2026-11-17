@@ -1,39 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-15T20:58:07.113Z",
+  "updatedAt": "2026-11-17T00:08:21.111Z",
   "days": {
-    "2026-10-02": {
-      "title": "Tuvalu Day Holiday",
-      "motif": "lotusMandala",
-      "gradient": [
-        "#1f1728",
-        "#583f5a",
-        "#121515"
-      ],
-      "accent": "#caa9d5",
-      "secondary": "#7fbeaa",
-      "holidayFamily": "religious-observance",
-      "popularityTier": "niche",
-      "scopeTier": "national",
-      "tags": [
-        "religious",
-        "botanical",
-        "culture",
-        "heritage",
-        "water",
-        "island",
-        "celebration"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "TV",
-        "countryName": "Tuvalu",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-10-03": {
       "title": "Germany Unity Day",
       "motif": "tricolor",
@@ -1558,6 +1526,36 @@
         "provider": "Nager.Date",
         "countryCode": "JP",
         "countryName": "Japan",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-11-24": {
+      "title": "Water Festival",
+      "motif": "carnivalMasks",
+      "gradient": [
+        "#1b1428",
+        "#62324d",
+        "#14151a"
+      ],
+      "accent": "#d67088",
+      "secondary": "#73b1dc",
+      "holidayFamily": "culture-observance",
+      "popularityTier": "niche",
+      "scopeTier": "national",
+      "tags": [
+        "celebration",
+        "procession",
+        "folk",
+        "market",
+        "water"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "KH",
+        "countryName": "Cambodia",
         "typeLabels": [
           "公众节日"
         ],

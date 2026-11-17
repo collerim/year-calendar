@@ -1,37 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-17T00:08:21.111Z",
+  "updatedAt": "2026-11-17T23:45:03.882Z",
   "days": {
-    "2026-10-03": {
-      "title": "Germany Unity Day",
-      "motif": "tricolor",
-      "gradient": [
-        "#1d1818",
-        "#5f3b31",
-        "#111314"
-      ],
-      "accent": "#cbab56",
-      "secondary": "#c55045",
-      "holidayFamily": "unity-day",
-      "popularityTier": "common",
-      "scopeTier": "national",
-      "tags": [
-        "civic",
-        "celebration",
-        "sky",
-        "light"
-      ],
-      "source": {
-        "provider": "Fixed Holidays",
-        "countryCode": "DE",
-        "countryName": "Germany",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "nationwide": true,
-        "subdivisions": []
-      }
-    },
     "2026-10-04": {
       "title": "World Space Week",
       "motif": "cosmicObservatory",
@@ -1556,6 +1526,34 @@
         "provider": "Nager.Date",
         "countryCode": "KH",
         "countryName": "Cambodia",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-11-25": {
+      "title": "Independence Day",
+      "motif": "cityParade",
+      "gradient": [
+        "#171d32",
+        "#4e2f40",
+        "#141416"
+      ],
+      "accent": "#73a0d5",
+      "secondary": "#d9555c",
+      "holidayFamily": "independence-day",
+      "popularityTier": "common",
+      "scopeTier": "national",
+      "tags": [
+        "civic",
+        "celebration",
+        "procession"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "SR",
+        "countryName": "Suriname",
         "typeLabels": [
           "公众节日"
         ],

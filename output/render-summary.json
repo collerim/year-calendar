@@ -1,27 +1,9 @@
 {
-  "generatedAt": "2026-11-17T00:08:21.112Z",
-  "baseDate": "2026-11-17",
-  "ensuredThrough": "2026-11-24",
+  "generatedAt": "2026-11-17T23:45:03.883Z",
+  "baseDate": "2026-11-18",
+  "ensuredThrough": "2026-11-25",
   "today": "output/today.png",
   "generated": [
-    {
-      "date": "2026-11-17",
-      "output": "output/2026/2026.11/2026.11.17.png",
-      "selectedTheme": "Struggle for Freedom and Democracy Day",
-      "selectedMotif": "oliveBranches",
-      "contentSource": "structured",
-      "selectedScoreBreakdown": {
-        "basePriority": 56,
-        "popularity": 0,
-        "jitter": 2.387,
-        "motifPenalty": 0,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 27,
-        "finalScore": -10.613
-      },
-      "discardedCount": 4
-    },
     {
       "date": "2026-11-18",
       "output": "output/2026/2026.11/2026.11.18.png",
@@ -147,6 +129,24 @@
         "finalScore": -13.54
       },
       "discardedCount": 1
+    },
+    {
+      "date": "2026-11-25",
+      "output": "output/2026/2026.11/2026.11.25.png",
+      "selectedTheme": "Independence Day",
+      "selectedMotif": "cityParade",
+      "contentSource": "structured",
+      "selectedScoreBreakdown": {
+        "basePriority": 73,
+        "popularity": 26,
+        "jitter": 5.688,
+        "motifPenalty": 7,
+        "culturalPenalty": 39,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 42,
+        "finalScore": 16.688
+      },
+      "discardedCount": 3
     }
   ],
   "skipped": [],

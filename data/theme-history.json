@@ -1,37 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-17T23:45:03.882Z",
+  "updatedAt": "2026-11-18T22:55:22.721Z",
   "days": {
-    "2026-10-04": {
-      "title": "World Space Week",
-      "motif": "cosmicObservatory",
-      "gradient": [
-        "#121b28",
-        "#3c3c55",
-        "#12151a"
-      ],
-      "accent": "#c6b268",
-      "secondary": "#94bbf0",
-      "holidayFamily": "culture-observance",
-      "popularityTier": "observance",
-      "scopeTier": "international",
-      "tags": [
-        "science",
-        "sky",
-        "light",
-        "culture",
-        "international"
-      ],
-      "source": {
-        "provider": "Curated Cultural Observances",
-        "countryCode": "INTL",
-        "countryName": "International",
-        "typeLabels": [
-          "文化日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-10-05": {
       "title": "Thanksgiving",
       "motif": "stainedGlass",
@@ -1554,6 +1524,37 @@
         "provider": "Nager.Date",
         "countryCode": "SR",
         "countryName": "Suriname",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-11-26": {
+      "title": "Thanksgiving Day",
+      "motif": "harvestSheaves",
+      "gradient": [
+        "#201d19",
+        "#63472b",
+        "#111517"
+      ],
+      "accent": "#c5965a",
+      "secondary": "#8fa56a",
+      "holidayFamily": "environmental-observance",
+      "popularityTier": "major",
+      "scopeTier": "national",
+      "tags": [
+        "botanical",
+        "harvest",
+        "seasonal",
+        "water",
+        "island",
+        "celebration"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "PW",
+        "countryName": "Palau",
         "typeLabels": [
           "公众节日"
         ],

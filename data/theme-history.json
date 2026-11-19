@@ -1,39 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-18T22:55:22.721Z",
+  "updatedAt": "2026-11-19T23:01:43.346Z",
   "days": {
-    "2026-10-05": {
-      "title": "Thanksgiving",
-      "motif": "stainedGlass",
-      "gradient": [
-        "#271a19",
-        "#69452b",
-        "#131315"
-      ],
-      "accent": "#cb935b",
-      "secondary": "#91a267",
-      "holidayFamily": "saint-day",
-      "popularityTier": "major",
-      "scopeTier": "national",
-      "tags": [
-        "religious",
-        "heritage",
-        "light",
-        "winter",
-        "celebration",
-        "harvest",
-        "botanical"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "LC",
-        "countryName": "Saint Lucia",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-10-06": {
       "title": "Armed Forces Day",
       "motif": "wovenPattern",
@@ -1547,6 +1515,36 @@
         "botanical",
         "harvest",
         "seasonal",
+        "water",
+        "island",
+        "celebration"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "PW",
+        "countryName": "Palau",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-11-27": {
+      "title": "Family Day",
+      "motif": "wovenPattern",
+      "gradient": [
+        "#1a1a28",
+        "#554538",
+        "#131418"
+      ],
+      "accent": "#c7aa5a",
+      "secondary": "#72b0db",
+      "holidayFamily": "national-civic-day",
+      "popularityTier": "niche",
+      "scopeTier": "national",
+      "tags": [
+        "culture",
+        "civic",
         "water",
         "island",
         "celebration"

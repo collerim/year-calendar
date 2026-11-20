@@ -1,35 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-19T23:01:43.346Z",
+  "updatedAt": "2026-11-20T22:35:38.271Z",
   "days": {
-    "2026-10-06": {
-      "title": "Armed Forces Day",
-      "motif": "wovenPattern",
-      "gradient": [
-        "#1b1820",
-        "#564333",
-        "#111418"
-      ],
-      "accent": "#c8a953",
-      "secondary": "#70b0db",
-      "holidayFamily": "national-civic-day",
-      "popularityTier": "niche",
-      "scopeTier": "national",
-      "tags": [
-        "culture",
-        "civic",
-        "celebration"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "EG",
-        "countryName": "Egypt",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-10-07": {
       "title": "Municipal holiday",
       "motif": "lotusMandala",
@@ -1553,6 +1525,34 @@
         "provider": "Nager.Date",
         "countryCode": "PW",
         "countryName": "Palau",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-11-28": {
+      "title": "Republic Day",
+      "motif": "cityParade",
+      "gradient": [
+        "#151c30",
+        "#4c2e3e",
+        "#131516"
+      ],
+      "accent": "#729fd2",
+      "secondary": "#d8565c",
+      "holidayFamily": "republic-day",
+      "popularityTier": "common",
+      "scopeTier": "national",
+      "tags": [
+        "civic",
+        "celebration",
+        "procession"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "TD",
+        "countryName": "Chad",
         "typeLabels": [
           "公众节日"
         ],

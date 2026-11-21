@@ -1,43 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-20T22:35:38.271Z",
+  "updatedAt": "2026-11-21T21:34:02.476Z",
   "days": {
-    "2026-10-07": {
-      "title": "Municipal holiday",
-      "motif": "lotusMandala",
-      "gradient": [
-        "#1b1624",
-        "#553e58",
-        "#141317"
-      ],
-      "accent": "#c6a7d2",
-      "secondary": "#80baad",
-      "holidayFamily": "municipal-local",
-      "popularityTier": "local",
-      "scopeTier": "local",
-      "tags": [
-        "religious",
-        "botanical",
-        "culture",
-        "heritage",
-        "celebration",
-        "maritime"
-      ],
-      "source": {
-        "provider": "OpenHolidays",
-        "countryCode": "PT",
-        "countryName": "Portugal",
-        "typeLabels": [
-          "可选假日",
-          "地方性"
-        ],
-        "nationwide": false,
-        "subdivisions": [
-          "CO-OH",
-          "VI-OF"
-        ]
-      }
-    },
     "2026-10-08": {
       "title": "Battle of Angamos",
       "motif": "streamers",
@@ -1553,6 +1517,37 @@
         "provider": "Nager.Date",
         "countryCode": "TD",
         "countryName": "Chad",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-11-29": {
+      "title": "National Unity Day",
+      "motif": "sportsMedals",
+      "gradient": [
+        "#112235",
+        "#493241",
+        "#14151a"
+      ],
+      "accent": "#6ea4d7",
+      "secondary": "#d95662",
+      "holidayFamily": "unity-day",
+      "popularityTier": "common",
+      "scopeTier": "national",
+      "tags": [
+        "civic",
+        "celebration",
+        "procession",
+        "water",
+        "island",
+        "sports"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "VU",
+        "countryName": "Vanuatu",
         "typeLabels": [
           "公众节日"
         ],

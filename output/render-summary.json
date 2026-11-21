@@ -1,27 +1,9 @@
 {
-  "generatedAt": "2026-11-20T22:35:38.272Z",
-  "baseDate": "2026-11-21",
-  "ensuredThrough": "2026-11-28",
+  "generatedAt": "2026-11-21T21:34:02.479Z",
+  "baseDate": "2026-11-22",
+  "ensuredThrough": "2026-11-29",
   "today": "output/today.png",
   "generated": [
-    {
-      "date": "2026-11-21",
-      "output": "output/2026/2026.11/2026.11.21.png",
-      "selectedTheme": "World Television Day",
-      "selectedMotif": "starfield",
-      "contentSource": "curated",
-      "selectedScoreBreakdown": {
-        "basePriority": 62,
-        "popularity": 14,
-        "jitter": 4.241,
-        "motifPenalty": 0,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 24,
-        "finalScore": 14.241
-      },
-      "discardedCount": 4
-    },
     {
       "date": "2026-11-22",
       "output": "output/2026/2026.11/2026.11.22.png",
@@ -147,6 +129,24 @@
         "finalScore": -4.441
       },
       "discardedCount": 3
+    },
+    {
+      "date": "2026-11-29",
+      "output": "output/2026/2026.11/2026.11.29.png",
+      "selectedTheme": "National Unity Day",
+      "selectedMotif": "sportsMedals",
+      "contentSource": "structured",
+      "selectedScoreBreakdown": {
+        "basePriority": 73,
+        "popularity": 26,
+        "jitter": 1.982,
+        "motifPenalty": 0,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 42,
+        "finalScore": 16.982
+      },
+      "discardedCount": 1
     }
   ],
   "skipped": [],

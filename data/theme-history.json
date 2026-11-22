@@ -1,35 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-21T21:34:02.476Z",
+  "updatedAt": "2026-11-22T21:41:12.206Z",
   "days": {
-    "2026-10-08": {
-      "title": "Battle of Angamos",
-      "motif": "streamers",
-      "gradient": [
-        "#1d1923",
-        "#584434",
-        "#151514"
-      ],
-      "accent": "#caaa56",
-      "secondary": "#74b1d6",
-      "holidayFamily": "national-civic-day",
-      "popularityTier": "niche",
-      "scopeTier": "national",
-      "tags": [
-        "culture",
-        "civic",
-        "celebration"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "PE",
-        "countryName": "Peru",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-10-09": {
       "title": "Independence Day",
       "motif": "cityParade",
@@ -1548,6 +1520,36 @@
         "provider": "Nager.Date",
         "countryCode": "VU",
         "countryName": "Vanuatu",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-11-30": {
+      "title": "Independence Day",
+      "motif": "maritimeFlags",
+      "gradient": [
+        "#0f2a33",
+        "#2b6472",
+        "#14151b"
+      ],
+      "accent": "#6ebfd4",
+      "secondary": "#e2bb5b",
+      "holidayFamily": "independence-day",
+      "popularityTier": "common",
+      "scopeTier": "national",
+      "tags": [
+        "maritime",
+        "water",
+        "civic",
+        "island",
+        "celebration"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "BB",
+        "countryName": "Barbados",
         "typeLabels": [
           "公众节日"
         ],

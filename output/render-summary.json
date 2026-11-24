@@ -1,27 +1,9 @@
 {
-  "generatedAt": "2026-11-22T21:41:12.209Z",
-  "baseDate": "2026-11-23",
-  "ensuredThrough": "2026-11-30",
+  "generatedAt": "2026-11-24T02:56:35.633Z",
+  "baseDate": "2026-11-24",
+  "ensuredThrough": "2026-12-01",
   "today": "output/today.png",
   "generated": [
-    {
-      "date": "2026-11-23",
-      "output": "output/2026/2026.11/2026.11.23.png",
-      "selectedTheme": "Labour Thanksgiving Day",
-      "selectedMotif": "paperCut",
-      "contentSource": "structured",
-      "selectedScoreBreakdown": {
-        "basePriority": 79,
-        "popularity": 36,
-        "jitter": 5.812,
-        "motifPenalty": 0,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 14,
-        "colorPenalty": 11,
-        "finalScore": 53.812
-      },
-      "discardedCount": 7
-    },
     {
       "date": "2026-11-24",
       "output": "output/2026/2026.11/2026.11.24.png",
@@ -147,6 +129,24 @@
         "finalScore": 16.674
       },
       "discardedCount": 7
+    },
+    {
+      "date": "2026-12-01",
+      "output": "output/2026/2026.12/2026.12.01.png",
+      "selectedTheme": "Freedom and Democracy Day",
+      "selectedMotif": "oliveBranches",
+      "contentSource": "structured",
+      "selectedScoreBreakdown": {
+        "basePriority": 65,
+        "popularity": 14,
+        "jitter": 4.684,
+        "motifPenalty": 0,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 8,
+        "colorPenalty": 24,
+        "finalScore": 9.684
+      },
+      "discardedCount": 6
     }
   ],
   "skipped": [],

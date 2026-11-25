@@ -1,36 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-24T02:56:35.631Z",
+  "updatedAt": "2026-11-25T00:32:21.709Z",
   "days": {
-    "2026-10-10": {
-      "title": "Constitution Day",
-      "motif": "paperCut",
-      "gradient": [
-        "#101f32",
-        "#493040",
-        "#151417"
-      ],
-      "accent": "#6ea1d5",
-      "secondary": "#db555e",
-      "holidayFamily": "constitution-day",
-      "popularityTier": "common",
-      "scopeTier": "national",
-      "tags": [
-        "civic",
-        "celebration",
-        "procession",
-        "culture"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "SX",
-        "countryName": "Sint Maarten",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-10-11": {
       "title": "Revolution Day",
       "motif": "wovenPattern",
@@ -1556,6 +1527,28 @@
         ],
         "subdivisions": []
       }
+    },
+    "2026-12-02": {
+      "title": "十二月夜潮",
+      "motif": "moonOrbit",
+      "gradient": [
+        "#121b31",
+        "#2e3a5f",
+        "#121614"
+      ],
+      "accent": "#849fd2",
+      "secondary": "#baaa63",
+      "holidayFamily": "seasonal-fallback",
+      "popularityTier": "niche",
+      "scopeTier": "unknown",
+      "tags": [
+        "sky",
+        "light",
+        "seasonal",
+        "winter",
+        "month-mood"
+      ],
+      "source": null
     }
   }
 }

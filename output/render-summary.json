@@ -1,27 +1,9 @@
 {
-  "generatedAt": "2026-11-24T02:56:35.633Z",
-  "baseDate": "2026-11-24",
-  "ensuredThrough": "2026-12-01",
+  "generatedAt": "2026-11-25T00:32:21.711Z",
+  "baseDate": "2026-11-25",
+  "ensuredThrough": "2026-12-02",
   "today": "output/today.png",
   "generated": [
-    {
-      "date": "2026-11-24",
-      "output": "output/2026/2026.11/2026.11.24.png",
-      "selectedTheme": "Water Festival",
-      "selectedMotif": "carnivalMasks",
-      "contentSource": "structured",
-      "selectedScoreBreakdown": {
-        "basePriority": 65,
-        "popularity": 14,
-        "jitter": 2.46,
-        "motifPenalty": 0,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 14,
-        "colorPenalty": 39,
-        "finalScore": -13.54
-      },
-      "discardedCount": 1
-    },
     {
       "date": "2026-11-25",
       "output": "output/2026/2026.11/2026.11.25.png",
@@ -147,6 +129,24 @@
         "finalScore": 9.684
       },
       "discardedCount": 6
+    },
+    {
+      "date": "2026-12-02",
+      "output": "output/2026/2026.12/2026.12.02.png",
+      "selectedTheme": "十二月夜潮",
+      "selectedMotif": "moonOrbit",
+      "contentSource": "seasonal",
+      "selectedScoreBreakdown": {
+        "basePriority": 29.5,
+        "popularity": 0,
+        "jitter": 4.843,
+        "motifPenalty": 0,
+        "culturalPenalty": 0,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 32,
+        "finalScore": 2.343
+      },
+      "discardedCount": 11
     }
   ],
   "skipped": [],

@@ -1,27 +1,9 @@
 {
-  "generatedAt": "2026-11-25T00:32:21.711Z",
-  "baseDate": "2026-11-25",
-  "ensuredThrough": "2026-12-02",
+  "generatedAt": "2026-11-26T00:12:09.792Z",
+  "baseDate": "2026-11-26",
+  "ensuredThrough": "2026-12-03",
   "today": "output/today.png",
   "generated": [
-    {
-      "date": "2026-11-25",
-      "output": "output/2026/2026.11/2026.11.25.png",
-      "selectedTheme": "Independence Day",
-      "selectedMotif": "cityParade",
-      "contentSource": "structured",
-      "selectedScoreBreakdown": {
-        "basePriority": 73,
-        "popularity": 26,
-        "jitter": 5.688,
-        "motifPenalty": 7,
-        "culturalPenalty": 39,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 42,
-        "finalScore": 16.688
-      },
-      "discardedCount": 3
-    },
     {
       "date": "2026-11-26",
       "output": "output/2026/2026.11/2026.11.26.png",
@@ -147,6 +129,24 @@
         "finalScore": 2.343
       },
       "discardedCount": 11
+    },
+    {
+      "date": "2026-12-03",
+      "output": "output/2026/2026.12/2026.12.03.png",
+      "selectedTheme": "San Francisco Javier",
+      "selectedMotif": "wovenPattern",
+      "contentSource": "structured",
+      "selectedScoreBreakdown": {
+        "basePriority": 62,
+        "popularity": 8,
+        "jitter": 3.996,
+        "motifPenalty": 7,
+        "culturalPenalty": 30,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 16,
+        "finalScore": 20.996
+      },
+      "discardedCount": 1
     }
   ],
   "skipped": [],

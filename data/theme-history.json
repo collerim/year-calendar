@@ -1,35 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-25T00:32:21.709Z",
+  "updatedAt": "2026-11-26T00:12:09.792Z",
   "days": {
-    "2026-10-11": {
-      "title": "Revolution Day",
-      "motif": "wovenPattern",
-      "gradient": [
-        "#1c1824",
-        "#574435",
-        "#151416"
-      ],
-      "accent": "#c9a957",
-      "secondary": "#75b0d9",
-      "holidayFamily": "revolution-day",
-      "popularityTier": "niche",
-      "scopeTier": "national",
-      "tags": [
-        "culture",
-        "civic",
-        "celebration"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "MK",
-        "countryName": "North Macedonia",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-10-12": {
       "title": "Thanksgiving",
       "motif": "harvestSheaves",
@@ -1549,6 +1521,38 @@
         "month-mood"
       ],
       "source": null
+    },
+    "2026-12-03": {
+      "title": "San Francisco Javier",
+      "motif": "wovenPattern",
+      "gradient": [
+        "#211920",
+        "#674032",
+        "#151514"
+      ],
+      "accent": "#c6ab5a",
+      "secondary": "#d95855",
+      "holidayFamily": "municipal-local",
+      "popularityTier": "niche",
+      "scopeTier": "national",
+      "tags": [
+        "culture",
+        "civic",
+        "sun"
+      ],
+      "source": {
+        "provider": "OpenHolidays",
+        "countryCode": "ES",
+        "countryName": "Spain",
+        "typeLabels": [
+          "公众节日",
+          "地方性"
+        ],
+        "nationwide": false,
+        "subdivisions": [
+          "NC"
+        ]
+      }
     }
   }
 }

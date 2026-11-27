@@ -1,36 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-26T00:12:09.792Z",
+  "updatedAt": "2026-11-27T00:29:26.596Z",
   "days": {
-    "2026-10-12": {
-      "title": "Thanksgiving",
-      "motif": "harvestSheaves",
-      "gradient": [
-        "#201d19",
-        "#63472b",
-        "#141514"
-      ],
-      "accent": "#c5965a",
-      "secondary": "#93a566",
-      "holidayFamily": "environmental-observance",
-      "popularityTier": "major",
-      "scopeTier": "national",
-      "tags": [
-        "botanical",
-        "harvest",
-        "seasonal",
-        "celebration"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "CA",
-        "countryName": "Canada",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-10-13": {
       "title": "Commonwealth Cultural Day",
       "motif": "maritimeFlags",
@@ -1552,6 +1523,36 @@
         "subdivisions": [
           "NC"
         ]
+      }
+    },
+    "2026-12-04": {
+      "title": "Gospel Day",
+      "motif": "maritimeFlags",
+      "gradient": [
+        "#122739",
+        "#2d6178",
+        "#131416"
+      ],
+      "accent": "#70bcda",
+      "secondary": "#e1ba55",
+      "holidayFamily": "national-civic-day",
+      "popularityTier": "niche",
+      "scopeTier": "national",
+      "tags": [
+        "maritime",
+        "water",
+        "civic",
+        "island",
+        "celebration"
+      ],
+      "source": {
+        "provider": "Nager.Date",
+        "countryCode": "MH",
+        "countryName": "Marshall Islands",
+        "typeLabels": [
+          "公众节日"
+        ],
+        "subdivisions": []
       }
     }
   }

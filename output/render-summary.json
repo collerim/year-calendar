@@ -1,27 +1,9 @@
 {
-  "generatedAt": "2026-11-26T00:12:09.792Z",
-  "baseDate": "2026-11-26",
-  "ensuredThrough": "2026-12-03",
+  "generatedAt": "2026-11-27T00:29:26.598Z",
+  "baseDate": "2026-11-27",
+  "ensuredThrough": "2026-12-04",
   "today": "output/today.png",
   "generated": [
-    {
-      "date": "2026-11-26",
-      "output": "output/2026/2026.11/2026.11.26.png",
-      "selectedTheme": "Thanksgiving Day",
-      "selectedMotif": "harvestSheaves",
-      "contentSource": "structured",
-      "selectedScoreBreakdown": {
-        "basePriority": 73,
-        "popularity": 34,
-        "jitter": 4.063,
-        "motifPenalty": 0,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 0,
-        "colorPenalty": 42,
-        "finalScore": 27.063
-      },
-      "discardedCount": 7
-    },
     {
       "date": "2026-11-27",
       "output": "output/2026/2026.11/2026.11.27.png",
@@ -147,6 +129,24 @@
         "finalScore": 20.996
       },
       "discardedCount": 1
+    },
+    {
+      "date": "2026-12-04",
+      "output": "output/2026/2026.12/2026.12.04.png",
+      "selectedTheme": "Gospel Day",
+      "selectedMotif": "maritimeFlags",
+      "contentSource": "structured",
+      "selectedScoreBreakdown": {
+        "basePriority": 65,
+        "popularity": 14,
+        "jitter": 4.608,
+        "motifPenalty": 14,
+        "culturalPenalty": 41,
+        "holidayFamilyPenalty": 14,
+        "colorPenalty": 20,
+        "finalScore": -5.392
+      },
+      "discardedCount": 3
     }
   ],
   "skipped": [],
@@ -171,11 +171,29 @@
       "generatedAt": "2026-11-01T20:35:20.452Z"
     },
     "contentCoverage": {
-      "status": "complete",
-      "missingCount": 0,
+      "status": "degraded",
+      "missingCount": 1,
       "legacyOnlyCount": 0
     }
   },
-  "contentGaps": [],
+  "contentGaps": [
+    {
+      "key": "bq|saba day",
+      "title": "Saba Day",
+      "providers": [
+        "Nager.Date"
+      ],
+      "countries": [
+        "BQ"
+      ],
+      "dates": [
+        "2026-12-04"
+      ],
+      "localNames": [],
+      "typeLabels": [
+        "公众节日"
+      ]
+    }
+  ],
   "legacyOnly": []
 }

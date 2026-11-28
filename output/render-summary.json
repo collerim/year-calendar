@@ -1,27 +1,9 @@
 {
-  "generatedAt": "2026-11-27T00:29:26.598Z",
-  "baseDate": "2026-11-27",
-  "ensuredThrough": "2026-12-04",
+  "generatedAt": "2026-11-28T00:00:42.600Z",
+  "baseDate": "2026-11-28",
+  "ensuredThrough": "2026-12-05",
   "today": "output/today.png",
   "generated": [
-    {
-      "date": "2026-11-27",
-      "output": "output/2026/2026.11/2026.11.27.png",
-      "selectedTheme": "Family Day",
-      "selectedMotif": "wovenPattern",
-      "contentSource": "structured",
-      "selectedScoreBreakdown": {
-        "basePriority": 65,
-        "popularity": 14,
-        "jitter": 0.685,
-        "motifPenalty": 5,
-        "culturalPenalty": 42,
-        "holidayFamilyPenalty": 8,
-        "colorPenalty": 42,
-        "finalScore": -17.315
-      },
-      "discardedCount": 1
-    },
     {
       "date": "2026-11-28",
       "output": "output/2026/2026.11/2026.11.28.png",
@@ -147,6 +129,24 @@
         "finalScore": -5.392
       },
       "discardedCount": 3
+    },
+    {
+      "date": "2026-12-05",
+      "output": "output/2026/2026.12/2026.12.05.png",
+      "selectedTheme": "International Volunteer Day",
+      "selectedMotif": "lanterns",
+      "contentSource": "curated",
+      "selectedScoreBreakdown": {
+        "basePriority": 68,
+        "popularity": 14,
+        "jitter": 5.562,
+        "motifPenalty": 0,
+        "culturalPenalty": 42,
+        "holidayFamilyPenalty": 0,
+        "colorPenalty": 42,
+        "finalScore": 3.562
+      },
+      "discardedCount": 2
     }
   ],
   "skipped": [],

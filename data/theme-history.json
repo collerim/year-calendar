@@ -1,37 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-27T00:29:26.596Z",
+  "updatedAt": "2026-11-28T00:00:42.599Z",
   "days": {
-    "2026-10-13": {
-      "title": "Commonwealth Cultural Day",
-      "motif": "maritimeFlags",
-      "gradient": [
-        "#122632",
-        "#2d6172",
-        "#10171b"
-      ],
-      "accent": "#70bcd3",
-      "secondary": "#debe5b",
-      "holidayFamily": "national-civic-day",
-      "popularityTier": "niche",
-      "scopeTier": "national",
-      "tags": [
-        "maritime",
-        "water",
-        "civic",
-        "island",
-        "celebration"
-      ],
-      "source": {
-        "provider": "Nager.Date",
-        "countryCode": "MP",
-        "countryName": "Northern Mariana Islands",
-        "typeLabels": [
-          "公众节日"
-        ],
-        "subdivisions": []
-      }
-    },
     "2026-10-14": {
       "title": "Liberation Day",
       "motif": "laurelTorch",
@@ -1551,6 +1521,36 @@
         "countryName": "Marshall Islands",
         "typeLabels": [
           "公众节日"
+        ],
+        "subdivisions": []
+      }
+    },
+    "2026-12-05": {
+      "title": "International Volunteer Day",
+      "motif": "lanterns",
+      "gradient": [
+        "#161727",
+        "#593d42",
+        "#141318"
+      ],
+      "accent": "#daba57",
+      "secondary": "#da5561",
+      "holidayFamily": "culture-observance",
+      "popularityTier": "observance",
+      "scopeTier": "international",
+      "tags": [
+        "light",
+        "celebration",
+        "culture",
+        "civic",
+        "international"
+      ],
+      "source": {
+        "provider": "Curated Cultural Observances",
+        "countryCode": "INTL",
+        "countryName": "International",
+        "typeLabels": [
+          "文化日"
         ],
         "subdivisions": []
       }
